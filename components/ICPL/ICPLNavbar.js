@@ -134,7 +134,7 @@ const ICPLNavbar = () => {
             <Link className="hover:text-green-500" href="/">
               Home
             </Link>
-            <Link className="hover:text-green-500" href="/about">
+            <Link className="hover:text-green-500" href="/about-us">
               About Us
             </Link>
             <Link className="hover:text-green-500" href="/products">
@@ -264,7 +264,7 @@ const ICPLNavbar = () => {
             </Link>
           </li>
           <li className="hover:text-green-500">
-            <Link href="/about" style={{ textDecoration: "none" }}>
+            <Link href="/about-us" style={{ textDecoration: "none" }}>
               About Us
             </Link>
           </li>
