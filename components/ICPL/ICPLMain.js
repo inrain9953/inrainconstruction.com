@@ -1,0 +1,173 @@
+import React from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect, useState } from "react";
+import { Button } from "@mui/material";
+import Link from "next/link";
+
+const ICPLMain = () => {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+    });
+  }, []);
+
+  const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
+  const contactapikey = api;
+  const [myname, setMyname] = useState("");
+
+  const handleICPLMynameChange = (e) => {
+    setMyname(e.target.value);
+  };
+
+  function onICPLFormSubmissionAnimation() {
+    document.querySelector(".loader").classList.add("onICPLContactAnimation");
+    setTimeout(() => {
+      document
+        .querySelector(".onICPLContactFormSubmission")
+        .classList.add("onICPLContactSubmitAnimation");
+    }, 2100);
+  }
+
+  const onICPLFormSubmit = async (event) => {
+    event.preventDefault();
+
+    setTimeout(() => {
+      document
+        .querySelector(".loader")
+        .classList.remove("onICPLContactAnimation");
+    }, 2000);
+
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", contactapikey);
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+  };
+
+  return (
+    <>
+     <div className="hidden onICPLContactFormSubmission justify-center items-center z-20 fixed left-0 right-0 top-0 bottom-0">
+        <div className="notification1">
+          <div className="notiglow1"></div>
+          <div className="notiborderglow1"></div>
+          <div className="notititle1">Thank you {myname}</div>
+          <div className="notibody1">
+            Our team will reach out to you shortly
+          </div>
+          <div className="notibody1 flex justify-center items-center">
+            <Link href="/">
+              <Button variant="contained" size="small" color="success">
+                OK
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="ICPLpage-background">
+        <div className="pt-10 md:flex md:justify-center md:items-center md:gap-10">
+          <div data-aos="zoom-in-up" className="text-center">
+            <h1 className="text-base text-green-800 font-semibold align-middle md:text-2xl">
+              "A Water Conservation and Management Company"
+            </h1>
+            <h2 className="text-black text-2xl font-semibold drop-shadow-md md:text-5xl md:m-5 mt-3 mb-3">
+              InRain® Construction Pvt. Ltd.(ICPL)
+            </h2>
+            <a href="tel:+919953070003">
+              <Button variant="contained" color="secondary">
+                Call Us
+              </Button>
+            </a>
+          </div>
+
+          <div data-aos="zoom-in-up" className="m-5 mt-10 md:w-96">
+            <div data-aos="zoom-in-up" className="contact-form">
+              <div className="flex justify-center">
+                <div className="form-card1">
+                  <div className="form-card2 relative">
+                    <form
+                      className="form bg-gray-300"
+                      onSubmit={onICPLFormSubmit}
+                    >
+                      <p className="form-heading mt-3 mb-3 text-black text-2xl">
+                        Get A Free Quote
+                      </p>
+
+                      <div className="form-field">
+                        <input
+                          placeholder="Name"
+                          className="input-field"
+                          type="text"
+                          name="Name"
+                          value={myname}
+                          onChange={handleICPLMynameChange}
+                        />
+                      </div>
+
+                      <div className="form-field">
+                        <input
+                          placeholder="Email"
+                          className="input-field"
+                          type="email"
+                          name="Email"
+                        />
+                      </div>
+
+                      <div className="form-field">
+                        <input
+                          placeholder="Mobile Number"
+                          className="input-field"
+                          type="tel"
+                          name="Mobile_No"
+                        />
+                      </div>
+
+                      <div className="form-field">
+                        <textarea
+                          placeholder="Message"
+                          cols="30"
+                          rows="3"
+                          className="input-field"
+                          name="message"
+                        ></textarea>
+                      </div>
+
+                      <div className="md:mt-2 md:mb-2">
+                        <input className="w-4 h-4 mr-2" type="checkbox" />
+                        <label className="text-black text-base">
+                          Yes, I would like to receive communications by call /
+                          email about Company's services.{" "}
+                        </label>
+                      </div>
+
+                      <button
+                        onClick={onICPLFormSubmissionAnimation}
+                        className="sendMessage-btn"
+                        type="submit"
+                      >
+                        Send Message
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default ICPLMain;
