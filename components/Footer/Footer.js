@@ -166,7 +166,7 @@ export const Footer = () => {
                 <Link href="/">Home</Link>
               </p>
               <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-                <Link href="/about">About Us</Link>
+                <Link href="/about-us">About Us</Link>
               </p>
               <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
                 <Link href="/products">Products</Link>
