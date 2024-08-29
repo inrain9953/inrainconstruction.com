@@ -349,12 +349,12 @@ export const Navbar = () => {
 
       <div className="hidden contact-form z-10 fixed left-0 right-0 bottom-10">
         <div className="flex justify-center">
-          <div className="form-card1 relative m-7 md:w-[30%] md:top-10">
+          <div className="form-card1 relative m-7 md:w-[20%] md:top-10">
             <div className="form-card2">
               <form onSubmit={onSubmit} className="form bg-gray-400">
                 <div className="flex justify-center mt-5">
                   <Image
-                    className="w-[100px]"
+                    className="w-[75px]"
                     src={logo}
                     alt="img"
                     loading="eager"
@@ -403,13 +403,13 @@ export const Navbar = () => {
                   ></textarea>
                 </div>
 
-                <div className="md:mt-2 md:mb-2">
+                {/* <div className="md:mt-2 md:mb-2">
                   <input className="w-4 h-4 mr-2" type="checkbox" />
                   <label className="text-black text-base">
                     Yes, I would like to receive communications by call / email
                     about Company's services.{" "}
                   </label>
-                </div>
+                </div> */}
 
                 <button
                   onClick={SubmissionAnimation}
