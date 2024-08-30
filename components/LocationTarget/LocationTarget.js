@@ -65,7 +65,7 @@ const LocationTarget = ({ location }) => {
                 loading="eager"
                 priority={true}
                 unoptimized={true}
-              ></Image>
+              />
               <p className="text-xs m-1">ISO 9001 : 2015</p>
               <p className="text-sm font-semibold md:text-lg">
                 CERTIFIED COMPANY
@@ -81,7 +81,7 @@ const LocationTarget = ({ location }) => {
                 loading="eager"
                 priority={true}
                 unoptimized={true}
-              ></Image>
+              />
               <p className="text-xs m-1">Solution Provider</p>
               <p className="text-sm font-semibold md:text-lg">
                 THE BEST INDUSTRIAL
@@ -103,7 +103,7 @@ const LocationTarget = ({ location }) => {
                 loading="eager"
                 priority={true}
                 unoptimized={true}
-              ></Image>
+              />
               <p className="text-sm m-1 font-semibold md:text-lg">
                 INRAIN<sup>®</sup> CONSTRUCTION PVT. LTD.
               </p>
@@ -118,7 +118,7 @@ const LocationTarget = ({ location }) => {
                 loading="eager"
                 priority={true}
                 unoptimized={true}
-              ></Image>
+              />
               <p className="text-xs m-1">ISO 14001 : 2015</p>
               <p className="text-sm font-semibold md:text-lg">
                 CERTIFIED COMPANY
@@ -158,6 +158,7 @@ const LocationTarget = ({ location }) => {
         >
           <Image
             className=""
+            alt="img"
             src={tech1}
             loading="eager"
             priority={true}
@@ -165,6 +166,7 @@ const LocationTarget = ({ location }) => {
           />
           <Image
             className=""
+            alt="img"
             src={tech2}
             loading="eager"
             priority={true}
@@ -177,6 +179,7 @@ const LocationTarget = ({ location }) => {
         >
           <Image
             className=""
+            alt="img"
             src={tech3}
             loading="eager"
             priority={true}
@@ -184,6 +187,7 @@ const LocationTarget = ({ location }) => {
           />
           <Image
             className=""
+            alt="img"
             src={tech4}
             loading="eager"
             priority={true}
@@ -191,6 +195,7 @@ const LocationTarget = ({ location }) => {
           />
           <Image
             className=""
+            alt="img"
             src={tech5}
             loading="eager"
             priority={true}
@@ -226,6 +231,7 @@ const LocationTarget = ({ location }) => {
         >
           <Image
             className="w-full shadow-xl"
+            alt="img"
             src={newTech}
             loading="eager"
             priority={true}
