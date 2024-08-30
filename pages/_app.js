@@ -3,11 +3,9 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
-import Script from 'next/script';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
-
-
+import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -51,23 +49,27 @@ export default function App({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
-      
       {/* Google Tag Manager Script */}
       <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-242337737-1"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16650006765"
       ></Script>
       <Script id="google-analytics" strategy="beforeInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'UA-242337737-1');
+          gtag('config', 'AW-16650006765');
+
         `}
       </Script>
 
       {/* Organization JSON-LD */}
-      <Script id="organization-jsonld" type="application/ld+json" strategy="beforeInteractive">
+      <Script
+        id="organization-jsonld"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+      >
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
@@ -84,7 +86,11 @@ export default function App({ Component, pageProps }) {
       </Script>
 
       {/* Website JSON-LD */}
-      <Script id="website-jsonld" type="application/ld+json" strategy="beforeInteractive">
+      <Script
+        id="website-jsonld"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+      >
         {JSON.stringify({
           "@context": "https://schema.org/",
           "@type": "WebSite",
@@ -92,14 +98,19 @@ export default function App({ Component, pageProps }) {
           url: "https://www.inrainconstruction.com/",
           potentialAction: {
             "@type": "SearchAction",
-            target: "https://www.inrainconstruction.com/search?q={search_term_string}",
+            target:
+              "https://www.inrainconstruction.com/search?q={search_term_string}",
             "query-input": "required name=search_term_string",
           },
         })}
       </Script>
 
       {/* Local Business JSON-LD */}
-      <Script id="localbusiness-jsonld" type="application/ld+json" strategy="beforeInteractive">
+      <Script
+        id="localbusiness-jsonld"
+        type="application/ld+json"
+        strategy="beforeInteractive"
+      >
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
@@ -110,7 +121,8 @@ export default function App({ Component, pageProps }) {
           telephone: "011-35823511",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Plot No 06, khasra No-431, 1st floor, above Union Bank of India, Satbari - Chattarpur Main Road, Satbari,",
+            streetAddress:
+              "Plot No 06, khasra No-431, 1st floor, above Union Bank of India, Satbari - Chattarpur Main Road, Satbari,",
             addressLocality: "New Delhi",
             postalCode: "110074",
             addressCountry: "IN",
@@ -123,7 +135,7 @@ export default function App({ Component, pageProps }) {
           ],
         })}
       </Script>
-        <Analytics />
+      <Analytics />
       <SpeedInsights />
       <Component {...pageProps} />
     </>
