@@ -44,7 +44,7 @@ const RainwaterAmritsar = () => {
         <meta property="og:url" content={ogUrl} />
         <meta name="twitter:title" content={twittertitle} />
         <meta name="twitter:description" content={twitterdescription} />
-        <meta name="author" content="InRain® Construction Pvt Ltd"></meta>
+        <meta name="author" content="InRain® Construction Pvt Ltd" />
         <meta
           property="og:site_name"
           content="InRain® Construction Pvt. Ltd."
