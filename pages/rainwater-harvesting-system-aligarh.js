@@ -13,9 +13,9 @@ const RainwaterSystemALigarh = () => {
   const desc = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
   const keyword = `Rooftop Rainwater Harvesting System in ${loc}, Modular Rainwater Harvesting System in ${loc}, Rainwater Harvesting Tank in ${loc}, Polymer Type Rainwater Harvesting System in ${loc}, Storm water Management in ${loc}`;
   const canonical =
-    "https://www.inrainconstruction.com/rainwater-harvesting-in-aligarh";
+    "https://www.inrainconstruction.com/rainwater-harvesting-system-aligarh";
   const ogUrl =
-    "https://www.inrainconstruction.com/rainwater-harvesting-in-aligarh";
+    "https://www.inrainconstruction.com/rainwater-harvesting-system-aligarh";
   const ogTitle = `Rainwater Harvesting System in ${loc} | Rainwater Harvesting System Service Provider in ${loc}`;
   const ogDescription = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
   const twittertitle =
