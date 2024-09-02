@@ -115,6 +115,7 @@ export default async (req, res) => {
     { url: "/rainwater-harvesting-in-jhansi/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-aligarh/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-amritsar/", changefreq: "daily", priority: 0.8 },
+    { url: "/rainwater-harvesting-system-bareilly/", changefreq: "daily", priority: 0.8 },
   ];
 
   const stream = new SitemapStream({
