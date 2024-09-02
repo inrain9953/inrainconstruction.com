@@ -5,16 +5,16 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
 import Head from "next/head";
 
-const RainwaterHyderabad = () => {
-  const loc = "Hyderabad";
+const RainwaterSystemMathura = () => {
+  const loc = "Mathura";
 
   const title = `Rainwater Harvesting System in ${loc} | Rainwater Harvesting System Service Provider in ${loc}`;
   const desc = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
   const keyword = `Rooftop Rainwater Harvesting System in ${loc}, Modular Rainwater Harvesting System in ${loc}, Rainwater Harvesting Tank in ${loc}, Polymer Type Rainwater Harvesting System in ${loc}, Storm water Management in ${loc}`;
   const canonical =
-    "https://www.inrainconstruction.com/rainwater-harvesting-in-hyderabad";
+    "https://www.inrainconstruction.com/rainwater-harvesting-system-mathura";
   const ogUrl =
-    "https://www.inrainconstruction.com/rainwater-harvesting-in-hyderabad";
+    "https://www.inrainconstruction.com/rainwater-harvesting-system-mathura";
   const ogTitle = `Rainwater Harvesting System in ${loc} | Rainwater Harvesting System Service Provider in ${loc}`;
   const ogDescription = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
   const twittertitle =
@@ -51,10 +51,10 @@ const RainwaterHyderabad = () => {
       </Head>
       <Navbar />
       <Hero1 />
-      <LocationTarget location={"Hyderabad"} />
+      <LocationTarget location={"Mathura"} />
       <Footer />
     </>
   );
 };
 
-export default RainwaterHyderabad;
+export default RainwaterSystemMathura;
