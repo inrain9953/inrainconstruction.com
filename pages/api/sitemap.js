@@ -118,6 +118,7 @@ export default async (req, res) => {
     { url: "/rainwater-harvesting-system-bareilly/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-bikaner/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-faridabad/", changefreq: "daily", priority: 0.8 },
+    { url: "/rainwater-harvesting-system-guwahati/", changefreq: "daily", priority: 0.8 },
   ];
 
   const stream = new SitemapStream({
