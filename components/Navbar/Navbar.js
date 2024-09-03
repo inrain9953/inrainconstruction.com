@@ -119,7 +119,7 @@ export const Navbar = () => {
 
           <div className="md:mr-5 mr-2">
             <Button onClick={OpenContactForm} variant="contained" size="small">
-              REQUEST QUOTE
+              <p className="text-xs">REQUEST QUOTE</p>
             </Button>
           </div>
         </div>
