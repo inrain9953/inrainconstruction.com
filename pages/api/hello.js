@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { Product } from '../lib/product';
-import { connectToDatabase } from '../lib/db';
+import { Product } from './lib/product';
+import { connectToDatabase } from './lib/db';
 
 export default async function handler(req, res) {
   try {
