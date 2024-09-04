@@ -3,27 +3,27 @@ import { useEffect, useState } from 'react';
 export default function UserData() {
   const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await fetch('/api/hello');
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const data = await response.json();
-        setProducts(data);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    }
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     try {
+  //       const response = await fetch('/api/hello');
+  //       if (!response.ok) {
+  //         throw new Error('Network response was not ok');
+  //       }
+  //       const data = await response.json();
+  //       setProducts(data);
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   }
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
 
   return (
     <div>
       <h1>Products</h1>
-      <ul>
+      {/* <ul>
         {products.map((product) => (
           <>
           <li key={product._id}></li>
@@ -33,7 +33,7 @@ export default function UserData() {
           <li>{product.message}</li>
           </>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }
