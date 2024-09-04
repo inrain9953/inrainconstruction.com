@@ -64,6 +64,25 @@ export default function App({ Component, pageProps }) {
         `}
       </Script>
 
+      <Script
+        id="gtm"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){
+              w[l]=w[l]||[];
+              w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});
+              var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+              j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+              f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-NZN89TXV');
+          `,
+        }}
+      />
+
       {/* Organization JSON-LD */}
       <Script
         id="organization-jsonld"
@@ -137,6 +156,16 @@ export default function App({ Component, pageProps }) {
       </Script>
       <Analytics />
       <SpeedInsights />
+      {/* <!-- Google Tag Manager (noscript) --> */}
+      <noscript
+        dangerouslySetInnerHTML={{
+          __html: `
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZN89TXV"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+          `,
+        }}
+      />
+      {/* <!-- End Google Tag Manager (noscript) --> */}
       <Component {...pageProps} />
     </>
   );
