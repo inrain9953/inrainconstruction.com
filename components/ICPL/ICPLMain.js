@@ -34,17 +34,10 @@ const ICPLMain = () => {
     document.querySelector(".loader").classList.add("onICPLContactAnimation");
     setTimeout(() => {
       document
-        .querySelector(".onICPLContactFormSubmission")
-        .classList.add("onICPLContactSubmitAnimation");
-    }, 2100);
-    
-  }
-
-  function hidebtn() {
-    document
-      .querySelector(".onICPLContactFormSubmission")
-      .classList.remove("onICPLContactSubmitAnimation");
-      router.push('/thank-you');
+        .querySelector(".loader")
+        .classList.remove("onICPLContactAnimation");
+        router.push('/thank-you');
+    }, 2500); 
   }
 
   const onICPLFormSubmit = async (event) => {
@@ -58,12 +51,6 @@ const ICPLMain = () => {
     } catch (error) {
       console.log("Invalid Username or Password");
     }
-
-    setTimeout(() => {
-      document
-        .querySelector(".loader")
-        .classList.remove("onICPLContactAnimation");
-    }, 2000);
 
     const formData = new FormData(event.target);
 
@@ -100,21 +87,6 @@ const ICPLMain = () => {
           }
         `}
       </Script>
-     <div className="hidden onICPLContactFormSubmission justify-center items-center z-20 fixed left-0 right-0 top-0 bottom-0">
-        <div className="notification1">
-          <div className="notiglow1"></div>
-          <div className="notiborderglow1"></div>
-          <div className="notititle1">Thank you {myname}</div>
-          <div className="notibody1">
-            Our team will reach out to you shortly
-          </div>
-          <div className="notibody1 flex justify-center items-center">
-              <Button variant="contained" size="small" color="success" onClick={hidebtn}>
-                OK
-              </Button>
-          </div>
-        </div>
-      </div>
       <div className="ICPLpage-background">
         <div className="pt-10 md:flex md:justify-center md:items-center md:gap-10">
           <div data-aos="zoom-in-up" className="text-center">

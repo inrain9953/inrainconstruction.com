@@ -24,7 +24,7 @@ const ThankYou = () => {
         unoptimized={true}
       />
       <div className="m-10 text-center">
-        <Link href="www.inrainconstruction.com">
+        <Link href="/">
           <Button variant="contained">Go To Homepage</Button>
         </Link>
       </div>
