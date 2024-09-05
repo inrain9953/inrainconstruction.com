@@ -30,7 +30,6 @@ const ICPLMain = () => {
   };
 
   function onICPLFormSubmissionAnimation() {
-    gtag_report_conversion("https://www.inrainconstruction.com/icpl");
     document.querySelector(".loader").classList.add("onICPLContactAnimation");
     setTimeout(() => {
       document
@@ -67,6 +66,7 @@ const ICPLMain = () => {
       },
       body: json,
     }).then((res) => res.json());
+    gtag_report_conversion("https://www.inrainconstruction.com/icpl");
   };
 
   return (
