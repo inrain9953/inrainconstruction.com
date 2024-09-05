@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@mui/material";
 import Link from "next/link";
 import axios from 'axios';
+import Script from 'next/script';
 
 const ICPLMain = () => {
 
@@ -26,6 +27,7 @@ const ICPLMain = () => {
   };
 
   function onICPLFormSubmissionAnimation() {
+    gtag_report_conversion("https://www.inrainconstruction.com/icpl");
     document.querySelector(".loader").classList.add("onICPLContactAnimation");
     setTimeout(() => {
       document
@@ -71,6 +73,22 @@ const ICPLMain = () => {
 
   return (
     <>
+    <Script id="gtag-conversion-script" strategy="beforeInteractive">
+        {`
+          function gtag_report_conversion(url) {
+            var callback = function () {
+              if (typeof(url) != 'undefined') {
+                window.location = url;
+              }
+            };
+            gtag('event', 'conversion', {
+              'send_to': 'AW-16650006765/gyk2CK3ox8gZEO3hq4M-',
+              'event_callback': callback
+            });
+            return false;
+          }
+        `}
+      </Script>
      <div className="hidden onICPLContactFormSubmission justify-center items-center z-20 fixed left-0 right-0 top-0 bottom-0">
         <div className="notification1">
           <div className="notiglow1"></div>
