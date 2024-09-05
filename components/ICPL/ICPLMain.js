@@ -6,6 +6,7 @@ import { Button } from "@mui/material";
 import Link from "next/link";
 import axios from 'axios';
 import Script from 'next/script';
+import { useRouter } from 'next/router';
 
 const ICPLMain = () => {
 
@@ -22,6 +23,8 @@ const ICPLMain = () => {
   const [mymobile, setMymobile] = useState("");
   const [mymessage, setMymessage] = useState("");
 
+  const router = useRouter();
+
   const handleICPLMynameChange = (e) => {
     setMyname(e.target.value);
   };
@@ -34,6 +37,14 @@ const ICPLMain = () => {
         .querySelector(".onICPLContactFormSubmission")
         .classList.add("onICPLContactSubmitAnimation");
     }, 2100);
+    
+  }
+
+  function hidebtn() {
+    document
+      .querySelector(".onICPLContactFormSubmission")
+      .classList.remove("onICPLContactSubmitAnimation");
+      router.push('/thank-you');
   }
 
   const onICPLFormSubmit = async (event) => {
@@ -98,11 +109,9 @@ const ICPLMain = () => {
             Our team will reach out to you shortly
           </div>
           <div className="notibody1 flex justify-center items-center">
-            <Link href="/">
-              <Button variant="contained" size="small" color="success">
+              <Button variant="contained" size="small" color="success" onClick={hidebtn}>
                 OK
               </Button>
-            </Link>
           </div>
         </div>
       </div>
