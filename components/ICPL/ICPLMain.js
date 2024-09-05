@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { Button } from "@mui/material";
 import Link from "next/link";
+import axios from 'axios';
 
 const ICPLMain = () => {
 
@@ -16,6 +17,9 @@ const ICPLMain = () => {
   const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
   const contactapikey = api;
   const [myname, setMyname] = useState("");
+  const [myemail, setMyemail] = useState("");
+  const [mymobile, setMymobile] = useState("");
+  const [mymessage, setMymessage] = useState("");
 
   const handleICPLMynameChange = (e) => {
     setMyname(e.target.value);
@@ -32,6 +36,15 @@ const ICPLMain = () => {
 
   const onICPLFormSubmit = async (event) => {
     event.preventDefault();
+
+    try {
+      const response = await axios.post("/api/signup", { myname, myemail, mymobile, mymessage });
+      if (response.data.success) {
+        console.log("Data Submitted Successfully");
+      }
+    } catch (error) {
+      console.log("Invalid Username or Password");
+    }
 
     setTimeout(() => {
       document
@@ -121,6 +134,8 @@ const ICPLMain = () => {
                           className="input-field"
                           type="email"
                           name="Email"
+                          value={myemail}
+                          onChange={(e) => setMyemail(e.target.value)}
                         />
                       </div>
 
@@ -130,6 +145,8 @@ const ICPLMain = () => {
                           className="input-field"
                           type="tel"
                           name="Mobile_No"
+                          value={mymobile}
+                          onChange={(e) => setMymobile(e.target.value)}
                         />
                       </div>
 
@@ -140,6 +157,8 @@ const ICPLMain = () => {
                           rows="3"
                           className="input-field"
                           name="message"
+                          value={mymessage}
+                          onChange={(e) => setMymessage(e.target.value)}
                         ></textarea>
                       </div>
 

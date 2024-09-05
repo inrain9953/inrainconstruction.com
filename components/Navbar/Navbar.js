@@ -11,6 +11,7 @@ import { useState } from "react";
 import Link from "next/link";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import Image from "next/image";
+import axios from "axios";
 
 export const Navbar = () => {
   function OpenContactForm() {
@@ -25,6 +26,14 @@ export const Navbar = () => {
   const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
   const contactapikey = api;
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
+  const [message, setMessage] = useState("");
+
+  const myname = name;
+  const myemail = email;
+  const mymobile = mobile;
+  const mymessage = message;
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -41,6 +50,15 @@ export const Navbar = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
+
+    try {
+      const response = await axios.post("/api/signup", { myname, myemail, mymobile, mymessage });
+      if (response.success) {
+        console.log("Data Submitted Successfully");
+      }
+    } catch (error) {
+      console.log("Something went wrong");
+    }
 
     setTimeout(() => {
       document.querySelector(".loader").classList.remove("onAnimation");
@@ -381,6 +399,8 @@ export const Navbar = () => {
                     placeholder="Email"
                     className="input-field"
                     type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
 
@@ -390,6 +410,8 @@ export const Navbar = () => {
                     placeholder="Mobile Number"
                     className="input-field"
                     type="tel"
+                    value={mobile}
+                    onChange={(e) => setMobile(e.target.value)}
                   />
                 </div>
 
@@ -400,6 +422,8 @@ export const Navbar = () => {
                     cols="30"
                     rows="3"
                     className="input-field"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                 </div>
 

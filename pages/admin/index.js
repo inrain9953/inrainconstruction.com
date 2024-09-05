@@ -1,17 +1,39 @@
-import { Footer } from '@/components/Footer/Footer'
-import { Hero1 } from '@/components/Hero/Hero1'
-import { Navbar } from '@/components/Navbar/Navbar'
-import React from 'react'
+import { Footer } from "@/components/Footer/Footer";
+import { Hero1 } from "@/components/Hero/Hero1";
+import { Navbar } from "@/components/Navbar/Navbar";
+import React from "react";
 import logo from "../../public/logo.png";
 import tree from "../../public/tree.png";
-import Image from 'next/image';
+import Image from "next/image";
+import { useState } from "react";
+import axios from "axios";
+import { useRouter } from 'next/router';
 
 const index = () => {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+
+  const router = useRouter();
+
+  const HandleLoginSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await axios.post("/api/signin", { username, password });
+      if (response.data.success) {
+        alert("Signin Successfully");
+        router.push("/admin/userdata");
+      }
+    } catch (error) {
+      alert("Invalid Username or Password");
+    }
+  };
+
   return (
     <>
-    <Navbar />
-    <Hero1 />
-    <div
+      <Navbar />
+      <Hero1 />
+      <div
         data-aos="zoom-in-up"
         className="md:grid m-10 md:grid-cols-2 md:items-center md:gap-10 md:w-[75%] md:m-auto"
       >
@@ -30,7 +52,7 @@ const index = () => {
           <div className="flex justify-center">
             <div className="form-card1">
               <div className="form-card2 relative">
-                <form className="form bg-gray-400">
+                <form className="form bg-gray-400" onSubmit={HandleLoginSubmit}>
                   <div className="flex justify-center mt-5">
                     <Image
                       className="w-[100px]"
@@ -51,6 +73,8 @@ const index = () => {
                       className="input-field"
                       type="username"
                       name="username"
+                      onChange={(e) => setUsername(e.target.value)}
+                      value={username}
                     />
                   </div>
 
@@ -60,13 +84,12 @@ const index = () => {
                       className="input-field"
                       type="password"
                       name="password"
+                      onChange={(e) => setPassword(e.target.value)}
+                      value={password}
                     />
                   </div>
 
-                  <button
-                    className="sendMessage-btn"
-                    type="submit"
-                  >
+                  <button className="sendMessage-btn" type="submit">
                     Login
                   </button>
                 </form>
@@ -75,9 +98,9 @@ const index = () => {
           </div>
         </div>
       </div>
-    <Footer />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default index
+export default index;
