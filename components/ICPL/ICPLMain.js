@@ -66,27 +66,10 @@ const ICPLMain = () => {
       },
       body: json,
     }).then((res) => res.json());
-    gtag_report_conversion("https://www.inrainconstruction.com/icpl");
   };
 
   return (
     <>
-    <Script id="gtag-conversion-script" strategy="beforeInteractive">
-        {`
-          function gtag_report_conversion(url) {
-            var callback = function () {
-              if (typeof(url) != 'undefined') {
-                window.location = url;
-              }
-            };
-            gtag('event', 'conversion', {
-              'send_to': 'AW-16650006765/gyk2CK3ox8gZEO3hq4M-',
-              'event_callback': callback
-            });
-            return false;
-          }
-        `}
-      </Script>
       <div className="ICPLpage-background">
         <div className="pt-10 md:flex md:justify-center md:items-center md:gap-10">
           <div data-aos="zoom-in-up" className="text-center">
