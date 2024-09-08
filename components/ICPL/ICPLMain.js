@@ -1,23 +1,20 @@
-import React from 'react'
+import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { Button } from "@mui/material";
 import Link from "next/link";
-import axios from 'axios';
-import Script from 'next/script';
-import { useRouter } from 'next/router';
+import axios from "axios";
+import Script from "next/script";
+import { useRouter } from "next/router";
 
 const ICPLMain = () => {
-
   useEffect(() => {
     AOS.init({
       offset: 200,
     });
   }, []);
 
-  const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
-  const contactapikey = api;
   const [myname, setMyname] = useState("");
   const [myemail, setMyemail] = useState("");
   const [mymobile, setMymobile] = useState("");
@@ -35,26 +32,19 @@ const ICPLMain = () => {
       document
         .querySelector(".loader")
         .classList.remove("onICPLContactAnimation");
-        router.push('/thank-you');
-    }, 2500); 
+      router.push("/thank-you");
+    }, 2500);
   }
+
+  
+  const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
+  const contactapikey = api;
 
   const onICPLFormSubmit = async (event) => {
     event.preventDefault();
 
-    try {
-      const response = await axios.post("/api/signup", { myname, myemail, mymobile, mymessage });
-      if (response.data.success) {
-        console.log("Data Submitted Successfully");
-      }
-    } catch (error) {
-      console.log("Invalid Username or Password");
-    }
-
     const formData = new FormData(event.target);
-
     formData.append("access_key", contactapikey);
-
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
@@ -66,6 +56,21 @@ const ICPLMain = () => {
       },
       body: json,
     }).then((res) => res.json());
+
+
+    try {
+      const response = await axios.post("/api/signup", {
+        myname,
+        myemail,
+        mymobile,
+        mymessage,
+      });
+      if (response.data.success) {
+        console.log("Data Submitted Successfully");
+      }
+    } catch (error) {
+      console.log("Something went wrong");
+    }
   };
 
   return (
@@ -168,7 +173,7 @@ const ICPLMain = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default ICPLMain;

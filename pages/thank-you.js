@@ -9,9 +9,6 @@ import Script from "next/script";
 const ThankYou = () => {
   return (
     <>
-      <Script id="gtag-conversion-script" strategy="beforeInteractive">
-        {`gtag('event', 'conversion', {'send_to': 'AW-16650006765/gyk2CK3ox8gZEO3hq4M-'})`}
-      </Script>
       <Navbar />
       <div className="m-10 h-40 rounded-2xl flex justify-center items-center bg-green-400">
         <p className="text-xl text-center font-semibold p-5">

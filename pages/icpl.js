@@ -7,6 +7,7 @@ import ICPLProducts from "@/components/ICPL/ICPLProducts";
 import ICPLSolutions from "@/components/ICPL/ICPLSolutions";
 import React from "react";
 import Head from "next/head";
+import Script from "next/script";
 
 const ICPL = () => {
   const title =
@@ -52,6 +53,9 @@ const ICPL = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
+      <Script id="gtag-conversion-script" strategy="beforeInteractive">
+        {`gtag('event', 'conversion', {'send_to': 'AW-16650006765/gyk2CK3ox8gZEO3hq4M-'})`}
+      </Script>
       <ICPLNavbar />
       <ICPLMain />
       <ICPLAbout />
