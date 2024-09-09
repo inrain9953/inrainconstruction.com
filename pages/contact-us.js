@@ -27,8 +27,6 @@ const Contact = () => {
   const twitterdescription =
     "Contact US : The Company has Successfully Installed Morethan 400 Rain Water Harvesting Projects. sales@inrainwaterharvesting.com";
 
-  const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
-  const contactapikey = api;
   const [myname, setMyname] = useState("");
   const [myemail, setMyemail] = useState("");
   const [mymobile, setMymobile] = useState("");
@@ -47,11 +45,19 @@ const Contact = () => {
     }, 2100);
   }
 
+  const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
+  const contactapikey = api;
+
   const onFormSubmit = async (event) => {
     event.preventDefault();
 
     try {
-      const response = await axios.post("/api/signup", { myname, myemail, mymobile, mymessage });
+      const response = await axios.post("/api/signup", {
+        myname,
+        myemail,
+        mymobile,
+        mymessage,
+      });
       if (response.data.success) {
         console.log("Data Submitted Successfully");
       }
@@ -64,9 +70,7 @@ const Contact = () => {
     }, 2000);
 
     const formData = new FormData(event.target);
-
     formData.append("access_key", contactapikey);
-
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
