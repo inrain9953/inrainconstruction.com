@@ -33,7 +33,7 @@ export default async function signup(req, res) {
         const mailOptions = {
           from: username,
           to: process.env.receivingmail,
-          Subject: sub,
+          subject: sub,
           text: `Name: ${myname} \n\n Email: ${myemail} \n\n Mobile No: ${mymobile} \n\n Message: ${mymessage}`,
         };
 
