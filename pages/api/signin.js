@@ -16,6 +16,6 @@ export default async function handler(req, res) {
 
         return res.status(200).json({ token });
     } else {
-        return res.status(401).json({ message: 'Invalid credentials in signin page' });
+        return res.status(401).json({ message: 'Invalid credentials' });
     }
 }
