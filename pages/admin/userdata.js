@@ -1,11 +1,9 @@
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-
-export default function UserData() {
+import withAuth from "@/components/withauth";
+function UserData() {
   const [products, setProducts] = useState([]);
-  const router = useRouter();
 
   useEffect(() => {
     async function fetchData() {
@@ -20,7 +18,6 @@ export default function UserData() {
         console.error("Error fetching data:", error);
       }
     }
-
     fetchData();
   }, []);
 
@@ -58,3 +55,5 @@ export default function UserData() {
     </>
   );
 }
+
+export default withAuth(UserData);

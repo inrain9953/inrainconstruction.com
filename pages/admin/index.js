@@ -6,26 +6,38 @@ import logo from "../../public/logo.png";
 import tree from "../../public/tree.png";
 import Image from "next/image";
 import { useState } from "react";
-import axios from "axios";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 
 const index = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState('');
 
   const router = useRouter();
 
   const HandleLoginSubmit = async (e) => {
-    e.preventDefault();
 
-    try {
-      const response = await axios.post("/api/signin", { username, password });
-      if (response.data.success) {
-        alert("Signin Successfully");
-        router.push("/admin/userdata");
-      }
-    } catch (error) {
-      alert("Invalid Username or Password");
+    e.preventDefault();
+    setError("");
+
+    const res = await fetch("/api/signin", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ username, password }),
+    });
+
+    
+
+    if (res.ok) {
+      // Store JWT in localStorage or cookies
+      const data = await res.json();
+      localStorage.setItem("token", data.token);
+      router.push('/admin/userdata');
+    } else {
+      alert("Invalid Credentials");
+      setError("Error");
     }
   };
 
@@ -75,6 +87,7 @@ const index = () => {
                       name="username"
                       onChange={(e) => setUsername(e.target.value)}
                       value={username}
+                      required
                     />
                   </div>
 
@@ -86,6 +99,7 @@ const index = () => {
                       name="password"
                       onChange={(e) => setPassword(e.target.value)}
                       value={password}
+                      required
                     />
                   </div>
 
