@@ -76,12 +76,12 @@ const ICPLMain = () => {
   return (
     <>
       <div className="ICPLpage-background">
-        <div className="pt-10 md:flex md:justify-center md:items-center md:gap-10">
+        <div className="pt-2 md:flex md:justify-center md:items-center md:gap-10">
           <div data-aos="zoom-in-up" className="text-center">
-            <h1 className="text-base text-green-800 font-semibold align-middle md:text-2xl">
+            <h1 className="text-base m-3 text-green-800 font-semibold align-middle md:text-2xl">
               "A Water Conservation and Management Company"
             </h1>
-            <h2 className="text-black text-2xl font-semibold drop-shadow-md md:text-5xl md:m-5 mt-3 mb-3">
+            <h2 className="text-black text-2xl font-semibold drop-shadow-md md:text-5xl md:m-5 mb-3">
               InRain® Construction Pvt. Ltd.(ICPL)
             </h2>
             <a href="tel:+919953070003">
@@ -91,7 +91,7 @@ const ICPLMain = () => {
             </a>
           </div>
 
-          <div data-aos="zoom-in-up" className="m-5 mt-10 md:w-96">
+          <div data-aos="zoom-in-up" className="m-5 md:w-96">
             <div data-aos="zoom-in-up" className="contact-form">
               <div className="flex justify-center">
                 <div className="form-card1">
