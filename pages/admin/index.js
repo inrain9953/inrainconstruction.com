@@ -36,7 +36,7 @@ const index = () => {
       localStorage.setItem("token", data.token);
       router.push('/admin/userdata');
     } else {
-      alert("Invalid Credentials");
+      alert("Invalid Credentials in index.js");
       setError("Error");
     }
   };
