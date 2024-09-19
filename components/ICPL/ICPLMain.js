@@ -3,9 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { Button } from "@mui/material";
-import Link from "next/link";
 import axios from "axios";
-import Script from "next/script";
 import { useRouter } from "next/router";
 
 const ICPLMain = () => {
@@ -28,15 +26,8 @@ const ICPLMain = () => {
 
   function onICPLFormSubmissionAnimation() {
     document.querySelector(".loader").classList.add("onICPLContactAnimation");
-    setTimeout(() => {
-      document
-        .querySelector(".loader")
-        .classList.remove("onICPLContactAnimation");
-      router.push("/thank-you");
-    }, 2500);
   }
 
-  
   const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
   const contactapikey = api;
 
@@ -57,7 +48,6 @@ const ICPLMain = () => {
       body: json,
     }).then((res) => res.json());
 
-
     try {
       const response = await axios.post("/api/signup", {
         myname,
@@ -66,6 +56,12 @@ const ICPLMain = () => {
         mymessage,
       });
       if (response.data.success) {
+        setTimeout(() => {
+          document
+            .querySelector(".loader")
+            .classList.remove("onICPLContactAnimation");
+          router.push("/thank-you");
+        }, 2500);
         console.log("Data Submitted Successfully");
       }
     } catch (error) {

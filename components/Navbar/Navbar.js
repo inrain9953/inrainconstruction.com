@@ -51,24 +51,6 @@ export const Navbar = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
 
-    try {
-      const response = await axios.post("/api/signup", {
-        myname,
-        myemail,
-        mymobile,
-        mymessage,
-      });
-      if (response.success) {
-        console.log("Data Submitted Successfully");
-      }
-    } catch (error) {
-      console.log("Something went wrong");
-    }
-
-    setTimeout(() => {
-      document.querySelector(".loader").classList.remove("onAnimation");
-    }, 2000);
-
     const formData = new FormData(event.target);
     formData.append("access_key", contactapikey);
     const object = Object.fromEntries(formData);
@@ -82,6 +64,24 @@ export const Navbar = () => {
       },
       body: json,
     }).then((res) => res.json());
+
+
+    try {
+      const response = await axios.post("/api/signup", {
+        myname,
+        myemail,
+        mymobile,
+        mymessage,
+      });
+      if (response.success) {
+        setTimeout(() => {
+          document.querySelector(".loader").classList.remove("onAnimation");
+        }, 2000);
+        console.log("Data Submitted Successfully");
+      }
+    } catch (error) {
+      console.log("Something went wrong");
+    }
   };
 
   return (

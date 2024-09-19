@@ -51,24 +51,6 @@ const Contact = () => {
   const onFormSubmit = async (event) => {
     event.preventDefault();
 
-    try {
-      const response = await axios.post("/api/signup", {
-        myname,
-        myemail,
-        mymobile,
-        mymessage,
-      });
-      if (response.data.success) {
-        console.log("Data Submitted Successfully");
-      }
-    } catch (error) {
-      console.log("Invalid Username or Password");
-    }
-
-    setTimeout(() => {
-      document.querySelector(".loader").classList.remove("onContactAnimation");
-    }, 2000);
-
     const formData = new FormData(event.target);
     formData.append("access_key", contactapikey);
     const object = Object.fromEntries(formData);
@@ -82,6 +64,24 @@ const Contact = () => {
       },
       body: json,
     }).then((res) => res.json());
+
+
+    try {
+      const response = await axios.post("/api/signup", {
+        myname,
+        myemail,
+        mymobile,
+        mymessage,
+      });
+      if (response.data.success) {
+        setTimeout(() => {
+          document.querySelector(".loader").classList.remove("onContactAnimation");
+        }, 2000);
+        console.log("Data Submitted Successfully");
+      }
+    } catch (error) {
+      console.log("Invalid Username or Password");
+    }
   };
 
   return (
