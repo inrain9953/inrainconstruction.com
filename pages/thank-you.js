@@ -6,9 +6,22 @@ import { Button } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
+import Head from "next/head";
 const ThankYou = () => {
   return (
     <>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16650006765"
+      />
+      <Script id="google-analytics" strategy="beforeInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16650006765');
+        `}
+      </Script>
       <Navbar />
       <div className="m-10 h-40 rounded-2xl flex justify-center items-center bg-green-400">
         <p className="text-xl text-center font-semibold p-5">

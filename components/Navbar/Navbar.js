@@ -52,7 +52,12 @@ export const Navbar = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post("/api/signup", { myname, myemail, mymobile, mymessage });
+      const response = await axios.post("/api/signup", {
+        myname,
+        myemail,
+        mymobile,
+        mymessage,
+      });
       if (response.success) {
         console.log("Data Submitted Successfully");
       }
@@ -65,9 +70,7 @@ export const Navbar = () => {
     }, 2000);
 
     const formData = new FormData(event.target);
-
     formData.append("access_key", contactapikey);
-
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
