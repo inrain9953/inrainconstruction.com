@@ -30,22 +30,24 @@ function UserData() {
           <caption className="text-2xl text-center m-10">User Data</caption>
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Mobile No.</th>
-              <th>Message</th>
+              <th className="text-xl">Name</th>
+              <th className="text-xl">Email</th>
+              <th className="text-xl">Mobile No.</th>
+              <th className="text-xl">Message</th>
             </tr>
           </thead>
           <tbody className="border-separate border-2 border-spacing-3 text-lg">
             {products.map((product) => (
               <tr className="text-center m-2">
                 <>
-                  <td>{product.name}</td>
-                  <td>{product.email}</td>
-                  <td>{product.mobile}</td>
-                  <td>{product.message}</td>
+                  <td className="border-2 p-5 border-black">{product.name}</td>
+                  <td className="border-2 p-5 border-black">{product.email}</td>
+                  <td className="border-2 p-5 border-black">{product.mobile}</td>
+                  <td className="border-2 p-5 border-black">{product.message}</td>
                 </>
+                <hr></hr>
               </tr>
+              
             ))}
           </tbody>
         </table>

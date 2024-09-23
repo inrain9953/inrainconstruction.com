@@ -5,7 +5,7 @@ import nodemailer from "nodemailer";
 export default async function signup(req, res) {
   const username = process.env.inrainmail;
   const password = process.env.inrainmailpassword;
-  const sub = "Form Submission from Website -inrainconstruction.com";
+  const sub = "Form Submission from Website - inrainconstruction.com";
 
   try {
     if (req.method === "POST") {
