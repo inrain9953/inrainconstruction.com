@@ -81,7 +81,7 @@ export const Blog7 = [
     id: "Blog7",
     BlogDate: "September 30, 2024",
     BlogHead:
-      "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?",
+      "Rainwater Harvesting and It's Importance: How InRain Rainwater Harvesting System is different from others?",
     BlogContent:
       "Rainwater harvesting is the process of collecting and storing rainwater for later use instead of letting it go to waste. It’s a straightforward and effective way to make the most of a natural resource.",
     BlogLink: "/blogs/Rainwater-Harvesting-System-and-its-importance",
@@ -171,7 +171,7 @@ export const sideBlogs7 = [
     id: "Blog7",
     BlogDate: "September 30, 2024",
     BlogHead:
-      "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?",
+      "Rainwater Harvesting and It's Importance: How InRain Rainwater Harvesting System is different from others?",
     BlogContent:
       "Rainwater harvesting is the process of collecting and storing rainwater for later use instead of letting it go to waste. It’s a straightforward and effective way to make the most of a natural resource.",
     BlogLink: "/blogs/Rainwater-Harvesting-System-and-its-importance",
@@ -726,9 +726,9 @@ export const individualBLog6 = [
 
 export const individualBLog7 = [
   {
-    id: "Blog5",
+    id: "Blog7",
     BlogHead:
-      "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?",
+      "Rainwater Harvesting and It's Importance: How InRain Rainwater Harvesting System is different from others?",
     BlogMainContent: `Rainwater harvesting is the process of collecting and storing rainwater for later use instead of letting it go to waste. It’s a straightforward and effective way to make the most of a natural resource. You can capture rain from rooftops, driveways, or other surfaces, and then store it in tanks, reservoirs, or use it to recharge groundwater.
       <br></br>
 
