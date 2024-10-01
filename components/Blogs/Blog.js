@@ -68,10 +68,23 @@ export const Blog6 = [
   {
     id: "Blog6",
     BlogDate: "August 23, 2024",
-    BlogHead: "Rainwater Harvesting System in India: How to Install Rainwater Systems at Home and in Industries",
+    BlogHead:
+      "Rainwater Harvesting System in India: How to Install Rainwater Systems at Home and in Industries",
     BlogContent:
       "Rainwater harvesting System is a sustainable practice that involves collecting, storing, and using rainwater for irrigation, washing, and drinking. It addresses water scarcity and reduces dependency on groundwater.",
-    BlogLink: "/blogs/Rainwater-Harvesting-System-in-India"
+    BlogLink: "/blogs/Rainwater-Harvesting-System-in-India",
+  },
+];
+
+export const Blog7 = [
+  {
+    id: "Blog7",
+    BlogDate: "September 30, 2024",
+    BlogHead:
+      "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?",
+    BlogContent:
+      "Rainwater harvesting is the process of collecting and storing rainwater for later use instead of letting it go to waste. It’s a straightforward and effective way to make the most of a natural resource.",
+    BlogLink: "/blogs/Rainwater-Harvesting-System-and-its-importance",
   },
 ];
 
@@ -90,7 +103,7 @@ export const sideBlogs1 = [
     BlogLink:
       "/blogs/Rainwater-Harvesting-System-Supercharge-Your-Life-to-Sustainable-Living",
   },
-]
+];
 
 export const sideBlogs2 = [
   {
@@ -102,8 +115,7 @@ export const sideBlogs2 = [
     BlogLink:
       "/blogs/Advancing-Sustainability-with-Modular-Rainwater-Harvesting",
   },
-]
-
+];
 
 export const sideBlogs3 = [
   {
@@ -116,8 +128,7 @@ export const sideBlogs3 = [
     BlogLink:
       "/blogs/Rainwater-Harvesting-for-Commercial-Buildings-Why-Every-Business-Should-Consider-It",
   },
-]
-
+];
 
 export const sideBlogs4 = [
   {
@@ -128,8 +139,7 @@ export const sideBlogs4 = [
       "Stormwater Management is a critical concern. With the increasing frequency and intensity of storms due to climate change, effective stormwater recharge and management are essential.",
     BlogLink: "/blogs/Stormwater-Management-in-India",
   },
-]
-
+];
 
 export const sideBlogs5 = [
   {
@@ -144,7 +154,6 @@ export const sideBlogs5 = [
   },
 ];
 
-
 export const sideBlogs6 = [
   {
     id: "Blog6",
@@ -153,8 +162,19 @@ export const sideBlogs6 = [
       "Rainwater Harvesting System in India: How to Install Rainwater Systems at Home and in Industries",
     BlogContent:
       "Rainwater harvesting System is a sustainable practice that involves collecting, storing, and using rainwater for irrigation, washing, and drinking. It addresses water scarcity and reduces dependency on groundwater. Proper planning and installation make these systems effective, helping conserve water and save on bills. By implementing rainwater harvesting, you contribute to environmental conservation and create a valuable solution for drought-prone areas.",
-    BlogLink:
-      "/blogs/Rainwater-Harvesting-System-in-India",
+    BlogLink: "/blogs/Rainwater-Harvesting-System-in-India",
+  },
+];
+
+export const sideBlogs7 = [
+  {
+    id: "Blog7",
+    BlogDate: "September 30, 2024",
+    BlogHead:
+      "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?",
+    BlogContent:
+      "Rainwater harvesting is the process of collecting and storing rainwater for later use instead of letting it go to waste. It’s a straightforward and effective way to make the most of a natural resource.",
+    BlogLink: "/blogs/Rainwater-Harvesting-System-and-its-importance",
   },
 ];
 
@@ -170,8 +190,6 @@ export const individualBLog1 = [
     BlogImg: "../../src/assets/blog1.jpg",
     BlogHead:
       "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living",
-    BlogMainContent:
-      "In a rapidly developing nation like India, where water scarcity is a growing concern, both businesses and homeowners must adopt sustainable practices. One such eco-friendly solution that caters to the needs of both groups is the Rainwater Harvesting System. In this blog, we will delve into the benefits and implementation of rainwater harvesting systems specifically tailored for businesses, environmentalists, and the wealthy in India.",
     BlogSubHeading1: "Rainwater Harvesting: A Lifesaver for India",
     BlogSubHeadingContent1: [
       "India's water crisis is no secret. With depleting groundwater levels and irregular monsoon patterns, it's crucial to seek alternatives for a reliable water source. Rainwater harvesting is a cost-effective and environmentally responsible solution that captures and stores rainwater for later use. It's a proactive approach to conserve water resources while reducing dependence on municipal supplies or borewells.",
@@ -252,9 +270,6 @@ export const individualBLog2 = [
     BlogMainContent:
       "Sustainable solutions are essential in a world where water supplies are finite and urbanization is on the rise. Modular Rainwater Harvesting System is emerging as a game-changer because it mixes innovation with environmental responsibility. It provides effective water management in addition to economic benefits that make it a sensible option for a greener future.",
     BlogSubHeading1: "Modular Rainwater Harvesting System: An Overview",
-    BlogSubHeadingContent1: [
-      "Utilizing modular technology, a modular rainwater harvesting system effectively stores and reuses rainfall. It's a progressive strategy that tackles the need for plentiful water resources in a world where water scarcity is becoming more and more of a problem. This technique makes use of strong polymer-based structures that are comparable in strength to conventional metal systems.",
-    ],
     BlogSubHeading2: "Modular Rainwater Harvesting System Benefits:",
     BlogSubHeadingContent2: [
       {
@@ -308,8 +323,6 @@ export const individualBLog3 = [
     BlogImg: "../../src/assets/blog3.jpg",
     BlogHead:
       "Rainwater Harvesting for Commercial Buildings: Why Every Business Should Consider It",
-    BlogMainContent:
-      "Businesses are continually looking for creative methods to reduce their environmental impact in their search for sustainability. Rainwater harvesting in commercial buildings is one such strategy that is gaining popularity. We'll explore the many benefits of adopting this environmentally beneficial practice in this article and introduce you to Inrain Construction, a top company for installing rainwater harvesting systems.",
     BlogSubHeading1: "Know How to Harvest Rainwater for Commercial Buildings",
     BlogSubHeadingContent1: [
       "The practice of harvesting rainwater is as old as time itself. Rainwater that lands on rooftops or open spaces is collected and stored for later use. Although it has been widely used for residential buildings, it is now time to fully utilize its potential for commercial buildings.",
@@ -364,8 +377,6 @@ export const individualBLog4 = [
     id: "Blog4",
     BlogImg: "../../src/assets/blog4.jpg",
     BlogHead: "Stormwater Management in India",
-    BlogMainContent:
-      "In our rapidly urbanizing world, Stormwater Management is a critical concern. With the increasing frequency and intensity of storms due to climate change, effective stormwater recharge and management are essential to prevent flooding, maintain water quality, and sustain ecosystems. This article delves into the various aspects of stormwater recharge and management, from its significance to best practices for implementation.",
     BlogSubHeading1: "The Growing Concern of Stormwater",
     BlogSubHeadingContent1: [
       "Stormwater, also known as runoff, is water that results from precipitation events like rain or snowmelt. In urban environments, this water often flows over impervious surfaces such as roads and rooftops, picking up pollutants and causing erosion. If left unmanaged, it can lead to severe flooding and environmental degradation.",
@@ -486,9 +497,6 @@ export const individualBLog5 = [
     BlogMainContent:
       "In today's world, where water scarcity and purity is becoming mainstream problem, innovative solutions are needed to conserve and manage this precious resource. One such solution gaining popularity is the Roof Top Rainwater Harvesting System.",
     BlogSubHeading1: "Understanding Roof Top Rainwater Harvesting System",
-    BlogSubHeadingContent1: [
-      "Roof Top Rainwater Harvesting System is a method of collecting and storing rainwater that falls on the roof of a building. This harvested rainwater is then utilized for various purposes, reducing the dependence on conventional water sources. The system consists of collecting rainwater from the roof, filtering it, and storing it in tanks or reservoirs. The stored water can be used for domestic, agricultural, or industrial purposes.",
-    ],
     BlogSubHeading2: "Components of a Roof Top Rainwater Harvesting System",
     BlogSubHeadingContent2: [
       {
@@ -600,39 +608,31 @@ export const individualBLog5 = [
   },
 ];
 
-
 // Blog 6 content down there
 
 export const individualBLog6 = [
   {
-    id: "Blog5",
+    id: "Blog6",
     BlogHead:
       "Rainwater Harvesting System in India: How to Install Rainwater Systems at Home and in Industries",
-    BlogMainContent:
-      `Rainwater harvesting System is a sustainable practice that involves collecting, storing, and using rainwater for irrigation, washing, and drinking. It addresses water scarcity and reduces dependency on groundwater. Proper planning and installation make these systems effective, helping conserve water and save on bills. By implementing rainwater harvesting, you contribute to environmental conservation and create a valuable solution for drought-prone areas.`,
+    BlogMainContent: `Rainwater harvesting System is a sustainable practice that involves collecting, storing, and using rainwater for irrigation, washing, and drinking. It addresses water scarcity and reduces dependency on groundwater. Proper planning and installation make these systems effective, helping conserve water and save on bills. By implementing rainwater harvesting, you contribute to environmental conservation and create a valuable solution for drought-prone areas.`,
     BlogSubHeading1: "Rainwater Harvesting System:",
     BlogSubHeadingContent1: [
       "Water scarcity is a pressing global issue affecting millions of people worldwide. As populations grow and climate change exacerbates the problem, finding sustainable solutions for water conservation is more critical than ever. One effective approach to mitigate water scarcity is through the implementation of efficient rainwater harvesting systems.",
     ],
     BlogSubHeading2: "The Importance of Rainwater Harvesting:",
-    BlogSubHeadingContent2: [
-      "Rainwater harvesting collects and stores rain for future use. This practice has been employed for centuries and is gaining renewed attention as a sustainable water management strategy. The significance of rainwater harvesting lies in its potential to alleviate water shortages, reduce reliance on conventional water sources, and promote sustainable living. By capturing and utilizing rainwater, communities can decrease the pressure on groundwater resources, mitigate flooding, and enhance water security."
-    ],
     BlogSubHeading3: "Rainwater Harvesting Process:",
     BlogSubHeadingContent3: [
-      "Rainwater harvesting captures and stores rainwater for reuse, reducing runoff and conserving water resources. The process starts with rainwater from the sea evaporating due to the sun's heat, forming clouds, and falling as freshwater rain. Effective harnessing of this rainwater can provide a valuable resource for various applications. Key steps include capturing rainwater from rooftops or other surfaces, channeling it through pipes, filtering it, and storing it in tanks or reservoirs for later use. This sustainable practice helps conserve water and reduce dependence on traditional sources."
+      "Rainwater harvesting captures and stores rainwater for reuse, reducing runoff and conserving water resources. The process starts with rainwater from the sea evaporating due to the sun's heat, forming clouds, and falling as freshwater rain. Effective harnessing of this rainwater can provide a valuable resource for various applications. Key steps include capturing rainwater from rooftops or other surfaces, channeling it through pipes, filtering it, and storing it in tanks or reservoirs for later use. This sustainable practice helps conserve water and reduce dependence on traditional sources.",
     ],
     BlogSubHeading4: "Types of Rainwater Harvesting:",
     BlogSubHeadingContent4: [
-      "Understanding rainwater harvesting types helps identify the best system for your needs. Learning about each method and their steps ensures effective implementation and optimal water collection."
+      "Understanding rainwater harvesting types helps identify the best system for your needs. Learning about each method and their steps ensures effective implementation and optimal water collection.",
     ],
     BlogSubHeading5: "Rooftop Rainwater Harvesting:",
-    BlogSubHeadingContent5: [
-      "Rooftop rainwater harvesting captures rain directly from the roof, storing it in tanks or directing it to recharge systems. It’s cost-effective and enhances local groundwater levels when properly implemented. This system typically includes gutters, downspouts, and filters to remove debris. The collected water can be used for irrigation, flushing toilets, or other non-potable purposes.",
-    ],
     BlogSubHeading6: "Surface Rainwater Harvesting:",
     BlogSubHeadingContent6: [
-      "In urban areas, surface runoff from rainwater can be captured and used to recharge aquifers through effective methods, improving water conservation and sustainability."
+      "In urban areas, surface runoff from rainwater can be captured and used to recharge aquifers through effective methods, improving water conservation and sustainability.",
     ],
     BlogSubHeading7: "Benefits of Rainwater Harvesting:",
     BlogSubHeadingContent7: [
@@ -655,11 +655,11 @@ export const individualBLog6 = [
       {
         head: "Improved Plant Growth:",
         para: "Rainwater is free from the chemicals and salts found in treated water, making it ideal for irrigation. Plants watered with rainwater often exhibit healthier growth and increased resistance to pests and diseases.",
-      }
+      },
     ],
     BlogSubHeading8: "Components of an Efficient Rainwater Harvesting System:",
     BlogSubHeadingContent8: [
-      "An efficient rainwater harvesting system consists of several key components that work together to collect, filter, and store rainwater for future use."
+      "An efficient rainwater harvesting system consists of several key components that work together to collect, filter, and store rainwater for future use.",
     ],
     BlogSubHeadingContent9: [
       {
@@ -684,12 +684,12 @@ export const individualBLog6 = [
       },
       {
         head: "Distribution System:",
-        para: "The distribution system involves the pipes and pumps used to deliver the stored rainwater to its intended use. This can include drip irrigation systems, garden hoses, or plumbing systems for indoor use."
-      }
+        para: "The distribution system involves the pipes and pumps used to deliver the stored rainwater to its intended use. This can include drip irrigation systems, garden hoses, or plumbing systems for indoor use.",
+      },
     ],
     BlogSubHeading10: "Best Practices for Rainwater Harvesting:",
     BlogSubHeadingContent10: [
-      "To maximize the efficiency and effectiveness of a rainwater harvesting system, it is essential to follow best practices during design, installation, and maintenance."
+      "To maximize the efficiency and effectiveness of a rainwater harvesting system, it is essential to follow best practices during design, installation, and maintenance.",
     ],
     BlogSubHeadingContent11: [
       {
@@ -711,14 +711,149 @@ export const individualBLog6 = [
       {
         head: "Educate and Engage the Community:",
         para: "Raising awareness and educating the community about the benefits and practices of rainwater harvesting can lead to greater adoption and collective efforts in water conservation. Community engagement can also facilitate the sharing of resources and knowledge for better system implementation and maintenance.",
-      }
+      },
     ],
     BlogSubHeading12: "Conclusion:",
     BlogSubHeadingContent12: [
-      "Rainwater harvesting is a sustainable and effective solution for water conservation that offers numerous environmental, economic, and social benefits. By implementing efficient rainwater harvesting systems, communities can reduce their dependence on conventional water sources, mitigate water scarcity, and promote a more sustainable way of living. With proper design, installation, and maintenance, rainwater harvesting can play a vital role in addressing the global water crisis and ensuring a secure water future for generations to come."
-    ]
+      "Rainwater harvesting is a sustainable and effective solution for water conservation that offers numerous environmental, economic, and social benefits. By implementing efficient rainwater harvesting systems, communities can reduce their dependence on conventional water sources, mitigate water scarcity, and promote a more sustainable way of living. With proper design, installation, and maintenance, rainwater harvesting can play a vital role in addressing the global water crisis and ensuring a secure water future for generations to come.",
+    ],
   },
 ];
 
-
 // Blog6 content up there
+
+// Blog7 content down there
+
+export const individualBLog7 = [
+  {
+    id: "Blog5",
+    BlogHead:
+      "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?",
+    BlogMainContent: `Rainwater harvesting is the process of collecting and storing rainwater for later use instead of letting it go to waste. It’s a straightforward and effective way to make the most of a natural resource. You can capture rain from rooftops, driveways, or other surfaces, and then store it in tanks, reservoirs, or use it to recharge groundwater.
+      <br></br>
+
+This method not only helps us to conserve water but also reduces Flooding and Soil Erosion. By using harvested rainwater for tasks like watering your garden, flushing toilets, or washing clothes, you can lower your water bills and lessen your environmental impact.
+      <br></br>
+
+In areas where water is scarce, rainwater harvesting can be especially valuable. Overall, it’s a practical and sustainable approach that benefits both households and the environment, helping us all to use water more wisely and responsibly.
+`,
+    BlogSubHeading1: "Why it is necessary?",
+    
+    BlogSubHeading2: "Water Conservation: ",
+    BlogSubHeadingContent2: [
+      "Rainwater harvesting is a great way to save water. It helps us rely less on city water or groundwater by capturing rainwater - an abundant and free resource that would otherwise just wash away. By collecting and using this natural resource, we can make a positive impact on our water conservation efforts.",
+    ],
+    BlogSubHeading3: "Managing water scarcity: ",
+    BlogSubHeading4: "Groundwater Recharge: ",
+    BlogSubHeadingContent4: [
+      "When rainwater seeps back into the ground, helping to refill our underground water supplies. This is super important for keeping wells and natural springs flowing, especially in places where we’ve been using too much groundwater. By directing rainwater back into the earth, we’re supporting a vital resource for everyone.",
+    ],
+    BlogSubHeading5: "Flood control: ",
+    BlogSubHeadingContent5: [
+      "Harvesting rainwater can really help prevent flooding. By capturing rain, we reduce the amount of water that runs off the surface during heavy storms, which lowers the risk of floods in cities. Plus, it helps protect the soil from erosion, which often happens when there’s too much uncontrolled runoff. It's a win-win for our communities.",
+    ],
+    BlogSubHeading6: "Cost-Effective: ",
+    BlogSubHeadingContent6: [
+      "Rainwater harvesting systems are a smart and budget-friendly solution for saving money. By collecting rainwater, you can use it for things like watering your garden, flushing toilets, or doing laundry. This reduces your reliance on city water, which can significantly lower your water bills. For homeowners, the initial setup costs pay off quickly, especially during dry spells. Businesses can save even more, making it a win-win for both finances and the environment. Overall, rainwater harvesting is an easy way to be eco-conscious while keeping costs down, helping you and the planet thrive.",
+    ],
+    BlogSubHeading7: "Sustainable for Agriculture: ",
+    BlogSubHeadingContent7: "For farmers, rainwater harvesting is essential for irrigation, especially in places where rainfall can be unpredictable. By collecting and storing rainwater, they can water their crops during dry spells, which helps boost crop yields and ensure a steady food supply. This practice not only supports the farmers’ livelihoods but also contributes to better food security for everyone. It's a smart way to make the most of available resources and adapt to changing weather patterns.",
+    BlogSubHeading8: "Reduces Energy Use: ",
+    BlogSubHeadingContent8: [
+      "Collecting rainwater locally is a great way to cut down on energy use. When we gather rainwater, we reduce the need for energy-intensive processes like pumping, treating, and transporting water over long distances. This removes carbon footprint associated with our water consumption. By using rainwater, we make a positive impact on the environment while conserving resources. It’s a simple yet effective way to promote sustainability and lessen our reliance on traditional water supply systems, all while doing our part to protect the planet!",
+    ],
+    BlogSubHeading9: "Improved Water Quality: ",
+    BlogSubHeadingContent9: [
+      "Rainwater can offer improved water quality, especially when collected from clean surfaces. In many areas, groundwater may be contaminated with chemicals, salts, or pollutants, making it less safe to use. In contrast, rainwater is often cleaner and fresher, making it a great alternative for drinking, cooking, and irrigation. By harvesting rainwater, we not only access a high-quality water source but also help reduce our reliance on potentially unsafe groundwater, promoting healthier options for our homes and communities.",
+    ],
+    BlogSubHeadingContent10: [
+      {
+        head: "Flexibility: ",
+        para: "Best things about modular rainwater harvesting is its flexibility. You can easily customize the system to fit your specific needs and space. If you have a small area or a larger area, it can be adjusted accordingly your area.",
+      },
+      {
+        head: "Space-Efficient: ",
+        para: "Modular rainwater harvesting systems are designed to take up less space, which is great for urban areas where every inch matters. You don’t have to worry about fitting a big tank into your yard. You can use smaller modular components that can easily blend into your property. This makes it a practical choice for city living.",
+      },
+      {
+        head: "Easy Installation: ",
+        para: "Modular systems are typically much easier to install than traditional ones. You can quickly assemble the components, which means less hassle and lower installation costs. It’s a straight forward process that saves you time and money.",
+      },
+      {
+        head: "Scalability: ",
+        para: "If your water needs change or increase, you can easily expand your modular system. Want to capture more rainwater? Just add a few more modules. This flexibility makes it a great option for long-term use, allowing you to adapt as your needs grow.",
+      },
+      {
+        head: "Cost-Effective: ",
+        para: "Modular systems are budget-friendly because you can begin with a small setup and expand it over time. You can invest in what you need right now and add more components later without stretching your budget. It’s a smart way to manage costs while still getting the benefits you want.",
+      },
+      {
+        head: "Environment Friendly: ",
+        para: "Modular Rainwater Harvesting Systems are eco-friendly because they let you collect and use rainwater, which means you rely less on city water supplies. This not only saves energy that would normally go into treating and transporting water, but it also helps lower your carbon footprint. It’s a simple and effective way to do your part for the environment.",
+      },
+    ],
+    BlogSubHeading11: "Benefits of InRain Rainwater Harvesting System",
+    BlogSubHeading12: "InRain Rainwater Harvesting System ",
+    BlogSubHeadingContent12: [
+      {
+        head: "1.	Civil Work: ",
+        para: "Modular systems need much less civil work. They’re built to be easy to install, often requiring just a bit of digging and simple connections. You can usually put the components together quickly and efficiently, which makes the whole installation process straight forward and less disruptive to your space. It’s a much simpler approach and it is complete within 7 Days.",
+      },
+      {
+        head: "2.	Percolation Efficiency: ",
+        para: "Modular systems tend to have better percolation efficiency. By using geotextiles, we create extra surfaces—up to five more—where water can seep through. These smaller components can be arranged to enhance the flow of water into the ground. This design allows rainwater to make better contact with the soil, which means it gets absorbed more quickly. As a result, these systems are great for recharging groundwater. Plus, their flexibility lets them adapt to different soil types, leading to improved performance overall.",
+      },
+      {
+        head: "3.	Maintenance Free: ",
+        para: "Modular Rainwater Harvesting: Modular systems tend to be more maintenance-friendly. Their smaller components are very easier to access for cleaning and inspection. Additionally, the design of rainwater harvesting pit built-in features that reduce the build-up of debris, making it simpler to maintain over time. This means the Rainwater harvesting system is needed less effort to keep the system running very nicely.",
+      },
+      {
+        head: "4.	Load Bearing Capacity of Modular Rainwater Harvesting: ",
+        para: "Modular rainwater harvesting systems are built to be really strong and durable. They can support a remarkable load of up to 47 tons per square meter. This means they can easily handle the weight of the water and the pressures they face, all while staying safe and functional. Overall, their ability to bear heavy loads makes modular rainwater harvesting a smart and reliable choice for effective water management.",
+      },
+      {
+        head: "5.	Land Reusable: ",
+        para: "Modular systems are designed to be space-efficient. They can fit into smaller areas, which allows you to use more of your land for different purposes. This flexibility makes it easier to incorporate them into your property without sacrificing valuable space. In modular technology You can use upper surface for all uses like Gardening, Parking, Park and Playground etc.",
+      },
+      {
+        head: "6.	Relocatable: ",
+        para: "Modular systems are much easier to relocate. Because they’re made up by Re-Polypropylene, individual components, you can easily disassemble them and move them to a new spot without any hassle. This flexibility makes them a great choice if you think you might need to change locations in the future, so you will use modular once.",
+      },
+      {
+        head: "7.	Eco Friendly / Health Friendly: ",
+        para: "Modular systems are generally more eco-friendlier. They’re designed to reduce standing water and minimize contamination, which helps collect safer, cleaner water, and they’re usually easier to maintain, keeping the system healthy and efficient. This makes modular systems a smart choice for supporting environmental sustainability and protecting our health & Life.",
+      },
+    ],
+    BlogSubHeading13: "Conventional Rainwater Harvesting System",
+    BlogSubHeadingContent13: [
+      {
+        head: "1.	Civil Work: ",
+        para: "This method usually involves a lot of civil work. You’ll need to dig big trenches for tanks or cisterns, and there’s quite a bit of construction involved for the piping and drainage systems. The installation can take a lot of time and effort, often requiring skilled workers to ensure everything is set up correctly. It’s definitely a more labour-intensive process and this process takes minimum 25 Days.",
+      },
+      {
+        head: "2.	Percolation Efficiency: ",
+        para: "Conventional systems typically rely on larger tanks or cisterns, but the civil construction involved doesn’t allow for extra surfaces that would help with water percolation. This can lead to slower absorption rates. Installing these systems often requires a lot of digging, and varying soil conditions can impact how quickly the rainwater seeps into the ground. If the design isn’t quite right, it could result in water pooling or not being absorbed effectively, which makes it less efficient at getting water back into the soil.",
+      },
+      {
+        head: "3.	Maintenance Free: ",
+        para: "These systems usually need regular maintenance. Larger tanks can collect debris, algae, and sediment, so you’ll have to clean them out periodically to keep everything working properly. Plus, the pipes and filters might need some attention to prevent clogs and ensure good water flow, which can add to the costs. Overall, it can be a bit pricey to keep everything in tip-top shape.",
+      },
+      {
+        head: "4.	Load Bearing: ",
+        para: "4.	Load Bearing: Larger tanks require strong foundations of slab to support their weight, especially when full. This system not bearing heavy load, this can lead to more extensive civil work during installation.",
+      },
+      {
+        head: "5.	Land Reusable: ",
+        para: "These systems often take up a lot of space, which can limit how you can use the surrounding area. This means you might have less room for other activities, landscaping, or gardens.",
+      },
+      {
+        head: "6.	Relocatable: ",
+        para: "Once these systems are installed, moving them can be quite challenging. Their size and the construction work needed to set them up this is not relocatable.",
+      },
+      {
+        head: "7.	Eco Friendly / Health Friendly: ",
+        para: "This system often need more energy and resources to maintain. Cleaning larger tanks and treating the water can be quite a task. If they're not kept well, they might attract mosquitoes or gather contaminants, which could pose health risks.",
+      },
+    ],
+  },
+];

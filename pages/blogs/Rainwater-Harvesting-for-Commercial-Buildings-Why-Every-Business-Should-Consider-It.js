@@ -8,6 +8,7 @@ import {
   sideBlogs4,
   sideBlogs5,
   sideBlogs6,
+  sideBlogs7,
 } from "../../components/Blogs/Blog";
 import blog1img from "../../public/blog1.jpg";
 import blog2img from "../../public/blog2.jpg";
@@ -15,6 +16,7 @@ import blog3img from "../../public/blog3.jpg";
 import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
+import blog7img from "../../public/blog7.webp";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
@@ -79,7 +81,14 @@ const Blog3 = () => {
                       {blog.BlogHead}
                     </h1>
                     <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      {blog.BlogMainContent}
+                      Businesses are continually looking for creative methods to
+                      reduce their environmental impact in their search for
+                      sustainability. Rainwater harvesting in commercial
+                      buildings is one such strategy that is gaining popularity.
+                      We'll explore the many benefits of adopting this
+                      environmentally beneficial practice in this article and
+                      introduce you to Inrain Construction, a top company for
+                      installing <Link className="text-blue-500 font-semibold" href={"https://www.inrainconstruction.com/rainwater-harvesting-system"}>Rainwater Harvesting Systems.</Link>
                     </p>
                   </div>
 
@@ -234,6 +243,26 @@ const Blog3 = () => {
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
                         <Image className="md:w-40" src={blog6img} alt="img" />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs7.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image className="md:w-40" src={blog7img} alt="img" />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">

@@ -1,7 +1,15 @@
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
-import { Blog, Blog2, Blog3, Blog4, Blog5, Blog6 } from "../../components/Blogs/Blog";
+import {
+  Blog,
+  Blog2,
+  Blog3,
+  Blog4,
+  Blog5,
+  Blog6,
+  Blog7,
+} from "../../components/Blogs/Blog";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
@@ -14,6 +22,7 @@ import img3 from "../../public/blog3.jpg";
 import img4 from "../../public/blog4.jpg";
 import img5 from "../../public/blog5.jpg";
 import img6 from "../../public/blog6.jpeg";
+import img7 from "../../public/blog7.webp";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -433,6 +442,79 @@ const BlogsIndex = () => {
                 <Image
                   className="w-full rounded-xl hover:shadow-xl"
                   src={img6}
+                  alt="img"
+                />
+                <p className="text-left mt-2 text-sm font-semibold">
+                  {blog.BlogDate}
+                </p>
+                <Link href={blog.BlogLink}>
+                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                    {blog.BlogHead}
+                  </h1>
+                </Link>
+                <p className="text-left text-base mt-3 mr-3">
+                  {blog.BlogContent}
+                </p>
+                <div className="flex justify-start mt-2">
+                  <Button variant="contained" size="small">
+                    <Link href={blog.BlogLink}>Read More</Link>
+                  </Button>
+                </div>
+                <div className="flex justify-start mb-7 pt-3 gap-4">
+                  <a
+                    target="_blank"
+                    href={
+                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
+                    }
+                  >
+                    <li className="list-none hover:text-blue-500">
+                      <FacebookIcon fontSize="large" />
+                    </li>
+                  </a>
+                  <a
+                    target="_blank"
+                    href={"https://www.instagram.com/inrainconstruction_/"}
+                  >
+                    <li className="list-none hover:text-blue-500">
+                      <InstagramIcon fontSize="large" />
+                    </li>
+                  </a>
+                  <a target="_blank" href={"https://x.com/InrainC"}>
+                    <li className="list-none hover:text-blue-500">
+                      <XIcon fontSize="large" />
+                    </li>
+                  </a>
+                  <a
+                    target="_blank"
+                    href={
+                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
+                    }
+                  >
+                    <li className="list-none hover:text-blue-500">
+                      <LinkedInIcon fontSize="large" />
+                    </li>
+                  </a>
+                  <a
+                    target="_blank"
+                    href={"https://in.pinterest.com/inrainc0212/"}
+                  >
+                    <li className="list-none hover:text-blue-500">
+                      <PinterestIcon fontSize="large" />
+                    </li>
+                  </a>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+
+        {Blog7.map((blog) => {
+          return (
+            <div data-aos="zoom-in-up" className="m-5 mb-10">
+              <div className="">
+                <Image
+                  className="w-full rounded-xl hover:shadow-xl h-80"
+                  src={img7}
                   alt="img"
                 />
                 <p className="text-left mt-2 text-sm font-semibold">

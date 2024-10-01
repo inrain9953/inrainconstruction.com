@@ -8,6 +8,7 @@ import {
   sideBlogs4,
   sideBlogs5,
   sideBlogs6,
+  sideBlogs7,
 } from "../../components/Blogs/Blog";
 import Link from "next/link";
 import Image from "next/image";
@@ -18,6 +19,7 @@ import blog3img from "../../public/blog3.jpg";
 import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
+import blog7img from "../../public/blog7.webp";
 
 const Blog2 = () => {
   const title = "Advancing Sustainability with Modular Rainwater Harvesting";
@@ -86,7 +88,13 @@ const Blog2 = () => {
                       {blog.BlogSubHeading1}
                     </h3>
                     <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      {blog.BlogSubHeadingContent1}
+                      Utilizing modular technology, a <Link className="text-blue-500 font-semibold" href={"https://www.inrainconstruction.com/modular-rainwater-harvesting"}>Modular Rainwater
+                      Harvesting System</Link> effectively stores and reuses rainfall.
+                      It's a progressive strategy that tackles the need for
+                      plentiful water resources in a world where water scarcity
+                      is becoming more and more of a problem. This technique
+                      makes use of strong polymer-based structures that are
+                      comparable in strength to conventional metal systems.
                     </p>
                   </div>
 
@@ -215,6 +223,26 @@ const Blog2 = () => {
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
                         <Image className="md:w-40" src={blog6img} alt="img" />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs7.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image className="md:w-40" src={blog7img} alt="img" />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
