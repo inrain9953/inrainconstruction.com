@@ -30,6 +30,7 @@ export default async (req, res) => {
     { url: "/blogs/Rainwater-Harvesting-for-Commercial-Buildings-Why-Every-Business-Should-Consider-It/", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/Stormwater-Management-in-India/", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/Rainwater-Harvesting-System-for-Roof-Top-Effective-Water-Solutions-Rainwater-Harvesting-System-Supercharge-Your-Life-to-Sustainable-Living/", changefreq: "daily", priority: 0.8 },
+    { url: "/blogs/Rainwater-Harvesting-System-and-its-importance", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/Rainwater-Harvesting-System-in-India/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-delhi/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-gurgaon/", changefreq: "daily", priority: 0.8 },
