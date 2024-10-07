@@ -265,9 +265,9 @@ export const Footer = () => {
                 </a>
               </p>
               <p className="list-none mb-2 text-white hover:text-sky-700">
-                <a className=" text-base" href="tel:+919953070003">
+                <a className=" text-base" href="tel:+919910220794">
                   <CallIcon fontSize="small" />
-                  +91-9953070003
+                  +91-9910220794
                 </a>
               </p>
               <p className="list-none mb-2 text-white hover:text-sky-700">

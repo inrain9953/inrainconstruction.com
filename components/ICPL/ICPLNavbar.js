@@ -25,9 +25,9 @@ const ICPLNavbar = () => {
               <PhoneIcon className="mr-1" fontSize="small" />
               <a
                 className="hover:text-green-700 text-xs font-semibold"
-                href="tel:+919953070003"
+                href="tel:+919910220794"
               >
-                +91-9953070003
+                +91-9910220794
               </a>{" "}
               &nbsp;<p className="mr-1 ml-1 text-xs">|</p>
               <a
