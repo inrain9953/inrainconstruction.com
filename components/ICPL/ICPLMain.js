@@ -71,7 +71,7 @@ const ICPLMain = () => {
 
   return (
     <>
-      <div className="ICPLpage-background">
+      <div id="icplMain" className="ICPLpage-background">
         <div className="pt-2 md:flex md:justify-center md:items-center md:gap-10">
           <div data-aos="zoom-in-up" className="text-center">
             <h1 className="text-base m-3 text-green-800 font-semibold align-middle md:text-2xl">

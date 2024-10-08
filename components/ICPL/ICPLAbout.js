@@ -15,7 +15,7 @@ const ICPLAbout = () => {
           data-aos="zoom-in-up"
           className="m-5 md:m-10 md:grid md:grid-cols-2 md:gap-14 md:items-center "
         >
-          <div className="md:ml-10">
+          <div id="icplAbout" className="md:ml-10">
             <Image
               className="w-full rounded-xl"
               src={abt}

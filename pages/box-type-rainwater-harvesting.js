@@ -12,7 +12,7 @@ const Service8 = () => {
   const desc =
     "Rain Box Harvesting Systems are ideal for supplying water for toilet flushing, washing machines, and outdoor uses such as garden irrigation, car washing ";
   const keyword =
-    "box type rainwater harvesting system, Cost-Effective Water Solutions, Economical Rainwater Systems, Sustainable Water Management, Water Supply Mechanism, Filtration System, rainwater harvesting solution, Water Conservation Solutions, Rainwater Filtration Systems";
+    "box type rainwater harvesting system, storm water management, Cost-Effective Water Solutions, Economical Rainwater Systems, Sustainable Water Management, Water Supply Mechanism, Filtration System, rainwater harvesting solution, Water Conservation Solutions, Rainwater Filtration Systems";
   const canonical =
     "https://www.inrainconstruction.com/box-type-rainwater-harvesting";
   const ogUrl =

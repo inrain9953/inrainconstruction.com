@@ -1,4 +1,3 @@
-import { Footer } from "@/components/Footer/Footer";
 import ICPLAbout from "@/components/ICPL/ICPLAbout";
 import ICPLCertification from "@/components/ICPL/ICPLCertification";
 import ICPLMain from "@/components/ICPL/ICPLMain";
@@ -8,6 +7,7 @@ import ICPLSolutions from "@/components/ICPL/ICPLSolutions";
 import React from "react";
 import Head from "next/head";
 import Script from "next/script";
+import ICPLFooter from "@/components/ICPL/ICPLFooter";
 
 const ICPL = () => {
   const title =
@@ -15,7 +15,7 @@ const ICPL = () => {
   const desc =
     "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
   const keyword =
-    "rainwater harvesting, modular rainwater harvesting, roof top rainwater harvesting, rainwater harvesting in delhi, rainwater harvesting for industries";
+    "rainwater harvesting, modular rainwater harvesting, roof top rainwater harvesting, water conservation, storm water management, rainwater harvesting in delhi, modular rainwater harvesting for industries";
   const canonical = "https://www.inrainconstruction.com/icpl";
   const ogUrl = "https://www.inrainconstruction.com/icpl";
   const ogTitle =
@@ -62,7 +62,7 @@ const ICPL = () => {
       <ICPLProducts />
       <ICPLSolutions />
       <ICPLCertification />
-      <Footer />
+      <ICPLFooter />
     </>
   );
 };

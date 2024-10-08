@@ -14,9 +14,9 @@ const Products = () => {
   const title =
     "InRain® Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const desc =
-    "InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile.";
+    "InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile. Are you looking for Rainwater Harvesting products?";
   const keyword =
-    "Pressure Regulator Valve, Self Cleaning Mesh Filter System, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, rainwater harvesting filter, modular rainwater harvesting system, rainwater harvesting technology";
+    "Pressure Regulator Valve, Self Cleaning Mesh Filter System, Rainwater Harvesting Products, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, modular rainwater harvesting system, rainwater harvesting technology";
   const canonical = "https://www.inrainconstruction.com/products";
   const ogUrl = "https://www.inrainconstruction.com/products";
   const ogTitle = "InRain® Rainwater Harvesting System | InRain® Construction";

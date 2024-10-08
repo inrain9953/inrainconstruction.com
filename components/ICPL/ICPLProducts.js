@@ -10,7 +10,7 @@ import Image from "next/image";
 const ICPLProducts = () => {
   return (
     <>
-      <div className="text-center mt-20">
+      <div id="icplProducts" className="text-center mt-20">
         <h2 className="md:text-4xl text-2xl font-bold">Our Products</h2>
       </div>
       <div data-aos="zoom-in-up" className="md:m-10 m-3">

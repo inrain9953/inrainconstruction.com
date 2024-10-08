@@ -8,7 +8,7 @@ import Image from "next/image";
 const ICPLSolutions = () => {
   return (
     <>
-      <div className="text-center mt-16">
+      <div id="icplSolutions" className="text-center mt-16">
         <h2 className="text-2xl md:text-4xl font-bold">Solutions</h2>
       </div>
       <div data-aos="zoom-in-up" className="md:m-10 m-3">
