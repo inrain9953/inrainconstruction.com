@@ -8,6 +8,7 @@ import React from "react";
 import Head from "next/head";
 import Script from "next/script";
 import ICPLFooter from "@/components/ICPL/ICPLFooter";
+import PopUp from "@/components/popup";
 
 const ICPL = () => {
   const title =
@@ -57,6 +58,7 @@ const ICPL = () => {
         {`gtag('event', 'conversion', {'send_to': 'AW-16650006765/gyk2CK3ox8gZEO3hq4M-'})`}
       </Script>
       <ICPLNavbar />
+      <PopUp />
       <ICPLMain />
       <ICPLAbout />
       <ICPLProducts />

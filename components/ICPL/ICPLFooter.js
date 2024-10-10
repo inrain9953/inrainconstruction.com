@@ -68,22 +68,6 @@ const ICPLFooter = () => {
           </div>
         </div>
       </div>
-      <div data-aos="zoom-in-up">
-        <iframe
-          width="100%"
-          height="450"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-          id="gmap_canvas"
-          src="https://maps.google.com/maps?width=800&amp;height=500&amp;hl=en&amp;q=InRain%20Construction%20Private%20Limited%20-%20Rainwater%20Harvesting%20System%20&amp;%20Modular%20Rainwater%20Harvesting%20System%20in%20Delhi%20New%20Delhi+(InRain%20Construction%20Pvt.%20Ltd.)&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        />
-        {/* <script
-          type="text/javascript"
-          src="https://embedmaps.com/google-maps-authorization/script.js?id=aecee3cf4ca1b15c6e791b9de0619c842ffc5ca6"
-        ></script> */}
-      </div>
 
       <div>
         <div className="footer-background">
@@ -92,7 +76,7 @@ const ICPLFooter = () => {
               data-aos="zoom-in-up"
               className="text-left ml-7 pt-10 md:w-[25%]"
             >
-              <Link href="/">
+              <Link href="#">
                 <Image
                   className="w-24 mb-5"
                   src={logo}
@@ -103,47 +87,56 @@ const ICPLFooter = () => {
                 />
               </Link>
               <div className="flex mb-7 gap-5">
-                <a
-                  className="hover:text-white"
-                  target="_blank"
-                  href={
-                    "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                  }
+                <Link
+                  className="hover:text-white cursor-pointer"
+                  to={"icplMain"}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
                 >
                   <FacebookIcon fontSize="large" />
-                </a>
-                <a
-                  className="hover:text-white"
-                  target="_blank"
-                  href={"https://www.instagram.com/inrainconstruction_/"}
+                </Link>
+                <Link
+                  className="hover:text-white cursor-pointer"
+                  to={"icplMain"}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
                 >
                   <InstagramIcon fontSize="large" />
-                </a>
-                <a
-                  className="hover:text-white"
-                  target="_blank"
-                  href={"https://x.com/InrainC"}
+                </Link>
+                <Link
+                  className="hover:text-white cursor-pointer"
+                  to={"icplMain"}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
                 >
                   <XIcon fontSize="large" />
-                </a>
-                <a
-                  className="hover:text-white"
-                  target="_blank"
-                  href={
-                    "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                  }
+                </Link>
+                <Link
+                  className="hover:text-white cursor-pointer"
+                  to={"icplMain"}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
                 >
                   <LinkedInIcon fontSize="large" />
-                </a>
-                <a
-                  className="hover:text-white"
-                  target="_blank"
-                  href={
-                    "https://youtube.com/@inrainharvesting?si=Fxx_8_rhzHt2ZBLF"
-                  }
+                </Link>
+                <Link
+                  className="hover:text-white cursor-pointer"
+                  to={"icplMain"}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
                 >
                   <YouTubeIcon fontSize="large" />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -220,9 +213,16 @@ const ICPLFooter = () => {
               data-aos="zoom-in-up"
               className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
             >
-              <h3 className="text-2xl font-semibold pb-3 m-1 text-white">
+              <Link
+                className="text-2xl font-semibold cursor-pointer pb-3 m-1 text-white hover:text-sky-700"
+                to="icplProducts"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={500}
+              >
                 Our Products
-              </h3>
+              </Link>
               <Link href="#">
                 <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />

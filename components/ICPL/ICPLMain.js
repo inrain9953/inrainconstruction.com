@@ -80,9 +80,9 @@ const ICPLMain = () => {
             <h2 className="text-black text-2xl font-semibold drop-shadow-md md:text-5xl md:m-5 mb-3">
               InRain® Construction Pvt. Ltd.(ICPL)
             </h2>
-            <a href="tel:+919953070003">
+            <a href="tel:+919910220794">
               <Button variant="contained" color="secondary">
-                Call Us
+                +91-9910220794
               </Button>
             </a>
           </div>
