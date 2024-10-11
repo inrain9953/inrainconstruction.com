@@ -11,7 +11,7 @@ export const Blog = [
     BlogContent:
       "Embrace eco-innovation with cutting-edge Rainwater Harvesting Systems, fostering sustainability for a greener future. Make your impact today!",
     BlogLink:
-      "/blogs/rainwater-harvesting-system-supercharge-your-life-to-sustainable-living",
+      "/blogs/rainwater-harvesting-supercharge-your-life-to-sustainable-living",
   },
 ];
 
