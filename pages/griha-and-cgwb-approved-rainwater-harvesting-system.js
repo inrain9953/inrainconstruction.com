@@ -13,6 +13,7 @@ import tech3 from "../public/Technology/main3.jpg";
 import tech4 from "../public/Technology/main4.jpg";
 import tech5 from "../public/Technology/main5.jpg";
 import newTech from "../public/new-technology-based-rainwater.jpg";
+import PopUp from "@/components/popup";
 
 const GrihaAndCGWB = () => {
     const loc = "Delhi";
@@ -65,6 +66,7 @@ const GrihaAndCGWB = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <Hero1 />
       <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
         <div data-aos="zoom-in-up" className="md:content-center md:p-10">

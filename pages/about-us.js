@@ -9,6 +9,7 @@ import BottomImg from "./../public/bottom_about.jpg";
 import CountUp from "react-countup";
 import Image from "next/image";
 import Head from "next/head";
+import PopUp from "@/components/popup";
 
 const About = () => {
   const title = "About US | InRain® Construction Pvt. Ltd.";
@@ -52,6 +53,7 @@ const About = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div>
         <div data-aos="zoom-in-up" className="pt-5 pb-5 md:pt-0">
           <Image

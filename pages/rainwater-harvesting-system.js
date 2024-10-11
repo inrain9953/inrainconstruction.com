@@ -5,6 +5,7 @@ import service11 from "./../public/service11.jpg";
 import harvesting11 from "./../public/services/harvesting7.jpg";
 import Image from "next/image";
 import Head from "next/head";
+import PopUp from "@/components/popup";
 
 const Service11 = () => {
   const title = "Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
@@ -52,6 +53,7 @@ const Service11 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image

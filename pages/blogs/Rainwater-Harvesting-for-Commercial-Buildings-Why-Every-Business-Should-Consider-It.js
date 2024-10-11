@@ -20,6 +20,7 @@ import blog7img from "../../public/blog7.webp";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import PopUp from "@/components/popup";
 
 const Blog3 = () => {
   const title =
@@ -68,6 +69,7 @@ const Blog3 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="m-5 md:m-10">
         {individualBLog3.map((blog) => {
           return (

@@ -5,6 +5,7 @@ import warehouse from "./../public/warehouse.jpg";
 import blog3 from "./../public/blog3.jpg";
 import Head from "next/head";
 import Image from "next/image";
+import PopUp from "@/components/popup";
 
 const Service1 = () => {
   const title =
@@ -53,6 +54,7 @@ const Service1 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image

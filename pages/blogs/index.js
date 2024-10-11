@@ -26,6 +26,7 @@ import img7 from "../../public/blog7.webp";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import PopUp from "@/components/popup";
 
 const BlogsIndex = () => {
   const title = "Blogs | InRain® Construction Pvt. Ltd.";
@@ -69,6 +70,7 @@ const BlogsIndex = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="md:grid md:grid-cols-3 md:m-10">
         {Blog.map((blog) => {
           return (

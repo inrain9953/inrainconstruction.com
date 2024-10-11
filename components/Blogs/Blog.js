@@ -11,7 +11,7 @@ export const Blog = [
     BlogContent:
       "Embrace eco-innovation with cutting-edge Rainwater Harvesting Systems, fostering sustainability for a greener future. Make your impact today!",
     BlogLink:
-      "/blogs/Rainwater-Harvesting-System-Supercharge-Your-Life-to-Sustainable-Living",
+      "/blogs/rainwater-harvesting-system-supercharge-your-life-to-sustainable-living",
   },
 ];
 
@@ -23,7 +23,7 @@ export const Blog2 = [
     BlogContent:
       "Modular Rainwater Harvesting is a smart way to store and reuse rainwater. It uses strong polymer-based structures that are both eco-friendly and budget-friendly.",
     BlogLink:
-      "/blogs/Advancing-Sustainability-with-Modular-Rainwater-Harvesting",
+      "/blogs/advancing-sustainability-with-modular-rainwater-harvesting",
   },
 ];
 
@@ -36,7 +36,7 @@ export const Blog3 = [
     BlogContent:
       "Businesses are continually looking for creative methods to reduce their environmental impact in their search for sustainability.",
     BlogLink:
-      "/blogs/Rainwater-Harvesting-for-Commercial-Buildings-Why-Every-Business-Should-Consider-It",
+      "/blogs/rainwater-harvesting-for-commercial-buildings-why-every-business-should-consider-it",
   },
 ];
 
@@ -47,7 +47,7 @@ export const Blog4 = [
     BlogHead: "Stormwater Management in India",
     BlogContent:
       "Stormwater Management is a critical concern. With the increasing frequency and intensity of storms due to climate change, effective stormwater recharge and management are essential.",
-    BlogLink: "/blogs/Stormwater-Management-in-India",
+    BlogLink: "/blogs/stormwater-management-in-india",
   },
 ];
 
@@ -60,7 +60,7 @@ export const Blog5 = [
     BlogContent:
       "Discover the benefits of a roof top rainwater harvesting system. Save water and money with our effective solutions for rainwater harvesting.",
     BlogLink:
-      "/blogs/Rainwater-Harvesting-System-for-Roof-Top-Effective-Water-Solutions-Rainwater-Harvesting-System-Supercharge-Your-Life-to-Sustainable-Living",
+      "/blogs/rainwater-harvesting-system-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living",
   },
 ];
 
@@ -72,7 +72,7 @@ export const Blog6 = [
       "Rainwater Harvesting System in India: How to Install Rainwater Systems at Home and in Industries",
     BlogContent:
       "Rainwater harvesting System is a sustainable practice that involves collecting, storing, and using rainwater for irrigation, washing, and drinking. It addresses water scarcity and reduces dependency on groundwater.",
-    BlogLink: "/blogs/Rainwater-Harvesting-System-in-India",
+    BlogLink: "/blogs/rainwater-harvesting-system-in-india",
   },
 ];
 
@@ -84,7 +84,7 @@ export const Blog7 = [
       "Rainwater Harvesting and It's Importance: How InRain Rainwater Harvesting System is different from others?",
     BlogContent:
       "Rainwater harvesting is the process of collecting and storing rainwater for later use instead of letting it go to waste. It’s a straightforward and effective way to make the most of a natural resource.",
-    BlogLink: "/blogs/Rainwater-Harvesting-System-and-its-importance",
+    BlogLink: "/blogs/rainwater-harvesting-system-and-its-importance",
   },
 ];
 
@@ -101,7 +101,7 @@ export const sideBlogs1 = [
     BlogContent:
       "Embrace eco-innovation with cutting-edge Rainwater Harvesting Systems, fostering sustainability for a greener future. Make your impact today!",
     BlogLink:
-      "/blogs/Rainwater-Harvesting-System-Supercharge-Your-Life-to-Sustainable-Living",
+      "/blogs/rainwater-harvesting-system-supercharge-your-life-to-sustainable-living",
   },
 ];
 
@@ -113,7 +113,7 @@ export const sideBlogs2 = [
     BlogContent:
       "Modular Rainwater Harvesting is a smart way to store and reuse rainwater. It uses strong polymer-based structures that are both eco-friendly and budget-friendly.",
     BlogLink:
-      "/blogs/Advancing-Sustainability-with-Modular-Rainwater-Harvesting",
+      "/blogs/advancing-sustainability-with-modular-rainwater-harvesting",
   },
 ];
 
@@ -126,7 +126,7 @@ export const sideBlogs3 = [
     BlogContent:
       "Businesses are continually looking for creative methods to reduce their environmental impact in their search for sustainability.",
     BlogLink:
-      "/blogs/Rainwater-Harvesting-for-Commercial-Buildings-Why-Every-Business-Should-Consider-It",
+      "/blogs/rainwater-harvesting-for-commercial-buildings-why-every-business-should-consider-it",
   },
 ];
 
@@ -137,7 +137,7 @@ export const sideBlogs4 = [
     BlogHead: "Stormwater Management in India",
     BlogContent:
       "Stormwater Management is a critical concern. With the increasing frequency and intensity of storms due to climate change, effective stormwater recharge and management are essential.",
-    BlogLink: "/blogs/Stormwater-Management-in-India",
+    BlogLink: "/blogs/stormwater-management-in-india",
   },
 ];
 
@@ -150,7 +150,7 @@ export const sideBlogs5 = [
     BlogContent:
       "Discover the benefits of a roof top rainwater harvesting system. Save water and money with our effective solutions for rainwater harvesting.",
     BlogLink:
-      "/blogs/Rainwater-Harvesting-System-for-Roof-Top-Effective-Water-Solutions-Rainwater-Harvesting-System-Supercharge-Your-Life-to-Sustainable-Living",
+      "/blogs/rainwater-harvesting-system-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living",
   },
 ];
 
@@ -162,7 +162,7 @@ export const sideBlogs6 = [
       "Rainwater Harvesting System in India: How to Install Rainwater Systems at Home and in Industries",
     BlogContent:
       "Rainwater harvesting System is a sustainable practice that involves collecting, storing, and using rainwater for irrigation, washing, and drinking. It addresses water scarcity and reduces dependency on groundwater. Proper planning and installation make these systems effective, helping conserve water and save on bills. By implementing rainwater harvesting, you contribute to environmental conservation and create a valuable solution for drought-prone areas.",
-    BlogLink: "/blogs/Rainwater-Harvesting-System-in-India",
+    BlogLink: "/blogs/rainwater-harvesting-system-in-india",
   },
 ];
 
@@ -174,7 +174,7 @@ export const sideBlogs7 = [
       "Rainwater Harvesting and It's Importance: How InRain Rainwater Harvesting System is different from others?",
     BlogContent:
       "Rainwater harvesting is the process of collecting and storing rainwater for later use instead of letting it go to waste. It’s a straightforward and effective way to make the most of a natural resource.",
-    BlogLink: "/blogs/Rainwater-Harvesting-System-and-its-importance",
+    BlogLink: "/blogs/rainwater-harvesting-system-and-its-importance",
   },
 ];
 

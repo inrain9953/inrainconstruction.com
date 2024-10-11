@@ -20,6 +20,7 @@ import {
   sideBlogs5,
   sideBlogs6,
 } from "@/components/Blogs/Blog";
+import PopUp from "@/components/popup";
 
 const Blog6 = () => {
   const title = "Rainwater Harvesting System in India";
@@ -66,6 +67,7 @@ const Blog6 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="m-5 md:m-10">
         {individualBLog6.map((blog) => {
           return (

@@ -9,6 +9,7 @@ import blackSheet from "./../public/product/black-sheet.png";
 import whiteSheet from "./../public/product/white-sheet.png";
 import Image from "next/image";
 import Head from "next/head";
+import PopUp from "@/components/popup";
 
 const Products = () => {
   const title =
@@ -54,6 +55,7 @@ const Products = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div>
         <div data-aos="zoom-in-up" className="pt-5 pb-5 md:pt-0">
           <Image

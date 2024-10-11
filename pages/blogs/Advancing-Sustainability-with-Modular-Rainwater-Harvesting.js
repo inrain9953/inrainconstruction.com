@@ -20,6 +20,7 @@ import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
 import blog7img from "../../public/blog7.webp";
+import PopUp from "@/components/popup";
 
 const Blog2 = () => {
   const title = "Advancing Sustainability with Modular Rainwater Harvesting";
@@ -66,6 +67,7 @@ const Blog2 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="m-5 md:m-10">
         {individualBLog2.map((blog) => {
           return (

@@ -5,6 +5,7 @@ import harvesting2 from "./../public/services/harvesting2.jpg";
 import service2 from "./../public/service2.jpg";
 import Image from "next/image";
 import Head from "next/head";
+import PopUp from "@/components/popup";
 
 const Service2 = () => {
   const title =
@@ -53,6 +54,7 @@ const Service2 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image

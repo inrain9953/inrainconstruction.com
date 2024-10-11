@@ -13,6 +13,7 @@ import tech4 from "../public/Technology/main4.jpg";
 import tech5 from "../public/Technology/main5.jpg";
 import newTech from "../public/new-technology-based-rainwater.jpg";
 import { Hero1 } from "@/components/Hero/Hero1";
+import PopUp from "@/components/popup";
 
 const RainwaterHarvestingCompany = () => {
   const loc = "Delhi(NCR)";
@@ -60,6 +61,7 @@ const RainwaterHarvestingCompany = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <Hero1 />
       <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
         <div data-aos="zoom-in-up" className="md:content-center md:p-10">

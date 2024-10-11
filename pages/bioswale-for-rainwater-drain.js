@@ -5,6 +5,7 @@ import service10 from "./../public/service10.jpg";
 import harvesting10 from "./../public/harvesting11.jpg";
 import Image from "next/image";
 import Head from "next/head";
+import PopUp from "@/components/popup";
 
 const Service10 = () => {
   const title = "Bioswale for Rainwater Drain | InRain® Construction Pvt. Ltd.";
@@ -52,6 +53,7 @@ const Service10 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image

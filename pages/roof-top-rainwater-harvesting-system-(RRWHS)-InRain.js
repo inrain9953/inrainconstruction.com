@@ -5,6 +5,7 @@ import service5 from "./../public/service5.jpg";
 import harvesting5 from "./../public/services/harvesting5.jpg";
 import Image from "next/image";
 import Head from "next/head";
+import PopUp from "@/components/popup";
 
 const Service5 = () => {
   const title =
@@ -14,9 +15,9 @@ const Service5 = () => {
   const keyword =
     "Roof Top Rainwater Harvesting, Residential Rainwater Harvesting, Commercial Water Conservation, Water Filtration Systems, InRain Construction Pvt. Ltd., Sustainable Water Management, Roof Water Collection, Rainwater Harvesting Installation, Backup Water Supply, Environmental Impact, Water Conservation Solutions, Maintenance Services, Rainwater Filtration Systems";
   const canonical =
-    "https://www.inrainconstruction.com/Rainwater-Harvesting-System-for-Roof-Top---Effective-Water-Solutions";
+    "https://www.inrainconstruction.com/roof-top-rainwater-harvesting-system-(RRWHS)-InRain";
   const ogUrl =
-    "https://www.inrainconstruction.com/Rainwater-Harvesting-System-for-Roof-Top---Effective-Water-Solutions";
+    "https://www.inrainconstruction.com/roof-top-rainwater-harvesting-system-(RRWHS)-InRain";
   const ogTitle =
     "Roof Top Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const ogDescription =
@@ -53,6 +54,7 @@ const Service5 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image

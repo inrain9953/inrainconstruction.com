@@ -223,44 +223,86 @@ const ICPLFooter = () => {
               >
                 Our Products
               </Link>
-              <Link href="#">
-                <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
+              <Link
+                to="icplMain"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <p className="list-none text-[15px] cursor-pointer text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
                   Rainwater Harvesting System
                 </p>
               </Link>
-              <Link href="#">
-                <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
+              <Link
+                to="icplMain"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <p className="list-none text-[15px] cursor-pointer text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
                   Rainwater Harvesting System in Delhi
                 </p>
               </Link>
-              <Link href="#">
-                <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
+              <Link
+                to="icplMain"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <p className="list-none text-[15px] cursor-pointer text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
                   Modular Rainwater Harvesting System
                 </p>
               </Link>
-              <Link href="#">
-                <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
+              <Link
+                to="icplMain"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <p className="list-none text-[15px] cursor-pointer text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
                   Rooftop Rainwater Harvesting System
                 </p>
               </Link>
-              <Link href="#">
-                <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
+              <Link
+                to="icplMain"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <p className="list-none text-[15px] cursor-pointer text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
                   Polymer Based Rainwater Harvesting System
                 </p>
               </Link>
-              <Link href="#">
-                <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
+              <Link
+                to="icplMain"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <p className="list-none text-[15px] cursor-pointer text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
                   Storm Water Management Company
                 </p>
               </Link>
-              <Link href="#">
-                <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
+              <Link
+                to="icplMain"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <p className="list-none text-[15px] cursor-pointer text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
                   Modular Rainwater Harvesting System for Industries
                 </p>
@@ -276,12 +318,18 @@ const ICPLFooter = () => {
               </h3>
               <div className="flex mb-5">
                 <LocationOnIcon className="mr-2" />
-                <a href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6">
-                  <p className="font-medium text-base text-white hover:text-sky-700">
+                <Link
+                  to="icplMain"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  <p className="font-medium text-base cursor-pointer text-white hover:text-sky-700">
                     Plot No 06, KH431, 1st floor, Main Road Chattarpur-Satbari,
                     Satbari, New delhi 110074
                   </p>
-                </a>
+                </Link>
               </div>
               <p className="list-none mb-2 text-white hover:text-sky-700">
                 <a

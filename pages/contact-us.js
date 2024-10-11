@@ -11,6 +11,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import axios from "axios";
+import PopUp from "@/components/popup";
 
 const Contact = () => {
   const title = "Contact US - InRain® Construction Pvt. Ltd.";
@@ -111,6 +112,7 @@ const Contact = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div data-aos="zoom-in-up">
         <Image
           className="w-full"

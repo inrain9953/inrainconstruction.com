@@ -7,6 +7,7 @@ import solutionImg from "./../public/solution_water.jpg";
 import solution1 from "./../public/solution1.jpg";
 import solution2 from "./../public/solution2.jpg";
 import solution3 from "./../public/solution3.jpg";
+import PopUp from "@/components/popup";
 
 const Solutions = () => {
   const title =
@@ -53,6 +54,7 @@ const Solutions = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div>
         <div data-aos="zoom-in-up">
           <Image

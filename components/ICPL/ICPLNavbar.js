@@ -19,21 +19,14 @@ const ICPLNavbar = () => {
         <div className="bg-sky-400 flex justify-center items-center p-1 md:hidden">
           {/* For Mobile View */}
           <div className="">
-            <div className="ml-2 flex items-center">
+            <div className="flex items-center">
               <PhoneIcon className="mr-1" fontSize="small" />
               <a
-                className="hover:text-green-700 text-sm font-semibold"
+                className="hover:text-green-700 text-md font-semibold"
                 href="tel:+919910220794"
               >
                 +91-9910220794
               </a>{" "}
-              &nbsp;<p className="mr-1 ml-1 text-xs">|</p>
-              <a
-                className="hover:text-green-700 text-sm font-semibold"
-                href="tel:+01135823511"
-              >
-                011-35823511
-              </a>
             </div>
           </div>
         </div>

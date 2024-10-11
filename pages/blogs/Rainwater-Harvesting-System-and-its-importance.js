@@ -20,6 +20,7 @@ import blog3img from "../../public/blog3.jpg";
 import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
+import PopUp from "@/components/popup";
 
 const Blog7 = () => {
   const title =
@@ -68,6 +69,7 @@ const Blog7 = () => {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <div className="m-5 md:m-10">
         {individualBLog7.map((blog) => {
           return (

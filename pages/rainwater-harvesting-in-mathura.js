@@ -4,6 +4,7 @@ import LocationTarget from '@/components/LocationTarget/LocationTarget'
 import { Navbar } from '@/components/Navbar/Navbar'
 import React from 'react'
 import Head from 'next/head'
+import PopUp from '@/components/popup'
 
 const RainwaterMathura = () => {
     const loc = "Mathura";
@@ -55,6 +56,7 @@ const RainwaterMathura = () => {
         />
       </Head>
     <Navbar />
+    <PopUp />
     <Hero1 />
     <LocationTarget location={"Mathura"} />
     <Footer />

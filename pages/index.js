@@ -5,7 +5,7 @@ import { Hero2 } from "@/components/Hero/Hero2";
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
-import Script from "next/script";
+import PopUp from "@/components/popup";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -54,6 +54,7 @@ export default function Home() {
         />
       </Head>
       <Navbar />
+      <PopUp />
       <Hero1 />
       <Hero2 />
       <Hero3 />
