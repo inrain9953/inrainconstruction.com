@@ -29,11 +29,11 @@ const Blog2 = () => {
   const keyword =
     "Modular Rainwater Harvesting, Sustainable Water Management, Rainwater Collection, Space-Efficient Water Systems, Low Maintenance Rainwater Solutions, InRain Construction Pvt. Ltd., Environmental Responsibility, Quick Installation, High Recharge Capacity";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/Advancing-Sustainability-with-Modular-Rainwater-Harvesting";
+    "https://www.inrainconstruction.com/blogs/advancing-sustainability-with-modular-rainwater-harvesting";
   const ogDescription =
     "Explore the advantages of Modular Rainwater Harvesting Systems for sustainable water management. Learn how these space-efficient, quick-to-install systems offer high recharge capacity, low maintenance, and enhanced safety, making them an ideal solution for a greener future.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/Advancing-Sustainability-with-Modular-Rainwater-Harvesting";
+    "https://www.inrainconstruction.com/blogs/advancing-sustainability-with-modular-rainwater-harvesting";
   const ogTitle = "Advancing Sustainability with Modular Rainwater Harvesting";
   const twittertitle =
     "Advancing Sustainability with Modular Rainwater Harvesting";

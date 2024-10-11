@@ -29,11 +29,11 @@ const Blog4 = () => {
   const keyword =
     "Stormwater Management, Stormwater Recharge, Flood Mitigation, Water Quality Preservation, Permeable Pavements, Rain Gardens, Detention Basins, Infiltration Trenches, Urban Planning, Environmental Sustainability, India Stormwater Solutions";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/Stormwater-Management-in-India";
+    "https://www.inrainconstruction.com/blogs/stormwater-management-in-india";
   const ogDescription =
     "Explore the importance of stormwater management in India, including methods for effective stormwater recharge and its benefits. Learn about solutions like permeable pavements, rain gardens, and detention basins to mitigate flooding, preserve water quality, and support sustainable urban development.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/Stormwater-Management-in-India";
+    "https://www.inrainconstruction.com/blogs/stormwater-management-in-india";
   const ogTitle = "Stormwater Management in India";
   const twittertitle = "Stormwater Management in India";
   const twitterdescription =

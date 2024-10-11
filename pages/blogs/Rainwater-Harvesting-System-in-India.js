@@ -29,11 +29,11 @@ const Blog6 = () => {
   const keyword =
     "Rainwater Harvesting System in India, Rainwater Harvesting System, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Modular Rainwater Harvesting System, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/Rainwater-Harvesting-System-in-India";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-in-india";
   const ogDescription =
     "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/Rainwater-Harvesting-System-in-India";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-in-india";
   const ogTitle = "Rainwater Harvesting System in India";
   const twittertitle =
     "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living";

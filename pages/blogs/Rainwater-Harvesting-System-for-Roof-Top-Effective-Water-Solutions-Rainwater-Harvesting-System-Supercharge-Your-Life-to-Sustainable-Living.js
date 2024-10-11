@@ -30,11 +30,11 @@ const Blog5 = () => {
   const keyword =
     "Rainwater Harvesting System India, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/Rainwater-Harvesting-System-for-Roof-Top-Effective-Water-Solutions-Rainwater-Harvesting-System-Supercharge-Your-Life-to-Sustainable-Living";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living";
   const ogDescription =
     "Learn about Roof Top Rainwater Harvesting Systems, a sustainable solution for water scarcity. Discover how this system collects, filters, and stores rainwater from rooftops, offering benefits such as cost savings, reduced flooding, and environmental responsibility. Find out how to install and maintain these systems effectively.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/Rainwater-Harvesting-System-for-Roof-Top-Effective-Water-Solutions-Rainwater-Harvesting-System-Supercharge-Your-Life-to-Sustainable-Living";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living";
   const ogTitle =
     "Rainwater Harvesting System for Roof Top-Effective Water Solutions";
   const twittertitle =

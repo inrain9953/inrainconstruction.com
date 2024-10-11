@@ -30,11 +30,11 @@ const Blog3 = () => {
   const keyword =
     "Rainwater Harvesting, Commercial Buildings, Sustainable Water Management, Inrain Construction, Eco-Friendly Business Practices, Cost Savings, Municipal Water Reduction, Environmental Impact";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/Rainwater-Harvesting-for-Commercial-Buildings-Why-Every-Business-Should-Consider-It";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-for-commercial-buildings-why-every-business-should-consider-it";
   const ogDescription =
     "Discover the benefits of rainwater harvesting for commercial buildings. Learn how adopting this sustainable practice can reduce costs, enhance your business's eco-friendly image, and contribute to community well-being. Explore how Inrain Construction can help with expert rainwater harvesting installations.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/Rainwater-Harvesting-for-Commercial-Buildings-Why-Every-Business-Should-Consider-Itblogs/Rainwater-Harvesting-System:-Supercharge-Your-Life-to-Sustainable-Living";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-for-commercial-buildings-why-every-business-should-consider-it";
   const ogTitle =
     "Rainwater Harvesting for Commercial Buildings: Why Every Business Should Consider It";
   const twittertitle =

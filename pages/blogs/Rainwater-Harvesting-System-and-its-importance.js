@@ -30,11 +30,11 @@ const Blog7 = () => {
   const keyword =
     "Rainwater Harvesting, Commercial Buildings, Sustainable Water Management, Modular Rainwater Harvesting System, Eco-Friendly Business Practices, Cost Effective, Municipal Water Reduction, Environmental Impact";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/Rainwater-Harvesting-System-and-its-importance";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-and-its-importance";
   const ogDescription =
     "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/Rainwater-Harvesting-System-and-its-importance";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-and-its-importance";
   const ogTitle =
     "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?";
   const twittertitle =
