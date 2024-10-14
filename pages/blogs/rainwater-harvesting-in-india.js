@@ -1,44 +1,42 @@
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
-import {
-  individualBLog3,
-  sideBlogs1,
-  sideBlogs2,
-  sideBlogs4,
-  sideBlogs5,
-  sideBlogs6,
-  sideBlogs7,
-} from "../../components/Blogs/Blog";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import blog6img from "../../public/blog6.jpeg";
 import blog1img from "../../public/blog1.jpg";
 import blog2img from "../../public/blog2.jpg";
 import blog3img from "../../public/blog3.jpg";
 import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
-import blog6img from "../../public/blog6.jpeg";
 import blog7img from "../../public/blog7.webp";
-import Image from "next/image";
-import Head from "next/head";
-import Link from "next/link";
+import {
+  individualBLog6,
+  sideBlogs1,
+  sideBlogs2,
+  sideBlogs3,
+  sideBlogs4,
+  sideBlogs5,
+  sideBlogs6,
+} from "@/components/Blogs/Blog";
 import PopUp from "@/components/popup";
 
-const Blog3 = () => {
-  const title =
-    "Rainwater Harvesting for Commercial Buildings: Why Every Business Should Consider It";
+const Blog6 = () => {
+  const title = "Rainwater Harvesting System in India";
   const desc =
-    "Discover the benefits of rainwater harvesting for commercial buildings. Learn how adopting this sustainable practice can reduce costs, enhance your business's eco-friendly image, and contribute to community well-being. Explore how Inrain Construction can help with expert rainwater harvesting installations.";
+    "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const keyword =
-    "Rainwater Harvesting, Commercial Buildings, Sustainable Water Management, Inrain Construction, Eco-Friendly Business Practices, Cost Savings, Municipal Water Reduction, Environmental Impact";
+    "Rainwater Harvesting System in India, Rainwater Harvesting System, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Modular Rainwater Harvesting System, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-for-commercial-buildings-why-every-business-should-consider-it";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-in-india";
   const ogDescription =
-    "Discover the benefits of rainwater harvesting for commercial buildings. Learn how adopting this sustainable practice can reduce costs, enhance your business's eco-friendly image, and contribute to community well-being. Explore how Inrain Construction can help with expert rainwater harvesting installations.";
+    "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-for-commercial-buildings-why-every-business-should-consider-it";
-  const ogTitle =
-    "Rainwater Harvesting for Commercial Buildings: Why Every Business Should Consider It";
+    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-in-india";
+  const ogTitle = "Rainwater Harvesting System in India";
   const twittertitle =
-    "Rainwater Harvesting for Commercial Buildings: Why Every Business Should Consider It";
+    "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living";
   const twitterdescription =
     "Discover innovative rainwater harvesting and water management solutions with InRain Construction. Learn about sustainable practices like bioswales and box-type systems to conserve our natural resources.";
 
@@ -71,26 +69,19 @@ const Blog3 = () => {
       <Navbar />
       <PopUp />
       <div className="m-5 md:m-10">
-        {individualBLog3.map((blog) => {
+        {individualBLog6.map((blog) => {
           return (
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
-                  <Image className="w-full md:w-1/2" src={blog3img} alt="img" />
+                  <Image className="w-full md:w-1/2" src={blog6img} alt="img" />
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
                       {blog.BlogHead}
                     </h1>
                     <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      Businesses are continually looking for creative methods to
-                      reduce their environmental impact in their search for
-                      sustainability. Rainwater harvesting in commercial
-                      buildings is one such strategy that is gaining popularity.
-                      We'll explore the many benefits of adopting this
-                      environmentally beneficial practice in this article and
-                      introduce you to Inrain Construction, a top company for
-                      installing <Link className="text-blue-500 font-semibold" href={"https://www.inrainconstruction.com/rainwater-harvesting-system"}>Rainwater Harvesting Systems.</Link>
+                      {blog.BlogMainContent}
                     </p>
                   </div>
 
@@ -103,12 +94,87 @@ const Blog3 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
                     </h3>
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      Rainwater harvesting collects and stores rain for future
+                      use. This practice has been employed for centuries and is
+                      gaining renewed attention as a sustainable water
+                      management strategy. The significance of{" "}
+                      <Link
+                        className="text-blue-500 font-semibold"
+                        href={
+                          "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                        }
+                      >
+                        Rainwater Harvesting
+                      </Link>{" "}
+                      lies in its potential to alleviate water shortages, reduce
+                      reliance on conventional water sources, and promote
+                      sustainable living. By capturing and utilizing rainwater,
+                      communities can decrease the pressure on groundwater
+                      resources, mitigate flooding, and enhance water security.
+                    </p>
+                  </div>
+
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                    <h3 className="font-bold text-xl md:text-3xl">
+                      {blog.BlogSubHeading3}
+                    </h3>
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent3}
+                    </p>
+                  </div>
+
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                    <h3 className="font-bold text-xl md:text-3xl">
+                      {blog.BlogSubHeading4}
+                    </h3>
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent4}
+                    </p>
+                  </div>
+
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                    <h3 className="font-bold text-xl md:text-3xl">
+                      {blog.BlogSubHeading5}
+                    </h3>
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      <Link
+                        className="text-blue-500 font-semibold"
+                        href={
+                          "https://www.inrainconstruction.com/Rainwater-Harvesting-System-for-Roof-Top---Effective-Water-Solutions"
+                        }
+                      >
+                        Rooftop Rainwater Harvesting
+                      </Link>{" "}
+                      captures rain directly from the roof, storing it in tanks
+                      or directing it to recharge systems. It’s cost-effective
+                      and enhances local groundwater levels when properly
+                      implemented. This system typically includes gutters,
+                      downspouts, and filters to remove debris. The collected
+                      water can be used for irrigation, flushing toilets, or
+                      other non-potable purposes.
+                    </p>
+                  </div>
+
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                    <h3 className="font-bold text-xl md:text-3xl">
+                      {blog.BlogSubHeading6}
+                    </h3>
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent6}
+                    </p>
+                  </div>
+
+                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                    <h3 className="font-bold text-xl md:text-3xl">
+                      {blog.BlogSubHeading7}
+                    </h3>
                     <div className="mt-3 md:ml-5 mb-3">
-                      {blog.BlogSubHeadingContent2.map((content) => {
+                      {blog.BlogSubHeadingContent7.map((content) => {
                         return (
                           <div className="mb-3">
                             <h4 className="text-[17px] md:text-xl font-semibold">
@@ -123,14 +189,23 @@ const Blog3 = () => {
                     </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading3}
+                      {blog.BlogSubHeading8}
                     </h3>
-                    <div className="mt-3 mb-3">
-                      {blog.BlogSubHeadingContent3.map((content) => {
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent8}
+                    </p>
+                  </div>
+
+                  <div data-aos="zoom-in-up" className="mb-5">
+                    <div className="mt-3 md:ml-5 mb-3">
+                      {blog.BlogSubHeadingContent9.map((content) => {
                         return (
                           <div className="mb-3">
+                            <h4 className="text-[17px] md:text-xl font-semibold">
+                              {content.head}
+                            </h4>
                             <p className="text-[17px] md:text-lg">
                               {content.para}
                             </p>
@@ -140,14 +215,23 @@ const Blog3 = () => {
                     </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading4}
+                      {blog.BlogSubHeading10}
                     </h3>
-                    <div className="mt-3  mb-3">
-                      {blog.BlogSubHeadingContent4.map((content) => {
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent10}
+                    </p>
+                  </div>
+
+                  <div data-aos="zoom-in-up" className="mb-5">
+                    <div className="mt-3 md:ml-5  mb-3">
+                      {blog.BlogSubHeadingContent11.map((content) => {
                         return (
                           <div className="mb-3">
+                            <h4 className="text-[17px] md:text-xl font-semibold">
+                              {content.head}
+                            </h4>
                             <p className="text-[17px] md:text-lg">
                               {content.para}
                             </p>
@@ -156,6 +240,19 @@ const Blog3 = () => {
                       })}
                     </div>
                   </div>
+
+                  <h3
+                    data-aos="zoom-in-up"
+                    className="font-bold text-xl md:text-3xl"
+                  >
+                    {blog.BlogSubHeading12}
+                  </h3>
+                  <p
+                    data-aos="zoom-in-up"
+                    className="text-[17px] mt-3 md:ml-5 mb-3 md:text-lg"
+                  >
+                    {blog.BlogSubHeadingContent12}
+                  </p>
                 </div>
               </div>
 
@@ -185,6 +282,26 @@ const Blog3 = () => {
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
                         <Image className="md:w-40" src={blog2img} alt="img" />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs3.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image className="md:w-40" src={blog3img} alt="img" />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
@@ -259,26 +376,6 @@ const Blog3 = () => {
                     </div>
                   </div>
                 ))}
-
-                {sideBlogs7.map((blog) => (
-                  <div key={blog.id}>
-                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
-                      <div>
-                        <Image className="md:w-40" src={blog7img} alt="img" />
-                      </div>
-                      <div>
-                        <p className="text-left text-gray-500">
-                          {blog.BlogDate}
-                        </p>
-                        <Link href={blog.BlogLink}>
-                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
-                            {blog.BlogHead}
-                          </h4>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
           );
@@ -289,4 +386,4 @@ const Blog3 = () => {
   );
 };
 
-export default Blog3;
+export default Blog6;

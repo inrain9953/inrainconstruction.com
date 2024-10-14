@@ -2,45 +2,42 @@ import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
 import {
-  individualBLog7,
+  individualBLog4,
   sideBlogs1,
   sideBlogs2,
   sideBlogs3,
-  sideBlogs4,
   sideBlogs5,
   sideBlogs6,
-} from "@/components/Blogs/Blog";
-import Image from "next/image";
-import Head from "next/head";
-import Link from "next/link";
-import blog7img from "../../public/blog7.webp";
+  sideBlogs7,
+} from "../../components/Blogs/Blog";
 import blog1img from "../../public/blog1.jpg";
 import blog2img from "../../public/blog2.jpg";
 import blog3img from "../../public/blog3.jpg";
 import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
+import blog7img from "../../public/blog7.webp";
+import Image from "next/image";
+import Head from "next/head";
+import Link from "next/link";
 import PopUp from "@/components/popup";
 
-const Blog7 = () => {
-  const title =
-    "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?";
+const Blog4 = () => {
+  const title = "Stormwater Management in India";
   const desc =
-    "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
+    "Explore the importance of stormwater management in India, including methods for effective stormwater recharge and its benefits. Learn about solutions like permeable pavements, rain gardens, and detention basins to mitigate flooding, preserve water quality, and support sustainable urban development.";
   const keyword =
-    "Rainwater Harvesting, Commercial Buildings, Sustainable Water Management, Modular Rainwater Harvesting System, Eco-Friendly Business Practices, Cost Effective, Municipal Water Reduction, Environmental Impact";
+    "Stormwater Management, Stormwater Recharge, Flood Mitigation, Water Quality Preservation, Permeable Pavements, Rain Gardens, Detention Basins, Infiltration Trenches, Urban Planning, Environmental Sustainability, India Stormwater Solutions";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-and-its-importance";
+    "https://www.inrainconstruction.com/blogs/storm-water-management-in-india";
   const ogDescription =
-    "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
+    "Explore the importance of stormwater management in India, including methods for effective stormwater recharge and its benefits. Learn about solutions like permeable pavements, rain gardens, and detention basins to mitigate flooding, preserve water quality, and support sustainable urban development.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-and-its-importance";
-  const ogTitle =
-    "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?";
-  const twittertitle =
-    "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?";
+    "https://www.inrainconstruction.com/blogs/storm-water-management-in-india";
+  const ogTitle = "Stormwater Management in India";
+  const twittertitle = "Stormwater Management in India";
   const twitterdescription =
-    "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
+    "Discover innovative rainwater harvesting and water management solutions with InRain Construction. Learn about sustainable practices like bioswales and box-type systems to conserve our natural resources.";
 
   return (
     <>
@@ -71,162 +68,130 @@ const Blog7 = () => {
       <Navbar />
       <PopUp />
       <div className="m-5 md:m-10">
-        {individualBLog7.map((blog) => {
+        {individualBLog4.map((blog) => {
           return (
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
-                  <Image
-                    className="w-full md:w-1/2 h-80"
-                    src={blog7img}
-                    alt="img"
-                  />
+                  <Image className="w-full md:w-1/2" src={blog4img} alt="img" />
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
                       {blog.BlogHead}
                     </h1>
-                    <p
-                      className="text-[17px] md:text-lg mt-3 mb-3"
-                      dangerouslySetInnerHTML={{ __html: blog.BlogMainContent }}
-                    />
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      In our rapidly urbanizing world,{" "}
+                      <Link
+                        href={
+                          "https://www.inrainconstruction.com/storm-water-recharge-and-management"
+                        }
+                        className="text-blue-500 font-semibold"
+                      >
+                        Stormwater Management
+                      </Link>{" "}
+                      is a critical concern. With the increasing frequency and
+                      intensity of storms due to climate change, effective
+                      stormwater recharge and management are essential to
+                      prevent flooding, maintain water quality, and sustain
+                      ecosystems. This article delves into the various aspects
+                      of stormwater recharge and management, from its
+                      significance to best practices for implementation.
+                    </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
                     </h3>
+                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent1}
+                    </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      {blog.BlogSubHeadingContent2}
-                    </p>
+                    <div className="mt-3 md:ml-5 mb-3">
+                      {blog.BlogSubHeadingContent2.map((content) => {
+                        return (
+                          <div className="mb-3">
+                            <h4 className="text-[17px] md:text-xl font-semibold">
+                              {content.head}
+                            </h4>
+                            <p className="text-[17px] md:text-lg">
+                              {content.para}
+                            </p>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      In areas where water is hard to come by, <Link className="text-blue-500 font-semibold" href={"https://www.inrainconstruction.com/rainwater-harvesting-system"}>Rainwater
-                      Harvesting</Link> can be a real lifesaver. It provides a vital
-                      source of water for homes, farms, and businesses. For
-                      communities facing droughts or living in dry regions, this
-                      method helps ensure they have the water they need to
-                      thrive.
-                    </p>
+                    <div className="mt-3 md:ml-5 mb-3">
+                      {blog.BlogSubHeadingContent3.map((content) => {
+                        return (
+                          <div className="mb-3">
+                            <h4 className="text-[17px] md:text-xl font-semibold">
+                              {content.head}
+                            </h4>
+                            <p className="text-[17px] md:text-lg">
+                              {content.para}
+                            </p>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      {blog.BlogSubHeadingContent4}
-                    </p>
+                    <div className="mt-3 md:ml-5  mb-3">
+                      {blog.BlogSubHeadingContent4.map((content) => {
+                        return (
+                          <div className="mb-3">
+                            <h4 className="text-[17px] md:text-xl font-semibold">
+                              {content.head}
+                            </h4>
+                            <p className="text-[17px] md:text-lg">
+                              {content.para}
+                            </p>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading5}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] mt-3 mb-3 md:text-lg">
                       {blog.BlogSubHeadingContent5}
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading6}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] mt-3 mb-3 md:text-lg">
                       {blog.BlogSubHeadingContent6}
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading7}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      {blog.BlogSubHeadingContent7}
-                    </p>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading8}
-                    </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      {blog.BlogSubHeadingContent8}
-                    </p>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading9}
-                    </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      {blog.BlogSubHeadingContent9}
-                    </p>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                    Advantages of <Link className="text-blue-500 font-semibold" href={"https://www.inrainconstruction.com/modular-rainwater-harvesting"}>Modular Rainwater Harvesting</Link> by InRain Construction Pvt. Ltd.
-                    </h3>
-                    <div className="mt-3 md:ml-5 mb-3">
-                      {blog.BlogSubHeadingContent10.map((content) => {
-                        return (
-                          <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
-                              {content.head}
-                            </h4>
-                            <p className="text-[17px] md:text-lg">
-                              {content.para}
-                            </p>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading11}
-                    </h3>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading12}
-                    </h3>
-                    <div className="mt-3 md:ml-5 mb-3">
-                      {blog.BlogSubHeadingContent12.map((content) => {
-                        return (
-                          <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
-                              {content.head}
-                            </h4>
-                            <p className="text-[17px] md:text-lg">
-                              {content.para}
-                            </p>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading13}
-                    </h3>
-                    <div className="mt-3 md:ml-5 mb-3">
-                      {blog.BlogSubHeadingContent13.map((content) => {
+                    <div className="mt-3 md:ml-5  mb-3">
+                      {blog.BlogSubHeadingContent7.map((content) => {
                         return (
                           <div className="mb-3">
                             <h4 className="text-[17px] md:text-xl font-semibold">
@@ -304,26 +269,6 @@ const Blog7 = () => {
                   </div>
                 ))}
 
-                {sideBlogs4.map((blog) => (
-                  <div key={blog.id}>
-                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
-                      <div>
-                        <Image className="md:w-40" src={blog4img} alt="img" />
-                      </div>
-                      <div>
-                        <p className="text-left text-gray-500">
-                          {blog.BlogDate}
-                        </p>
-                        <Link href={blog.BlogLink}>
-                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
-                            {blog.BlogHead}
-                          </h4>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-
                 {sideBlogs5.map((blog) => (
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
@@ -363,6 +308,26 @@ const Blog7 = () => {
                     </div>
                   </div>
                 ))}
+
+                {sideBlogs7.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image className="md:w-40" src={blog7img} alt="img" />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           );
@@ -373,4 +338,4 @@ const Blog7 = () => {
   );
 };
 
-export default Blog7;
+export default Blog4;

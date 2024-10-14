@@ -2,14 +2,17 @@ import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
 import {
-  individualBLog5,
+  individualBLog2,
   sideBlogs1,
-  sideBlogs2,
   sideBlogs3,
   sideBlogs4,
+  sideBlogs5,
   sideBlogs6,
   sideBlogs7,
 } from "../../components/Blogs/Blog";
+import Link from "next/link";
+import Image from "next/image";
+import Head from "next/head";
 import blog1img from "../../public/blog1.jpg";
 import blog2img from "../../public/blog2.jpg";
 import blog3img from "../../public/blog3.jpg";
@@ -17,28 +20,23 @@ import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
 import blog7img from "../../public/blog7.webp";
-import Image from "next/image";
-import Head from "next/head";
-import Link from "next/link";
 import PopUp from "@/components/popup";
 
-const Blog5 = () => {
-  const title =
-    "Rainwater Harvesting System for Roof Top-Effective Water Solutions";
+const Blog2 = () => {
+  const title = "Advancing Sustainability with Modular Rainwater Harvesting";
   const desc =
-    "Learn about Roof Top Rainwater Harvesting Systems, a sustainable solution for water scarcity. Discover how this system collects, filters, and stores rainwater from rooftops, offering benefits such as cost savings, reduced flooding, and environmental responsibility. Find out how to install and maintain these systems effectively.";
+    "Explore the advantages of Modular Rainwater Harvesting Systems for sustainable water management. Learn how these space-efficient, quick-to-install systems offer high recharge capacity, low maintenance, and enhanced safety, making them an ideal solution for a greener future.";
   const keyword =
-    "Rainwater Harvesting System India, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
+    "Modular Rainwater Harvesting, Sustainable Water Management, Rainwater Collection, Space-Efficient Water Systems, Low Maintenance Rainwater Solutions, InRain Construction Pvt. Ltd., Environmental Responsibility, Quick Installation, High Recharge Capacity";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living";
+    "https://www.inrainconstruction.com/blogs/advancing-sustainability-with-modular-rainwater-harvesting-system";
   const ogDescription =
-    "Learn about Roof Top Rainwater Harvesting Systems, a sustainable solution for water scarcity. Discover how this system collects, filters, and stores rainwater from rooftops, offering benefits such as cost savings, reduced flooding, and environmental responsibility. Find out how to install and maintain these systems effectively.";
+    "Explore the advantages of Modular Rainwater Harvesting Systems for sustainable water management. Learn how these space-efficient, quick-to-install systems offer high recharge capacity, low maintenance, and enhanced safety, making them an ideal solution for a greener future.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living";
-  const ogTitle =
-    "Rainwater Harvesting System for Roof Top-Effective Water Solutions";
+    "https://www.inrainconstruction.com/blogs/advancing-sustainability-with-modular-rainwater-harvesting-system";
+  const ogTitle = "Advancing Sustainability with Modular Rainwater Harvesting";
   const twittertitle =
-    "Rainwater Harvesting System for Roof Top-Effective Water Solutions";
+    "Advancing Sustainability with Modular Rainwater Harvesting";
   const twitterdescription =
     "Discover innovative rainwater harvesting and water management solutions with InRain Construction. Learn about sustainable practices like bioswales and box-type systems to conserve our natural resources.";
 
@@ -71,12 +69,12 @@ const Blog5 = () => {
       <Navbar />
       <PopUp />
       <div className="m-5 md:m-10">
-        {individualBLog5.map((blog) => {
+        {individualBLog2.map((blog) => {
           return (
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
-                  <Image className="w-full md:w-1/2" src={blog5img} alt="" />
+                  <Image className="w-full md:w-1/2" src={blog2img} alt="img" />
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -92,22 +90,13 @@ const Blog5 = () => {
                       {blog.BlogSubHeading1}
                     </h3>
                     <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      <Link
-                        className="text-blue-600 font-semibold"
-                        href={
-                          "https://www.inrainconstruction.com/Rainwater-Harvesting-System-for-Roof-Top---Effective-Water-Solutions"
-                        }
-                      >
-                        Roof Top Rainwater Harvesting System
-                      </Link>{" "}
-                      is a method of collecting and storing rainwater that falls
-                      on the roof of a building. This harvested rainwater is
-                      then utilized for various purposes, reducing the
-                      dependence on conventional water sources. The system
-                      consists of collecting rainwater from the roof, filtering
-                      it, and storing it in tanks or reservoirs. The stored
-                      water can be used for domestic, agricultural, or
-                      industrial purposes.
+                      Utilizing modular technology, a <Link className="text-blue-500 font-semibold" href={"https://www.inrainconstruction.com/modular-rainwater-harvesting"}>Modular Rainwater
+                      Harvesting System</Link> effectively stores and reuses rainfall.
+                      It's a progressive strategy that tackles the need for
+                      plentiful water resources in a world where water scarcity
+                      is becoming more and more of a problem. This technique
+                      makes use of strong polymer-based structures that are
+                      comparable in strength to conventional metal systems.
                     </p>
                   </div>
 
@@ -135,62 +124,10 @@ const Blog5 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
                     </h3>
-                    <div className="mt-3 md:ml-5 mb-3">
+                    <div className="mt-3 mb-3">
                       {blog.BlogSubHeadingContent3.map((content) => {
                         return (
                           <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
-                              {content.head}
-                            </h4>
-                            <p className="text-[17px] md:text-lg">
-                              {content.para}
-                            </p>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading4}
-                    </h3>
-                    <div className="mt-3 md:ml-5  mb-3">
-                      {blog.BlogSubHeadingContent4.map((content) => {
-                        return (
-                          <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
-                              {content.head}
-                            </h4>
-                            <p className="text-[17px] md:text-lg">
-                              {content.para}
-                            </p>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading5}
-                    </h3>
-                    <p className="text-[17px] mt-3 mb-3 md:text-lg">
-                      {blog.BlogSubHeadingContent5}
-                    </p>
-                  </div>
-
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
-                      {blog.BlogSubHeading6}
-                    </h3>
-                    <div className="mt-3 md:ml-5  mb-3">
-                      {blog.BlogSubHeadingContent6.map((content) => {
-                        return (
-                          <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
-                              {content.head}
-                            </h4>
                             <p className="text-[17px] md:text-lg">
                               {content.para}
                             </p>
@@ -208,26 +145,6 @@ const Blog5 = () => {
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
                         <Image className="md:w-40" src={blog1img} alt="img" />
-                      </div>
-                      <div>
-                        <p className="text-left text-gray-500">
-                          {blog.BlogDate}
-                        </p>
-                        <Link href={blog.BlogLink}>
-                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
-                            {blog.BlogHead}
-                          </h4>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-
-                {sideBlogs2.map((blog) => (
-                  <div key={blog.id}>
-                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
-                      <div>
-                        <Image className="md:w-40" src={blog2img} alt="img" />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
@@ -268,6 +185,26 @@ const Blog5 = () => {
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
                         <Image className="md:w-40" src={blog4img} alt="img" />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs5.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image className="md:w-40" src={blog5img} alt="img" />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
@@ -332,4 +269,4 @@ const Blog5 = () => {
   );
 };
 
-export default Blog5;
+export default Blog2;
