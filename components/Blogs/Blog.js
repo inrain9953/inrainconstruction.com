@@ -1,5 +1,4 @@
-import Link from "next/link";
-const obj = "Rainwater Harvesting System";
+
 
 // Blog Head Content on Blog Page
 export const Blog = [
