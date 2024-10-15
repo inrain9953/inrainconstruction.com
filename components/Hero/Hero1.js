@@ -46,9 +46,9 @@ export const Hero1 = () => {
             <h1 className="text-green-700 text-2xl font-semibold drop-shadow-md md:text-3xl">
               InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)
             </h1>
-            <p className="text-base font-semibold align-middle md:text-xl md:m-5">
+            <h2 className="text-base font-semibold align-middle md:text-xl md:m-5">
               "A Water Conservation & Management Company"
-            </p>
+            </h2>
           </div>
         </div>
       </div>

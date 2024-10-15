@@ -17,8 +17,8 @@ const About = () => {
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
   const keyword =
     "InRain® Construction Pvt. Ltd., Rainwater Harvesting, Water Conservation, Modular Tank Systems, Sustainable Water Management, Monolithic Structures, RWH Technology, Clean Energy Solutions, Modular Technology RWH, Water Table Recharge";
-  const canonical = "https://www.inrainconstruction.com/about";
-  const ogUrl = "https://www.inrainconstruction.com/about";
+  const canonical = "https://www.inrainconstruction.com/about-us";
+  const ogUrl = "https://www.inrainconstruction.com/about-us";
   const ogTitle = "About Us | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
