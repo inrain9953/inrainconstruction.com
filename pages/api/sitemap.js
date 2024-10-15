@@ -32,6 +32,7 @@ export default async (req, res) => {
     { url: "/blogs/rainwater-harvesting-system-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living/", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/rainwater-harvesting-and-its-importance", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/rainwater-harvesting-in-india/", changefreq: "daily", priority: 0.8 },
+    { url: "/blogs/why-beneficial-of-modular-rainwater-harvesting-systems-for-home-and-commercial-buildings/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-delhi/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-gurgaon/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-lucknow/", changefreq: "daily", priority: 0.8 },

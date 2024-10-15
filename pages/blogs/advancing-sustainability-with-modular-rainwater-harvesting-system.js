@@ -9,6 +9,7 @@ import {
   sideBlogs5,
   sideBlogs6,
   sideBlogs7,
+  sideBlogs8,
 } from "../../components/Blogs/Blog";
 import Link from "next/link";
 import Image from "next/image";
@@ -20,6 +21,7 @@ import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
 import blog7img from "../../public/blog7.webp";
+import blog8img from "../../public/blog8.jpg";
 import PopUp from "@/components/popup";
 
 const Blog2 = () => {
@@ -74,7 +76,14 @@ const Blog2 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
-                  <Image className="w-full md:w-1/2" src={blog2img} alt="img" />
+                  <Image
+                    className="w-full md:w-1/2"
+                    src={blog2img}
+                    alt="img"
+                    loading="eager"
+                    priority={true}
+                    unoptimized={true}
+                  />
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -90,13 +99,21 @@ const Blog2 = () => {
                       {blog.BlogSubHeading1}
                     </h3>
                     <p className="text-[17px] md:text-lg mt-3 mb-3">
-                      Utilizing modular technology, a <Link className="text-blue-500 font-semibold" href={"https://www.inrainconstruction.com/modular-rainwater-harvesting"}>Modular Rainwater
-                      Harvesting System</Link> effectively stores and reuses rainfall.
-                      It's a progressive strategy that tackles the need for
-                      plentiful water resources in a world where water scarcity
-                      is becoming more and more of a problem. This technique
-                      makes use of strong polymer-based structures that are
-                      comparable in strength to conventional metal systems.
+                      Utilizing modular technology, a{" "}
+                      <Link
+                        className="text-blue-500 font-semibold"
+                        href={
+                          "https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                        }
+                      >
+                        Modular Rainwater Harvesting System
+                      </Link>{" "}
+                      effectively stores and reuses rainfall. It's a progressive
+                      strategy that tackles the need for plentiful water
+                      resources in a world where water scarcity is becoming more
+                      and more of a problem. This technique makes use of strong
+                      polymer-based structures that are comparable in strength
+                      to conventional metal systems.
                     </p>
                   </div>
 
@@ -144,7 +161,14 @@ const Blog2 = () => {
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
-                        <Image className="md:w-40" src={blog1img} alt="img" />
+                        <Image
+                          className="md:w-40"
+                          src={blog1img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
@@ -164,7 +188,14 @@ const Blog2 = () => {
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
-                        <Image className="md:w-40" src={blog3img} alt="img" />
+                        <Image
+                          className="md:w-40"
+                          src={blog3img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
@@ -184,7 +215,14 @@ const Blog2 = () => {
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
-                        <Image className="md:w-40" src={blog4img} alt="img" />
+                        <Image
+                          className="md:w-40"
+                          src={blog4img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
@@ -204,7 +242,14 @@ const Blog2 = () => {
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
-                        <Image className="md:w-40" src={blog5img} alt="img" />
+                        <Image
+                          className="md:w-40"
+                          src={blog5img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
@@ -224,7 +269,14 @@ const Blog2 = () => {
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
-                        <Image className="md:w-40" src={blog6img} alt="img" />
+                        <Image
+                          className="md:w-40"
+                          src={blog6img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
@@ -244,7 +296,41 @@ const Blog2 = () => {
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
-                        <Image className="md:w-40" src={blog7img} alt="img" />
+                        <Image
+                          className="md:w-40"
+                          src={blog7img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs8.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image
+                          className="md:w-40"
+                          src={blog8img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
                       </div>
                       <div>
                         <p className="text-left text-gray-500">
