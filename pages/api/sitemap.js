@@ -126,6 +126,9 @@ export default async (req, res) => {
     { url: "/rainwater-harvesting-system-warangal/", changefreq: "daily", priority: 0.8 },
     { url: "/griha-and-cgwb-approved-rainwater-harvesting-system/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-company-in-delhi-ncr/", changefreq: "daily", priority: 0.8 },
+    { url: "/ecorain-rainwater-harvesting-system/", changefreq: "daily", priority: 0.8 },
+    { url: "/polyrain-rainwater-harvesting/", changefreq: "daily", priority: 0.8 },
+    { url: "/purerain-rainwater-harvesting-system/", changefreq: "daily", priority: 0.8 },
   ];
 
   const stream = new SitemapStream({
