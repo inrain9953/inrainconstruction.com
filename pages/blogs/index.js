@@ -115,7 +115,7 @@ const BlogsIndex = () => {
                   </a>
                   <a
                     target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_/"}
+                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
                   >
                     <li className="list-none hover:text-blue-500">
                       <InstagramIcon fontSize="large" />
@@ -191,7 +191,7 @@ const BlogsIndex = () => {
                   </a>
                   <a
                     target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_/"}
+                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
                   >
                     <li className="list-none hover:text-blue-500">
                       <InstagramIcon fontSize="large" />
@@ -267,7 +267,7 @@ const BlogsIndex = () => {
                   </a>
                   <a
                     target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_/"}
+                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
                   >
                     <li className="list-none hover:text-blue-500">
                       <InstagramIcon fontSize="large" />
@@ -343,7 +343,7 @@ const BlogsIndex = () => {
                   </a>
                   <a
                     target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_/"}
+                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
                   >
                     <li className="list-none hover:text-blue-500">
                       <InstagramIcon fontSize="large" />
@@ -419,7 +419,7 @@ const BlogsIndex = () => {
                   </a>
                   <a
                     target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_/"}
+                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
                   >
                     <li className="list-none hover:text-blue-500">
                       <InstagramIcon fontSize="large" />
@@ -495,7 +495,7 @@ const BlogsIndex = () => {
                   </a>
                   <a
                     target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_/"}
+                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
                   >
                     <li className="list-none hover:text-blue-500">
                       <InstagramIcon fontSize="large" />
@@ -571,7 +571,7 @@ const BlogsIndex = () => {
                   </a>
                   <a
                     target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_/"}
+                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
                   >
                     <li className="list-none hover:text-blue-500">
                       <InstagramIcon fontSize="large" />
@@ -647,7 +647,7 @@ const BlogsIndex = () => {
                   </a>
                   <a
                     target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_/"}
+                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
                   >
                     <li className="list-none hover:text-blue-500">
                       <InstagramIcon fontSize="large" />

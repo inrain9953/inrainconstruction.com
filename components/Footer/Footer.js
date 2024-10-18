@@ -115,7 +115,7 @@ export const Footer = () => {
                 <a
                   className="hover:text-white"
                   target="_blank"
-                  href={"https://www.instagram.com/inrainconstruction_/"}
+                  href={"https://www.instagram.com/inrainconstruction_icpl/"}
                 >
                   <InstagramIcon fontSize="large" />
                 </a>
