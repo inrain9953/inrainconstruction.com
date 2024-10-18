@@ -16,7 +16,7 @@ export default async (req, res) => {
     { url: "/co-polymer-based-rainwater-harvesting-system/", changefreq: "daily", priority: 0.8 },
     { url: "/modular-rainwater-harvesting/", changefreq: "daily", priority: 0.8 },
     { url: "/frp-based-rainwater-harvesting-system/", changefreq: "daily", priority: 0.8 },
-    { url: "/roof-top-rainwater-harvesting-system-(RRWHS)-InRain/", changefreq: "daily", priority: 0.8 },
+    { url: "/roof-top-rainwater-harvesting-system-RRWHS-InRain/", changefreq: "daily", priority: 0.8 },
     { url: "/ground-water-recharge-system-for-industries/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-vendors-in-delhi-gurgaon/", changefreq: "daily", priority: 0.8 },
     { url: "/box-type-rainwater-harvesting/", changefreq: "daily", priority: 0.8 },
