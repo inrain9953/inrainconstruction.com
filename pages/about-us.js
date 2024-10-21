@@ -10,6 +10,9 @@ import CountUp from "react-countup";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
+import griha from "./../public/griha.jpg";
+import iso1 from "./../public/iso1.jpg";
+import iso2 from "./../public/iso2.jpg";
 
 const About = () => {
   const title = "About US | InRain® Construction Pvt. Ltd.";
@@ -409,6 +412,36 @@ const About = () => {
             <span className="text-2xl font-semibold m-3">
               Projects Completed
             </span>
+          </div>
+        </div>
+
+        <div className="text-center">
+          <h3 data-aos="zoom-in-up" className="text-3xl font-bold ml-5">Our Certification</h3>
+          <div className="m-5 md:flex justify-between gap-10">
+            <Image data-aos="zoom-in-up"
+            className="w-full rounded-lg mb-3"
+              src={iso1}
+              alt="img"
+              loading="eager"
+              priority={true}
+              unoptimized={true}
+            />
+            <Image data-aos="zoom-in-up"
+            className="w-full rounded-lg mb-3"
+              src={iso2}
+              alt="img"
+              loading="eager"
+              priority={true}
+              unoptimized={true}
+            />
+            <Image data-aos="zoom-in-up"
+            className="w-full rounded-lg mb-3"
+              src={griha}
+              alt="img"
+              loading="eager"
+              priority={true}
+              unoptimized={true}
+            />
           </div>
         </div>
       </div>
