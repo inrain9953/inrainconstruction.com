@@ -416,26 +416,34 @@ const About = () => {
         </div>
 
         <div className="text-center">
-          <h3 data-aos="zoom-in-up" className="text-3xl font-bold ml-5">Our Certification</h3>
+          <h3 data-aos="zoom-in-up" className="text-3xl font-bold ml-5">
+            Our Certification
+          </h3>
           <div className="m-5 md:flex justify-between gap-10">
-            <Image data-aos="zoom-in-up"
-            className="w-full rounded-lg mb-3"
+            <Image
+              data-aos="zoom-in-up"
+              className="rounded-lg mb-3"
+              width={400}
               src={iso1}
               alt="img"
               loading="eager"
               priority={true}
               unoptimized={true}
             />
-            <Image data-aos="zoom-in-up"
-            className="w-full rounded-lg mb-3"
+            <Image
+              data-aos="zoom-in-up"
+              className="rounded-lg mb-3"
+              width={400}
               src={iso2}
               alt="img"
               loading="eager"
               priority={true}
               unoptimized={true}
             />
-            <Image data-aos="zoom-in-up"
-            className="w-full rounded-lg mb-3"
+            <Image
+              data-aos="zoom-in-up"
+              className="rounded-lg mb-3"
+              width={400}
               src={griha}
               alt="img"
               loading="eager"
