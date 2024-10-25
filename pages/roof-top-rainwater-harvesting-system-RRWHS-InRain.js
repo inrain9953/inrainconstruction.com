@@ -11,7 +11,7 @@ const Service5 = () => {
   const title =
     "Roof Top Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const desc =
-    "Rooftop Rain Water Harvesting System is the technique through which rain water including water butt, diverter, filter and pump is captured from the roof catchments and stored in reservoirs.";
+    "Rooftop Rain Water Harvesting System (RRWHS) is the technique through which rain water including water butt, diverter, filter and pump is captured from the roof catchments and stored in reservoirs.";
   const keyword =
     "Roof Top Rainwater Harvesting, Residential Rainwater Harvesting, Commercial Water Conservation, Water Filtration Systems, InRain Construction Pvt. Ltd., Sustainable Water Management, Roof Water Collection, Rainwater Harvesting Installation, Backup Water Supply, Environmental Impact, Water Conservation Solutions, Maintenance Services, Rainwater Filtration Systems";
   const canonical =
@@ -21,11 +21,11 @@ const Service5 = () => {
   const ogTitle =
     "Roof Top Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const ogDescription =
-    "Rooftop Rain Water Harvesting is the technique through which rain water including water butt, diverter, filter and pump is captured from the roof catchments and stored in reservoirs.";
+    "Rooftop Rain Water Harvesting (RRWHS) is the technique through which rain water including water butt, diverter, filter and pump is captured from the roof catchments and stored in reservoirs.";
   const twittertitle =
     "Roof Top Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
-    "Rooftop Rain Water Harvesting is the technique through which rain water including water butt, diverter, filter and pump is captured from the roof catchments and stored in reservoirs.";
+    "Rooftop Rain Water Harvesting (RRWHS) is the technique through which rain water including water butt, diverter, filter and pump is captured from the roof catchments and stored in reservoirs.";
 
   return (
     <>
@@ -71,7 +71,7 @@ const Service5 = () => {
             </h1>
 
             <p className="text-[17px] md:text-lg mt-3">
-              Roof top rainwater harvesting system is one of the most popular
+              Roof top rainwater harvesting system(RRWHS) is one of the most popular
               rainwater harvesting systems of the current times. Rain is one of
               the most natural resources of water by applying roof top rainwater
               harvesting, systems we will be able to use natural rainwater. The
