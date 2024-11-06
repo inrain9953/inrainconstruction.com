@@ -73,7 +73,7 @@ const Service8 = () => {
               Box Type Rainwater Harvesting System
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Rainwater harvesting is a need of the modern world by practicing
               rainwater harvesting we can help in improving global water
               reserves. Inrain Construction Pvt. Ltd. is a leading company, in

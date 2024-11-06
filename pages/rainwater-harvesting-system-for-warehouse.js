@@ -69,7 +69,7 @@ const Service1 = () => {
             <h1 className="text-3xl md:text-4xl font-semibold">
               Rainwater Harvesting System for Warehouses
             </h1>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               At{" "}
               <bold className="text-green-700 font-semibold">
                 InRain<sup>®</sup>

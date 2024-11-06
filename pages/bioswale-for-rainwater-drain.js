@@ -72,7 +72,7 @@ const Service10 = () => {
               Bioswale for Rainwater Drain
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Inrain Construction Pvt. Ltd is leading a socio-economic cause by
               helping people effectively utilize rainwater. We offer various
               solutions for rainwater conservation and management. Rainwater

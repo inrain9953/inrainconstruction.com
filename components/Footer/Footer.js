@@ -281,7 +281,7 @@ export const Footer = () => {
 
           <div className="text-center p-4">
             <p className="text-xs md:text-sm">
-              ©Copyright 2024 InRain Construction Pvt Ltd. All Rights Reserved.
+              &copy; 2024 InRain Construction Pvt Ltd. All Rights Reserved.
             </p>
           </div>
         </div>

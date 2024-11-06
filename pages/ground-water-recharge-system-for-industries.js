@@ -73,7 +73,7 @@ const Service6 = () => {
               Ground Water Recharge System For Industries
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Inrain Construction Pvt Ltd. is committed to providing sustainable
               water conservation solutions for housing and commercial
               requirements. Industries these days require groundwater recharge

@@ -30,7 +30,7 @@ const ICPLAbout = () => {
               Who We Are
             </h2>
             <h2 className="text-2xl font-bold mt-5 md:text-3xl">ICPL</h2>
-            <p className="text-[17px] md:text-lg mt-2 md:pr-10">
+            <p className="text-[17px] text-justify md:text-lg mt-2 md:pr-10">
               We are subsidiary company of “Singh & Singh Construction” a firm
               with a strong presence in India with more than 30+ years of
               experience in civil construction industry. Have completed numerous
@@ -65,7 +65,7 @@ const ICPLAbout = () => {
             <h1 className="text-2xl font-semibold m-3 md:text-3xl md:font-bold md:mt-5 md:mb-3">
               InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)
             </h1>
-            <p className="text-[17px] md:text-lg">
+            <p className="text-[17px] text-justify md:text-lg">
               Rainwater Harvesting Company with a strongpresence in All Over
               India .The company has successfully Installed morethan 400 Rain
               Water Harvesting Projects enabling in conserving billion of
@@ -173,7 +173,7 @@ const ICPLAbout = () => {
               </div>
             </div>
             <div className="mt-5 md:w-[30%] md:border-l-2 md:border-black">
-              <p className="text-[17px] mt-2 md:ml-5">
+              <p className="text-[17px] text-justify mt-2 md:ml-5">
                 It is indeed entirely different from conventional rain water
                 systems were made using cement and brick walls. A few benefits
                 of our scientific RWH system are highlighted as follows.
@@ -185,14 +185,14 @@ const ICPLAbout = () => {
             data-aos="zoom-in-up"
             className="m-5 md:flex md:justify-center md:gap-10"
           >
-            <p className="text-[17px] mt-3 md:w-[25%] md:shadow-lg p-5 rounded-lg bg-yellow-50">
+            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg p-5 rounded-lg bg-yellow-50">
               Monolithic Structures are quick to Install and the same turns into
               a Rain Water Holding Tank below the Ground within no time as
               compared to making Civil Pit. Modular Tank can be used for Holding
               / reusing the rain water, recharging the Water Table and
               Percolation.
             </p>
-            <p className="text-[17px] mt-3 md:w-[25%] md:shadow-lg p-5 rounded-lg bg-yellow-50">
+            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg p-5 rounded-lg bg-yellow-50">
               Using ‘InRain™’ filtration system, developed ‘in house’ by ICPL
               R&D team, clean rain water is trapped in the tank thereby saving
               on maintenance part tremendously as it is very easy & handy with
@@ -202,7 +202,7 @@ const ICPLAbout = () => {
               the whole system truly economical as compared with the case of
               having civil pit.
             </p>
-            <p className="text-[17px] mt-3 md:w-[25%] md:shadow-lg p-5 rounded-lg bg-yellow-50">
+            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg p-5 rounded-lg bg-yellow-50">
               95% of the capacity of tank is usable as compared to only 50-55%
               usability in case of civil pit. No Risk of accidents as no one can
               fall into this kind of tank whereas having a RCC Civil tank is
@@ -228,24 +228,24 @@ const ICPLAbout = () => {
               <div className="text-left p-5 flex flex-col gap-4">
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px] text-justify">
                     Concur on the Project Value and plan the Project Controls to
                     be connected.
                   </p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">Recognize important partners.</p>
+                  <p className="text-[16px] text-justify">Recognize important partners.</p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px] text-justify">
                     Survey venture hazard and vulnerability.
                   </p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px] text-justify">
                     Set up a venture control execution plan.
                   </p>
                 </div>
@@ -259,26 +259,26 @@ const ICPLAbout = () => {
               <div className="text-left p-5 flex flex-col gap-4">
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px] text-justify">
                     Complete expense and calendar gauge surveys.
                   </p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px] text-justify">
                     Review of undertaking control abilities versus control
                     execution plan.
                   </p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px] text-justify">
                     Issue a hole examination dependent on the review.
                   </p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px] text-justify">
                     Refresh the undertaking control execution plan.
                   </p>
                 </div>
@@ -292,23 +292,23 @@ const ICPLAbout = () => {
               <div className="text-left p-5 flex flex-col gap-4">
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px]text-justify">
                     Roll out the project execution plan.
                   </p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">
+                  <p className="text-[16px] text-justify">
                     Prepare an integrated baseline schedule and budget.
                   </p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">Mobilize site based resources.</p>
+                  <p className="text-[16px] text-justify">Mobilize site based resources.</p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">Monitor, control and report.</p>
+                  <p className="text-[16px] text-justify">Monitor, control and report.</p>
                 </div>
               </div>
             </div>
@@ -334,7 +334,7 @@ const ICPLAbout = () => {
               <h2 className="text-3xl font-bold">
                 Installation & Project Development
               </h2>
-              <p className="text-[17px] mt-3">
+              <p className="text-[17px] text-justify mt-3">
                 Our team has done more than 400+ Rainwater Harvesting Projects
                 in accross the India.Technology we are using has globally been
                 adopted in advanced country like Germany, Japan, Singapore, USA

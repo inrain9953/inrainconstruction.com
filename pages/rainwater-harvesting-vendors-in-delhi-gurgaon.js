@@ -73,7 +73,7 @@ const Service7 = () => {
               Rainwater Harvesting Vendors in Delhi-Gurgaon
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Inrain Construction Pvt. Ltd, a water conservation and management
               company is one of the leading water conservation and management
               service providers. We are well known to provide technology-based

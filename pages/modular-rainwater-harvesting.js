@@ -73,13 +73,13 @@ const Service3 = () => {
               Modular Rainwater Harvesting
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
-              Infusing Modular technologies to store or reuse rain water in
-              order to realize the needs of an enriched tomorrow with abundant
-              water resources in place.
+            <p className="text-[17px] text-justify md:text-lg mt-3">
+              Infusing Modular Rainwater Harvesting Technologies to store or
+              recharge the groundwater in order to realize the needs of an
+              enriched tomorrow with abundant water resources in place.
             </p>
 
-            <ul className="list-disc m-5 font-semibold text-[17px] md:text-lg">
+            <ul className="list-disc m-5 font-semibold text-[17px] text-justify md:text-lg">
               <li>Polymer as strong as metal.</li>
               <li>Load bearing and top surface utilization.</li>
               <li>Time saving in installation.</li>
@@ -89,7 +89,7 @@ const Service3 = () => {
               <li>Alteration and re-use advantage.</li>
               <li>Cost advantage.</li>
             </ul>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Urbanization has led to an increase in water consumption in
               various activities. The demand for water supply is quite high.
               However, our natural resources are very limited. There have been
@@ -120,7 +120,7 @@ const Service3 = () => {
               it offers:
             </p>
 
-            <ol className="list-decimal m-5 font-semibold text-[17px] md:text-lg">
+            <ol className="list-decimal m-5 font-semibold text-[17px] text-justify md:text-lg">
               <li>
                 The eco-friendly and economical solution as a polymer can be
                 recycled or reused.
@@ -146,7 +146,7 @@ const Service3 = () => {
               </li>
             </ol>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               The modular Rainwater Harvesting method helps in restoring and
               reusing the rainwater within your budget. It allows you to
               contribute to your social and environmental cause without
@@ -169,7 +169,7 @@ const Service3 = () => {
           data-aos="zoom-in-up"
           className="m-5 md:m-10 bg-sky-300 rounded-lg"
         >
-          <p className="text-[17px] md:text-lg mt-3 p-5">
+          <p className="text-[17px] text-justify md:text-lg mt-3 p-5">
             Precious land over the modular tank is not wasted, since it is a
             load bearing structure and can bear tons of loads thereby making the
             whole system truly economical as compared with the case of having

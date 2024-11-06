@@ -43,7 +43,7 @@ const ICPLProducts = () => {
               Self Cleaning Mesh Filter System
             </h2>
             <hr className="m-2"></hr>
-            <p className="text-[17px] md:text-lg">
+            <p className="text-[17px] text-justify md:text-lg">
               Time saving - The filtration process is not interrupted during the
               cleaning cycle, eliminating the need to shut down the irrigation
               system; Low water and energy consumption; Sturdy and durable; Easy
@@ -62,7 +62,7 @@ const ICPLProducts = () => {
               InRain<sup>®</sup> Rainwater Harvesting Modules 50 Ton
             </h2>
             <hr className="m-2"></hr>
-            <p className="text-[17px] md:text-lg">
+            <p className="text-[17px] text-justify md:text-lg">
               A module permeation storm water tank intended for filtration,
               transitory maintenance and ensuing release. It is utilized in
               waste channel application. It is developed utilizing our
@@ -101,7 +101,7 @@ const ICPLProducts = () => {
               InRain<sup>®</sup> Rainwater Harvesting Filtration System
             </h2>
             <hr className="m-2"></hr>
-            <p className="text-[17px] md:text-lg">
+            <p className="text-[17px] text-justify md:text-lg">
               The channel is utilized to expel suspended contamination from
               water gathered over rooftop. A channel unit is a chamber loaded up
               with sifting media to expel garbage and soil from water. InRain
@@ -118,7 +118,7 @@ const ICPLProducts = () => {
           <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%] bg-yellow-50">
             <h2 className="text-[25px] md:text-4xl font-bold">EPDM Liner</h2>
             <hr className="m-2"></hr>
-            <p className="text-[17px] md:text-lg">
+            <p className="text-[17px] text-justify md:text-lg">
               InRain Constructions Ethylene Propylene Diene Monomer (EPDM) Liner
               has been figured to be perfect with amphibian life. It is
               suggested that clients test EPDM Liner before use to guarantee it
@@ -155,7 +155,7 @@ const ICPLProducts = () => {
           <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%] bg-yellow-50">
             <h2 className="text-[25px] md:text-4xl font-bold">Geo Textile</h2>
             <hr className="m-2"></hr>
-            <p className="text-[17px] md:text-lg">
+            <p className="text-[17px] text-justify md:text-lg">
               Geotextile is essentially a porous texture which, when utilized in
               relationship with soil, can isolate, channel, strengthen,
               secure,or channel. Ordinarily produced using polypropylene or

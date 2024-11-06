@@ -17,7 +17,7 @@ export const Hero3 = () => {
             Rainwater Harvesting Filtration System
           </h2>
           <hr className="m-2"></hr>
-          <p className="text-[17px] md:text-[18px] text-gray-700">
+          <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
             A module permeation storm water tank intended for filtration,
             transitory maintenance, and ensuing release. It is utilized in waste
             channel applications. It is developed utilizing our restrictive
@@ -59,7 +59,7 @@ export const Hero3 = () => {
         <h3 className="text-xl font-semibold mt-5">
           “Water is life, and conservation is the future.”
         </h3>
-        <p className="text-[17px] md:text-[18px] text-gray-700 mt-2">
+        <p className="text-[17px] md:text-[18px] text-justify text-gray-700 mt-2">
           70% of our earth is water. However, the potable water, which is
           required for most of the human needs, is very little. Growing
           urbanization and global development have also led to a sharp decline
@@ -70,7 +70,7 @@ export const Hero3 = () => {
           increasing population.
         </p>
         <br></br>
-        <p className="text-[17px] md:text-[18px] text-gray-700">
+        <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
           At{" "}
           <bold className="text-green-600 font-semibold">
             InRain<sup>®</sup>
@@ -81,7 +81,7 @@ export const Hero3 = () => {
         </p>
         <br></br>
 
-        <p className="text-[17px] md:text-[18px] text-gray-700">
+        <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
           <bold className="font-semibold text-black">
             The Technology We Offer:
           </bold>{" "}
@@ -97,7 +97,7 @@ export const Hero3 = () => {
         </p>
         <br></br>
 
-        <p className="text-[17px] md:text-[18px] text-gray-700">
+        <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
           <bold className="font-semibold text-black">
             The Quality We Offer:
           </bold>{" "}
@@ -108,7 +108,7 @@ export const Hero3 = () => {
         </p>
         <br></br>
 
-        <p className="text-[17px] md:text-[18px] text-gray-700">
+        <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
           <bold className="text-green-600 font-semibold">
             InRain<sup>®</sup>
           </bold>{" "}
@@ -120,7 +120,7 @@ export const Hero3 = () => {
         </p>
         <br></br>
 
-        <p className="text-[17px] md:text-[18px] text-gray-700">
+        <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
           At{" "}
           <bold className="text-green-600 font-semibold">
             InRain<sup>®</sup>

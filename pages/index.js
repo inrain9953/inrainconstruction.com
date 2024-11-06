@@ -13,7 +13,7 @@ export default function Home() {
   const title =
     "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const desc =
-    "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
+    "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Best Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
   const keyword =
     "rainwater harvesting, modular rainwater harvesting, roof top rainwater harvesting, rainwater harvesting in delhi, rainwater harvesting for industries";
   const canonical = "https://www.inrainconstruction.com/";
@@ -21,7 +21,7 @@ export default function Home() {
   const ogTitle =
     "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const ogDescription =
-    "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
+    "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Best Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
   const twittertitle =
     "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const twitterdescription =

@@ -72,7 +72,7 @@ const Service2 = () => {
             <h1 className="text-3xl md:text-4xl font-semibold">
               Co-Polymer Based Rainwater Harvesting System
             </h1>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               <bold className="text-green-700 font-semibold">
                 InRain<sup>®</sup>
               </bold>{" "}
@@ -104,7 +104,7 @@ const Service2 = () => {
               Some of the major advantages of this system are
             </p>
 
-            <ol className="list-decimal m-5 font-semibold text-[17px] md:text-lg">
+            <ol className="list-decimal m-5 font-semibold text-[17px] text-justify md:text-lg">
               <li>Eco-friendly and economical solution.</li>
               <li>
                 Geo sheet-covered percolation storage tank to ensure excellent
@@ -127,7 +127,7 @@ const Service2 = () => {
               </li>
             </ol>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               A Modular rainwater harvesting system meets the modern-day
               requirements and comes with safety assurance with an option of
               portability which makes it one of the most sought-after water
@@ -150,7 +150,7 @@ const Service2 = () => {
           data-aos="zoom-in-up"
           className="m-5 md:m-10 bg-sky-300 rounded-lg"
         >
-          <p className="text-[17px] md:text-lg mt-3 p-5">
+          <p className="text-[17px] text-justify md:text-lg mt-3 p-5">
             Unlike conventional RWH systems, the recharge chamber in modular RWH
             need not be PCC/ RCC, thereby saving cost. Further, the PCC/ RCC
             Storage-cum-Recharge Tank, after a few years, gets infested with

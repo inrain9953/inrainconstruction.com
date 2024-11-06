@@ -88,7 +88,7 @@ const Blog4 = () => {
                     <h1 className="text-3xl md:text-4xl font-semibold">
                       {blog.BlogHead}
                     </h1>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       In our rapidly urbanizing world,{" "}
                       <Link
                         href={
@@ -112,7 +112,7 @@ const Blog4 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent1}
                     </p>
                   </div>
@@ -128,7 +128,7 @@ const Blog4 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -148,7 +148,7 @@ const Blog4 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -168,7 +168,7 @@ const Blog4 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -181,7 +181,7 @@ const Blog4 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading5}
                     </h3>
-                    <p className="text-[17px] mt-3 mb-3 md:text-lg">
+                    <p className="text-[17px] text-justify mt-3 mb-3 md:text-lg">
                       {blog.BlogSubHeadingContent5}
                     </p>
                   </div>
@@ -190,7 +190,7 @@ const Blog4 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading6}
                     </h3>
-                    <p className="text-[17px] mt-3 mb-3 md:text-lg">
+                    <p className="text-[17px] text-justify mt-3 mb-3 md:text-lg">
                       {blog.BlogSubHeadingContent6}
                     </p>
                   </div>
@@ -206,7 +206,7 @@ const Blog4 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>

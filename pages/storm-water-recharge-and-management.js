@@ -73,7 +73,7 @@ const Service9 = () => {
               Storm Water Recharge and Management
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Storm Water Recharge & Management is very crucial in the
               modern-day world. The climatic change and depreciating resources
               require humankind to take steps for water conservation to maintain

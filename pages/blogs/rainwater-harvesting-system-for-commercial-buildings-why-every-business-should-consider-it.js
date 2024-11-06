@@ -91,7 +91,7 @@ const Blog3 = () => {
                     <h1 className="text-3xl md:text-4xl font-semibold">
                       {blog.BlogHead}
                     </h1>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       Businesses are continually looking for creative methods to
                       reduce their environmental impact in their search for
                       sustainability. Rainwater harvesting in commercial
@@ -115,7 +115,7 @@ const Blog3 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent1}
                     </p>
                   </div>
@@ -131,7 +131,7 @@ const Blog3 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -148,7 +148,7 @@ const Blog3 = () => {
                       {blog.BlogSubHeadingContent3.map((content) => {
                         return (
                           <div className="mb-3">
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -165,7 +165,7 @@ const Blog3 = () => {
                       {blog.BlogSubHeadingContent4.map((content) => {
                         return (
                           <div className="mb-3">
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>

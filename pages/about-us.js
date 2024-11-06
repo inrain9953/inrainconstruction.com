@@ -88,7 +88,7 @@ const About = () => {
               Who We Are
             </h2>
             <h2 className="text-2xl font-bold mt-5 md:text-3xl">ICPL</h2>
-            <p className="text-[17px] md:text-lg mt-2 md:pr-10">
+            <p className="text-[17px] text-justify md:text-lg mt-2 md:pr-10">
               We are a subsidiary company of “Singh & Singh Construction”, a
               firm with a strong presence in India with more than 30 years of
               experience in the civil construction industry. I have completed
@@ -111,7 +111,7 @@ const About = () => {
             <h1 className="text-2xl font-semibold m-3 md:text-3xl md:font-bold md:mt-5 md:mb-3">
               InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)
             </h1>
-            <p className="text-[17px] md:text-lg">
+            <p className="text-[17px] text-justify md:text-lg">
               Rainwater Harvesting Company with a strong presence all over
               India. The company has successfully Installed more than 400
               Rainwater Harvesting Projects to enable it to conserve billions of
@@ -219,7 +219,7 @@ const About = () => {
               </div>
             </div>
             <div className="mt-5 md:w-[30%] md:border-l-2 md:border-black">
-              <p className="text-[17px] mt-2 md:ml-5">
+              <p className="text-[17px] text-justify mt-2 md:ml-5">
                 It is indeed entirely different from conventional rainwater
                 harvesting systems that were made using cement and brick walls.
                 A few benefits of our scientific RWH system are highlighted as
@@ -232,14 +232,14 @@ const About = () => {
             data-aos="zoom-in-up"
             className="m-5 md:flex md:justify-center md:gap-10"
           >
-            <p className="text-[17px] mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
+            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
               Monolithic Structures are quick to install and the same turns into
               a Rainwater Holding Tank below the ground within no time as
               compared to making a Civil Pit. Modular tanks can be used for
               holding/reusing the rainwater, recharging the water table and
               percolating.
             </p>
-            <p className="text-[17px] mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
+            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
               Using the{" "}
               <bold className="text-green-700 font-semibold">
                 InRain<sup>®</sup>
@@ -256,7 +256,7 @@ const About = () => {
               the whole system truly economical as compared with the case of
               having a civil pit.
             </p>
-            <p className="text-[17px] mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
+            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
               95% of the capacity of the tank is usable as compared to only
               50-55% usability in case of civil pit. No risk of accidents as no
               one can fall into this kind of tank, whereas having an RCC Civil
@@ -388,7 +388,7 @@ const About = () => {
               <h2 className="text-3xl font-bold">
                 Installation & Project Development
               </h2>
-              <p className="text-[17px] mt-3">
+              <p className="text-[17px] text-justify mt-3">
                 Our team has done more than 400+ Rainwater Harvesting Projects
                 accross the India. Technology we are using has globally been
                 adopted in advanced country like Germany, Japan, Singapore, USA

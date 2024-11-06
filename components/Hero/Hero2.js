@@ -15,7 +15,7 @@ export const Hero2 = () => {
           <h2 className="text-2xl md:text-3xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
             About Our Technology
           </h2>
-          <p className="text-[16px] md:text-[18px] p-5 text-gray-700 md:pl-28 md:pr-28">
+          <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700 md:pl-28 md:pr-28">
             At{" "}
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>,
@@ -40,7 +40,7 @@ export const Hero2 = () => {
             <h2 className="text-2xl md:text-3xl font-semibold text-white shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
               Vision
             </h2>
-            <p className="text-[16px] md:text-[18px] p-5 text-gray-700">
+            <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
               The solution is aimed at solving the problem of the water crisis
               in cities where there is a lack of space for storage of water and
               huge populations, leading to a shortage of water supply and
@@ -63,7 +63,7 @@ export const Hero2 = () => {
             <h2 className="text-2xl md:text-3xl font-semibold text-white shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
               Technology
             </h2>
-            <p className="text-[16px] md:text-[18px] p-5 text-gray-700">
+            <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
               Modular RWH is a new technique for rainwater harvesting. It is
               both convenient and easy to maintain in comparison to traditional
               RWH. This New Age RWH system is designed with a maintenance-free

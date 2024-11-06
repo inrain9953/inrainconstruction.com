@@ -73,7 +73,7 @@ const Service4 = () => {
               FRP Based Rainwater Harvesting System
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               <bold className="text-green-700 font-semibold">
                 InRain<sup>®</sup>
               </bold>{" "}

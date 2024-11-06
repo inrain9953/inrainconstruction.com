@@ -94,7 +94,7 @@ const BlogsIndex = () => {
                     {blog.BlogHead}
                   </h1>
                 </Link>
-                <p className="text-left text-base mt-3 mr-3">
+                <p className="text-justify text-base mt-3 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
@@ -170,7 +170,7 @@ const BlogsIndex = () => {
                     {blog.BlogHead}
                   </h1>
                 </Link>
-                <p className="text-left text-base mt-3 mr-3">
+                <p className="text-justify text-base mt-3 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
@@ -246,7 +246,7 @@ const BlogsIndex = () => {
                     {blog.BlogHead}
                   </h1>
                 </Link>
-                <p className="text-left text-base mt-3 mr-3">
+                <p className="text-justify text-base mt-3 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
@@ -322,7 +322,7 @@ const BlogsIndex = () => {
                     {blog.BlogHead}
                   </h1>
                 </Link>
-                <p className="text-left text-base mt-3 mr-3">
+                <p className="text-justify text-base mt-3 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
@@ -398,7 +398,7 @@ const BlogsIndex = () => {
                     {blog.BlogHead}
                   </h1>
                 </Link>
-                <p className="text-left text-base mt-3 mr-3">
+                <p className="text-justify text-base mt-3 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
@@ -474,7 +474,7 @@ const BlogsIndex = () => {
                     {blog.BlogHead}
                   </h1>
                 </Link>
-                <p className="text-left text-base mt-3 mr-3">
+                <p className="text-justify text-base mt-3 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
@@ -550,7 +550,7 @@ const BlogsIndex = () => {
                     {blog.BlogHead}
                   </h1>
                 </Link>
-                <p className="text-left text-base mt-3 mr-3">
+                <p className="text-justify text-base mt-3 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
@@ -626,7 +626,7 @@ const BlogsIndex = () => {
                     {blog.BlogHead}
                   </h1>
                 </Link>
-                <p className="text-left text-base mt-3 mr-3">
+                <p className="text-justify text-base mt-3 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">

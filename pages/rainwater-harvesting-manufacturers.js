@@ -70,7 +70,7 @@ const Service13 = () => {
               Rainwater Harvesting Manufacturers
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               we are passionate about sustainable water management and the
               preservation of our precious natural resources. As a leading
               rainwater harvesting manufacturer in Delhi, we specialize in
@@ -86,7 +86,7 @@ const Service13 = () => {
             <h2 className="text-2xl md:text-3xl font-semibold mt-5">
               Why Choose Us?
             </h2>
-            <ol className="list-decimal m-5 text-[17px] md:text-lg">
+            <ol className="list-decimal m-5 text-[17px] text-justify md:text-lg">
               <li>
                 <bold className="font-semibold">Expertise and Experience:</bold>{" "}
                 With years of experience in rainwater harvesting, our team of

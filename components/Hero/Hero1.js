@@ -44,9 +44,10 @@ export const Hero1 = () => {
               unoptimized={true}
             />
             <h1 className="text-green-700 text-2xl font-semibold drop-shadow-md md:text-3xl">
-              InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)
+              Best Rainwater Harvesting Service Provider in India<br></br>
+              <bold className="text-base text-black">InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)</bold>
             </h1>
-            <h2 className="text-base font-semibold align-middle md:text-xl md:m-5">
+            <h2 className="text-base font-semibold align-middle md:text-xl md:m-2">
               "A Water Conservation & Management Company"
             </h2>
           </div>

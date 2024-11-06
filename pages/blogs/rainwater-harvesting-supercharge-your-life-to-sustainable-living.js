@@ -91,7 +91,7 @@ const Blog1 = () => {
                     <h1 className="text-3xl md:text-4xl font-semibold">
                       {blog.BlogHead}
                     </h1>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       In a rapidly developing nation like India, where water
                       scarcity is a growing concern, both businesses and
                       homeowners must adopt sustainable practices. One such
@@ -116,7 +116,7 @@ const Blog1 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent1}
                     </p>
                   </div>
@@ -132,7 +132,7 @@ const Blog1 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -152,7 +152,7 @@ const Blog1 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -172,7 +172,7 @@ const Blog1 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -189,7 +189,7 @@ const Blog1 = () => {
                   </h3>
                   <p
                     data-aos="zoom-in-up"
-                    className="text-[17px] mt-3 md:ml-5 mb-3 md:text-lg"
+                    className="text-[17px] text-justify mt-3 md:ml-5 mb-3 md:text-lg"
                   >
                     {blog.BlogSubHeadingContent5}
                   </p>
@@ -211,7 +211,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -238,7 +238,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -265,7 +265,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -292,7 +292,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -319,7 +319,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -346,7 +346,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -373,7 +373,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>

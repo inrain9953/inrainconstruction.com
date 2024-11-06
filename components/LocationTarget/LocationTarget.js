@@ -22,7 +22,7 @@ const LocationTarget = ({ location }) => {
             Rainwater Harvesting System in {location}
           </h1>
           <hr className="m-2 md:m-5"></hr>
-          <p className="m-5 text-md text-center text-gray-500 drop-shadow-md md:text-xl">
+          <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">InRain®</bold>{" "}
             Construction Private Limited, is a top provider of{" "}
             <bold className="text-black font-semibold">
@@ -137,7 +137,7 @@ const LocationTarget = ({ location }) => {
         </h3>
         <p
           data-aos="zoom-in-up"
-          className="text-md mt-7 text-gray-500 md:pl-36 md:pr-36 drop-shadow-md md:text-xl"
+          className="text-md mt-7 text-justify text-gray-500 md:pl-36 md:pr-36 drop-shadow-md md:text-xl"
         >
           At <bold className="text-green-500 font-semibold">InRain®</bold>, we
           specialize in creating{" "}
@@ -213,7 +213,7 @@ const LocationTarget = ({ location }) => {
             Rooftop Rainwater Harvesting System in {location}
           </h1>
           <hr className="m-2 md:m-5"></hr>
-          <p className="m-5 text-md text-center text-gray-500 drop-shadow-md md:text-xl">
+          <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             A{" "}
             <bold className="text-black font-semibold">
               Rooftop Rainwater Harvesting System in {location}

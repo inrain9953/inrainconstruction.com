@@ -70,13 +70,13 @@ const Service5 = () => {
               Roof Top Rainwater Harvesting System
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
-              Roof top rainwater harvesting system(RRWHS) is one of the most popular
-              rainwater harvesting systems of the current times. Rain is one of
-              the most natural resources of water by applying roof top rainwater
-              harvesting, systems we will be able to use natural rainwater. The
-              roof top rainwater harvesting systems are suitable for both
-              residential and commercial areas. <br></br>
+            <p className="text-[17px] text-justify md:text-lg mt-3">
+              Roof top rainwater harvesting system(RRWHS) is one of the most
+              popular rainwater harvesting systems of the current times. Rain is
+              one of the most natural resources of water by applying roof top
+              rainwater harvesting, systems we will be able to use natural
+              rainwater. The roof top rainwater harvesting systems are suitable
+              for both residential and commercial areas. <br></br>
               <br></br>
               Inrain Construction Pvt. Ltd., we deal with a wide variety of
               rainwater harvesting systems. Our water conservation and

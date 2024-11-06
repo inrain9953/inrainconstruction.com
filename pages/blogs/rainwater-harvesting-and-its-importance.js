@@ -92,7 +92,7 @@ const Blog7 = () => {
                       {blog.BlogHead}
                     </h1>
                     <p
-                      className="text-[17px] md:text-lg mt-3 mb-3"
+                      className="text-[17px] text-justify md:text-lg mt-3 mb-3"
                       dangerouslySetInnerHTML={{ __html: blog.BlogMainContent }}
                     />
                   </div>
@@ -107,7 +107,7 @@ const Blog7 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent2}
                     </p>
                   </div>
@@ -116,7 +116,7 @@ const Blog7 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       In areas where water is hard to come by,{" "}
                       <Link
                         className="text-blue-500 font-semibold"
@@ -137,7 +137,7 @@ const Blog7 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent4}
                     </p>
                   </div>
@@ -146,7 +146,7 @@ const Blog7 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading5}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent5}
                     </p>
                   </div>
@@ -155,7 +155,7 @@ const Blog7 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading6}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent6}
                     </p>
                   </div>
@@ -164,7 +164,7 @@ const Blog7 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading7}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent7}
                     </p>
                   </div>
@@ -173,7 +173,7 @@ const Blog7 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading8}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent8}
                     </p>
                   </div>
@@ -182,7 +182,7 @@ const Blog7 = () => {
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading9}
                     </h3>
-                    <p className="text-[17px] md:text-lg mt-3 mb-3">
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent9}
                     </p>
                   </div>
@@ -207,7 +207,7 @@ const Blog7 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -233,7 +233,7 @@ const Blog7 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -253,7 +253,7 @@ const Blog7 = () => {
                             <h4 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
                             </h4>
-                            <p className="text-[17px] md:text-lg">
+                            <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
                           </div>
@@ -279,7 +279,7 @@ const Blog7 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -306,7 +306,7 @@ const Blog7 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -333,7 +333,7 @@ const Blog7 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -360,7 +360,7 @@ const Blog7 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -387,7 +387,7 @@ const Blog7 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -414,7 +414,7 @@ const Blog7 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -441,7 +441,7 @@ const Blog7 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-left text-gray-500">
+                        <p className="text-justify text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>

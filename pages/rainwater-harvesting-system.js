@@ -72,7 +72,7 @@ const Service11 = () => {
               Rainwater Harvesting System
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Water scarcity is a pressing global issue, and as populations
               continue to grow, it becomes imperative to explore alternative
               methods for water conservation. One such method gaining popularity
@@ -87,7 +87,7 @@ const Service11 = () => {
             <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
               The Importance of Rainwater Harvesting
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Rainwater is a precious resource that, if properly harnessed, can
               address water scarcity challenges faced by communities around the
               world. Rainwater harvesting offers several advantages over
@@ -103,7 +103,7 @@ const Service11 = () => {
             <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
               Components of a Rainwater Harvesting System
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               A rainwater harvesting system consists of several key components
               that work together to capture, store, and distribute rainwater.
               The primary components include: Catchment Surface: This can be the
@@ -112,7 +112,7 @@ const Service11 = () => {
               are safe and non-toxic for water storage. Polymer as strong as
               metal.
             </p>
-            <ul className="list-disc m-5 text-[17px] md:text-lg">
+            <ul className="list-disc m-5 text-[17px] text-justify md:text-lg">
               <li>
                 <bold className="font-semibold">Gutters and Downspouts:</bold>{" "}
                 These channels collect rainwater from the catchment surface and
@@ -147,7 +147,7 @@ const Service11 = () => {
             <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
               Benefits of Rainwater Harvesting
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               Implementing a rainwater harvesting system brings numerous
               benefits. Firstly, it reduces the strain on traditional water
               sources, such as rivers and groundwater, thereby ensuring their
@@ -172,7 +172,7 @@ const Service11 = () => {
             <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
               Considerations and Maintenance
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               When installing a rainwater harvesting system, it is essential to
               consider factors such as local regulations, the size of the
               catchment area, and the intended uses of the harvested water.

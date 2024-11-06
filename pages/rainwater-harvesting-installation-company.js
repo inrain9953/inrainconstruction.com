@@ -70,7 +70,7 @@ const Service12 = () => {
               Rainwater Harvesting Installation Company
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className="text-[17px] text-justify md:text-lg mt-3">
               The premier rainwater harvesting Installation Company dedicated to
               sustainable water solutions. We specialize in designing,
               installing, and maintaining state-of-the-art rainwater harvesting
@@ -89,7 +89,7 @@ const Service12 = () => {
             <h2 className="text-2xl md:text-3xl font-semibold mt-5">
               Why Choose Us?
             </h2>
-            <ol className="list-decimal m-5 text-[17px] md:text-lg">
+            <ol className="list-decimal m-5 text-[17px] text-justify md:text-lg">
               <li>
                 <bold className="font-semibold">Expertise and Experience:</bold>{" "}
                 With years of experience in rainwater harvesting, our team of

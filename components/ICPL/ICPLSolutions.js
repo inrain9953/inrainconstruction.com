@@ -41,7 +41,7 @@ const ICPLSolutions = () => {
               Reuse of Rain Water
             </h2>
             <hr className="m-2"></hr>
-            <p className="text-[17px] md:text-base">
+            <p className="text-[17px] text-justify md:text-base">
               Reuse of Rain Water is the key benefactor towards the securing and
               abnormal state usage of Water Resources.<br></br>
               <br></br> We have a solid nearness in Designing, Implementation
@@ -61,7 +61,7 @@ const ICPLSolutions = () => {
               Pond Development
             </h2>
             <hr className="m-2"></hr>
-            <p className="text-[17px] md:text-base">
+            <p className="text-[17px] text-justify md:text-base">
               Water bodies is like life for Indian culture, this is a standout
               among the best revive cum holding structure which required least
               venture and give most noteworthy return. At ICPL we utilize most
@@ -107,7 +107,7 @@ const ICPLSolutions = () => {
               Rainwater Harvesting Recharge
             </h2>
             <hr className="m-2"></hr>
-            <p className="text-[17px] md:text-base">
+            <p className="text-[17px] text-justify md:text-base">
               Rain Water Harvesting Recharge will be water that starts amid
               precipitation occasions in light of the fact that impenetrable
               surfaces (parking areas, streets, structures, compacted soil)
