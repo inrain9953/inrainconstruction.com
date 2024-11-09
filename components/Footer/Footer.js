@@ -19,12 +19,12 @@ export const Footer = () => {
     <>
       <div>
         <div className="mt-20">
-          <h3
+          <p
             data-aos="zoom-in-up"
             className="text-center font-bold text-2xl md:text-4xl"
           >
             Our Happy Clients
-          </h3>
+          </p>
           <div
             data-aos="zoom-in-up"
             className="flex overflow-clip align-middle drop-shadow-2xl"
@@ -159,9 +159,9 @@ export const Footer = () => {
               data-aos="zoom-in-up"
               className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
             >
-              <h3 className="text-2xl font-semibold pb-3 m-1 text-white">
+              <p className="text-2xl font-semibold pb-3 m-1 text-white">
                 Quick Links
-              </h3>
+              </p>
               <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
                 <Link href="/">Home</Link>
               </p>
@@ -192,9 +192,9 @@ export const Footer = () => {
               data-aos="zoom-in-up"
               className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
             >
-              <h3 className="text-2xl font-semibold pb-3 m-1 text-white">
+              <p className="text-2xl font-semibold pb-3 m-1 text-white">
                 Our Products
-              </h3>
+              </p>
               <Link href="/rainwater-harvesting-system">
                 <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
@@ -243,9 +243,9 @@ export const Footer = () => {
               data-aos="zoom-in-up"
               className="text-left ml-7 md:w-[25%] md:pt-10"
             >
-              <h3 className="text-2xl font-semibold m-1 mb-2 text-white">
+              <p className="text-2xl font-semibold m-1 mb-2 text-white">
                 Our Office
-              </h3>
+              </p>
               <div className="flex mb-5">
                 <LocationOnIcon className="mr-2" />
                 <a href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6">

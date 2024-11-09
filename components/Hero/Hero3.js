@@ -10,12 +10,12 @@ export const Hero3 = () => {
         className="mt-10 md:flex justify-center items-center md:ml-14 md:mr-14"
       >
         <div className="text-left m-5  md:pl-14">
-          <h2 className="text-2xl font-semibold">
+          <h3 className="text-2xl font-semibold">
             <bold className="text-green-600">
               InRain<sup>®</sup>
             </bold>{" "}
             Rainwater Harvesting Filtration System
-          </h2>
+          </h3>
           <hr className="m-2"></hr>
           <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
             A module permeation storm water tank intended for filtration,
@@ -41,12 +41,12 @@ export const Hero3 = () => {
         data-aos="zoom-in-up"
         className="text-left mt-10 m-5 md:ml-10 md:mr-10 md:p-10"
       >
-        <h2 className="text-2xl font-semibold">
+        <h4 className="text-2xl font-semibold">
           <bold className="text-green-600">
             InRain<sup>®</sup>
           </bold>{" "}
           Water Conservation & Management
-        </h2>
+        </h4>
         <hr className="m-2"></hr>
         <p className="text-[17px] md:text-[18px] text-gray-700">
           At{" "}
@@ -56,9 +56,9 @@ export const Hero3 = () => {
           Construction Pvt. Ltd., we firmly believe in the popular quote
         </p>
 
-        <h3 className="text-xl font-semibold mt-5">
+        <h5 className="text-xl font-semibold mt-5">
           “Water is life, and conservation is the future.”
-        </h3>
+        </h5>
         <p className="text-[17px] md:text-[18px] text-justify text-gray-700 mt-2">
           70% of our earth is water. However, the potable water, which is
           required for most of the human needs, is very little. Growing
