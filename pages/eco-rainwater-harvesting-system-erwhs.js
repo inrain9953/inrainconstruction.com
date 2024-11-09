@@ -17,9 +17,9 @@ const EcorainRainwater = () => {
   const keyword =
     "rainwater harvesting system in Delhi, ecorain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company";
   const canonical =
-    "https://www.inrainconstruction.com/ecorain-rainwater-harvesting-system";
+    "https://www.inrainconstruction.com/eeco-rainwater-harvesting-system-erwhs";
   const ogUrl =
-    "https://www.inrainconstruction.com/ecorain-rainwater-harvesting-system";
+    "https://www.inrainconstruction.com/eco-rainwater-harvesting-system-erwhs";
   const ogTitle =
     "EcoRain Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const ogDescription =
