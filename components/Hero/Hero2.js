@@ -12,15 +12,15 @@ export const Hero2 = () => {
           data-aos="zoom-in-up"
           className="text-center m-3 md:ml-52 md:mr-52"
         >
-          <p className="text-2xl md:text-3xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
-            About Our Technology
-          </p>
+          <h2 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+            About Rainwater Harvesting Technology
+          </h2>
           <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700 md:pl-28 md:pr-28">
             At{" "}
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>,
             </bold>{" "}
-            we are engaged in making RWH systems based on the technology adopted
+            we are engaged in making Rainwater Harvesting (RWH) systems based on the technology adopted
             from Germany. It is indeed entirely different from conventional
             rainwater systems.{" "}
             <bold className="text-green-600 font-semibold">
@@ -37,7 +37,7 @@ export const Hero2 = () => {
 
         <div data-aos="zoom-in-up" className="md:grid md:grid-cols-3 md:m-12">
           <div className="text-center m-3 mt-7">
-            <p className="text-2xl md:text-3xl font-semibold text-white shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+            <p className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
               Vision
             </p>
             <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
@@ -60,11 +60,11 @@ export const Hero2 = () => {
           </div>
 
           <div data-aos="fade-up" className="text-center m-3 mt-7">
-            <p className="text-2xl md:text-3xl font-semibold text-white shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
-              Technology
-            </p>
+            <h2 className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+              Modular Rainwater Harvesting Technology
+            </h2>
             <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
-              Modular RWH is a new technique for rainwater harvesting. It is
+              Modular Rainwater Harvesting is a new technique for rainwater harvesting. It is
               both convenient and easy to maintain in comparison to traditional
               RWH. This New Age RWH system is designed with a maintenance-free
               structure, which makes it both cost-effective and eco-friendly.
