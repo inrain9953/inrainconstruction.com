@@ -14,6 +14,7 @@ import tech4 from "../public/Technology/main4.jpg";
 import tech5 from "../public/Technology/main5.jpg";
 import newTech from "../public/new-technology-based-rainwater.jpg";
 import PopUp from "@/components/popup";
+import Script from "next/script";
 
 const GrihaAndCGWB = () => {
     const loc = "Delhi";
@@ -65,6 +66,14 @@ const GrihaAndCGWB = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
+      <Script id="google-analytics" strategy="beforeInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16650006765');
+        `}
+      </Script>
       <Navbar />
       <PopUp />
       <Hero1 />

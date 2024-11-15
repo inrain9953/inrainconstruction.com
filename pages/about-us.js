@@ -13,6 +13,7 @@ import PopUp from "@/components/popup";
 import griha from "./../public/griha.jpg";
 import iso1 from "./../public/iso1.jpg";
 import iso2 from "./../public/iso2.jpg";
+import Script from "next/script";
 
 const About = () => {
   const title = "About US | InRain® Construction Pvt. Ltd.";
@@ -55,6 +56,14 @@ const About = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
+      <Script id="google-analytics" strategy="beforeInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16650006765');
+        `}
+      </Script>
       <Navbar />
       <PopUp />
       <div>

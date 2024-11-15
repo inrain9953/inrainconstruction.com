@@ -54,8 +54,16 @@ const ICPL = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
+      <Script id="google-analytics" strategy="beforeInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16650006765');
+        `}
+      </Script>
       <Script id="gtag-conversion-script" strategy="beforeInteractive">
-        {`gtag('event', 'conversion', {'send_to': 'AW-16650006765/gyk2CK3ox8gZEO3hq4M-'})`}
+        {`gtag('event', 'conversion', { 'send_to': 'AW-16650006765/gyk2CK3ox8gZEO3hq4M-', 'value': 100000.0, 'currency': 'INR' });`}
       </Script>
       <ICPLNavbar />
       <PopUp />

@@ -8,6 +8,7 @@ import PopUp from "@/components/popup";
 import React from "react";
 import Image from "next/image";
 import Head from "next/head";
+import Script from "next/script";
 
 const EcorainRainwater = () => {
   const title =
@@ -55,6 +56,14 @@ const EcorainRainwater = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
+      <Script id="google-analytics" strategy="beforeInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-16650006765');
+        `}
+      </Script>
       <Navbar />
       <PopUp />
       <Hero1 />

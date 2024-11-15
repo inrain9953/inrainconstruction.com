@@ -50,14 +50,14 @@ export default function App({ Component, pageProps }) {
       </Head>
 
       {/* Google Tag Manager Script */}
-      <Script id="google-analytics" strategy="beforeInteractive">
+      {/* <Script id="google-analytics" strategy="beforeInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'AW-16650006765');
         `}
-      </Script>
+      </Script> */}
 
       <Script
         id="gtm"
