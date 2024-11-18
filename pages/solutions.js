@@ -150,9 +150,9 @@ const Solutions = () => {
               />
             </div>
             <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h2 className="text-[25px] md:text-4xl font-bold">
+              <h1 className="text-[25px] md:text-4xl font-bold">
                 Rainwater Harvesting Recharge
-              </h2>
+              </h1>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-base">
                 Rainwater Harvesting Recharge will be water that starts amid

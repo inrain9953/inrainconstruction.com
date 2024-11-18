@@ -103,9 +103,9 @@ const Products = () => {
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
             <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h2 className="text-[25px] md:text-4xl font-bold">
-                InRain<sup>®</sup> Rainwater Harvesting Modules 50 Ton
-              </h2>
+              <h1 className="text-[25px] md:text-4xl font-bold">
+                Rainwater Harvesting Modules 50 Ton
+              </h1>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
                 A module permeation storm water tank intended for filtration,
@@ -142,9 +142,9 @@ const Products = () => {
               />
             </div>
             <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h2 className="text-[25px] md:text-4xl font-bold">
-                InRain<sup>®</sup> Rainwater Harvesting Filtration System
-              </h2>
+              <h3 className="text-[25px] md:text-4xl font-bold">
+                Rainwater Harvesting Filtration System
+              </h3>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
                 The channel is utilized to expel suspended contamination from
@@ -164,7 +164,7 @@ const Products = () => {
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
             <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h2 className="text-[25px] md:text-4xl font-bold">EPDM Liner</h2>
+              <h4 className="text-[25px] md:text-4xl font-bold">EPDM Liner</h4>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
                 <bold className="text-green-700 font-semibold">
@@ -204,7 +204,7 @@ const Products = () => {
               />
             </div>
             <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h2 className="text-[25px] md:text-4xl font-bold">Geo Textile</h2>
+              <h5 className="text-[25px] md:text-4xl font-bold">Geo Textile</h5>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
                 Geotextile is essentially a porous texture which, when utilized
