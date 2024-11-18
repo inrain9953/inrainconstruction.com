@@ -129,6 +129,7 @@ export default async (req, res) => {
     { url: "/eco-rainwater-harvesting-system-erwhs/", changefreq: "daily", priority: 0.8 },
     { url: "/polyrain-rainwater-harvesting/", changefreq: "daily", priority: 0.8 },
     { url: "/purerain-rainwater-harvesting-system/", changefreq: "daily", priority: 0.8 },
+    { url: "/rain-water-harvesting-system/", changefreq: "daily", priority: 0.8 },
   ];
 
   const stream = new SitemapStream({
