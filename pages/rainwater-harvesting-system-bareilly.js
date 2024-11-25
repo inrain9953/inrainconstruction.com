@@ -11,7 +11,7 @@ const RainwaterSystemBareilly = () => {
 
   const title = `Rainwater Harvesting System in ${loc} | Rainwater Harvesting System Service Provider in ${loc}`;
   const desc = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
-  const keyword = `Rooftop Rainwater Harvesting System in ${loc}, Modular Rainwater Harvesting System in ${loc}, Rainwater Harvesting Tank in ${loc}, Polymer Type Rainwater Harvesting System in ${loc}, Storm water Management in ${loc}`;
+  const keyword = `Rainwater Harvesting in ${loc}, Modular Rainwater Harvesting System in ${loc}, Rainwater Harvesting System in ${loc}, Rooftop Rainwater Harvesting System in ${loc}`;
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-system-bareilly";
   const ogUrl =

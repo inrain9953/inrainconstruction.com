@@ -13,7 +13,7 @@ const RainwaterLucknow = () => {
   const desc =
     "Are you finding Rainwater Harvesting System in Lucknow. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in Lucknow at the best price?";
   const keyword =
-    "Rooftop Rainwater Harvesting System in Lucknow, Modular Rainwater Harvesting System in Lucknow, Rainwater Harvesting Tank in Lucknow, Polymer Type Rainwater Harvesting System in Lucknow, Storm water Management in Lucknow";
+    "Rainwater Harvesting in Lucknow, Modular Rainwater Harvesting System in Lucknow, Rainwater Harvesting System in Lucknow, Rooftop Rainwater Harvesting System in Lucknow";
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-in-lucknow";
   const ogUrl =

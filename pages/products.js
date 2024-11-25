@@ -12,12 +12,11 @@ import Head from "next/head";
 import PopUp from "@/components/popup";
 
 const Products = () => {
-  const title =
-    "InRain® Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+  const title = "Modular Rainwater Filter | InRain® Construction Pvt. Ltd.";
   const desc =
-    "InRain® Rainwater Harvesting provides Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, EPDM Liner, Geo Textile. Are you looking for Rainwater Harvesting products?";
+    "Are you looking for Rainwater Harvesting products? InRain® construction provides high quality product Rainwater Harvesting Filtration, Rainwater Harvesting Modules, Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, EPDM Liner, Geo Textile.";
   const keyword =
-    "Pressure Regulator Valve, Self Cleaning Mesh Filter System, Rainwater Harvesting Products, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, modular rainwater harvesting system, rainwater harvesting technology";
+    "Rainwater Harvesting Filter, Rainwater Harvesting Products, Pressure Regulator Valve, Self Cleaning Mesh Filter System, Rainwater Harvesting Products, Rainwater Harvesting Filtration System, modular rainwater harvesting system, rainwater harvesting technology";
   const canonical = "https://www.inrainconstruction.com/products";
   const ogUrl = "https://www.inrainconstruction.com/products";
   const ogTitle = "InRain® Rainwater Harvesting System | InRain® Construction";
@@ -73,35 +72,6 @@ const Products = () => {
             data-aos="zoom-in-up"
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
-            <div className="md:w-[30%]">
-              <Image
-                className="m-auto md:h-64 w-52 h-56"
-                src={motor}
-                alt="img"
-                loading="eager"
-                priority={true}
-                unoptimized={true}
-              />
-            </div>
-            <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h2 className="text-[25px] md:text-4xl font-bold">
-                Self Cleaning Mesh Filter System
-              </h2>
-              <hr className="m-2"></hr>
-              <p className="text-[17px] text-justify md:text-lg">
-                1. Time saving - The filtration process is not interrupted
-                during the cleaning cycle, eliminating the need to shut down the
-                irrigation system.<br></br>2. Low water and energy consumption.
-                <br></br>3. Sturdy and durable.<br></br>4. Easy installation and
-                low maintenance.<br></br>5. Compact design and small footprint.
-              </p>
-            </div>
-          </div>
-
-          <div
-            data-aos="zoom-in-up"
-            className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
-          >
             <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
               <h1 className="text-[25px] md:text-4xl font-bold">
                 Rainwater Harvesting Modules 50 Ton
@@ -142,9 +112,9 @@ const Products = () => {
               />
             </div>
             <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h3 className="text-[25px] md:text-4xl font-bold">
+              <h2 className="text-[25px] md:text-4xl font-bold">
                 Rainwater Harvesting Filtration System
-              </h3>
+              </h2>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
                 The channel is utilized to expel suspended contamination from
@@ -164,7 +134,7 @@ const Products = () => {
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
             <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h4 className="text-[25px] md:text-4xl font-bold">EPDM Liner</h4>
+              <p className="text-[25px] md:text-4xl font-bold">EPDM Liner</p>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
                 <bold className="text-green-700 font-semibold">
@@ -204,7 +174,7 @@ const Products = () => {
               />
             </div>
             <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
-              <h5 className="text-[25px] md:text-4xl font-bold">Geo Textile</h5>
+              <h3 className="text-[25px] md:text-4xl font-bold">Geo Textile</h3>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
                 Geotextile is essentially a porous texture which, when utilized
@@ -213,6 +183,35 @@ const Products = () => {
                 polyester, geotextile textures come in three fundamental
                 structures: woven, needle punched or heat reinforced.
               </p>
+            </div>
+          </div>
+
+          <div
+            data-aos="zoom-in-up"
+            className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
+          >
+            <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
+              <h4 className="text-[25px] md:text-4xl font-bold">
+                Self Cleaning Mesh Filter System
+              </h4>
+              <hr className="m-2"></hr>
+              <p className="text-[17px] text-justify md:text-lg">
+                1. Time saving - The filtration process is not interrupted
+                during the cleaning cycle, eliminating the need to shut down the
+                irrigation system.<br></br>2. Low water and energy consumption.
+                <br></br>3. Sturdy and durable.<br></br>4. Easy installation and
+                low maintenance.<br></br>5. Compact design and small footprint.
+              </p>
+            </div>
+            <div className="md:w-[30%]">
+              <Image
+                className="m-auto md:h-64 w-52 h-56"
+                src={motor}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
             </div>
           </div>
         </div>

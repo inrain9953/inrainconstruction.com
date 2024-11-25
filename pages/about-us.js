@@ -214,7 +214,7 @@ const About = () => {
               <div>
                 <div className="text-left md:text-right">
                   <h2 className="text-3xl font-bold ml-5">
-                    About Our Technology
+                    About Our RWH Technology
                   </h2>
                   <p className="text-[17px] mt-2 ml-5">
                     At{" "}
