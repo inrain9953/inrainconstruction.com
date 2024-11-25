@@ -8,7 +8,7 @@ export default function Document() {
           <link href="./styles/aos-noscript.css" rel="stylesheet" />
         </noscript>
         <script async
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16650006765">
+        src="https://www.googletagmanager.com/gtag/js?id=G-K8YCBL2VWJ">
         </script>
       </Head>
       <body>
