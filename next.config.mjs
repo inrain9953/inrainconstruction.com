@@ -8,6 +8,11 @@ const nextConfig = {
         destination: '/roof-top-rainwater-harvesting-system-RRWHS-InRain',
         permanent: true,
       },
+      {
+        source: '/polyrain-rainwater-harvesting',
+        destination: '/polymer-type-rainwater-harvesting',
+        permanent: true,
+      }
     ];
   },
 };
