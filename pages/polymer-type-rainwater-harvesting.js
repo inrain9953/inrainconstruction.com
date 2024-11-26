@@ -11,21 +11,21 @@ import Head from "next/head";
 
 const PolyRain = () => {
   const title =
-    "Polyrain Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+    "Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const desc =
     "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
   const keyword =
-    "rainwater harvesting system in Delhi, polyrain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company";
+    "rainwater harvesting system in Delhi, polyrain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company, Polymer Type Rainwater Harvesting";
   const canonical =
-    "https://www.inrainconstruction.com/polyrain-rainwater-harvesting";
+    "https://www.inrainconstruction.com/polymer-type-rainwater-harvesting";
   const ogUrl =
-    "https://www.inrainconstruction.com/polyrain-rainwater-harvesting";
+    "https://www.inrainconstruction.com/polymer-type-rainwater-harvesting";
   const ogTitle =
-    "Polyrain Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+    "Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
   const twittertitle =
-    "Polyrain Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+    "Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
 
@@ -74,7 +74,7 @@ const PolyRain = () => {
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
           <div data-aos="zoom-in-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
-              Polyrain Rainwater Harvesting System
+              Polymer Type Rainwater Harvesting System
             </h1>
             <p className="text-[17px] md:text-lg mt-3">
               <bold className="text-green-700 font-semibold">
