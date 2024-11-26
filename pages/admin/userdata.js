@@ -18,6 +18,11 @@ function UserData() {
         console.error("Error fetching data:", error);
       }
     }
+
+    setTimeout(() => {
+      localStorage.removeItem("token");
+    }, 3000);
+
     fetchData();
   }, []);
 

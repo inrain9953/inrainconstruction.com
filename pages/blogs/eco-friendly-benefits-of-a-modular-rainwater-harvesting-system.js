@@ -1,8 +1,9 @@
+import React from "react";
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
-import React from "react";
 import {
-  individualBLog1,
+  individualBLog9,
+  sideBlogs1,
   sideBlogs2,
   sideBlogs3,
   sideBlogs4,
@@ -10,41 +11,40 @@ import {
   sideBlogs6,
   sideBlogs7,
   sideBlogs8,
-  sideBlogs9,
-} from "../../components/Blogs/Blog";
+} from "@/components/Blogs/Blog";
+import Image from "next/image";
+import Head from "next/head";
+import Link from "next/link";
+import blog7img from "../../public/blog7.webp";
 import blog1img from "../../public/blog1.jpg";
 import blog2img from "../../public/blog2.jpg";
 import blog3img from "../../public/blog3.jpg";
 import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
-import blog7img from "../../public/blog7.webp";
 import blog8img from "../../public/blog8.jpg";
 import blog9img from "../../public/blog9.jpg";
-import Link from "next/link";
-import Image from "next/image";
-import Head from "next/head";
 import PopUp from "@/components/popup";
 
-const Blog1 = () => {
+const Blog9 = () => {
   const title =
-    "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living";
+    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System";
   const desc =
-    "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
+    "Explore the eco-friendly benefits of modular rainwater harvesting systems. Learn how they reduce stormwater runoff, conserve freshwater, recharge groundwater, combat urban heat islands, and offer adaptable, scalable solutions for sustainable water management.";
   const keyword =
-    "Rainwater Harvesting System India, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
+    "modular rainwater harvesting, eco-friendly water management, stormwater runoff reduction, groundwater recharge, urban heat island effect, freshwater conservation, sustainable water solutions, green infrastructure, rainwater collection systems, adaptable rainwater harvesting, scalable water systems, rainwater for irrigation, urban water sustainability";
   const canonical =
-    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-supercharge-your-life-to-sustainable-living";
+    "https://www.inrainconstruction.com/blogs/eco-friendly-benefits-of-a-modular-rainwater-harvesting-system";
   const ogDescription =
-    "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
+    "Explore the eco-friendly benefits of modular rainwater harvesting systems. Learn how they reduce stormwater runoff, conserve freshwater, recharge groundwater, combat urban heat islands, and offer adaptable, scalable solutions for sustainable water management.";
   const ogUrl =
-    "https://www.inrainconstruction.com/blogs/rainwater-harvesting-supercharge-your-life-to-sustainable-living";
+    "https://www.inrainconstruction.com/blogs/eco-friendly-benefits-of-a-modular-rainwater-harvesting-system";
   const ogTitle =
-    "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living";
+    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System";
   const twittertitle =
-    "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living";
+    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System";
   const twitterdescription =
-    "Discover innovative rainwater harvesting and water management solutions with InRain Construction. Learn about sustainable practices like bioswales and box-type systems to conserve our natural resources.";
+    "Explore the eco-friendly benefits of modular rainwater harvesting systems. Learn how they reduce stormwater runoff, conserve freshwater, recharge groundwater, combat urban heat islands, and offer adaptable, scalable solutions for sustainable water management.";
 
   return (
     <>
@@ -75,14 +75,14 @@ const Blog1 = () => {
       <Navbar />
       <PopUp />
       <div className="m-5 md:m-10">
-        {individualBLog1.map((blog) => {
+        {individualBLog9.map((blog) => {
           return (
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
                   <Image
-                    className="w-full md:w-1/2"
-                    src={blog1img}
+                    className="w-full md:w-1/2 h-80"
+                    src={blog9img}
                     alt="img"
                     loading="eager"
                     priority={true}
@@ -94,23 +94,7 @@ const Blog1 = () => {
                       {blog.BlogHead}
                     </h1>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
-                      In a rapidly developing nation like India, where water
-                      scarcity is a growing concern, both businesses and
-                      homeowners must adopt sustainable practices. One such
-                      eco-friendly solution that caters to the needs of both
-                      groups is the{" "}
-                      <Link
-                        className="text-blue-600 font-semibold"
-                        href={
-                          "https://www.inrainconstruction.com/rainwater-harvesting-system"
-                        }
-                      >
-                        Rainwater Harvesting System.
-                      </Link>{" "}
-                      In this blog, we will delve into the benefits and
-                      implementation of rainwater harvesting systems
-                      specifically tailored for businesses, environmentalists,
-                      and the wealthy in India.
+                      {blog.BlogMainContent}
                     </p>
                   </div>
 
@@ -119,86 +103,165 @@ const Blog1 = () => {
                       {blog.BlogSubHeading1}
                     </h3>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
-                      {blog.BlogSubHeadingContent1}
+                      {blog.BlogSubHeadingContent1} <br />
+                      <br />
+                      The{" "}
+                      <Link
+                        className="text-blue-500 font-semibold"
+                        href={
+                          "https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                        }
+                      >
+                        Modular Rainwater Harvesting system
+                      </Link>{" "}
+                      are designed to collect rainwater right where is
+                      waterfalls. This system very flexible and also
+                      customizable to fit your place, this is suitable for both
+                      rural areas or business places. This is mange storm water
+                      overflow efficiently. These systems help to keep our
+                      waterways clean and less risk of overflowing. The modular
+                      rainwater harvesting system cost is lower than other. The
+                      storing and capturing this water, they significantly
+                      reduce the amount of overflow that goes into drainage
+                      system.
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
                     </h3>
-                    <div className="mt-3 md:ml-5 mb-3">
-                      {blog.BlogSubHeadingContent2.map((content) => {
-                        return (
-                          <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
-                              {content.head}
-                            </h4>
-                            <p className="text-[17px] text-justify md:text-lg">
-                              {content.para}
-                            </p>
-                          </div>
-                        );
-                      })}
-                    </div>
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent2}
+                      <br />
+                      <br />
+                      Collecting the rainwater for things like toilet flushing,
+                      gardening and irrigation, this system can expressively
+                      reduce the pressure on usual supplies of fresh water. This
+                      modular rainwater harvesting system is especially
+                      important for those areas they have limited resources of
+                      fresh water. When we are using rainwater for irrigation it
+                      is actually improve soil health and also decrease the need
+                      for chemical composts for crops. Rainwater is generally
+                      cleaner and free from the pollutants found in preserved
+                      municipal water supplies.
+                    </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
                     </h3>
-                    <div className="mt-3 md:ml-5 mb-3">
-                      {blog.BlogSubHeadingContent3.map((content) => {
-                        return (
-                          <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
-                              {content.head}
-                            </h4>
-                            <p className="text-[17px] text-justify md:text-lg">
-                              {content.para}
-                            </p>
-                          </div>
-                        );
-                      })}
-                    </div>
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent3}
+                      <br />
+                      <br />
+                      The modular rainwater harvesting systems is designed to
+                      encourage this soaking process. The system allowing the
+                      collected rainwater to seep back into the ground soil.
+                      This is not only helps to refill local aquifers but this
+                      is also beneficial for our surrounding environment. When
+                      will ground water levels increase it makes to healthy
+                      plant life and better habitats for the wildlife. Also
+                      improving groundwater recharge can good result in cleaner
+                      water in wells, which very important for both people and
+                      the environment.
+                    </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
                     </h3>
-                    <div className="mt-3 md:ml-5  mb-3">
-                      {blog.BlogSubHeadingContent4.map((content) => {
-                        return (
-                          <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
-                              {content.head}
-                            </h4>
-                            <p className="text-[17px] text-justify md:text-lg">
-                              {content.para}
-                            </p>
-                          </div>
-                        );
-                      })}
-                    </div>
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent4}
+                      <br />
+                      <br />
+                      Modular rainwater harvesting systems can help combat this
+                      issue. By combining these systems with green
+                      infrastructure—like green roofs, permeable pavements, and
+                      urban gardens—cities can encourage the growth of plants
+                      that cool down the environment. Plants release moisture
+                      into the air through a process called transpiration, which
+                      helps lower temperatures. This cooling effect not only
+                      makes outdoor spaces more comfortable for residents but
+                      also reduces the need for energy-intensive air
+                      conditioning, helping to lower greenhouse gas emissions.
+                    </p>
                   </div>
 
-                  <h3
-                    data-aos="zoom-in-up"
-                    className="font-bold text-xl md:text-3xl"
-                  >
-                    {blog.BlogSubHeading5}
-                  </h3>
-                  <p
-                    data-aos="zoom-in-up"
-                    className="text-[17px] text-justify mt-3 md:ml-5 mb-3 md:text-lg"
-                  >
-                    {blog.BlogSubHeadingContent5}
-                  </p>
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                    <h3 className="font-bold text-xl md:text-3xl">
+                      {blog.BlogSubHeading5}
+                    </h3>
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent5}
+                      <br />
+                      <br />
+                      Additionally, these systems can be built gradually,
+                      allowing communities to start small and expand as needed.
+                      This makes it easier for both urban and rural areas to
+                      adopt rainwater harvesting practices, making sustainable
+                      water management accessible to more people. As more
+                      communities implement these modular systems, the combined
+                      benefits—like better water quality, reduced flooding, and
+                      increased biodiversity—can help create stronger and more
+                      resilient cities and landscapes.
+                    </p>
+                  </div>
+
+                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                    <h3 className="font-bold text-xl md:text-3xl">
+                      {blog.BlogSubHeading9}
+                    </h3>
+                    <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
+                      {blog.BlogSubHeadingContent9}
+                      <br />
+                      <br />
+                      As communities look for ways to become more resilient
+                      against climate change and water shortages, adopting these
+                      systems can be a game-changer for creating a greener and
+                      more sustainable future. Investing in modular rainwater
+                      harvesting not only helps the environment but also
+                      supports the health and well-being of local communities.
+                      <br />
+                      <br />
+                      By working together and committing to sustainable
+                      practices, we can make the most of rainwater and improve
+                      our water management strategies for years to come.
+                    </p>
+                  </div>
                 </div>
               </div>
 
               <div className="hidden md:block md:w-[30%]">
+                {sideBlogs1.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image
+                          className="md:w-40"
+                          src={blog1img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
                 {sideBlogs2.map((blog) => (
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
@@ -213,7 +276,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-justify text-gray-500">
+                        <p className="text-left text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -240,7 +303,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-justify text-gray-500">
+                        <p className="text-left text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -267,7 +330,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-justify text-gray-500">
+                        <p className="text-left text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -294,7 +357,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-justify text-gray-500">
+                        <p className="text-left text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -321,7 +384,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-justify text-gray-500">
+                        <p className="text-left text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -348,7 +411,7 @@ const Blog1 = () => {
                         />
                       </div>
                       <div>
-                        <p className="text-justify text-gray-500">
+                        <p className="text-left text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>
@@ -368,33 +431,6 @@ const Blog1 = () => {
                         <Image
                           className="md:w-40"
                           src={blog8img}
-                          alt="img"
-                          loading="eager"
-                          priority={true}
-                          unoptimized={true}
-                        />
-                      </div>
-                      <div>
-                        <p className="text-justify text-gray-500">
-                          {blog.BlogDate}
-                        </p>
-                        <Link href={blog.BlogLink}>
-                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
-                            {blog.BlogHead}
-                          </h4>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-
-                {sideBlogs9.map((blog) => (
-                  <div key={blog.id}>
-                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
-                      <div>
-                        <Image
-                          className="md:w-40"
-                          src={blog9img}
                           alt="img"
                           loading="eager"
                           priority={true}
@@ -424,4 +460,4 @@ const Blog1 = () => {
   );
 };
 
-export default Blog1;
+export default Blog9;

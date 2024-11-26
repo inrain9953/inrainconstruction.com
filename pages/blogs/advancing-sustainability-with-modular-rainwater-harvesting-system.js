@@ -10,6 +10,7 @@ import {
   sideBlogs6,
   sideBlogs7,
   sideBlogs8,
+  sideBlogs9,
 } from "../../components/Blogs/Blog";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,6 +23,7 @@ import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
 import blog7img from "../../public/blog7.webp";
 import blog8img from "../../public/blog8.jpg";
+import blog9img from "../../public/blog9.jpg";
 import PopUp from "@/components/popup";
 
 const Blog2 = () => {
@@ -334,6 +336,33 @@ const Blog2 = () => {
                       </div>
                       <div>
                         <p className="text-justify text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs9.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image
+                          className="md:w-40"
+                          src={blog9img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
                           {blog.BlogDate}
                         </p>
                         <Link href={blog.BlogLink}>

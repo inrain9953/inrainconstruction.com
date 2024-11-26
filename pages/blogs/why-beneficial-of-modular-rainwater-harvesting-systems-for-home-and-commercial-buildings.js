@@ -10,6 +10,7 @@ import {
   sideBlogs5,
   sideBlogs6,
   sideBlogs7,
+  sideBlogs9,
 } from "@/components/Blogs/Blog";
 import Image from "next/image";
 import Head from "next/head";
@@ -22,6 +23,7 @@ import blog4img from "../../public/blog4.jpg";
 import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
 import blog8img from "../../public/blog8.jpg";
+import blog9img from "../../public/blog9.jpg";
 import PopUp from "@/components/popup";
 
 const Blog8 = () => {
@@ -38,9 +40,9 @@ const Blog8 = () => {
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/why-beneficial-of-modular-rainwater-harvesting-systems-for-home-and-commercial-buildings";
   const ogTitle =
-    "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?";
+    "Why Beneficial of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?";
   const twittertitle =
-    "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?";
+    "Why Beneficial of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?";
   const twitterdescription =
     "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
 
@@ -365,6 +367,33 @@ const Blog8 = () => {
                         <Image
                           className="md:w-40"
                           src={blog7img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs9.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image
+                          className="md:w-40"
+                          src={blog9img}
                           alt="img"
                           loading="eager"
                           priority={true}
