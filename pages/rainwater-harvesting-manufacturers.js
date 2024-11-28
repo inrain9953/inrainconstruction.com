@@ -6,24 +6,25 @@ import harvesting13 from "./../public/services/harvesting6.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
+import Link from "next/link";
 
 const Service13 = () => {
   const title =
-    "Rainwater harvesting manufacturer in Delhi | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting Manufacturers | InRain® Construction Pvt. Ltd.";
   const desc =
     "Find a Rainwater Harvesting manufacturer in Delhi. We are the best Modular Rainwater Harvesting System Service Provider in Delhi. Get & Install a Rainwater Harvesting System at the best price.";
   const keyword =
-    "Rainwater harvesting manufacturer, Rainwater harvesting manufacturer in Delhi, Custom Rainwater Solutions, Rainwater Harvesting Suppliers, Rainwater Harvesting Suppliers in Delhi, Cost-Effective Water Conservation, Innovative Rainwater Harvesting Systems, Sustainable Water Management in Delhi, Eco-Friendly Water Management";
+    "Rainwater Harvesting Manufacturer, Rainwater harvesting manufacturer in Delhi, Custom Rainwater Solutions, Rainwater Harvesting Suppliers, Rainwater Harvesting Suppliers in Delhi, Cost-Effective Water Conservation, Innovative Rainwater Harvesting Systems, Sustainable Water Management in Delhi, Eco-Friendly Water Management";
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-manufacturers";
   const ogUrl =
     "https://www.inrainconstruction.com/rainwater-harvesting-manufacturers";
   const ogTitle =
-    "Rainwater harvesting manufacturer in Delhi | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting Manufacturers | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Find a Rainwater Harvesting manufacturer in Delhi. We are the best Modular Rainwater Harvesting System Service Provider in Delhi. Get & Install a Rainwater Harvesting System at the best price.";
   const twittertitle =
-    "Rainwater harvesting manufacturer in Delhi | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting Manufacturers | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Find a Rainwater Harvesting manufacturer in Delhi. We are the best Modular Rainwater Harvesting System Service Provider in Delhi. Get & Install a Rainwater Harvesting System at the best price.";
 
@@ -58,10 +59,18 @@ const Service13 = () => {
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service13}
-            alt="img"
+            alt="Rainwater Harvesting Manufacturers"
+            loading="eager"
+            priority={true}
+            unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Rainwater Harvesting Manufacturers
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -76,11 +85,19 @@ const Service13 = () => {
               rainwater harvesting manufacturer in Delhi, we specialize in
               providing innovative solutions for residential, commercial, and
               industrial applications. With the growing concerns over water
-              scarcity and the need for efficient water management, rainwater
-              harvesting has emerged as a viable and eco-friendly solution. Our
-              mission is to empower individuals, businesses, and communities to
-              harness the power of rainwater and reduce their dependence on
-              traditional water sources.
+              scarcity and the need for efficient{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/storm-water-recharge-and-management"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                water management,
+              </Link>{" "}
+              rainwater harvesting has emerged as a viable and eco-friendly
+              solution. Our mission is to empower individuals, businesses, and
+              communities to harness the power of rainwater and reduce their
+              dependence on traditional water sources.
             </p>
 
             <h2 className="text-2xl md:text-3xl font-semibold mt-5">
@@ -118,9 +135,18 @@ const Service13 = () => {
               <li>
                 <bold className="font-semibold">High-Quality Products:</bold> We
                 pride ourselves on using top-of-the-line components and
-                materials in our rainwater harvesting systems. By partnering
-                with trusted suppliers, we guarantee that your system is built
-                to last, delivering optimal performance and longevity.
+                materials in our{" "}
+                <Link
+                  href={
+                    "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                  }
+                  className="text-green-600 hover:text-sky-500 font-semibold"
+                >
+                  Rainwater Harvesting Systems.
+                </Link>{" "}
+                By partnering with trusted suppliers, we guarantee that your
+                system is built to last, delivering optimal performance and
+                longevity.
               </li>
               <li>
                 <bold className="font-semibold">
@@ -153,7 +179,16 @@ const Service13 = () => {
             </ol>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image className="w-full" src={harvesting13} alt="img" />
+            <Link href={"https://www.inrainconstruction.com/"}>
+              <Image
+                className="w-full"
+                src={harvesting13}
+                alt="Rainwater Harvesting Manufacturers in Delhi"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
       </div>

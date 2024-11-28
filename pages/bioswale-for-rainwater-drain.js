@@ -6,7 +6,7 @@ import harvesting10 from "./../public/harvesting11.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
-import Script from "next/script";
+import Link from "next/link";
 
 const Service10 = () => {
   const title = "Bioswale for Rainwater Drain | InRain® Construction Pvt. Ltd.";
@@ -53,26 +53,23 @@ const Service10 = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16650006765');
-        `}
-      </Script>
       <Navbar />
       <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service10}
-            alt="img"
+            alt="Bioswale for Rainwater Drain"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Bioswale for Rainwater Drain
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -95,13 +92,21 @@ const Service10 = () => {
               <br></br>
               <br></br>
               At Inrain Construction Pvt. Ltd. we help in creating bioswale for
-              rainwater drain. Bioswale is an excellent solution for managing
-              stormwater runoff. Since it uses green plants for filtration and
-              management of water conservation through a channel, bioswale looks
-              very pleasing to the eyes. The stormwater runoff gets conveyed
-              through a slopped channel helping in removing pollutants in the
-              water. Plants and species used in bioswale depend on the climate
-              and the size of the place.
+              rainwater drain. Bioswale is an excellent solution for{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/storm-water-recharge-and-management"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                managing stormwater runoff.
+              </Link>{" "}
+              Since it uses green plants for filtration and management of water
+              conservation through a channel, bioswale looks very pleasing to
+              the eyes. The stormwater runoff gets conveyed through a slopped
+              channel helping in removing pollutants in the water. Plants and
+              species used in bioswale depend on the climate and the size of the
+              place.
               <br></br>
               <br></br>
               Bioswale is an excellent solution for new-age residential
@@ -119,19 +124,28 @@ const Service10 = () => {
               it has to meet the required infiltration rate before it can be
               installed. Inrain Construction Pvt. Ltd. with its advanced
               technology and the professional team helps in providing an
-              end-to-end solution from consultation, and installation to
-              maintenance.
+              end-to-end solution from consultation, and{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/rainwater-harvesting-installation-company"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                installation to maintenance.
+              </Link>
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image
-              className="w-full"
-              src={harvesting10}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
+            <Link href={"https://www.inrainconstruction.com/"}>
+              <Image
+                className="w-full"
+                src={harvesting10}
+                alt="Bioswale"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
       </div>

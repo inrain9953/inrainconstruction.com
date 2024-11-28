@@ -28,11 +28,11 @@ import PopUp from "@/components/popup";
 
 const Blog9 = () => {
   const title =
-    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System";
+    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const desc =
     "Explore the eco-friendly benefits of modular rainwater harvesting systems. Learn how they reduce stormwater runoff, conserve freshwater, recharge groundwater, combat urban heat islands, and offer adaptable, scalable solutions for sustainable water management.";
   const keyword =
-    "modular rainwater harvesting, eco-friendly water management, stormwater runoff reduction, groundwater recharge, urban heat island effect, freshwater conservation, sustainable water solutions, green infrastructure, rainwater collection systems, adaptable rainwater harvesting, scalable water systems, rainwater for irrigation, urban water sustainability";
+    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System, Reduction of Storm Water Runoff, eco-friendly water management, stormwater runoff reduction, groundwater recharge, urban heat island effect, freshwater conservation, sustainable water solutions, green infrastructure, rainwater collection systems, adaptable rainwater harvesting, scalable water systems, rainwater for irrigation, urban water sustainability";
   const canonical =
     "https://www.inrainconstruction.com/blogs/eco-friendly-benefits-of-a-modular-rainwater-harvesting-system";
   const ogDescription =
@@ -40,9 +40,9 @@ const Blog9 = () => {
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/eco-friendly-benefits-of-a-modular-rainwater-harvesting-system";
   const ogTitle =
-    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System";
+    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const twittertitle =
-    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System";
+    "Eco-Friendly Benefits of a Modular Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Explore the eco-friendly benefits of modular rainwater harvesting systems. Learn how they reduce stormwater runoff, conserve freshwater, recharge groundwater, combat urban heat islands, and offer adaptable, scalable solutions for sustainable water management.";
 
@@ -80,14 +80,16 @@ const Blog9 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
-                  <Image
-                    className="w-full md:w-1/2 h-80"
-                    src={blog9img}
-                    alt="img"
-                    loading="eager"
-                    priority={true}
-                    unoptimized={true}
-                  />
+                  <Link href={"https://www.inrainconstruction.com/"}>
+                    <Image
+                      className="w-full md:w-1/2 h-80"
+                      src={blog9img}
+                      alt="Eco-Friendly Benefits of a Modular Rainwater Harvesting System"
+                      loading="eager"
+                      priority={true}
+                      unoptimized={true}
+                    />
+                  </Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -99,15 +101,15 @@ const Blog9 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
-                    </h3>
+                    </h2>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent1} <br />
                       <br />
                       The{" "}
                       <Link
-                        className="text-blue-500 font-semibold"
+                        className="text-blue-500 hover:text-green-500 font-semibold"
                         href={
                           "https://www.inrainconstruction.com/modular-rainwater-harvesting"
                         }
@@ -149,9 +151,9 @@ const Blog9 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent3}
                       <br />
@@ -170,9 +172,9 @@ const Blog9 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent4}
                       <br />
@@ -191,9 +193,9 @@ const Blog9 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading5}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent5}
                       <br />
@@ -201,19 +203,28 @@ const Blog9 = () => {
                       Additionally, these systems can be built gradually,
                       allowing communities to start small and expand as needed.
                       This makes it easier for both urban and rural areas to
-                      adopt rainwater harvesting practices, making sustainable
-                      water management accessible to more people. As more
-                      communities implement these modular systems, the combined
-                      benefits—like better water quality, reduced flooding, and
-                      increased biodiversity—can help create stronger and more
-                      resilient cities and landscapes.
+                      adopt{" "}
+                      <Link
+                        className="text-blue-500 hover:text-green-500 font-semibold"
+                        href={
+                          "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                        }
+                      >
+                        Rainwater Harvesting
+                      </Link>{" "}
+                      practices, making sustainable water management accessible
+                      to more people. As more communities implement these
+                      modular systems, the combined benefits—like better water
+                      quality, reduced flooding, and increased biodiversity—can
+                      help create stronger and more resilient cities and
+                      landscapes.
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading9}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent9}
                       <br />

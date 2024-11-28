@@ -32,7 +32,7 @@ const Blog7 = () => {
   const desc =
     "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
   const keyword =
-    "Rainwater Harvesting, Commercial Buildings, Sustainable Water Management, Modular Rainwater Harvesting System, Eco-Friendly Business Practices, Cost Effective, Municipal Water Reduction, Environmental Impact";
+    "Rainwater Harvesting and It's Importance, Water Conservation, Rainwater Harvesting, Commercial Buildings, Sustainable Water Management, Eco-Friendly Business Practices, Cost Effective, Municipal Water Reduction, Environmental Impact";
   const canonical =
     "https://www.inrainconstruction.com/blogs/rainwater-harvesting-and-its-importance";
   const ogDescription =
@@ -80,6 +80,7 @@ const Blog7 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
+                  <Link href={"https://www.inrainconstruction.com/"}>
                   <Image
                     className="w-full md:w-1/2 h-80"
                     src={blog7img}
@@ -87,7 +88,7 @@ const Blog7 = () => {
                     loading="eager"
                     priority={true}
                     unoptimized={true}
-                  />
+                  /></Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -100,15 +101,15 @@ const Blog7 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <p className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
-                    </h3>
+                    </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
-                    </h3>
+                    </h2>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent2}
                     </p>
@@ -136,61 +137,61 @@ const Blog7 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent4}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading5}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent5}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading6}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent6}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading7}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent7}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading8}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent8}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading9}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent9}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       Advantages of{" "}
                       <Link
                         className="text-blue-500 font-semibold"
@@ -201,14 +202,14 @@ const Blog7 = () => {
                         Modular Rainwater Harvesting
                       </Link>{" "}
                       by InRain Construction Pvt. Ltd.
-                    </h3>
+                    </h5>
                     <div className="mt-3 md:ml-5 mb-3">
                       {blog.BlogSubHeadingContent10.map((content) => {
                         return (
                           <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
+                            <h5 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
-                            </h4>
+                            </h5>
                             <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>

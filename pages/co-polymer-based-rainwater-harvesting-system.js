@@ -6,7 +6,7 @@ import service2 from "./../public/service2.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
-import Script from "next/script";
+import Link from "next/link";
 
 const Service2 = () => {
   const title =
@@ -14,7 +14,7 @@ const Service2 = () => {
   const desc =
     "Co-polymer based rainwater harvesting system uses a structure that offers an economical and eco-friendly solution compared to traditional rainwater harvesting systems.";
   const keyword =
-    "Polymer Type Rainwater Harvesting System Service Provider, Co-polymer based rainwater harvesting system, Modular rainwater harvesting system, Polymer Type Rainwater Harvesting System";
+    "Co-polymer based rainwater harvesting system, Polymer Type Rainwater Harvesting System Service Provider, Polymer Type Rainwater Harvesting System, rainwater harvesting system";
   const canonical =
     "https://www.inrainconstruction.com/co-polymer-based-rainwater-harvesting-system";
   const ogUrl =
@@ -54,26 +54,24 @@ const Service2 = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16650006765');
-        `}
-      </Script>
       <Navbar />
       <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service2}
-            alt="img"
+            alt="Water is source of life"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Co-Polymer Based Rainwater
+              Harvesting System
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -108,9 +106,18 @@ const Service2 = () => {
               like parking vehicles, floriculture and kids' playground etc.
               <br></br>
               <br></br>
-              Co-polymer based rainwater harvesting system comes with certain
-              advantages over the traditional method of rainwater harvesting.
-              Some of the major advantages of this system are
+              Co-polymer based{" "}
+              <Link
+                className="hover:text-green-500 text-sky-500"
+                href={
+                  "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                }
+              >
+                Rainwater Harvesting System
+              </Link>{" "}
+              comes with certain advantages over the traditional method of
+              rainwater harvesting. Some of the major advantages of this system
+              are
             </p>
 
             <ol className="list-decimal m-5 font-semibold text-[17px] text-justify md:text-lg">
@@ -137,21 +144,31 @@ const Service2 = () => {
             </ol>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              A Modular rainwater harvesting system meets the modern-day
-              requirements and comes with safety assurance with an option of
-              portability which makes it one of the most sought-after water
-              conservation and management systems.
+              A{" "}
+              <Link
+                className="hover:text-green-500 text-sky-500"
+                href={
+                  "https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                }
+              >
+                Modular Rainwater Harvesting System
+              </Link>{" "}
+              meets the modern-day requirements and comes with safety assurance
+              with an option of portability which makes it one of the most
+              sought-after water conservation and management systems.
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image
-              className="w-full"
-              src={harvesting2}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
+            <Link href={"https://www.inrainconstruction.com/"}>
+              <Image
+                className="w-full"
+                src={harvesting2}
+                alt="Co-polymer based rainwater harvesting system"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
 

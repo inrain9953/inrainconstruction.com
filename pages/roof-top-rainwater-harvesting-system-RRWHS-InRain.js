@@ -6,6 +6,7 @@ import harvesting5 from "./../public/services/harvesting5.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
+import Link from "next/link";
 
 const Service5 = () => {
   const title =
@@ -58,10 +59,19 @@ const Service5 = () => {
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service5}
-            alt="img"
+            alt="Roof Top Rainwater Harvesting System"
+            loading="eager"
+            priority={true}
+            unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Roof Top Rainwater Harvesting
+              System
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -78,16 +88,24 @@ const Service5 = () => {
               rainwater. The roof top rainwater harvesting systems are suitable
               for both residential and commercial areas. <br></br>
               <br></br>
-              Inrain Construction Pvt. Ltd., we deal with a wide variety of
-              rainwater harvesting systems. Our water conservation and
-              management services are very flexible as we provide solutions
-              based on the customer’s needs. We provide both complete package
-              installation and management services. In case you need to install
-              the roof top rainwater harvesting system in your newly constructed
-              house, we provide a complete package along with maintenance
-              services. You can choose specific components if you have already
-              installed the rainwater harvesting system. Our packages are
-              suitable for both commercial and residential areas.
+              Inrain Construction Pvt. Ltd., we deal with a wide variety of{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                Rainwater Harvesting Systems.
+              </Link>{" "}
+              Our water conservation and management services are very flexible
+              as we provide solutions based on the customer’s needs. We provide
+              both complete package installation and management services. In
+              case you need to install the roof top rainwater harvesting system
+              in your newly constructed house, we provide a complete package
+              along with maintenance services. You can choose specific
+              components if you have already installed the rainwater harvesting
+              system. Our packages are suitable for both commercial and
+              residential areas.
               <br></br>
               <br></br>
               Filtration is the major requirement for roof top rainwater
@@ -109,7 +127,15 @@ const Service5 = () => {
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image className="w-full" src={harvesting5} alt="img" />
+            <Link href={"https://www.inrainconstruction.com/"}>
+            <Image
+              className="w-full"
+              src={harvesting5}
+              alt="Rainwater Harvesting Module View"
+              loading="eager"
+              priority={true}
+              unoptimized={true}
+            /></Link>
           </div>
         </div>
       </div>

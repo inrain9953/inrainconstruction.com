@@ -6,10 +6,11 @@ import harvesting12 from "./../public/services/harvesting1.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
+import Link from "next/link";
 
 const Service12 = () => {
   const title =
-    "Rainwater harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
   const desc =
     "Inrain Construction Pvt Ltd is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.";
   const keyword =
@@ -19,11 +20,11 @@ const Service12 = () => {
   const ogUrl =
     "https://www.inrainconstruction.com/rainwater-harvesting-installation-company";
   const ogTitle =
-    "Rainwater harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Inrain Construction Pvt Ltd is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.";
   const twittertitle =
-    "Rainwater harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Inrain® Construction Pvt. Ltd. is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.";
 
@@ -58,10 +59,19 @@ const Service12 = () => {
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service12}
-            alt="img"
+            alt="Rainwater Harvesting Installation Company"
+            loading="eager"
+            priority={true}
+            unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Rainwater Harvesting Installation
+              Company
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -140,13 +150,21 @@ const Service12 = () => {
               </li>
               <li>
                 <bold className="font-semibold">Cost Savings:</bold>{" "}
-                Implementing a rainwater harvesting system offers both
-                environmental and financial benefits. By utilizing rainwater for
-                various applications, you can lower your water bills and
-                decrease demand on municipal water supplies. Our team carefully
-                assesses your water usage patterns and calculates potential cost
-                savings, providing you with a clear understanding of the
-                economic advantages associated with rainwater harvesting.
+                Implementing a{" "}
+                <Link
+                  href={
+                    "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                  }
+                  className="text-green-600 hover:text-sky-500 font-semibold"
+                >
+                  Rainwater Harvesting System
+                </Link>{" "}
+                offers both environmental and financial benefits. By utilizing
+                rainwater for various applications, you can lower your water
+                bills and decrease demand on municipal water supplies. Our team
+                carefully assesses your water usage patterns and calculates
+                potential cost savings, providing you with a clear understanding
+                of the economic advantages associated with rainwater harvesting.
               </li>
               <li>
                 <bold className="font-semibold">Local Expertise:</bold> As local
@@ -169,7 +187,16 @@ const Service12 = () => {
             </ol>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image className="w-full" src={harvesting12} alt="img" />
+            <Link href={"https://www.inrainconstruction.com/"}>
+              <Image
+                className="w-full"
+                src={harvesting12}
+                alt="Rainwater Harvesting Installation"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
       </div>

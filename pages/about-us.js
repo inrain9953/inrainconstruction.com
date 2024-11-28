@@ -13,14 +13,15 @@ import PopUp from "@/components/popup";
 import griha from "./../public/griha.jpg";
 import iso1 from "./../public/iso1.jpg";
 import iso2 from "./../public/iso2.jpg";
-import Script from "next/script";
+import Link from "next/link";
 
 const About = () => {
-  const title = "About US | InRain® Construction Pvt. Ltd.";
+  const title =
+    "About ICPL | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
   const desc =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
   const keyword =
-    "InRain® Construction Pvt. Ltd., Rainwater Harvesting, Water Conservation, Modular Tank Systems, Sustainable Water Management, Monolithic Structures, RWH Technology, Clean Energy Solutions, Modular Technology RWH, Water Table Recharge";
+    "About ICPL, About Our Rainwater Harvesting(RWH) Technology, Water Conservation, Modular Tank Systems, Sustainable Water Management, Monolithic Structures, RWH Technology, Clean Energy Solutions, Modular Technology RWH, Water Table Recharge";
   const canonical = "https://www.inrainconstruction.com/about-us";
   const ogUrl = "https://www.inrainconstruction.com/about-us";
   const ogTitle = "About Us | InRain® Construction Pvt. Ltd.";
@@ -56,14 +57,6 @@ const About = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16650006765');
-        `}
-      </Script>
       <Navbar />
       <PopUp />
       <div>
@@ -93,10 +86,10 @@ const About = () => {
             />
           </div>
           <div className="mt-5 text-left md:mr-10">
-            <h2 className="text-2xl md:text-4xl font-semibold md:mb-10">
+            <p className="text-2xl md:text-4xl font-semibold md:mb-10">
               Who We Are
-            </h2>
-            <h2 className="text-2xl font-bold mt-5 md:text-3xl">ICPL</h2>
+            </p>
+            <p className="text-2xl font-bold mt-5 md:text-3xl">ICPL</p>
             <p className="text-[17px] text-justify md:text-lg mt-2 md:pr-10">
               We are a subsidiary company of “Singh & Singh Construction”, a
               firm with a strong presence in India with more than 30 years of
@@ -112,23 +105,31 @@ const About = () => {
 
         <div data-aos="zoom-in-up" className="mt-10 md:mt-16 ">
           <div className="text-center mb-5">
-            <h2 className="text-2xl font-semibold md:text-3xl md:font-bold">
+            <h1 className="text-2xl font-semibold md:text-3xl md:font-bold">
               About ICPL
-            </h2>
+            </h1>
           </div>
           <div className="text-center m-5 shadow-2xl p-5 rounded-lg md:mt-7 md:w-[75%] md:m-auto">
-            <h1 className="text-2xl font-semibold m-3 md:text-3xl md:font-bold md:mt-5 md:mb-3">
+            <h2 className="text-2xl font-semibold m-3 md:text-3xl md:font-bold md:mt-5 md:mb-3">
               InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)
-            </h1>
+            </h2>
             <p className="text-[17px] text-justify md:text-lg">
-              Rainwater Harvesting Company with a strong presence all over
-              India. The company has successfully Installed more than 400
-              Rainwater Harvesting Projects to enable it to conserve billions of
-              gallons of water from wasting. We are privileged to introduce the
-              next level Scientific Rainwater harvesting technology with more
-              than 50 Ton/SQM Load bearing Structure for the 1st time in the
-              world. We are proud partners of the Make in India Movement, having
-              our own products and manufacturing.
+              <Link
+                className="text-green-500 hover:text-sky-500"
+                href={
+                  "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                }
+              >
+                Rainwater Harvesting
+              </Link>{" "}
+              Company with a strong presence all over India. The company has
+              successfully Installed more than 400 Rainwater Harvesting Projects
+              to enable it to conserve billions of gallons of water from
+              wasting. We are privileged to introduce the next level Scientific
+              Rainwater harvesting technology with more than 50 Ton/SQM Load
+              bearing Structure for the 1st time in the world. We are proud
+              partners of the Make in India Movement, having our own products
+              and manufacturing.
             </p>
           </div>
         </div>
@@ -206,15 +207,15 @@ const About = () => {
           >
             <div className="border-l-2 border-black md:mr-5 md:border-l-0 md:w-[30%]">
               <div className="text-left mt-5 mb-5 md:text-right">
-                <h3 className="font-semibold md:font-bold text-base ml-5 text-blue-500">
+                <p className="font-semibold md:font-bold text-base ml-5 text-blue-500">
                   VISION FOR THE FUTURE
-                </h3>
+                </p>
               </div>
 
               <div>
                 <div className="text-left md:text-right">
                   <h2 className="text-3xl font-bold ml-5">
-                    About Our RWH Technology
+                    About Our Rainwater Harvesting(RWH) Technology
                   </h2>
                   <p className="text-[17px] mt-2 ml-5">
                     At{" "}
@@ -279,14 +280,14 @@ const About = () => {
 
         <div>
           <div data-aos="zoom-in-up" className="text-center m-10">
-            <h3 className="text-lg font-bold text-blue-700">OUR RESEARCH</h3>
-            <h2 className="text-3xl font-bold mt-3 mb-5">How We Work</h2>
+            <h4 className="text-lg font-bold text-blue-700">OUR RESEARCH</h4>
+            <h4 className="text-3xl font-bold mt-3 mb-5">How We Work</h4>
           </div>
 
           <div className="md:grid md:grid-cols-3">
             <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
-                <h2 className="text-base font-bold">STRATEGY</h2>
+                <p className="text-base font-bold">STRATEGY</p>
               </div>
               <div className="text-left p-5 flex flex-col gap-4">
                 <div className="flex gap-2">
@@ -317,7 +318,7 @@ const About = () => {
 
             <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
-                <h2 className="text-base font-bold">TARGET & ASSURANCE</h2>
+                <p className="text-base font-bold">TARGET & ASSURANCE</p>
               </div>
               <div className="text-left p-5 flex flex-col gap-4">
                 <div className="flex gap-2">
@@ -350,7 +351,7 @@ const About = () => {
 
             <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
-                <h2 className="text-base font-bold">CONTROL</h2>
+                <p className="text-base font-bold">CONTROL</p>
               </div>
               <div className="text-left p-5 flex flex-col gap-4">
                 <div className="flex gap-2">
@@ -394,9 +395,9 @@ const About = () => {
               />
             </div>
             <div className="text-left mt-5 md:w-[30%]">
-              <h2 className="text-3xl font-bold">
+              <h4 className="text-3xl font-bold">
                 Installation & Project Development
-              </h2>
+              </h4>
               <p className="text-[17px] text-justify mt-3">
                 Our team has done more than 400+ Rainwater Harvesting Projects
                 accross the India. Technology we are using has globally been
@@ -425,9 +426,9 @@ const About = () => {
         </div>
 
         <div className="text-center">
-          <h3 data-aos="zoom-in-up" className="text-3xl font-bold ml-5">
+          <p data-aos="zoom-in-up" className="text-3xl font-bold ml-5">
             Our Certification
-          </h3>
+          </p>
           <div className="m-5 md:flex justify-between gap-10">
             <Image
               data-aos="zoom-in-up"

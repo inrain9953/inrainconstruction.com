@@ -104,49 +104,6 @@ const BlogsIndex = () => {
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
                 </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
-                </div>
               </div>
             </div>
           );
@@ -179,49 +136,6 @@ const BlogsIndex = () => {
                   <Button variant="contained" size="small">
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
-                </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
                 </div>
               </div>
             </div>
@@ -256,49 +170,6 @@ const BlogsIndex = () => {
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
                 </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
-                </div>
               </div>
             </div>
           );
@@ -331,49 +202,6 @@ const BlogsIndex = () => {
                   <Button variant="contained" size="small">
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
-                </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
                 </div>
               </div>
             </div>
@@ -408,49 +236,6 @@ const BlogsIndex = () => {
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
                 </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
-                </div>
               </div>
             </div>
           );
@@ -483,49 +268,6 @@ const BlogsIndex = () => {
                   <Button variant="contained" size="small">
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
-                </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
                 </div>
               </div>
             </div>
@@ -560,49 +302,6 @@ const BlogsIndex = () => {
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
                 </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
-                </div>
               </div>
             </div>
           );
@@ -636,49 +335,6 @@ const BlogsIndex = () => {
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
                 </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
-                </div>
               </div>
             </div>
           );
@@ -711,49 +367,6 @@ const BlogsIndex = () => {
                   <Button variant="contained" size="small">
                     <Link href={blog.BlogLink}>Read More</Link>
                   </Button>
-                </div>
-                <div className="flex justify-start mb-7 pt-3 gap-4">
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <FacebookIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://www.instagram.com/inrainconstruction_icpl/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <InstagramIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a target="_blank" href={"https://x.com/InrainC"}>
-                    <li className="list-none hover:text-blue-500">
-                      <XIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={
-                      "https://www.linkedin.com/company/35590476/admin/dashboard/"
-                    }
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <LinkedInIcon fontSize="large" />
-                    </li>
-                  </a>
-                  <a
-                    target="_blank"
-                    href={"https://in.pinterest.com/inrainc0212/"}
-                  >
-                    <li className="list-none hover:text-blue-500">
-                      <PinterestIcon fontSize="large" />
-                    </li>
-                  </a>
                 </div>
               </div>
             </div>

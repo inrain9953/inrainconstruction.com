@@ -9,23 +9,24 @@ import { Button } from "@mui/material";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import axios from "axios";
 import PopUp from "@/components/popup";
-import Script from "next/script";
+import { MailOutline } from "@mui/icons-material";
+import CallIcon from "@mui/icons-material/Call";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const Contact = () => {
-  const title = "Contact US - InRain® Construction Pvt. Ltd.";
+  const title = "Contact US | InRain® Construction Pvt. Ltd.";
   const desc =
     "Contact US : The Company has Successfully Installed Morethan 400 Rain Water Harvesting Projects. sales@inrainwaterharvesting.com";
   const canonical = "https://www.inrainconstruction.com/contact-us";
   const keyword =
-    "InRain Water Harvesting, ICPL Contact, InRain® Construction Pvt. Ltd., Rainwater Harvesting for Industries";
+    "Contact Us, InRain Water Harvesting, ICPL Contact, InRain® Construction Pvt. Ltd., Rainwater Harvesting for Industries";
   const ogUrl = "https://www.inrainconstruction.com/contact-us";
-  const ogTitle = "Contact US - InRain™ Construction Pvt. Ltd.";
+  const ogTitle = "Contact US | InRain™ Construction Pvt. Ltd.";
   const ogDescription =
     "Contact US : The Company has Successfully Installed Morethan 400 Rain Water Harvesting Projects. sales@inrainwaterharvesting.com";
-  const twittertitle = "Contact US - InRain® Construction Pvt. Ltd.";
+  const twittertitle = "Contact US | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Contact US : The Company has Successfully Installed Morethan 400 Rain Water Harvesting Projects. sales@inrainwaterharvesting.com";
 
@@ -67,7 +68,6 @@ const Contact = () => {
       body: json,
     }).then((res) => res.json());
 
-
     try {
       const response = await axios.post("/api/signup", {
         myname,
@@ -77,7 +77,9 @@ const Contact = () => {
       });
       if (response.data.success) {
         setTimeout(() => {
-          document.querySelector(".loader").classList.remove("onContactAnimation");
+          document
+            .querySelector(".loader")
+            .classList.remove("onContactAnimation");
         }, 2000);
         console.log("Data Submitted Successfully");
       }
@@ -112,25 +114,50 @@ const Contact = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16650006765');
-        `}
-      </Script>
       <Navbar />
       <PopUp />
       <div data-aos="zoom-in-up">
         <Image
-          className="w-full"
+          className="w-full relative"
           src={contactbg}
           alt="img"
           loading="eager"
           priority={true}
           unoptimized={true}
         />
+        <div className="hidden md:block text-center absolute top-10 right-10 text-white">
+            <h1 className="text-3xl font-semibold">Contact Us</h1>
+            <div>
+              <p className="text-lg mt-2 mb-2">
+                The Company has Successfully Installed Morethan 400 Rainwater
+                Harvesting Projects.
+              </p>
+              <a
+                className="hover:text-green-500 mr-5"
+                href="mailto:sales@inrainwaterharvesting.com"
+              >
+                <MailOutline fontSize="small" />
+                sales@inrainwaterharvesting.com
+              </a>
+              <a
+                className="hover:text-green-500 ml-5"
+                href="tel:+919910220794"
+              >
+                <CallIcon fontSize="small" />
+                +91-9910220794
+              </a>
+            </div>
+            <div>
+              <a
+                className="font-medium text-base hover:text-sky-700"
+                href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6"
+              >
+                <LocationOnIcon fontSize="small" />
+                Plot No 06, KH431, 1st floor, Main Road Chattarpur-Satbari,
+                Satbari, New delhi 110074
+              </a>
+            </div>
+          </div>
       </div>
 
       <div className="loader md:top-[80%] top-0 right-0 left-0 md:left-[40%] bottom-0 hidden"></div>
@@ -166,6 +193,40 @@ const Contact = () => {
             unoptimized={true}
           />
         </div>
+
+        <div className="block md:hidden text-center text-black">
+            <h1 className="text-3xl font-semibold">Contact Us</h1>
+            <div>
+              <p className="text-base mt-2 mb-2">
+                The Company has Successfully Installed Morethan 400 Rainwater
+                Harvesting Projects.
+              </p>
+              <a
+                className="hover:text-green-500"
+                href="mailto:sales@inrainwaterharvesting.com"
+              >
+                <MailOutline fontSize="small" />
+                sales@inrainwaterharvesting.com
+              </a><br/>
+              <a
+                className="hover:text-green-500"
+                href="tel:+919910220794"
+              >
+                <CallIcon fontSize="small" />
+                +91-9910220794
+              </a>
+            </div>
+            <div>
+              <a
+                className="font-medium text-base hover:text-sky-700"
+                href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6"
+              >
+                <LocationOnIcon fontSize="small" />
+                Plot No 06, KH431, 1st floor, Main Road Chattarpur-Satbari,
+                Satbari, New delhi 110074
+              </a>
+            </div>
+          </div>
 
         <div data-aos="zoom-in-up" className="mt-10 mb-10 contact-form">
           <div className="flex justify-center">

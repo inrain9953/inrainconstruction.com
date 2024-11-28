@@ -28,11 +28,11 @@ import PopUp from "@/components/popup";
 
 const Blog5 = () => {
   const title =
-    "Rainwater Harvesting System for Roof Top-Effective Water Solutions";
+    "Rainwater Harvesting System for Roof Top-Effective Water Solutions | InRain® Construction Pvt. Ltd.";
   const desc =
     "Learn about Roof Top Rainwater Harvesting Systems, a sustainable solution for water scarcity. Discover how this system collects, filters, and stores rainwater from rooftops, offering benefits such as cost savings, reduced flooding, and environmental responsibility. Find out how to install and maintain these systems effectively.";
   const keyword =
-    "Rainwater Harvesting System India, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
+    "Rainwater Harvesting System for Roof Top, Understanding Roof Top Rainwater Harvesting System, Rainwater Harvesting System in India, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
   const canonical =
     "https://www.inrainconstruction.com/blogs/rainwater-harvesting-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living";
   const ogDescription =
@@ -40,9 +40,9 @@ const Blog5 = () => {
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/rainwater-harvesting-for-roof-top-effective-water-solutions-rainwater-harvesting-system-supercharge-your-life-to-sustainable-living";
   const ogTitle =
-    "Rainwater Harvesting System for Roof Top-Effective Water Solutions";
+    "Rainwater Harvesting System for Roof Top-Effective Water Solutions | InRain® Construction Pvt. Ltd.";
   const twittertitle =
-    "Rainwater Harvesting System for Roof Top-Effective Water Solutions";
+    "Rainwater Harvesting System for Roof Top-Effective Water Solutions | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Discover innovative rainwater harvesting and water management solutions with InRain Construction. Learn about sustainable practices like bioswales and box-type systems to conserve our natural resources.";
 
@@ -80,6 +80,7 @@ const Blog5 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
+                  <Link href={"/https://www.inrainconstruction.com/"}>
                   <Image
                     className="w-full md:w-1/2"
                     src={blog5img}
@@ -87,7 +88,7 @@ const Blog5 = () => {
                     loading="eager"
                     priority={true}
                     unoptimized={true}
-                  />
+                  /></Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -99,9 +100,9 @@ const Blog5 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
-                    </h3>
+                    </h2>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       <Link
                         className="text-blue-600 font-semibold"
@@ -192,16 +193,16 @@ const Blog5 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading6}
-                    </h3>
+                    </h4>
                     <div className="mt-3 md:ml-5  mb-3">
                       {blog.BlogSubHeadingContent6.map((content) => {
                         return (
                           <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
+                            <h5 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
-                            </h4>
+                            </h5>
                             <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>

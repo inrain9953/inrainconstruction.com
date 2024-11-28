@@ -11,9 +11,6 @@ export const Hero3 = () => {
       >
         <div className="text-left m-5  md:pl-14">
           <h3 className="text-2xl font-semibold">
-            <bold className="text-green-600">
-              InRain<sup>®</sup>
-            </bold>{" "}
             Rainwater Harvesting Filtration System
           </h3>
           <hr className="m-2"></hr>
@@ -42,9 +39,6 @@ export const Hero3 = () => {
         className="text-left mt-10 m-5 md:ml-10 md:mr-10 md:p-10"
       >
         <h4 className="text-2xl font-semibold">
-          <bold className="text-green-600">
-            InRain<sup>®</sup>
-          </bold>{" "}
           Water Conservation & Management
         </h4>
         <hr className="m-2"></hr>
@@ -85,15 +79,11 @@ export const Hero3 = () => {
           <bold className="font-semibold text-black">
             The Technology We Offer:
           </bold>{" "}
-          At{" "}
-          <bold className="text-green-600 font-semibold">
-            InRain<sup>®</sup>
-          </bold>
-          , we are using advanced and modular technology for Rainwater
-          Harvesting Solutions. This advanced technology helps us to reduce
-          costs and improves the longevity of the rainwater harvesting system.
-          It helps in overcoming the major challenge of space-saving, which is a
-          prime concern in urban planning and development.
+          We are using advanced and modular technology for Rainwater Harvesting
+          Solutions. This advanced technology helps us to reduce costs and
+          improves the longevity of the rainwater harvesting system. It helps in
+          overcoming the major challenge of space-saving, which is a prime
+          concern in urban planning and development.
         </p>
         <br></br>
 
@@ -109,11 +99,8 @@ export const Hero3 = () => {
         <br></br>
 
         <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
-          <bold className="text-green-600 font-semibold">
-            InRain<sup>®</sup>
-          </bold>{" "}
-          firmly believes that the future of urban planning and development is
-          through the practice of water conservation and management. We are
+          We firmly believes that the future of urban planning and development
+          is through the practice of water conservation and management. We are
           fortunate to be blessed with the ability to contribute to saving the
           environment, while we help others to incorporate water conservation
           methods and practices into life.{" "}

@@ -27,20 +27,20 @@ import {
 import PopUp from "@/components/popup";
 
 const Blog6 = () => {
-  const title = "Rainwater Harvesting System in India";
+  const title = "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const desc =
     "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const keyword =
-    "Rainwater Harvesting System in India, Rainwater Harvesting System, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Modular Rainwater Harvesting System, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
+    "Rainwater Harvesting System in India, Rainwater Harvesting System, The Importance of Rainwater Harvesting, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
   const canonical =
     "https://www.inrainconstruction.com/blogs/rainwater-harvesting-in-india";
   const ogDescription =
     "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/rainwater-harvesting-in-india";
-  const ogTitle = "Rainwater Harvesting System in India";
+  const ogTitle = "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const twittertitle =
-    "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living";
+    "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Discover innovative rainwater harvesting and water management solutions with InRain Construction. Learn about sustainable practices like bioswales and box-type systems to conserve our natural resources.";
 
@@ -78,6 +78,7 @@ const Blog6 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
+                  <Link href={"https://www.inrainconstruction.com/"}>
                   <Image
                     className="w-full md:w-1/2"
                     src={blog6img}
@@ -85,7 +86,7 @@ const Blog6 = () => {
                     loading="eager"
                     priority={true}
                     unoptimized={true}
-                  />
+                  /></Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -97,9 +98,9 @@ const Blog6 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
-                    </h3>
+                    </h2>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent1}
                     </p>
@@ -131,27 +132,27 @@ const Blog6 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent3}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent4}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading5}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       <Link
                         className="text-blue-500 font-semibold"
@@ -172,25 +173,25 @@ const Blog6 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading6}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent6}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading7}
-                    </h3>
+                    </h5>
                     <div className="mt-3 md:ml-5 mb-3">
                       {blog.BlogSubHeadingContent7.map((content) => {
                         return (
                           <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
+                            <h5 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
-                            </h4>
+                            </h5>
                             <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
@@ -201,9 +202,9 @@ const Blog6 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading8}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent8}
                     </p>
@@ -214,9 +215,9 @@ const Blog6 = () => {
                       {blog.BlogSubHeadingContent9.map((content) => {
                         return (
                           <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
+                            <h5 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
-                            </h4>
+                            </h5>
                             <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
@@ -227,9 +228,9 @@ const Blog6 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading10}
-                    </h3>
+                    </h5>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent10}
                     </p>
@@ -240,9 +241,9 @@ const Blog6 = () => {
                       {blog.BlogSubHeadingContent11.map((content) => {
                         return (
                           <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
+                            <h5 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
-                            </h4>
+                            </h5>
                             <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>
@@ -252,12 +253,12 @@ const Blog6 = () => {
                     </div>
                   </div>
 
-                  <h3
+                  <h5
                     data-aos="zoom-in-up"
                     className="font-bold text-xl md:text-3xl"
                   >
                     {blog.BlogSubHeading12}
-                  </h3>
+                  </h5>
                   <p
                     data-aos="zoom-in-up"
                     className="text-[17px] text-justify mt-3 md:ml-5 mb-3 md:text-lg"

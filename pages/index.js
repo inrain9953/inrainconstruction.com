@@ -12,11 +12,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const title =
-    "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting System in India | Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const desc =
     "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Best Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
   const keyword =
-    "rainwater harvesting, modular rainwater harvesting, roof top rainwater harvesting, rainwater harvesting in delhi, rainwater harvesting for industries, rainwater harvesting system in india, water harvesting system";
+    "rainwater harvesting system in india, modular rainwater harvesting, rainwater harvesting filtration system, roof top rainwater harvesting, rainwater harvesting in delhi, rainwater harvesting for industries, water harvesting system";
   const canonical = "https://www.inrainconstruction.com/";
   const ogUrl = "https://www.inrainconstruction.com/";
   const ogTitle =

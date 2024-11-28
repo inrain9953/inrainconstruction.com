@@ -6,6 +6,7 @@ import harvesting7 from "./../public/services/harvesting7.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
+import Link from "next/link";
 
 const Service7 = () => {
   const title =
@@ -58,13 +59,19 @@ const Service7 = () => {
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service7}
-            alt="img"
+            alt="Rainwater Harvesting Vendors in Delhi-Gurgaon"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Rainwater Harvesting Vendors in
+              Delhi-Gurgaon
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -92,13 +99,22 @@ const Service7 = () => {
               <br></br>
               India is a country which is densely populated and there is a
               rising need for eco-friendly water conservation techniques. Hence,
-              our advanced modular rainwater harvesting system is a perfect
-              match for our growing nation. Fortunately, our country has a very
-              good geo location and it sees a decent rainfall every year, so
-              utilizing the available natural rainwater is perfectly suitable
-              here. Our modular rainwater harvesting systems are not only
-              economical and eco-friendly but also help in space saving which is
-              one of the major requirements in a country like India.
+              our advanced{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                Modular Rainwater Harvesting System
+              </Link>{" "}
+              is a perfect match for our growing nation. Fortunately, our
+              country has a very good geo location and it sees a decent rainfall
+              every year, so utilizing the available natural rainwater is
+              perfectly suitable here. Our modular rainwater harvesting systems
+              are not only economical and eco-friendly but also help in space
+              saving which is one of the major requirements in a country like
+              India.
               <br></br>
               <br></br>The groundwater level is depreciating all across the
               globe very fast due to the extensive use of the available
@@ -114,6 +130,7 @@ const Service7 = () => {
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
+            <Link href={"https://www.inrainconstruction.com"}>
             <Image
               className="w-full"
               src={harvesting7}
@@ -122,6 +139,7 @@ const Service7 = () => {
               priority={true}
               unoptimized={true}
             />
+            </Link>
           </div>
         </div>
       </div>

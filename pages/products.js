@@ -10,13 +10,14 @@ import whiteSheet from "./../public/product/white-sheet.png";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
+import Link from "next/link";
 
 const Products = () => {
-  const title = "Modular Rainwater Filter | InRain® Construction Pvt. Ltd.";
+  const title = "Rainwater Harvesting Modules | Rainwater Harvesting Filtration System | InRain® Construction Pvt. Ltd.";
   const desc =
     "Are you looking for Rainwater Harvesting products? InRain® construction provides high quality product Rainwater Harvesting Filtration, Rainwater Harvesting Modules, Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, EPDM Liner, Geo Textile.";
   const keyword =
-    "Rainwater Harvesting Filter, Rainwater Harvesting Products, Pressure Regulator Valve, Self Cleaning Mesh Filter System, Rainwater Harvesting Products, Rainwater Harvesting Filtration System, modular rainwater harvesting system, rainwater harvesting technology";
+    "Rainwater Harvesting Modules, Rainwater Harvesting Filtration System, Rainwater Harvesting Filter, Rainwater Harvesting Products, Self Cleaning Mesh Filter System, rainwater harvesting system, rainwater harvesting technology";
   const canonical = "https://www.inrainconstruction.com/products";
   const ogUrl = "https://www.inrainconstruction.com/products";
   const ogTitle = "InRain® Rainwater Harvesting System | InRain® Construction";
@@ -58,13 +59,19 @@ const Products = () => {
       <div>
         <div data-aos="zoom-in-up" className="pt-5 pb-5 md:pt-0">
           <Image
-            className="w-full"
+            className="w-full relative"
             src={banner}
-            alt="img"
+            alt="InRain Banner"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute top-1/2 md:left-56 left-20 transform -translate-x-1/2 -translate-y-1/2">
+            <p className="text-lg md:text-4xl font-semibold">
+              Our Products
+            </p>
+            <p className="text-xs md:text-lg text-green-500"><Link href={"/"}>Home</Link> / Our Products</p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-1">
@@ -74,11 +81,11 @@ const Products = () => {
           >
             <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
               <h1 className="text-[25px] md:text-4xl font-bold">
-                Rainwater Harvesting Modules 50 Ton
+                Rainwater Harvesting Modules
               </h1>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
-                A module permeation storm water tank intended for filtration,
+                A Rainwater Harvesting Module permeation storm water tank intended for filtration,
                 transitory maintenance and ensuing release. It is utilized in
                 waste channel applications. It is developed utilizing our
                 restrictive plastic infusion shaped boards. We provide a range
@@ -89,7 +96,7 @@ const Products = () => {
               <Image
                 className="w-full"
                 src={honeycomb}
-                alt="img"
+                alt="Rainwater Harvesting Modules"
                 loading="eager"
                 priority={true}
                 unoptimized={true}
@@ -105,7 +112,7 @@ const Products = () => {
               <Image
                 className="w-full"
                 src={filter}
-                alt="img"
+                alt="Rainwater Harvesting Filtration System"
                 loading="eager"
                 priority={true}
                 unoptimized={true}
@@ -151,7 +158,7 @@ const Products = () => {
               <Image
                 className="w-full"
                 src={blackSheet}
-                alt="img"
+                alt="EPDM Liner"
                 loading="eager"
                 priority={true}
                 unoptimized={true}
@@ -167,7 +174,7 @@ const Products = () => {
               <Image
                 className="w-full"
                 src={whiteSheet}
-                alt="img"
+                alt="Geo Textile"
                 loading="eager"
                 priority={true}
                 unoptimized={true}
@@ -177,7 +184,7 @@ const Products = () => {
               <h3 className="text-[25px] md:text-4xl font-bold">Geo Textile</h3>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
-                Geotextile is essentially a porous texture which, when utilized
+                Geo-Textile is essentially a porous texture which, when utilized
                 in relationship with soil, can isolate, channel, strengthen,
                 secure, or channel. Ordinarily produced using polypropylene or
                 polyester, geotextile textures come in three fundamental
@@ -207,7 +214,7 @@ const Products = () => {
               <Image
                 className="m-auto md:h-64 w-52 h-56"
                 src={motor}
-                alt="img"
+                alt="Self Cleaning Mesh Filter System"
                 loading="eager"
                 priority={true}
                 unoptimized={true}

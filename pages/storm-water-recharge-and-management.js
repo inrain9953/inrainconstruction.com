@@ -6,6 +6,7 @@ import harvesting9 from "./../public/blog4.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
+import Link from "next/link";
 
 const Service9 = () => {
   const title =
@@ -58,13 +59,18 @@ const Service9 = () => {
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service9}
-            alt="img"
+            alt="Storm Water Recharge and Management"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Storm Water Recharge and Management
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -105,8 +111,15 @@ const Service9 = () => {
               <bold className="font-semibold">Bioretention:</bold> This
               methodology uses plants and herbs for capturing and filtering
               water in excess rainwater. It not only helps in removing
-              pollutants from the water but also helps in recharging
-              groundwater.
+              pollutants from the water but also helps in{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/ground-water-recharge-system-for-industries"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                recharging groundwater.
+              </Link>
               <br></br>
               <br></br>
               <bold className="font-semibold">Permeable Pavement:</bold> It is
@@ -124,14 +137,16 @@ const Service9 = () => {
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image
-              className="w-full"
-              src={harvesting9}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
+            <Link href={"https://www.inrainconstruction.com"}>
+              <Image
+                className="w-full"
+                src={harvesting9}
+                alt="How to harvest rainwater"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
       </div>

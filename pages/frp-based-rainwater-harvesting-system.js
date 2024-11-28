@@ -6,7 +6,7 @@ import service4 from "./../public/service4.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
-import Script from "next/script";
+import Link from "next/link";
 
 const Service4 = () => {
   const title =
@@ -14,7 +14,7 @@ const Service4 = () => {
   const desc =
     "FRP Based Rainwater Harvesting System: InRain® Construction Pvt. Ltd. solutions are in form of Pre Cast modular systems that can adapt itself to various site conditions and are highly reliable & efficient.";
   const keyword =
-    "FRP Rainwater Harvesting System, Fiber Reinforced Polymer, Sustainable Water Conservation, Lightweight Water Tanks, Eco-Friendly Rainwater Harvesting, Cost-Effective Water Solutions, Corrosion-Resistant Water Tanks, Low-Maintenance Rainwater Systems, Portable Water Harvesting Tanks, Modern Rainwater Harvesting Technology, InRain Construction Pvt. Ltd., Environmental Sustainability, Housing Society Water Solutions, Industrial Water Conservation";
+    "FRP Rainwater Harvesting System, Fiber Reinforced Polymer, Sustainable Water Conservation, Lightweight Water Tanks, Eco-Friendly Rainwater Harvesting, Cost-Effective Water Solutions, Corrosion-Resistant Water Tanks, Low-Maintenance Rainwater Systems, Portable Water Harvesting Tanks, Modern Rainwater Harvesting Technology, Environmental Sustainability, Industrial Water Conservation";
   const canonical =
     "https://www.inrainconstruction.com/frp-based-rainwater-harvesting-system";
   const ogUrl =
@@ -54,26 +54,24 @@ const Service4 = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16650006765');
-        `}
-      </Script>
       <Navbar />
       <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service4}
-            alt="img"
+            alt="FRP Based Rainwater Harvesting System"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / FRP Based Rainwater Harvesting
+              System
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -103,7 +101,15 @@ const Service4 = () => {
               rainwater harvesting systems.
               <br></br>
               <br></br>
-              In the traditional methods of rainwater harvesting system,
+              In the traditional methods of{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                Rainwater Harvesting System,
+              </Link>{" "}
               installation cost and maintenance are the major challenges. As it
               was using concrete or metal for constructing the water collection
               tank or pit. These pits are not only expensive but also have high
@@ -131,14 +137,16 @@ const Service4 = () => {
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image
-              className="w-full"
-              src={harvesting4}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
+            <Link href={"https://www.inrainconstruction.com/"}>
+              <Image
+                className="w-full"
+                src={harvesting4}
+                alt="Rainwater Harvesting Filtration System"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
       </div>

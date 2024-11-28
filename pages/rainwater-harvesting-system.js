@@ -6,6 +6,7 @@ import harvesting11 from "./../public/services/harvesting7.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
+import Link from "next/link";
 
 const Service11 = () => {
   const title = "Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
@@ -57,13 +58,18 @@ const Service11 = () => {
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service11}
-            alt="img"
+            alt="Rainwater harvesting System"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Rainwater Harvesting System
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -93,11 +99,19 @@ const Service11 = () => {
               world. Rainwater harvesting offers several advantages over
               conventional water sources, including reduced reliance on
               municipal water supplies, lowered strain on groundwater reserves,
-              and decreased storm water runoff that can lead to flooding and
-              erosion. Additionally, rainwater is naturally soft and free from
-              many contaminants found in other water sources, making it suitable
-              for various non-potable uses such as irrigation, toilet flushing,
-              and industrial processes.
+              and decreased{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/storm-water-recharge-and-management"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                storm water runoff
+              </Link>{" "}
+              that can lead to flooding and erosion. Additionally, rainwater is
+              naturally soft and free from many contaminants found in other
+              water sources, making it suitable for various non-potable uses
+              such as irrigation, toilet flushing, and industrial processes.
             </p>
 
             <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
@@ -106,11 +120,18 @@ const Service11 = () => {
             <p className="text-[17px] text-justify md:text-lg mt-3">
               A rainwater harvesting system consists of several key components
               that work together to capture, store, and distribute rainwater.
-              The primary components include: Catchment Surface: This can be the
-              rooftop of a building, which acts as a surface to collect
-              rainwater. The catchment surface should be made of materials that
-              are safe and non-toxic for water storage. Polymer as strong as
-              metal.
+              The primary components include: Catchment Surface: This can be the{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/roof-top-rainwater-harvesting-system-RRWHS-InRain"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                rooftop
+              </Link>{" "}
+              of a building, which acts as a surface to collect rainwater. The
+              catchment surface should be made of materials that are safe and
+              non-toxic for water storage. Polymer as strong as metal.
             </p>
             <ul className="list-disc m-5 text-[17px] text-justify md:text-lg">
               <li>
@@ -148,15 +169,23 @@ const Service11 = () => {
               Benefits of Rainwater Harvesting
             </h3>
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              Implementing a rainwater harvesting system brings numerous
-              benefits. Firstly, it reduces the strain on traditional water
-              sources, such as rivers and groundwater, thereby ensuring their
-              long-term sustainability. Secondly, rainwater harvesting helps
-              mitigate the impact of urbanization by reducing storm water runoff
-              and the risk of localized flooding. Additionally, utilizing
-              rainwater for non-potable uses like irrigation can result in
-              significant cost savings for homeowners and businesses by
-              offsetting the need for treated municipal water.
+              Implementing a{" "}
+              <Link
+                href={
+                  "https://www.inrainconstruction.com/rainwater-harvesting-system-for-warehouse"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                Rainwater Harvesting System
+              </Link>{" "}
+              brings numerous benefits. Firstly, it reduces the strain on
+              traditional water sources, such as rivers and groundwater, thereby
+              ensuring their long-term sustainability. Secondly, rainwater
+              harvesting helps mitigate the impact of urbanization by reducing
+              storm water runoff and the risk of localized flooding.
+              Additionally, utilizing rainwater for non-potable uses like
+              irrigation can result in significant cost savings for homeowners
+              and businesses by offsetting the need for treated municipal water.
               <br></br>
               <br></br>
               Moreover, rainwater harvesting promotes self-sufficiency and
@@ -182,14 +211,16 @@ const Service11 = () => {
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image
-              className="w-full"
-              src={harvesting11}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
+            <Link href={"https://www.inrainconstruction.com/"}>
+              <Image
+                className="w-full"
+                src={harvesting11}
+                alt="Rainwater Harvesting"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
       </div>

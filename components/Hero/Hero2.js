@@ -3,6 +3,7 @@ import hero2Img from "../../public/Technology/main2.jpeg";
 // import ProgressBar from "react-animated-progress-bar";
 import Image from "next/image";
 import CountUp from "react-countup";
+import Link from "next/link";
 
 export const Hero2 = () => {
   return (
@@ -12,17 +13,17 @@ export const Hero2 = () => {
           data-aos="zoom-in-up"
           className="text-center m-3 md:ml-52 md:mr-52"
         >
-          <h2 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
-            About Rainwater Harvesting Technology
-          </h2>
+          <h1 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+            Rainwater Harvesting System in India
+          </h1>
           <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700 md:pl-28 md:pr-28">
             At{" "}
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>,
             </bold>{" "}
-            we are engaged in making Rainwater Harvesting (RWH) systems based on the technology adopted
-            from Germany. It is indeed entirely different from conventional
-            rainwater systems.{" "}
+            we are engaged in making Rainwater Harvesting (RWH) systems based on
+            the technology adopted from Germany. It is indeed entirely different
+            from conventional rainwater systems.{" "}
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>
             </bold>{" "}
@@ -61,13 +62,19 @@ export const Hero2 = () => {
 
           <div data-aos="fade-up" className="text-center m-3 mt-7">
             <h2 className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
-              Modular Rainwater Harvesting Technology
+              Modular Rainwater Harvesting
             </h2>
             <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
-              Modular Rainwater Harvesting is a new technique for rainwater harvesting. It is
-              both convenient and easy to maintain in comparison to traditional
-              RWH. This New Age RWH system is designed with a maintenance-free
-              structure, which makes it both cost-effective and eco-friendly.
+              <Link
+                className="text-green-500 hover:text-sky-500"
+                href="https://www.inrainconstruction.com/modular-rainwater-harvesting"
+              >
+                Modular Rainwater Harvesting
+              </Link>{" "}
+              is a new technique for rainwater harvesting. It is both convenient
+              and easy to maintain in comparison to traditional RWH. This New
+              Age RWH system is designed with a maintenance-free structure,
+              which makes it both cost-effective and eco-friendly.
             </p>
           </div>
         </div>

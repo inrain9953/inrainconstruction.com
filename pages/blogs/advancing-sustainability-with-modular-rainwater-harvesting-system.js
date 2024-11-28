@@ -27,20 +27,20 @@ import blog9img from "../../public/blog9.jpg";
 import PopUp from "@/components/popup";
 
 const Blog2 = () => {
-  const title = "Advancing Sustainability with Modular Rainwater Harvesting";
+  const title = "Advancing Sustainability with Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const desc =
     "Explore the advantages of Modular Rainwater Harvesting Systems for sustainable water management. Learn how these space-efficient, quick-to-install systems offer high recharge capacity, low maintenance, and enhanced safety, making them an ideal solution for a greener future.";
   const keyword =
-    "Modular Rainwater Harvesting, Sustainable Water Management, Rainwater Collection, Space-Efficient Water Systems, Low Maintenance Rainwater Solutions, InRain Construction Pvt. Ltd., Environmental Responsibility, Quick Installation, High Recharge Capacity";
+    "Advancing Sustainability with Modular Rainwater Harvesting, Modular Rainwater Harvesting System, Modular Rainwater Harvesting System Benefits, Sustainable Water Management, Rainwater Collection, Space-Efficient Water Systems, Low Maintenance Rainwater Solutions, InRain Construction Pvt. Ltd., Environmental Responsibility, Quick Installation, High Recharge Capacity";
   const canonical =
     "https://www.inrainconstruction.com/blogs/advancing-sustainability-with-modular-rainwater-harvesting-system";
   const ogDescription =
     "Explore the advantages of Modular Rainwater Harvesting Systems for sustainable water management. Learn how these space-efficient, quick-to-install systems offer high recharge capacity, low maintenance, and enhanced safety, making them an ideal solution for a greener future.";
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/advancing-sustainability-with-modular-rainwater-harvesting-system";
-  const ogTitle = "Advancing Sustainability with Modular Rainwater Harvesting";
+  const ogTitle = "Advancing Sustainability with Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const twittertitle =
-    "Advancing Sustainability with Modular Rainwater Harvesting";
+    "Advancing Sustainability with Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Discover innovative rainwater harvesting and water management solutions with InRain Construction. Learn about sustainable practices like bioswales and box-type systems to conserve our natural resources.";
 
@@ -78,6 +78,7 @@ const Blog2 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
+                  <Link href={"https://www.inrainconstruction.com/"}>
                   <Image
                     className="w-full md:w-1/2"
                     src={blog2img}
@@ -85,7 +86,7 @@ const Blog2 = () => {
                     loading="eager"
                     priority={true}
                     unoptimized={true}
-                  />
+                  /></Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -97,9 +98,9 @@ const Blog2 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
-                    </h3>
+                    </h2>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       Utilizing modular technology, a{" "}
                       <Link
@@ -140,9 +141,9 @@ const Blog2 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
-                    </h3>
+                    </h4>
                     <div className="mt-3 mb-3">
                       {blog.BlogSubHeadingContent3.map((content) => {
                         return (

@@ -6,11 +6,11 @@ import harvesting3 from "./../public/services/harvesting3.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
-import Script from "next/script";
+import Link from "next/link";
 
 const Service3 = () => {
   const title =
-    "Modular Rainwater Harvesting System| InRain® Construction Pvt. Ltd.";
+    "Modular Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const desc =
     "Modular Rainwater Harvesting: We, at InRain® Construction Pvt. Ltd. have adopted world-class and the most Infusing Modular technologies to store or reuse rain water in order to realize the needs of an enriched tomorrow with abundant water resources in place.";
   const keyword =
@@ -24,7 +24,7 @@ const Service3 = () => {
   const ogDescription =
     "Modular Rainwater Harvesting: We, at InRain® Construction Pvt. Ltd. have adopted world-class and the most Infusing Modular technologies to store or reuse rain water in order to realize the needs of an enriched tomorrow with abundant water resources in place.";
   const twittertitle =
-    "Modular Rainwater Harvesting| InRain® Construction Pvt. Ltd.";
+    "Modular Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Modular Rainwater Harvesting: We, at InRain® Construction Pvt. Ltd. have adopted world-class and the most Infusing Modular technologies to store or reuse rain water in order to realize the needs of an enriched tomorrow with abundant water resources in place.";
 
@@ -54,26 +54,23 @@ const Service3 = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16650006765');
-        `}
-      </Script>
       <Navbar />
       <PopUp />
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service3}
-            alt="img"
+            alt="Rainwater Harvesting Banner"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-green-600">
+              <Link href={"/"}>Home</Link> / Modular Rainwater Harvesting
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -105,12 +102,15 @@ const Service3 = () => {
               many reports of declining water levels around the world. Rainwater
               harvesting is one of the best solutions to keep sustainable
               development going.{" "}
-              <bold className="text-green-700 font-semibold">
-                InRain<sup>®</sup>
-              </bold>{" "}
-              Construction Pvt. Ltd., a water conservation and management
-              organization, offers various rainwater harvesting methods using
-              the latest technology. <br></br>
+              <Link
+                href={"https://www.inrainconstruction.com/"}
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                InRain® Construction Pvt. Ltd.,
+              </Link>{" "}
+              a water conservation and management organization, offers various
+              rainwater harvesting methods using the latest technology.{" "}
+              <br></br>
               <br></br>
               In recent years, modular rainwater harvesting has become
               increasingly popular due to its various advantages over
@@ -163,14 +163,16 @@ const Service3 = () => {
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image
-              className="w-full"
-              src={harvesting3}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
+            <Link href={"https://www.inrainconstruction.com/"}>
+              <Image
+                className="w-full"
+                src={harvesting3}
+                alt="Modular Rainwater Harvesting"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
 

@@ -32,7 +32,7 @@ const Blog1 = () => {
   const desc =
     "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const keyword =
-    "Rainwater Harvesting System India, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
+    "Rainwater Harvesting System, Rainwater Harvesting: A Lifesaver for India, Rainwater Harvesting System India, Sustainable Living India, Water Conservation for Businesses, Rainwater Harvesting for Wealthy Homes, Environmental Water Solutions, Eco-Friendly Water Management, Custom Rainwater Harvesting, Rainwater Storage and Distribution, Cost-Effective Water Solutions India, Rainwater Harvesting Installation India";
   const canonical =
     "https://www.inrainconstruction.com/blogs/rainwater-harvesting-supercharge-your-life-to-sustainable-living";
   const ogDescription =
@@ -80,14 +80,15 @@ const Blog1 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
+                  <Link href={"https://www.inrainconstruction.com/"}>
                   <Image
                     className="w-full md:w-1/2"
                     src={blog1img}
-                    alt="img"
+                    alt="Rainwater Harvesting System"
                     loading="eager"
                     priority={true}
                     unoptimized={true}
-                  />
+                  /></Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -115,9 +116,9 @@ const Blog1 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-5">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
-                    </h3>
+                    </h2>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
                       {blog.BlogSubHeadingContent1}
                     </p>

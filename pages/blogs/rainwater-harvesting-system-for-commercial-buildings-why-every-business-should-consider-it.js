@@ -32,7 +32,7 @@ const Blog3 = () => {
   const desc =
     "Discover the benefits of rainwater harvesting for commercial buildings. Learn how adopting this sustainable practice can reduce costs, enhance your business's eco-friendly image, and contribute to community well-being. Explore how Inrain Construction can help with expert rainwater harvesting installations.";
   const keyword =
-    "Rainwater Harvesting, Commercial Buildings, Sustainable Water Management, Inrain Construction, Eco-Friendly Business Practices, Cost Savings, Municipal Water Reduction, Environmental Impact";
+    "Rainwater Harvesting for Commercial Buildings, Why Should Businesses Consider Rainwater Harvesting, Rainwater Harvesting, Commercial Buildings, Sustainable Water Management, Eco-Friendly Business Practices, Cost Savings, Municipal Water Reduction, Environmental Impact";
   const canonical =
     "https://www.inrainconstruction.com/blogs/rainwater-harvesting-system-for-commercial-buildings-why-every-business-should-consider-it";
   const ogDescription =
@@ -80,14 +80,15 @@ const Blog3 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
+                  <Link href={"https://www.inrainconstruction.com/"}>
                   <Image
                     className="w-full md:w-1/2"
                     src={blog3img}
-                    alt="img"
+                    alt="rainwater harvest"
                     loading="eager"
                     priority={true}
                     unoptimized={true}
-                  />
+                  /></Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -123,9 +124,9 @@ const Blog3 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
-                    </h3>
+                    </h2>
                     <div className="mt-3 md:ml-5 mb-3">
                       {blog.BlogSubHeadingContent2.map((content) => {
                         return (

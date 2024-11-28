@@ -27,19 +27,19 @@ import Link from "next/link";
 import PopUp from "@/components/popup";
 
 const Blog4 = () => {
-  const title = "Stormwater Management in India";
+  const title = "Stormwater Management in India | InRain® Construction Pvt. Ltd.";
   const desc =
     "Explore the importance of stormwater management in India, including methods for effective stormwater recharge and its benefits. Learn about solutions like permeable pavements, rain gardens, and detention basins to mitigate flooding, preserve water quality, and support sustainable urban development.";
   const keyword =
-    "Stormwater Management, Stormwater Recharge, Flood Mitigation, Water Quality Preservation, Permeable Pavements, Rain Gardens, Detention Basins, Infiltration Trenches, Urban Planning, Environmental Sustainability, India Stormwater Solutions";
+    "Stormwater Management in India, Significance of Stormwater Management, Flood Mitigation, Water Quality Preservation, Permeable Pavements, Rain Gardens, Detention Basins, Infiltration Trenches, Urban Planning, Environmental Sustainability, India Stormwater Solutions";
   const canonical =
     "https://www.inrainconstruction.com/blogs/storm-water-management-in-india";
   const ogDescription =
     "Explore the importance of stormwater management in India, including methods for effective stormwater recharge and its benefits. Learn about solutions like permeable pavements, rain gardens, and detention basins to mitigate flooding, preserve water quality, and support sustainable urban development.";
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/storm-water-management-in-india";
-  const ogTitle = "Stormwater Management in India";
-  const twittertitle = "Stormwater Management in India";
+  const ogTitle = "Stormwater Management in India | InRain® Construction Pvt. Ltd.";
+  const twittertitle = "Stormwater Management in India | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Discover innovative rainwater harvesting and water management solutions with InRain Construction. Learn about sustainable practices like bioswales and box-type systems to conserve our natural resources.";
 
@@ -77,6 +77,7 @@ const Blog4 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
+                  <Link href={"https://www.inrainconstruction.com/"}>
                   <Image
                     className="w-full md:w-1/2"
                     src={blog4img}
@@ -84,7 +85,7 @@ const Blog4 = () => {
                     loading="eager"
                     priority={true}
                     unoptimized={true}
-                  />
+                  /></Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -120,9 +121,9 @@ const Blog4 = () => {
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
-                    </h3>
+                    </h2>
                     <div className="mt-3 md:ml-5 mb-3">
                       {blog.BlogSubHeadingContent2.map((content) => {
                         return (
@@ -180,34 +181,34 @@ const Blog4 = () => {
                   </div>
 
                   <div className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading5}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify mt-3 mb-3 md:text-lg">
                       {blog.BlogSubHeadingContent5}
                     </p>
                   </div>
 
                   <div className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading6}
-                    </h3>
+                    </h4>
                     <p className="text-[17px] text-justify mt-3 mb-3 md:text-lg">
                       {blog.BlogSubHeadingContent6}
                     </p>
                   </div>
 
                   <div data-aos="zoom-in-up" className="mb-5 mt-10">
-                    <h3 className="font-bold text-xl md:text-3xl">
+                    <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading7}
-                    </h3>
+                    </h4>
                     <div className="mt-3 md:ml-5  mb-3">
                       {blog.BlogSubHeadingContent7.map((content) => {
                         return (
                           <div className="mb-3">
-                            <h4 className="text-[17px] md:text-xl font-semibold">
+                            <h5 className="text-[17px] md:text-xl font-semibold">
                               {content.head}
-                            </h4>
+                            </h5>
                             <p className="text-[17px] text-justify md:text-lg">
                               {content.para}
                             </p>

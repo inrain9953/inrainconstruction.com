@@ -6,6 +6,7 @@ import blog3 from "./../public/blog3.jpg";
 import Head from "next/head";
 import Image from "next/image";
 import PopUp from "@/components/popup";
+import Link from "next/link";
 
 const Service1 = () => {
   const title =
@@ -13,17 +14,17 @@ const Service1 = () => {
   const desc =
     "InRain® Construction Pvt. Ltd. is the India leading manufacturing company of rainwater harvesting systems for warehouse. Contact us today.";
   const keyword =
-    "Rainwater Harvesting System for Warehouse, Rainwater Harvesting System in delhi, modular rainwater harvesting system, water conservation and management";
+    "Rainwater Harvesting System for Warehouse, Rainwater Harvesting System in delhi, rainwater harvesting system for industries, water conservation and management";
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-system-for-warehouse";
   const ogUrl =
     "https://www.inrainconstruction.com/rainwater-harvesting-system-for-warehouse";
   const ogTitle =
-    "Rainwater Harvesting System for Warehouse | InRain™ Construction";
+    "Rainwater Harvesting System for Warehouse | InRain™ Construction Pvt. Ltd.";
   const ogDescription =
     "InRain® Construction Pvt. Ltd. is the India leading manufacturing company of rainwater harvesting systems for warehouse. Contact us today.";
   const twittertitle =
-    "Rainwater Harvesting System for Warehouse | InRain™ Construction";
+    "Rainwater Harvesting System for Warehouse | InRain™ Construction Pvt. Ltd.";
   const twitterdescription =
     "InRain® Construction Pvt. Ltd. is the India leading manufacturing company of rainwater harvesting systems for warehouse. Contact us today.";
 
@@ -58,10 +59,19 @@ const Service1 = () => {
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-64 md:rounded-xl md:shadow-2xl relative"
             src={warehouse}
-            alt="img"
+            alt="Water Conservation: Rainwater Harvesting"
+            loading="eager"
+            priority={true}
+            unoptimized={true}
           />
+          <div className="absolute bottom-2 md:left-5 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Rainwater Harvesting System for
+              Warehouses
+            </p>
+          </div>
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
@@ -96,19 +106,28 @@ const Service1 = () => {
               the most suitable option.
               <br></br>
               <br></br>
-              Our modular rainwater harvesting systems are perfectly suitable
-              for water conservation and management in commercial places like
-              warehouses. In this rainwater harvesting system, recycled
-              co-polymer-based modules are used. These stackable modules are
-              easy to install and help in building the rainwater harvesting
-              structure in a very short amount of time. These modules are made
-              of recycled material. Hence, they are not only economical but also
-              eco-friendly. Thus helping in providing sustainable water
-              conservation that suits the environment. For commercial space, one
-              would like to have a rainwater harvesting system that will occupy
-              very little space. The good thing about this modular rainwater
-              harvesting system is that it has a tremendous load-bearing
-              capacity, which means the top surface of the{" "}
+              Our{" "}
+              <Link
+                className="hover:text-green-500 text-sky-500"
+                href={
+                  "https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                }
+              >
+                Modular Rainwater Harvesting Systems
+              </Link>{" "}
+              are perfectly suitable for water conservation and management in
+              commercial places like warehouses. In this rainwater harvesting
+              system, recycled co-polymer-based modules are used. These
+              stackable modules are easy to install and help in building the
+              rainwater harvesting structure in a very short amount of time.
+              These modules are made of recycled material. Hence, they are not
+              only economical but also eco-friendly. Thus helping in providing
+              sustainable water conservation that suits the environment. For
+              commercial space, one would like to have a rainwater harvesting
+              system that will occupy very little space. The good thing about
+              this modular rainwater harvesting system is that it has a
+              tremendous load-bearing capacity, which means the top surface of
+              the{" "}
               <bold className="text-green-700 font-semibold">
                 InRain<sup>®</sup>
               </bold>{" "}
@@ -117,7 +136,15 @@ const Service1 = () => {
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
-            <Image className="w-full" src={blog3} alt="img" />
+            <Link href={"https://www.inrainconstruction.com"}>
+            <Image
+              className="w-full"
+              src={blog3}
+              alt="Rainwater Harvesting for Industries"
+              loading="eager"
+              priority={true}
+              unoptimized={true}
+            /></Link>
           </div>
         </div>
       </div>
