@@ -16,7 +16,7 @@ const RainwaterAgra = () => {
     "https://www.inrainconstruction.com/rainwater-harvesting-in-agra";
   const ogUrl =
     "https://www.inrainconstruction.com/rainwater-harvesting-in-agra";
-  const ogTitle = `Rainwater Harvesting System in ${loc} | Rooftop Rainwater Harvesting System in ${location} | InRain® Construction Pvt. Ltd.`;
+  const ogTitle = `Rainwater Harvesting System in ${loc} | Rooftop Rainwater Harvesting System in ${loc} | InRain® Construction Pvt. Ltd.`;
   const ogDescription = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
   const twittertitle =
     `Rainwater Harvesting System in ${loc} | Rooftop Rainwater Harvesting System in ${loc} | InRain® Construction Pvt. Ltd.`;
