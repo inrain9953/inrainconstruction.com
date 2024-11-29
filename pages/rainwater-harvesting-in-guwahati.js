@@ -9,14 +9,14 @@ import PopUp from "@/components/popup";
 const RainwaterGuwahati = () => {
   const loc = "Guwahati";
 
-  const title = `Rainwater Harvesting System in ${loc} | Rainwater Harvesting System Service Provider in ${loc}`;
+  const title = `Rainwater Harvesting System in ${loc} | Rooftop Rainwater Harvesting System in ${loc} | InRain® Construction Pvt. Ltd.`;
   const desc = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
-  const keyword = `Rainwater Harvesting in ${loc}, Modular Rainwater Harvesting System in ${loc}, Rainwater Harvesting System in ${loc}, Rooftop Rainwater Harvesting System in ${loc}`;
+  const keyword = `Rainwater Harvesting System in ${loc}, Rooftop Rainwater Harvesting System in ${loc}, Modular Rainwater Harvesting System in ${loc}, Rainwater Harvesting Tank in ${loc}, Groundwater Recharge`;
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-in-guwahati";
   const ogUrl =
     "https://www.inrainconstruction.com/rainwater-harvesting-in-guwahati";
-  const ogTitle = `Rainwater Harvesting System in ${loc} | Rainwater Harvesting System Service Provider in ${loc}`;
+  const ogTitle = `Rainwater Harvesting System in ${loc} | Rooftop Rainwater Harvesting System in ${loc} | InRain® Construction Pvt. Ltd.`;
   const ogDescription = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
   const twittertitle =
     "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";

@@ -8,17 +8,17 @@ import PopUp from "@/components/popup";
 
 const RainwaterGurgaon = () => {
   const title =
-    "Rainwater Harvesting System in Gurgaon | Rainwater Harvesting System Service Provider in Gurgaon";
+    "Rainwater Harvesting System in Gurgaon | Rooftop Rainwater Harvesting System in Gurgaon | InRain® Construction Pvt. Ltd.";
   const desc =
     "Are you finding Rainwater Harvesting System in Gurgaon. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in Gurgaon at the best price?";
   const keyword =
-    "Rooftop Rainwater Harvesting System in Gurgaon, Modular Rainwater Harvesting System in Gurgaon, Rainwater Harvesting Tank in Gurgaon, Polymer Type Rainwater Harvesting System in Gurgaon, Storm water Management in Gurgaon";
+    "Rainwater Harvesting System in Gurgaon, Rooftop Rainwater Harvesting System in Gurgaon, Modular Rainwater Harvesting System in Gurgaon, Rainwater Harvesting Tank in Gurgaon, Groundwater Recharge, Storm water Management in Gurgaon";
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-in-gurgaon";
   const ogUrl =
     "https://www.inrainconstruction.com/rainwater-harvesting-in-gurgaon";
   const ogTitle =
-    "Rainwater Harvesting System in Gurgaon | Rainwater Harvesting System Service Provider in Gurgaon";
+    "Rainwater Harvesting System in Gurgaon | Rooftop Rainwater Harvesting System in Gurgaon | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Are you finding Rainwater Harvesting System in Gurgaon. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in Gurgaon at the best price?";
   const twittertitle =

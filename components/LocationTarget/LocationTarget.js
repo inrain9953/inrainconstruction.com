@@ -209,9 +209,9 @@ const LocationTarget = ({ location }) => {
           <p className="text-center font-semibold text-md text-green-500 md:text-lg">
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
-          <h1 className="text-center text-2xl font-semibold md:text-4xl">
+          <h2 className="text-center text-2xl font-semibold md:text-4xl">
             Rooftop Rainwater Harvesting System in {location}
-          </h1>
+          </h2>
           <hr className="m-2 md:m-5"></hr>
           <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             A{" "}

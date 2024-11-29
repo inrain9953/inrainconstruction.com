@@ -80,9 +80,16 @@ const Service3 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              Infusing Modular Rainwater Harvesting Technologies to store or
-              recharge the groundwater in order to realize the needs of an
-              enriched tomorrow with abundant water resources in place.
+              Infusing{" "}
+              <Link
+                href={"https://www.inrainconstruction.com/"}
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                Modular Rainwater Harvesting
+              </Link>{" "}
+              Technologies to store or recharge the groundwater in order to
+              realize the needs of an enriched tomorrow with abundant water
+              resources in place.
             </p>
 
             <ul className="list-disc m-5 font-semibold text-[17px] text-justify md:text-lg">
@@ -101,16 +108,9 @@ const Service3 = () => {
               However, our natural resources are very limited. There have been
               many reports of declining water levels around the world. Rainwater
               harvesting is one of the best solutions to keep sustainable
-              development going.{" "}
-              <Link
-                href={"https://www.inrainconstruction.com/"}
-                className="text-green-600 hover:text-sky-500 font-semibold"
-              >
-                InRain® Construction Pvt. Ltd.,
-              </Link>{" "}
-              a water conservation and management organization, offers various
-              rainwater harvesting methods using the latest technology.{" "}
-              <br></br>
+              development going. InRain® Construction Pvt. Ltd., a water
+              conservation and management organization, offers various rainwater
+              harvesting methods using the latest technology. <br></br>
               <br></br>
               In recent years, modular rainwater harvesting has become
               increasingly popular due to its various advantages over

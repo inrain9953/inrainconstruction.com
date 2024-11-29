@@ -202,12 +202,21 @@ const Service11 = () => {
               Considerations and Maintenance
             </h3>
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              When installing a rainwater harvesting system, it is essential to
-              consider factors such as local regulations, the size of the
-              catchment area, and the intended uses of the harvested water.
-              Regular maintenance, including cleaning gutters, screens, and
-              filters, is crucial to ensure the system operates efficiently and
-              the stored water remains clean and safe for its intended purposes.
+              When installing a{" "}
+              <Link
+                href={
+                  "/rainwater-harvesting-system-in-india"
+                }
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                Rainwater Harvesting System,
+              </Link>{" "}
+              it is essential to consider factors such as local regulations, the
+              size of the catchment area, and the intended uses of the harvested
+              water. Regular maintenance, including cleaning gutters, screens,
+              and filters, is crucial to ensure the system operates efficiently
+              and the stored water remains clean and safe for its intended
+              purposes.
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
