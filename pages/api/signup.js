@@ -9,7 +9,7 @@ export default async function signup(req, res) {
 
   try {
     if (req.method === "POST") {
-      const { myname, myemail, mymobile, mymessage } = req.body;
+      const { myname, myemail, mymobile, mymessage, GoogleAds } = req.body;
 
       await mongoose.connect(process.env.url);
       let product = new Product({
@@ -34,7 +34,7 @@ export default async function signup(req, res) {
           from: username,
           to: process.env.receivingmail,
           subject: sub,
-          text: `Name: ${myname} \n\n Email: ${myemail} \n\n Mobile No: ${mymobile} \n\n Message: ${mymessage}`,
+          text: `Submission: ${GoogleAds} \n\n Name: ${myname} \n\n Email: ${myemail} \n\n Mobile No: ${mymobile} \n\n Message: ${mymessage}`,
         };
 
         const info = transporter.sendMail(mailOptions);

@@ -4,6 +4,7 @@ import React from "react";
 import {
   individualBLog2,
   sideBlogs1,
+  sideBlogs10,
   sideBlogs3,
   sideBlogs4,
   sideBlogs5,
@@ -24,10 +25,12 @@ import blog6img from "../../public/blog6.jpeg";
 import blog7img from "../../public/blog7.webp";
 import blog8img from "../../public/blog8.jpg";
 import blog9img from "../../public/blog9.jpg";
+import blog10img from "../../public/blog10.png";
 import PopUp from "@/components/popup";
 
 const Blog2 = () => {
-  const title = "Advancing Sustainability with Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+  const title =
+    "Advancing Sustainability with Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const desc =
     "Explore the advantages of Modular Rainwater Harvesting Systems for sustainable water management. Learn how these space-efficient, quick-to-install systems offer high recharge capacity, low maintenance, and enhanced safety, making them an ideal solution for a greener future.";
   const keyword =
@@ -38,7 +41,8 @@ const Blog2 = () => {
     "Explore the advantages of Modular Rainwater Harvesting Systems for sustainable water management. Learn how these space-efficient, quick-to-install systems offer high recharge capacity, low maintenance, and enhanced safety, making them an ideal solution for a greener future.";
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/advancing-sustainability-with-modular-rainwater-harvesting-system";
-  const ogTitle = "Advancing Sustainability with Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+  const ogTitle =
+    "Advancing Sustainability with Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const twittertitle =
     "Advancing Sustainability with Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
@@ -79,14 +83,15 @@ const Blog2 = () => {
               <div className="md:w-[70%]">
                 <div>
                   <Link href={"https://www.inrainconstruction.com/"}>
-                  <Image
-                    className="w-full md:w-1/2"
-                    src={blog2img}
-                    alt="img"
-                    loading="eager"
-                    priority={true}
-                    unoptimized={true}
-                  /></Link>
+                    <Image
+                      className="w-full md:w-1/2"
+                      src={blog2img}
+                      alt="img"
+                      loading="eager"
+                      priority={true}
+                      unoptimized={true}
+                    />
+                  </Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -356,6 +361,33 @@ const Blog2 = () => {
                         <Image
                           className="md:w-40"
                           src={blog9img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs10.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image
+                          className="md:w-40"
+                          src={blog10img}
                           alt="img"
                           loading="eager"
                           priority={true}

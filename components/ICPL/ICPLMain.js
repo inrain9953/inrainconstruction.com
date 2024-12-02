@@ -17,6 +17,7 @@ const ICPLMain = () => {
   const [myemail, setMyemail] = useState("");
   const [mymobile, setMymobile] = useState("");
   const [mymessage, setMymessage] = useState("");
+  const GoogleAds = "This is from Google Ads";
 
   const router = useRouter();
 
@@ -60,6 +61,7 @@ const ICPLMain = () => {
         myemail,
         mymobile,
         mymessage,
+        GoogleAds,
       });
       if (response.data.success) {
         console.log("Data Submitted Successfully");

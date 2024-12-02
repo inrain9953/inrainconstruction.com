@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import {
   individualBLog9,
   sideBlogs1,
+  sideBlogs10,
   sideBlogs2,
   sideBlogs3,
   sideBlogs4,
@@ -24,6 +25,7 @@ import blog5img from "../../public/blog5.jpg";
 import blog6img from "../../public/blog6.jpeg";
 import blog8img from "../../public/blog8.jpg";
 import blog9img from "../../public/blog9.jpg";
+import blog10img from "../../public/blog10.png";
 import PopUp from "@/components/popup";
 
 const Blog9 = () => {
@@ -442,6 +444,33 @@ const Blog9 = () => {
                         <Image
                           className="md:w-40"
                           src={blog8img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs10.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image
+                          className="md:w-40"
+                          src={blog10img}
                           alt="img"
                           loading="eager"
                           priority={true}

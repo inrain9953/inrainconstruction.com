@@ -92,7 +92,7 @@ const RWHSinIndia = () => {
             prepared in low cost. This is cost friendly for both urban areas and
             rural areas. Rainwater harvesting is the way to reduce dependence on
             municipal water source and save are traditional water sources. This
-            best way to solve water problems in India
+            best way to solve water problems in India.
           </p>
         </div>
 

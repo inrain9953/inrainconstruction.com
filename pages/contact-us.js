@@ -34,6 +34,7 @@ const Contact = () => {
   const [myemail, setMyemail] = useState("");
   const [mymobile, setMymobile] = useState("");
   const [mymessage, setMymessage] = useState("");
+  const GoogleAds = "This is not from Google Ads";
 
   const handleMynameChange = (e) => {
     setMyname(e.target.value);
@@ -74,6 +75,7 @@ const Contact = () => {
         myemail,
         mymobile,
         mymessage,
+        GoogleAds,
       });
       if (response.data.success) {
         setTimeout(() => {

@@ -21,9 +21,11 @@ export const Hero2 = () => {
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>,
             </bold>{" "}
-            we are engaged in making Rainwater Harvesting (RWH) systems based on
-            the technology adopted from Germany. It is indeed entirely different
-            from conventional rainwater systems.{" "}
+            We are expert in sustainable, eco-friendly rainwater harvesting solutions
+            for homes & businesses, designed to preserve water. We are engaged in
+            making Rainwater Harvesting (RWH) systems based on the technology
+            adopted from Germany. It is indeed entirely different from
+            conventional rainwater systems.{" "}
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>
             </bold>{" "}

@@ -11,12 +11,8 @@ import {
   Blog7,
   Blog8,
   Blog9,
+  Blog10,
 } from "../../components/Blogs/Blog";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import XIcon from "@mui/icons-material/X";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import PinterestIcon from "@mui/icons-material/Pinterest";
 import { Button } from "@mui/material";
 import img1 from "../../public/blog1.jpg";
 import img2 from "../../public/blog2.jpg";
@@ -27,6 +23,7 @@ import img6 from "../../public/blog6.jpeg";
 import img7 from "../../public/blog7.webp";
 import img8 from "../../public/blog8.jpg";
 import img9 from "../../public/blog9.jpg";
+import img10 from "../../public/blog10.png"
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -347,6 +344,39 @@ const BlogsIndex = () => {
                 <Image
                   className="w-full rounded-xl hover:shadow-xl h-80"
                   src={img9}
+                  alt="img"
+                  loading="eager"
+                  priority={true}
+                  unoptimized={true}
+                />
+                <p className="text-left mt-2 text-sm font-semibold">
+                  {blog.BlogDate}
+                </p>
+                <Link href={blog.BlogLink}>
+                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                    {blog.BlogHead}
+                  </h1>
+                </Link>
+                <p className="text-justify text-base mt-3 mr-3">
+                  {blog.BlogContent}
+                </p>
+                <div className="flex justify-start mt-2">
+                  <Button variant="contained" size="small">
+                    <Link href={blog.BlogLink}>Read More</Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+
+        {Blog10.map((blog) => {
+          return (
+            <div data-aos="zoom-in-up" className="m-5 mb-10">
+              <div className="">
+                <Image
+                  className="w-full rounded-xl hover:shadow-xl h-80"
+                  src={img10}
                   alt="img"
                   loading="eager"
                   priority={true}

@@ -110,6 +110,18 @@ export const Blog9 = [
   },
 ];
 
+export const Blog10 = [
+  {
+    id: "Blog10",
+    BlogDate: "December 02, 2024",
+    BlogHead: "Significant of Rain Water harvesting in Indian urban areas",
+    BlogContent:
+      "Rainwater harvesting system is of extreme importance for Indian urban areas due to quite a lot of pressing environmental, social and economic challenges. the key reasons why rainwater harvesting is significant given bellow:",
+    BlogLink:
+      "/blogs/significant-of-rain-water-harvesting-in-indian-urban-areas",
+  },
+];
+
 // Blog Head Content on Blog Page
 
 // Main Blog page side content of individual blogs
@@ -222,6 +234,18 @@ export const sideBlogs9 = [
       "The cities are grow and the climate are change its make a pressure on water supplies, so we have to find great and sustainable solution for water saving. We have one hopeful option is the modular rainwater harvesting system.",
     BlogLink:
       "/blogs/eco-friendly-benefits-of-a-modular-rainwater-harvesting-system",
+  },
+];
+
+export const sideBlogs10 = [
+  {
+    id: "Blog9",
+    BlogDate: "December 02, 2024",
+    BlogHead: "Significant of Rain Water harvesting in Indian urban areas",
+    BlogContent:
+      "Rainwater harvesting system is of extreme importance for Indian urban areas due to quite a lot of pressing environmental, social and economic challenges. the key reasons why rainwater harvesting is significant given bellow:",
+    BlogLink:
+      "/blogs/significant-of-rain-water-harvesting-in-indian-urban-areas",
   },
 ];
 
@@ -991,6 +1015,65 @@ export const individualBLog9 = [
     BlogSubHeading9: "Conclusion",
     BlogSubHeadingContent9: [
       "In the conclusion, modular rainwater harvesting systems provide a range of eco-friendly benefits that tackle some of today's biggest environmental challenges. They help reduce storm water runoff, conserve freshwater, recharge groundwater, cool urban areas, and offer flexible solutions for various settings.",
+    ],
+  },
+];
+
+// Blog9 content up there
+
+//Blog9 content down there
+
+export const individualBLog10 = [
+  {
+    id: "Blog10",
+    BlogHead:
+      "Significant of Rain Water Harvesting in Indian Urban Areas",
+    BlogMainContent:
+      "Rainwater harvesting system is of extreme importance for Indian urban areas due to quite a lot of pressing environmental, social and economic challenges. the key reasons why rainwater harvesting is significant given below:",
+    BlogSubHeading1: "1.	Water Scarcity",
+    BlogSubHeadingContent1: [
+      "India facing rising of water scarcity, mostly the urban areas facing scarcity of water. Speedy development, because of fast development of cities. Lead to a decline in the availability of freshwater resources because of the inconsistent monsoon patterns. They are which hang on deeply on centralized water systems. Some time they faced with increasing gab between demand of water and supply of water. The rainwater harvesting system is become is bridge for filling gap tapping into the natural rainfall and providing another source of water for uses.",
+    ],
+
+    BlogSubHeading2: "2.	Groundwater Recharge",
+    BlogSubHeadingContent2: [
+      "Groundwater is the primary source of drinking water for the urban areas. Day by day pollution is increasing and over withdraw are the main reason of down the ground water levels. The rainwater harvesting system is a best way to recharge the ground water and increase the water level, this is very helpful to collect the water and save the natural resources of water.",
+    ],
+    BlogSubHeading3: "3.	Reduction of Urban Flooding",
+    BlogSubHeadingContent3: [
+      "The urban areas have limited green spaces and poor drainage systems that is the reason they are often face severe flooding during the monsoon season. The rainwater harvesting system helps to reduce surface runoff and it is a major contributor to urban overflowing of water. By the collecting and storing rainwater the cities can manage excess rainfall more efficiently and avoid the flood of their surroundings and homes.",
+    ],
+    BlogSubHeading4: "4.	Cost-Effective Water Supply",
+    BlogSubHeadingContent4: [
+      "Rainwater harvesting system is an affordable method for businesses and houses in the urban areas for secure a dependable water source. Rainwater harvesting system is cheaper than large maintenance and centralized water supply system for our building. The rainwater harvesting system is one-time investment. For making a rainwater system we required a storage tank, pipes, filter etc. The water will be collecting from rainwater harvesting system is very clean and good for health, and cleaner than from rivers and lakes, river’s water is polluted and harmful for health. Thus the reason is the rainwater harvesting system is a cost-effective option for urban areas.",
+    ],
+    BlogSubHeading5: "5.	Conservation of Freshwater Resources",
+    BlogSubHeadingContent5: [
+      "The rainwater harvesting system is the only way to reduces dependence on freshwater sources such as lakes, rivers. This is especially important in areas where resources for getting water are limited or endangered. By using rain water harvesting system, they are save water for their next generation. So that our coming generation also get fresh water.",
+    ],
+    BlogSubHeading6: "6.	Improved Water Quality",
+    BlogSubHeadingContent6: [
+      "When the rainwater is harvested directly from the clean surfaces or the roof to areas, the water is usually of good quality than other supply water sources, mainly in the urban areas have pollution and their surface water also be polluted with pollutants. In the urban areas using rainwater for non-drinking purposes like flushing, car washing and irrigation etc., and it can be reducing the demand on the preserved municipal water supply, and make sure the preserved water for the essential purpose, and in that way we can save the water.",
+    ],
+    BlogSubHeading7: "7.	Sustainable Urban Development",
+    BlogSubHeadingContent7: [
+      "Rainwater harvesting supports sustainable urban development by making better use of natural resources. It reduces the need for water from outside sources, helping cities become more self-sufficient. Additionally, it can help fight climate change by lowering the carbon emissions that come from treating and transporting water over long distances.",
+    ],
+    BlogSubHeading8: "8.	Policy and Legal Support",
+    BlogSubHeadingContent8: [
+      "The government of India has acknowledged the importance of the rainwater harvesting system. Rainwater Harvesting made mandatory for all new housing schemes/ plots/ buildings/ Group housing schemes with separate network of pipes for combined Rainwater Harvesting/ Recharging system. In Government Buildings (both new as well as old), installation of rainwater harvesting structures has been made mandatory. For housing schemes of 20 acres and above, it is mandatory to develop ponds/ water bodies in 5% of the total proposed area. Indian government also provide campaigns for initiative and sachems citizens to adopt rainwater harvesting.",
+    ],
+    BlogSubHeading9: "9.	Climate Change Adaptation",
+    BlogSubHeadingContent9: [
+      "Our urban areas are becoming more sensitive to climate change, random rainfall and thrilling weather events are also common in urban areas. There is a way to change these thing to adapt Rainwater harvesting system. This is the sustainable solution for water management in urban areas. By using rainwater harvesting system, collect rainwater and also store at your place and gives a reliable water source that is less affected by changing weather. Rainwater harvesting, helps to make communities more strong to droughts and heavy rain.",
+    ],
+    BlogSubHeading10: "10.	Community Awareness",
+    BlogSubHeadingContent10: [
+      "Rain water Harvesting systems help in creating a sense of shared concern and awareness about the environment NGO, school and community groups are ply a crucial role for encouraging this practice. Their efforts are very helpful for people to the understand the importance of conserving the rainwater and also help in protecting our natural resources of water.",
+    ],
+    BlogSubHeading11: "11.	Conclusion",
+    BlogSubHeadingContent11: [
+      "The hole summary is, Rainwater harvesting system is only way to end the problem of water shortage, and that also reduce the risk of flooding. Encourage peoples for more enduring water uses. As Every city are facing the challenges of fast growth and also facing rapid changes in climates. Rainwater harvesting system comes to be the most important. This is the way using rainwater harvesting system, urban areas can do well water management, increasing ground water levels and most important we can protect our environment in this way.",
     ],
   },
 ];

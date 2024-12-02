@@ -83,27 +83,28 @@ const Service6 = () => {
             <p className="text-[17px] text-justify md:text-lg mt-3">
               Inrain Construction Pvt. Ltd. is committed to providing
               sustainable water conservation solutions for housing and
-              commercial requirements. Industries these days require groundwater
-              recharge systems as there is a huge demand for water supply for
-              industrial use and the resources of water are very limited. Having
-              a groundwater recharge system in place helps industries to reduce
-              their dependency on surface water sources and secure their water
-              supplies during periods of drought or water scarcity. <br></br>
-              <br></br>
+              commercial requirements. Industries these days require{" "}
               <Link
                 href={"https://www.inrainconstruction.com"}
                 className="text-green-600 hover:text-sky-500 font-semibold"
               >
-                InRain Construction Pvt. Ltd.
+                Groundwater Recharge Systems
               </Link>{" "}
-              a water conservation and water management company offer
-              groundwater recharge system for industries. Naturally, the
-              groundwater gets recharged when water infiltrates through the top
-              surface and reaches the water table. An optimized infiltration
-              level is required for natural groundwater recharge. The other way
-              is preserving wetlands, streams, and lakes is to ensure that they
-              continue to recharge groundwater as it can seep through the
-              surface to reach down the water table.
+              as there is a huge demand for water supply for industrial use and
+              the resources of water are very limited. Having a groundwater
+              recharge system in place helps industries to reduce their
+              dependency on surface water sources and secure their water
+              supplies during periods of drought or water scarcity. <br></br>
+              <br></br>
+              InRain Construction Pvt. Ltd. a water conservation and water
+              management company offer groundwater recharge system for
+              industries. Naturally, the groundwater gets recharged when water
+              infiltrates through the top surface and reaches the water table.
+              An optimized infiltration level is required for natural
+              groundwater recharge. The other way is preserving wetlands,
+              streams, and lakes is to ensure that they continue to recharge
+              groundwater as it can seep through the surface to reach down the
+              water table.
               <br></br>
               <br></br>
               Surface Recharge and Artificial Recharge are the other way that

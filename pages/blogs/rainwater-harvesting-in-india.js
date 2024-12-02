@@ -13,9 +13,11 @@ import blog5img from "../../public/blog5.jpg";
 import blog7img from "../../public/blog7.webp";
 import blog8img from "../../public/blog8.jpg";
 import blog9img from "../../public/blog9.jpg";
+import blog10img from "../../public/blog10.png";
 import {
   individualBLog6,
   sideBlogs1,
+  sideBlogs10,
   sideBlogs2,
   sideBlogs3,
   sideBlogs4,
@@ -27,7 +29,8 @@ import {
 import PopUp from "@/components/popup";
 
 const Blog6 = () => {
-  const title = "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
+  const title =
+    "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const desc =
     "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const keyword =
@@ -38,7 +41,8 @@ const Blog6 = () => {
     "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/rainwater-harvesting-in-india";
-  const ogTitle = "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
+  const ogTitle =
+    "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const twittertitle =
     "Rainwater Harvesting System: Supercharge Your Life to Sustainable Living | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
@@ -79,14 +83,15 @@ const Blog6 = () => {
               <div className="md:w-[70%]">
                 <div>
                   <Link href={"https://www.inrainconstruction.com/"}>
-                  <Image
-                    className="w-full md:w-1/2"
-                    src={blog6img}
-                    alt="img"
-                    loading="eager"
-                    priority={true}
-                    unoptimized={true}
-                  /></Link>
+                    <Image
+                      className="w-full md:w-1/2"
+                      src={blog6img}
+                      alt="img"
+                      loading="eager"
+                      priority={true}
+                      unoptimized={true}
+                    />
+                  </Link>
 
                   <div data-aos="zoom-in-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
@@ -458,13 +463,40 @@ const Blog6 = () => {
                   </div>
                 ))}
 
-{sideBlogs9.map((blog) => (
+                {sideBlogs9.map((blog) => (
                   <div key={blog.id}>
                     <div className="md:mb-10 md:flex md:gap-4 md:items-center">
                       <div>
                         <Image
                           className="md:w-40"
                           src={blog9img}
+                          alt="img"
+                          loading="eager"
+                          priority={true}
+                          unoptimized={true}
+                        />
+                      </div>
+                      <div>
+                        <p className="text-left text-gray-500">
+                          {blog.BlogDate}
+                        </p>
+                        <Link href={blog.BlogLink}>
+                          <h4 className="text-left hover:text-green-500 underline text-lg font-semibold text-blue-500">
+                            {blog.BlogHead}
+                          </h4>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+                {sideBlogs10.map((blog) => (
+                  <div key={blog.id}>
+                    <div className="md:mb-10 md:flex md:gap-4 md:items-center">
+                      <div>
+                        <Image
+                          className="md:w-40"
+                          src={blog10img}
                           alt="img"
                           loading="eager"
                           priority={true}
