@@ -117,10 +117,10 @@ const About = () => {
               <Link
                 className="text-green-500 hover:text-sky-500"
                 href={
-                  "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                  "https://www.inrainconstruction.com/modular-rainwater-harvesting"
                 }
               >
-                Rainwater Harvesting
+                Modular Rainwater Harvesting
               </Link>{" "}
               Company with a strong presence all over India. The company has
               successfully Installed more than 400 Rainwater Harvesting Projects
