@@ -431,13 +431,13 @@ const About = () => {
         </div>
 
         <div className="text-center">
-          <p data-aos="zoom-in-up" className="text-3xl font-bold ml-5">
+          <p data-aos="zoom-in-up" className="text-3xl font-bold">
             Our Certification
           </p>
-          <div className="m-5 md:flex justify-between gap-10">
+          <div className="m-5 md:grid md:grid-cols-3 md:items-center md:align-middle md:gap-10">
             <Image
               data-aos="zoom-in-up"
-              className="rounded-lg mb-3"
+              className="rounded-lg m-auto pb-2"
               width={400}
               src={iso1}
               alt="img"
@@ -447,7 +447,7 @@ const About = () => {
             />
             <Image
               data-aos="zoom-in-up"
-              className="rounded-lg mb-3"
+              className="rounded-lg m-auto pb-2"
               width={400}
               src={iso2}
               alt="img"
@@ -457,7 +457,7 @@ const About = () => {
             />
             <Image
               data-aos="zoom-in-up"
-              className="rounded-lg mb-3"
+              className="rounded-lg m-auto pb-2"
               width={400}
               src={griha}
               alt="img"
