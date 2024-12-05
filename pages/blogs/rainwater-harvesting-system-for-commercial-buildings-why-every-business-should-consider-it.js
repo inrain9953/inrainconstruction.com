@@ -76,6 +76,18 @@ const Blog3 = () => {
       </Head>
       <Navbar />
       <PopUp />
+      <div className="m-5 md:m-10 bg-gray-500 rounded-xl p-2">
+        <span className="text-xs md:text-lg text-black font-semibold">
+          <Link className="hover:text-white" href={"/"}>
+            Home
+          </Link>{" "}
+          /{" "}
+          <Link className="hover:text-white" href={"/blogs"}>
+            Blogs
+          </Link>{" "}
+          / Rainwater Harvesting for Commercial Buildings: Why Every Business Should Consider It
+        </span>
+      </div>
       <div className="m-5 md:m-10">
         {individualBLog3.map((blog) => {
           return (

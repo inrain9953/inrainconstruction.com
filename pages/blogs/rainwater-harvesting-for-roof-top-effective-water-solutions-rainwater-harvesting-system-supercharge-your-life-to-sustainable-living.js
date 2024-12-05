@@ -76,6 +76,18 @@ const Blog5 = () => {
       </Head>
       <Navbar />
       <PopUp />
+      <div className="m-5 md:m-10 bg-gray-500 rounded-xl p-2">
+        <span className="text-xs md:text-lg text-black font-semibold">
+          <Link className="hover:text-white" href={"/"}>
+            Home
+          </Link>{" "}
+          /{" "}
+          <Link className="hover:text-white" href={"/blogs"}>
+            Blogs
+          </Link>{" "}
+          / Rainwater Harvesting System for Roof Top - Effective Water Solutions
+        </span>
+      </div>
       <div className="m-5 md:m-10">
         {individualBLog5.map((blog) => {
           return (

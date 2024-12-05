@@ -23,7 +23,8 @@ import img6 from "../../public/blog6.jpeg";
 import img7 from "../../public/blog7.webp";
 import img8 from "../../public/blog8.jpg";
 import img9 from "../../public/blog9.jpg";
-import img10 from "../../public/blog10.png"
+import img10 from "../../public/blog10.png";
+import service11 from "../../public/service11.jpg";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -72,6 +73,21 @@ const BlogsIndex = () => {
       </Head>
       <Navbar />
       <PopUp />
+      <div className="mt-5">
+        <Image
+          className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+          src={service11}
+          alt="img"
+          loading="eager"
+          priority={true}
+          unoptimized={true}
+        />
+        <div className="relative md:bottom-7 bottom-5 md:left-10 left-2">
+          <p className="text-xs md:text-lg text-black">
+            <Link href={"/"}>Home</Link> / Blogs
+          </p>
+        </div>
+      </div>
       <div className="md:grid md:grid-cols-3 md:m-10">
         {Blog.map((blog) => {
           return (

@@ -76,6 +76,18 @@ const Blog8 = () => {
       </Head>
       <Navbar />
       <PopUp />
+      <div className="m-5 md:m-10 bg-gray-500 rounded-xl p-2">
+        <span className="text-xs md:text-lg text-black font-semibold">
+          <Link className="hover:text-white" href={"/"}>
+            Home
+          </Link>{" "}
+          /{" "}
+          <Link className="hover:text-white" href={"/blogs"}>
+            Blogs
+          </Link>{" "}
+          / Why Beneficial of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?
+        </span>
+      </div>
       <div className="m-5 md:m-10">
         {individualBLog8.map((blog) => {
           return (

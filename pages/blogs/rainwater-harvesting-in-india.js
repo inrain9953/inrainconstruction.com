@@ -30,7 +30,7 @@ import PopUp from "@/components/popup";
 
 const Blog6 = () => {
   const title =
-    "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
   const desc =
     "Discover how rainwater harvesting systems can address water scarcity in India. Explore tailored solutions for businesses, environmentalists, and wealthy homeowners that ensure sustainability, cost savings, and water security. Learn about the benefits and steps for implementing a customized rainwater harvesting system to support a greener future.";
   const keyword =
@@ -76,6 +76,18 @@ const Blog6 = () => {
       </Head>
       <Navbar />
       <PopUp />
+      <div className="m-5 md:m-10 bg-gray-500 rounded-xl p-2">
+        <span className="text-xs md:text-lg text-black font-semibold">
+          <Link className="hover:text-white" href={"/"}>
+            Home
+          </Link>{" "}
+          /{" "}
+          <Link className="hover:text-white" href={"/blogs"}>
+            Blogs
+          </Link>{" "}
+          / Rainwater Harvesting System in India: How to Install Rainwater Systems at Home and in Industries
+        </span>
+      </div>
       <div className="m-5 md:m-10">
         {individualBLog6.map((blog) => {
           return (

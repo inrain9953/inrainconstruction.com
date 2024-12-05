@@ -119,47 +119,51 @@ const Contact = () => {
       <Navbar />
       <PopUp />
       <div data-aos="zoom-in-up">
-        <Image
-          className="w-full relative"
-          src={contactbg}
-          alt="img"
-          loading="eager"
-          priority={true}
-          unoptimized={true}
-        />
-        <div className="hidden md:block text-center absolute top-10 right-10 text-white">
-            <h1 className="text-3xl font-semibold">Contact Us</h1>
-            <div>
-              <p className="text-lg mt-2 mb-2">
-                The Company has Successfully Installed Morethan 400 Rainwater
-                Harvesting Projects.
-              </p>
-              <a
-                className="hover:text-green-500 mr-5"
-                href="mailto:sales@inrainwaterharvesting.com"
-              >
-                <MailOutline fontSize="small" />
-                sales@inrainwaterharvesting.com
-              </a>
-              <a
-                className="hover:text-green-500 ml-5"
-                href="tel:+919910220794"
-              >
-                <CallIcon fontSize="small" />
-                +91-9910220794
-              </a>
-            </div>
-            <div>
-              <a
-                className="font-medium text-base hover:text-sky-700"
-                href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6"
-              >
-                <LocationOnIcon fontSize="small" />
-                Plot No 06, KH431, 1st floor, Main Road Chattarpur-Satbari,
-                Satbari, New delhi 110074
-              </a>
-            </div>
+        <div>
+          <Image
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+            src={contactbg}
+            alt="img"
+            loading="eager"
+            priority={true}
+            unoptimized={true}
+          />
+          <div className="absolute md:bottom-1 bottom-0 md:left-10 left-2">
+            <p className="text-xs md:text-lg text-white">
+              <Link href={"/"}>Home</Link> / Contact Us
+            </p>
           </div>
+        </div>
+        <div className="hidden md:block text-center absolute top-10 right-10 text-white">
+          <h1 className="text-3xl font-semibold">Contact Us</h1>
+          <div>
+            <p className="text-lg mt-2 mb-2">
+              The Company has Successfully Installed Morethan 400 Rainwater
+              Harvesting Projects.
+            </p>
+            <a
+              className="hover:text-green-500 mr-5"
+              href="mailto:sales@inrainwaterharvesting.com"
+            >
+              <MailOutline fontSize="small" />
+              sales@inrainwaterharvesting.com
+            </a>
+            <a className="hover:text-green-500 ml-5" href="tel:+919910220794">
+              <CallIcon fontSize="small" />
+              +91-9910220794
+            </a>
+          </div>
+          <div>
+            <a
+              className="font-medium text-base hover:text-sky-700"
+              href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6"
+            >
+              <LocationOnIcon fontSize="small" />
+              Plot No 06, KH431, 1st floor, Main Road Chattarpur-Satbari,
+              Satbari, New delhi 110074
+            </a>
+          </div>
+        </div>
       </div>
 
       <div className="loader md:top-[80%] top-0 right-0 left-0 md:left-[40%] bottom-0 hidden"></div>
@@ -197,38 +201,36 @@ const Contact = () => {
         </div>
 
         <div className="block md:hidden text-center text-black">
-            <h1 className="text-3xl font-semibold">Contact Us</h1>
-            <div>
-              <p className="text-base mt-2 mb-2">
-                The Company has Successfully Installed Morethan 400 Rainwater
-                Harvesting Projects.
-              </p>
-              <a
-                className="hover:text-green-500"
-                href="mailto:sales@inrainwaterharvesting.com"
-              >
-                <MailOutline fontSize="small" />
-                sales@inrainwaterharvesting.com
-              </a><br/>
-              <a
-                className="hover:text-green-500"
-                href="tel:+919910220794"
-              >
-                <CallIcon fontSize="small" />
-                +91-9910220794
-              </a>
-            </div>
-            <div>
-              <a
-                className="font-medium text-base hover:text-sky-700"
-                href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6"
-              >
-                <LocationOnIcon fontSize="small" />
-                Plot No 06, KH431, 1st floor, Main Road Chattarpur-Satbari,
-                Satbari, New delhi 110074
-              </a>
-            </div>
+          <h1 className="text-3xl font-semibold">Contact Us</h1>
+          <div>
+            <p className="text-base mt-2 mb-2">
+              The Company has Successfully Installed Morethan 400 Rainwater
+              Harvesting Projects.
+            </p>
+            <a
+              className="hover:text-green-500"
+              href="mailto:sales@inrainwaterharvesting.com"
+            >
+              <MailOutline fontSize="small" />
+              sales@inrainwaterharvesting.com
+            </a>
+            <br />
+            <a className="hover:text-green-500" href="tel:+919910220794">
+              <CallIcon fontSize="small" />
+              +91-9910220794
+            </a>
           </div>
+          <div>
+            <a
+              className="font-medium text-base hover:text-sky-700"
+              href="https://maps.app.goo.gl/QSZoYkgd8GufagvC6"
+            >
+              <LocationOnIcon fontSize="small" />
+              Plot No 06, KH431, 1st floor, Main Road Chattarpur-Satbari,
+              Satbari, New delhi 110074
+            </a>
+          </div>
+        </div>
 
         <div data-aos="zoom-in-up" className="mt-10 mb-10 contact-form">
           <div className="flex justify-center">

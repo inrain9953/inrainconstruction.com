@@ -62,13 +62,18 @@ const About = () => {
       <div>
         <div data-aos="zoom-in-up" className="pt-5 pb-5 md:pt-0">
           <Image
-            className="w-full"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={banner}
             alt="img"
             loading="eager"
             priority={true}
             unoptimized={true}
           />
+          <div className="absolute md:bottom-7 bottom-6 md:left-10 left-2">
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / About Us
+            </p>
+          </div>
         </div>
 
         <div

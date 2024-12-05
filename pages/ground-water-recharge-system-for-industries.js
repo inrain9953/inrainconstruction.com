@@ -59,7 +59,7 @@ const Service6 = () => {
       <div className="mt-5 md:m-10">
         <div data-aos="zoom-in-up">
           <Image
-            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl"
+            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service6}
             alt="Ground Water Recharge for Industries"
             loading="eager"

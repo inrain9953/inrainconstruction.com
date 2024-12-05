@@ -76,7 +76,18 @@ const Blog10 = () => {
       </Head>
       <Navbar />
       <PopUp />
-
+      <div className="m-5 md:m-10 bg-gray-500 rounded-xl p-2">
+        <span className="text-xs md:text-lg text-black font-semibold">
+          <Link className="hover:text-white" href={"/"}>
+            Home
+          </Link>{" "}
+          /{" "}
+          <Link className="hover:text-white" href={"/blogs"}>
+            Blogs
+          </Link>{" "}
+          / Significant of Rain Water Harvesting in Indian Urban Areas
+        </span>
+      </div>
       <div className="m-5 md:m-10">
         {individualBLog10.map((blog) => {
           return (
