@@ -270,12 +270,6 @@ export const Footer = () => {
                   +91-9910220794
                 </a>
               </p>
-              <p className="list-none mb-2 text-white hover:text-sky-700">
-                <a className="text-base" href="tel:+9101143791960">
-                  <CallIcon fontSize="small" />
-                  +91 01135823511
-                </a>
-              </p>
             </div>
           </div>
 

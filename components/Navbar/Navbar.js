@@ -65,7 +65,6 @@ export const Navbar = () => {
       body: json,
     }).then((res) => res.json());
 
-
     try {
       const response = await axios.post("/api/signup", {
         myname,
@@ -107,13 +106,6 @@ export const Navbar = () => {
                 href="tel:+919910220794"
               >
                 +91-9910220794
-              </a>{" "}
-              &nbsp;<p className="mr-2 ml-2 text-sm">|</p>
-              <a
-                className="hover:text-green-700 text-sm font-semibold"
-                href="tel:+01135823511"
-              >
-                011-35823511
               </a>
             </div>
           </div>
