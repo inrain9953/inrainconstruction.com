@@ -61,12 +61,12 @@ const RWHSinIndia = () => {
       <div className="mt-10">
         <div
           data-aos="zoom-in-up"
-          className="text-center m-3 md:ml-52 md:mr-52"
+          className="text-center m-5 md:ml-52 md:mr-52"
         >
           <h1 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
             Rainwater Harvesting System in India
           </h1>
-          <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700 md:pl-28 md:pr-28">
+          <p className="text-[16px] md:text-[18px] mt-5 text-justify text-gray-700 md:pl-28 md:pr-28">
             India facing rising of water scarcity, mostly the urban areas facing
             scarcity of water. Speedy development, because of fast development
             of cities. Led to a decline in the availability of freshwater
@@ -97,11 +97,11 @@ const RWHSinIndia = () => {
         </div>
 
         <div data-aos="zoom-in-up" className="md:grid md:grid-cols-3 md:m-12">
-          <div className="text-center m-3 mt-7">
+          <div className="text-center m-5 mt-7">
             <p className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
               Vision
             </p>
-            <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
+            <p className="text-[16px] md:text-[18px] mt-5 text-justify text-gray-700">
               The solution is aimed at solving the problem of the water crisis
               in cities where there is a lack of space for storage of water and
               huge populations, leading to a shortage of water supply and
@@ -120,11 +120,11 @@ const RWHSinIndia = () => {
             />
           </div>
 
-          <div data-aos="fade-up" className="text-center m-3 mt-7">
+          <div data-aos="fade-up" className="text-center m-5 mt-7">
             <h2 className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
               Modular Rainwater Harvesting
             </h2>
-            <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
+            <p className="text-[16px] md:text-[18px] text-justify mt-5 text-gray-700">
               <Link
                 className="text-green-500 hover:text-sky-500"
                 href="https://www.inrainconstruction.com/modular-rainwater-harvesting"
@@ -144,7 +144,7 @@ const RWHSinIndia = () => {
         <p className="text-center text-3xl font-bold">Business Network</p>
         <div
           data-aos="zoom-in-up"
-          className="md:grid md:grid-cols-6 md:p-10 bg-slate-500"
+          className="md:grid md:grid-cols-6 grid grid-cols-3 p-3 md:p-10 bg-slate-500"
         >
           {LocationWise.map((items) => (
             <a
