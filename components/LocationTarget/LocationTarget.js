@@ -13,20 +13,20 @@ import newTech from "../../public/new-technology-based-rainwater.jpg";
 const LocationTarget = ({ location }) => {
   return (
     <>
-      <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
-        <div data-aos="zoom-in-up" className="md:content-center md:p-10">
-          <p className="text-center font-semibold text-md text-green-500 md:text-lg">
+      <div className="m-5 md:flex md:justify-center md:gap-2 md:items-center md:m-10 mt-20">
+        <div data-aos="zoom-in-up" className="md:content-center">
+          <p className="text-center font-semibold text-xs text-green-500">
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
           <h1 className="text-center text-2xl font-semibold md:text-4xl">
-            Rainwater Harvesting System in {location}
+            Rainwater Harvesting in {location}
           </h1>
           <hr className="m-2 md:m-5"></hr>
-          <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
+          <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">InRain®</bold>{" "}
             Construction Private Limited, is a top provider of{" "}
             <bold className="text-black font-semibold">
-              Rainwater Harvesting Systems in {location}
+              Rainwater Harvesting in {location}
             </bold>
             , offering advanced solutions for water management, with a proven
             track record. We have successfully installed over{" "}
@@ -56,11 +56,11 @@ const LocationTarget = ({ location }) => {
           data-aos="zoom-in-up"
           className="m-2 flex justify-center md:inline"
         >
-          <div className="flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={approved}
                 loading="eager"
                 priority={true}
@@ -72,11 +72,11 @@ const LocationTarget = ({ location }) => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={trophy}
                 loading="eager"
                 priority={true}
@@ -94,11 +94,11 @@ const LocationTarget = ({ location }) => {
           data-aos="zoom-in-up"
           className="m-2 flex justify-center md:inline"
         >
-          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={cerg}
                 loading="eager"
                 priority={true}
@@ -109,11 +109,11 @@ const LocationTarget = ({ location }) => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
+          <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
                 alt="img"
-                className="w-16 m-auto md:w-24"
+                className="w-16 m-auto"
                 src={trophy}
                 loading="eager"
                 priority={true}
@@ -204,33 +204,42 @@ const LocationTarget = ({ location }) => {
         </div>
       </div>
 
-      <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
-        <div data-aos="zoom-in-up" className="md:content-center md:p-10">
+      <div className="m-5 md:flex md:justify-center md:items-center md:m-10 mt-20">
+        <div data-aos="zoom-in-up" className="md:content-center">
           <p className="text-center font-semibold text-md text-green-500 md:text-lg">
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
           <h2 className="text-center text-2xl font-semibold md:text-4xl">
-            Rooftop Rainwater Harvesting System in {location}
+            Rooftop Rainwater Harvesting in {location}
           </h2>
           <hr className="m-2 md:m-5"></hr>
-          <p className="m-5 text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
+          <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             A{" "}
             <bold className="text-black font-semibold">
-              Rooftop Rainwater Harvesting System in {location}
+              Rooftop Rainwater Harvesting in {location}
             </bold>{" "}
             intended for filtration, transitory maintenance and ensuing release.
             It is utilized in waste channel application. It is developed
-            utilizing our restrictive plastic infusion shaped boards.We provide
+            utilizing our restrictive plastic infusion shaped boards. We provide
             all range of modules as per the requirements.
+            <br />
+            The utilizing of Rainwater Harvesting System in {location} is a
+            Sustainable and Renewable Energy Source which is also known as Green
+            Energy. It is a natural source of water which is clean and pure. We
+            need to save the water for future use. We provide the best quality
+            products at a reasonable price for{" "}
+            <bold className="text-black font-semibold">
+              Rooftop Rainwater Harvesting in {location}.
+            </bold>
           </p>
         </div>
 
         <div
           data-aos="zoom-in-up"
-          className="m-10 md:w-full flex justify-center items-center md:inline"
+          className="m-5 md:w-full flex justify-center items-center md:inline"
         >
           <Image
-            className="w-full shadow-xl"
+            className="w-full rounded-xl shadow-xl"
             alt="img"
             src={newTech}
             loading="eager"
