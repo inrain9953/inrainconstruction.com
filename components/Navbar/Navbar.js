@@ -29,6 +29,7 @@ export const Navbar = () => {
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
   const [message, setMessage] = useState("");
+  const GoogleAds = "This is not from Google Ads";
 
   const myname = name;
   const myemail = email;
@@ -71,6 +72,7 @@ export const Navbar = () => {
         myemail,
         mymobile,
         mymessage,
+        GoogleAds,
       });
       if (response.success) {
         setTimeout(() => {
