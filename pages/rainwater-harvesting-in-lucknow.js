@@ -9,21 +9,21 @@ import PopUp from "@/components/popup";
 const RainwaterLucknow = () => {
 
     const title =
-    "Rainwater Harvesting in Lucknow | Rooftop Rainwater Harvesting in Lucknow | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting System in Lucknow | Rooftop Rainwater Harvesting System in Lucknow | InRain® Construction Pvt. Ltd.";
   const desc =
     "Are you finding Rainwater Harvesting System in Lucknow. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in Lucknow at the best price?";
   const keyword =
-    "Rainwater Harvesting in Lucknow, Rooftop Rainwater Harvesting in Lucknow, Modular Rainwater Harvesting System in Lucknow, Rainwater Harvesting Tank in Lucknow, Groundwater Recharge in Lucknow";
+    "Rainwater Harvesting System in Lucknow, Rooftop Rainwater Harvesting System in Lucknow, Modular Rainwater Harvesting System in Lucknow, Rainwater Harvesting Tank in Lucknow, Groundwater Recharge in Lucknow";
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-in-lucknow";
   const ogUrl =
     "https://www.inrainconstruction.com/rainwater-harvesting-in-lucknow";
   const ogTitle =
-    "Rainwater Harvesting in Lucknow | Rooftop Rainwater Harvesting in Lucknow | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting System in Lucknow | Rooftop Rainwater Harvesting System in Lucknow | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "Are you finding Rainwater Harvesting System in Lucknow. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in Lucknow at the best price?";
   const twittertitle =
-    "Rainwater Harvesting in Lucknow | Rooftop Rainwater Harvesting in Lucknow | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting System in Lucknow | Rooftop Rainwater Harvesting System in Lucknow | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
 
