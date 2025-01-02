@@ -36,11 +36,12 @@ const ModularLocationTarget = ({ location }) => {
       <div data-aos="zoom-in-up" className="">
         <div className="relative hero1-background">
           <div className="absolute md:top-24 top-28 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <p className="md:text-2xl text-center text-base text-white">
-              <TextTransition springConfig={presets.gentle}>
-                {TEXTS[index % TEXTS.length]}
-              </TextTransition>
-            </p>
+            <TextTransition
+              className="md:text-xl text-center text-base text-white"
+              springConfig={presets.gentle}
+            >
+              {TEXTS[index % TEXTS.length]}
+            </TextTransition>
           </div>
 
           <div className="text-center">
@@ -284,7 +285,16 @@ const ModularLocationTarget = ({ location }) => {
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             A{" "}
             <bold className="text-black font-semibold">
-              Rooftop Rainwater Harvesting System in {location}
+              <Link
+                className="text-green-500 hover:text-sky-500"
+                href={
+                  "https://www.inrainconstruction.com/roof-top-rainwater-harvesting-system-RRWHS-InRain"
+                }
+                target="_blank"
+              >
+                Rooftop Rainwater Harvesting System
+              </Link>{" "}
+              in {location}
             </bold>{" "}
             intended for filtration, transitory maintenance and ensuing release.
             It is utilized in waste channel application. It is developed

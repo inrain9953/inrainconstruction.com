@@ -26,11 +26,12 @@ export const Hero1 = () => {
     <div data-aos="zoom-in-up" className="">
       <div className="relative hero1-background">
         <div className="absolute md:top-24 top-28 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <p className="md:text-2xl text-center text-base text-white">
-            <TextTransition springConfig={presets.gentle}>
-              {TEXTS[index % TEXTS.length]}
-            </TextTransition>
-          </p>
+          <TextTransition
+            className="md:text-xl text-center text-base text-white"
+            springConfig={presets.gentle}
+          >
+            {TEXTS[index % TEXTS.length]}
+          </TextTransition>
         </div>
 
         <div className="text-center">
@@ -45,7 +46,9 @@ export const Hero1 = () => {
             />
             <p className="text-green-700 text-2xl font-semibold drop-shadow-md md:text-3xl">
               Rainwater Harvesting System in India<br></br>
-              <bold className="text-base text-black">InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)</bold>
+              <bold className="text-base text-black">
+                InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)
+              </bold>
             </p>
             <p className="text-base font-semibold align-middle md:text-xl md:m-2">
               "A Water Conservation & Management Company"
