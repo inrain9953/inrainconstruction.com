@@ -75,14 +75,14 @@ const BlogsIndex = () => {
       <PopUp />
       <div className="mt-5">
         <Image
-          className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+          className="w-full h-28 md:h-72 rounded-xl md:shadow-2xl relative"
           src={service11}
           alt="img"
           loading="eager"
           priority={true}
           unoptimized={true}
         />
-        <div className="relative md:bottom-7 bottom-5 md:left-10 left-2">
+        <div className="relative md:bottom-7 bottom-5 md:pl-10 pl-2">
           <p className="text-xs md:text-lg text-black">
             <Link href={"/"}>Home</Link> / Blogs
           </p>

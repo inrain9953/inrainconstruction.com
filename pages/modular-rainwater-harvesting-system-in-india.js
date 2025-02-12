@@ -1,33 +1,33 @@
+import { ModularLocationWise } from "@/components/constant";
 import { Footer } from "@/components/Footer/Footer";
 import { Hero1 } from "@/components/Hero/Hero1";
 import { Navbar } from "@/components/Navbar/Navbar";
 import PopUp from "@/components/popup";
-import React from "react";
 import hero2Img from "./../public/Technology/main2.jpeg";
 import Image from "next/image";
-import Link from "next/link";
-import { LocationWise } from "@/components/constant";
 import Head from "next/head";
+import Link from "next/link";
+import React from "react";
 
-const RWHSinIndia = () => {
+const ModularRainwaterIndia = () => {
   const title =
-    "Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+    "Modular Rainwater Harvesting System in India | Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const desc =
-    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
+    "Are you finding Modular Rainwater Harvesting System in India. We have the best quality Modular Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
   const keyword =
-    "Rainwater Harvesting System in India, Modular Rainwater Harvesting in India, Modular Rainwater Harvesting Service Provider, Modular Rainwater Harvesting Service Provider in Delhi, Modular Rainwater Harvesting System";
+    "Modular Rainwater Harvesting System in India, Rainwater Harvesting System in India, Modular Rainwater Harvesting Service Provider, Modular Rainwater Harvesting Service Provider in Delhi, Modular Rainwater Harvesting System";
   const canonical =
-    "https://www.inrainconstruction.com/rainwater-harvesting-system-in-india";
+    "https://www.inrainconstruction.com/modular-rainwater-harvesting-system-in-india";
   const ogUrl =
-    "https://www.inrainconstruction.com/rainwater-harvesting-system-in-india";
+    "https://www.inrainconstruction.com/modular-rainwater-harvesting-system-in-india";
   const ogTitle =
-    "Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+    "Modular Rainwater Harvesting System in India | Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const ogDescription =
-    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
+    "Are you finding Modular Rainwater Harvesting System in India. We have the best quality Modular Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
   const twittertitle =
-    "Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+    "Modular Rainwater Harvesting System in India | Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
-    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
+    "Are you finding Modular Rainwater Harvesting System in India. We have the best quality Modular Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
 
   return (
     <>
@@ -64,7 +64,7 @@ const RWHSinIndia = () => {
           className="text-center m-5 md:ml-52 md:mr-52"
         >
           <h1 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
-            Rainwater Harvesting System in India
+            Modular Rainwater Harvesting System in India
           </h1>
           <p className="text-[16px] md:text-[18px] mt-5 text-justify text-gray-700 md:pl-28 md:pr-28">
             India facing rising of water scarcity, mostly the urban areas facing
@@ -142,12 +142,10 @@ const RWHSinIndia = () => {
 
       <div>
         <p className="text-center text-3xl font-bold">Business Network</p>
-        <div
-          data-aos="zoom-in-up"
-          className="md:grid md:grid-cols-6 grid grid-cols-3 p-3 md:p-10 bg-slate-500"
-        >
-          {LocationWise.map((items) => (
+        <div className="md:grid md:grid-cols-6 grid grid-cols-3 m-5 border-2 border-black p-3 md:p-10">
+          {ModularLocationWise.map((items) => (
             <a
+              data-aos="zoom-in-up"
               className="text-center m-1 font-semibold hover:text-green-500"
               href={items.url}
             >
@@ -161,4 +159,4 @@ const RWHSinIndia = () => {
   );
 };
 
-export default RWHSinIndia;
+export default ModularRainwaterIndia;
