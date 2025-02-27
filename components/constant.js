@@ -959,3 +959,463 @@ export const ModularLocationWise = [
     url: "/modular-rainwater-harvesting-system-in-warangal/",
   }
 ];
+
+
+
+export const PolymerLocationWise = [
+  {
+    id: uuidv4(),
+    location: "Agartala",
+    url: "/polymer-based-rainwater-harvesting-system-in-agartala/",
+  },
+  {
+    id: uuidv4(),
+    location: "Agra",
+    url: "/polymer-based-rainwater-harvesting-system-in-agra/",
+  },
+  {
+    id: uuidv4(),
+    location: "Ahmedabad",
+    url: "/polymer-based-rainwater-harvesting-system-in-ahmedabad/",
+  },
+  {
+    id: uuidv4(),
+    location: "Ajmer",
+    url: "/polymer-based-rainwater-harvesting-system-in-ajmer/",
+  },
+  {
+    id: uuidv4(),
+    location: "Aligarh",
+    url: "/polymer-based-rainwater-harvesting-system-in-aligarh/",
+  },
+  {
+    id: uuidv4(),
+    location: "Allahabad",
+    url: "/polymer-based-rainwater-harvesting-system-in-allahabad/",
+  },
+  {
+    id: uuidv4(),
+    location: "Alwar",
+    url: "/polymer-based-rainwater-harvesting-system-in-alwar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Amaravati",
+    url: "/polymer-based-rainwater-harvesting-system-in-amaravati/",
+  },
+  {
+    id: uuidv4(),
+    location: "Amritsar",
+    url: "/polymer-based-rainwater-harvesting-system-in-amritsar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Ayodhya",
+    url: "/polymer-based-rainwater-harvesting-system-in-ayodhya/",
+  },
+  {
+    id: uuidv4(),
+    location: "Bangalore",
+    url: "/polymer-based-rainwater-harvesting-system-in-bangalore/",
+  },
+  {
+    id: uuidv4(),
+    location: "Barabanki",
+    url: "/polymer-based-rainwater-harvesting-system-in-barabanki/",
+  },
+  {
+    id: uuidv4(),
+    location: "Bareilly",
+    url: "/polymer-based-rainwater-harvesting-system-in-bareilly/",
+  },
+  {
+    id: uuidv4(),
+    location: "Batala",
+    url: "/polymer-based-rainwater-harvesting-system-in-batala/",
+  },
+  {
+    id: uuidv4(),
+    location: "Bathinda",
+    url: "/polymer-based-rainwater-harvesting-system-in-bathinda/",
+  },
+  {
+    id: uuidv4(),
+    location: "Begusarai",
+    url: "/polymer-based-rainwater-harvesting-system-in-begusarai/",
+  },
+  {
+    id: uuidv4(),
+    location: "Belagavi",
+    url: "/polymer-based-rainwater-harvesting-system-in-belagavi/",
+  },
+  {
+    id: uuidv4(),
+    location: "Bhagalpur",
+    url: "/polymer-based-rainwater-harvesting-system-in-bhagalpur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Bhilwara",
+    url: "/polymer-based-rainwater-harvesting-system-in-bhilwara/",
+  },
+  {
+    id: uuidv4(),
+    location: "Bhopal",
+    url: "/polymer-based-rainwater-harvesting-system-in-bhopal/",
+  },
+  {
+    id: uuidv4(),
+    location: "Bhubaneswar",
+    url: "/polymer-based-rainwater-harvesting-system-in-bhubaneswar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Bikaner",
+    url: "/polymer-based-rainwater-harvesting-system-in-bikaner/",
+  },
+  {
+    id: uuidv4(),
+    location: "Chandigarh",
+    url: "/polymer-based-rainwater-harvesting-system-in-chandigarh/",
+  },
+  {
+    id: uuidv4(),
+    location: "Chennai",
+    url: "/polymer-based-rainwater-harvesting-system-in-chennai/",
+  },
+  {
+    id: uuidv4(),
+    location: "Coimbatore",
+    url: "/polymer-based-rainwater-harvesting-system-in-coimbatore/",
+  },
+  {
+    id: uuidv4(),
+    location: "Dehradun",
+    url: "/polymer-based-rainwater-harvesting-system-in-dehradun/",
+  },
+  {
+    id: uuidv4(),
+    location: "Delhi",
+    url: "/polymer-based-rainwater-harvesting-system-in-delhi/",
+  },
+  {
+    id: uuidv4(),
+    location: "Devanagere",
+    url: "/polymer-based-rainwater-harvesting-system-in-devanagere/",
+  },
+  {
+    id: uuidv4(),
+    location: "Dharamshala",
+    url: "/polymer-based-rainwater-harvesting-system-in-dharamshala/",
+  },
+  {
+    id: uuidv4(),
+    location: "Dholpur",
+    url: "/polymer-based-rainwater-harvesting-system-in-dholpur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Faridabad",
+    url: "/polymer-based-rainwater-harvesting-system-in-faridabad/",
+  },
+  {
+    id: uuidv4(),
+    location: "Gandhinagar",
+    url: "/polymer-based-rainwater-harvesting-system-in-gandhinagar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Gaya",
+    url: "/polymer-based-rainwater-harvesting-system-in-gaya/",
+  },
+  {
+    id: uuidv4(),
+    location: "Ghaziabaad",
+    url: "/polymer-based-rainwater-harvesting-system-in-ghaziabad/",
+  },
+  {
+    id: uuidv4(),
+    location: "Gorakhpur",
+    url: "/polymer-based-rainwater-harvesting-system-in-gorakhpur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Greater-Noida",
+    url: "/polymer-based-rainwater-harvesting-system-in-greater-noida/",
+  },
+  {
+    id: uuidv4(),
+    location: "Gurgaon",
+    url: "/polymer-based-rainwater-harvesting-system-in-gurgaon/",
+  },
+  {
+    id: uuidv4(),
+    location: "Guwahati",
+    url: "/polymer-based-rainwater-harvesting-system-in-guwahati/",
+  },
+  {
+    id: uuidv4(),
+    location: "Gwalior",
+    url: "/polymer-based-rainwater-harvesting-system-in-gwalior/",
+  },
+  {
+    id: uuidv4(),
+    location: "Hyderabad",
+    url: "/polymer-based-rainwater-harvesting-system-in-hyderabad/",
+  },
+  {
+    id: uuidv4(),
+    location: "Imphal",
+    url: "/polymer-based-rainwater-harvesting-system-in-imphal/",
+  },
+  {
+    id: uuidv4(),
+    location: "Indore",
+    url: "/polymer-based-rainwater-harvesting-system-in-indore/",
+  },
+  {
+    id: uuidv4(),
+    location: "Jabalpur",
+    url: "/polymer-based-rainwater-harvesting-system-in-jabalpur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Jaipur",
+    url: "/polymer-based-rainwater-harvesting-system-in-jaipur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Jaisalmer",
+    url: "/polymer-based-rainwater-harvesting-system-in-jaisalmer/",
+  },
+  {
+    id: uuidv4(),
+    location: "Jalandhar",
+    url: "/polymer-based-rainwater-harvesting-system-in-jalandhar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Jammu Kashmir",
+    url: "/polymer-based-rainwater-harvesting-system-in-jammu/",
+  },
+  {
+    id: uuidv4(),
+    location: "Jhansi",
+    url: "/polymer-based-rainwater-harvesting-system-in-jhansi/",
+  },
+  {
+    id: uuidv4(),
+    location: "Jodhpur",
+    url: "/polymer-based-rainwater-harvesting-system-in-jodhpur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Kakinada",
+    url: "/polymer-based-rainwater-harvesting-system-in-kakinada/",
+  },
+  {
+    id: uuidv4(),
+    location: "Kanpur",
+    url: "/polymer-based-rainwater-harvesting-system-in-kanpur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Karimnagar",
+    url: "/polymer-based-rainwater-harvesting-system-in-karimnagar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Kishangarh",
+    url: "/polymer-based-rainwater-harvesting-system-in-kishangarh/",
+  },
+  {
+    id: uuidv4(),
+    location: "Kochi",
+    url: "/polymer-based-rainwater-harvesting-system-in-kochi/",
+  },
+  {
+    id: uuidv4(),
+    location: "Kolkata",
+    url: "/polymer-based-rainwater-harvesting-system-in-kolkata/",
+  },
+  {
+    id: uuidv4(),
+    location: "Kota",
+    url: "/polymer-based-rainwater-harvesting-system-in-kota/",
+  },
+  {
+    id: uuidv4(),
+    location: "Lucknow",
+    url: "/polymer-based-rainwater-harvesting-system-in-lucknow/",
+  },
+  {
+    id: uuidv4(),
+    location: "Ludhiana",
+    url: "/polymer-based-rainwater-harvesting-system-in-ludhiana/",
+  },
+  {
+    id: uuidv4(),
+    location: "Mangaluru",
+    url: "/polymer-based-rainwater-harvesting-system-in-mangaluru/",
+  },
+  {
+    id: uuidv4(),
+    location: "Mathura",
+    url: "/polymer-based-rainwater-harvesting-system-in-mathura/",
+  },
+  {
+    id: uuidv4(),
+    location: "Meerut",
+    url: "/polymer-based-rainwater-harvesting-system-in-meerut/",
+  },
+  {
+    id: uuidv4(),
+    location: "Moradabad",
+    url: "/polymer-based-rainwater-harvesting-system-in-moradabad/",
+  },
+  {
+    id: uuidv4(),
+    location: "Muzaffarnagar",
+    url: "/polymer-based-rainwater-harvesting-system-in-muzaffarnagar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Nagpur",
+    url: "/polymer-based-rainwater-harvesting-system-in-nagpur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Noida",
+    url: "/polymer-based-rainwater-harvesting-system-in-noida/",
+  },
+  {
+    id: uuidv4(),
+    location: "Pali",
+    url: "/polymer-based-rainwater-harvesting-system-in-pali/",
+  },
+  {
+    id: uuidv4(),
+    location: "Panaji",
+    url: "/polymer-based-rainwater-harvesting-system-in-panaji/",
+  },
+  {
+    id: uuidv4(),
+    location: "Patiala",
+    url: "/polymer-based-rainwater-harvesting-system-in-patiala/",
+  },
+  {
+    id: uuidv4(),
+    location: "Patna",
+    url: "/polymer-based-rainwater-harvesting-system-in-patna/",
+  },
+  {
+    id: uuidv4(),
+    location: "Port Blair",
+    url: "/polymer-based-rainwater-harvesting-system-in-port-blair/",
+  },
+  {
+    id: uuidv4(),
+    location: "Pune",
+    url: "/polymer-based-rainwater-harvesting-system-in-pune/",
+  },
+  {
+    id: uuidv4(),
+    location: "Raipur",
+    url: "/polymer-based-rainwater-harvesting-system-in-raipur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Rajkot",
+    url: "/polymer-based-rainwater-harvesting-system-in-rajkot/",
+  },
+  {
+    id: uuidv4(),
+    location: "Ranchi",
+    url: "/polymer-based-rainwater-harvesting-system-in-ranchi/",
+  },
+  {
+    id: uuidv4(),
+    location: "Ratlam",
+    url: "/polymer-based-rainwater-harvesting-system-in-ratlam/",
+  },
+  {
+    id: uuidv4(),
+    location: "Rewa",
+    url: "/polymer-based-rainwater-harvesting-system-in-rewa/",
+  },
+  {
+    id: uuidv4(),
+    location: "Shimla",
+    url: "/polymer-based-rainwater-harvesting-system-in-shimla/",
+  },
+  {
+    id: uuidv4(),
+    location: "Sikar",
+    url: "/polymer-based-rainwater-harvesting-system-in-sikar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Solapur",
+    url: "/polymer-based-rainwater-harvesting-system-in-solapur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Sri Ganganagar",
+    url: "/polymer-based-rainwater-harvesting-system-in-sri-ganganagar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Srinagar",
+    url: "/polymer-based-rainwater-harvesting-system-in-srinagar/",
+  },
+  {
+    id: uuidv4(),
+    location: "Surat",
+    url: "/polymer-based-rainwater-harvesting-system-in-surat/",
+  },
+  {
+    id: uuidv4(),
+    location: "Thane",
+    url: "/polymer-based-rainwater-harvesting-system-in-thane/",
+  },
+  {
+    id: uuidv4(),
+    location: "Tirupati",
+    url: "/polymer-based-rainwater-harvesting-system-in-tirupati/",
+  },
+  {
+    id: uuidv4(),
+    location: "Udaipur",
+    url: "/polymer-based-rainwater-harvesting-system-in-udaipur/",
+  },
+  {
+    id: uuidv4(),
+    location: "Ujjain",
+    url: "/polymer-based-rainwater-harvesting-system-in-ujjain/",
+  },
+  {
+    id: uuidv4(),
+    location: "Vadodara",
+    url: "/polymer-based-rainwater-harvesting-system-in-vadodara/",
+  },
+  {
+    id: uuidv4(),
+    location: "Varanasi",
+    url: "/polymer-based-rainwater-harvesting-system-in-varanasi/",
+  },
+  {
+    id: uuidv4(),
+    location: "Vellore",
+    url: "/polymer-based-rainwater-harvesting-system-in-vellore/",
+  },
+  {
+    id: uuidv4(),
+    location: "Visakhapatnam",
+    url: "/polymer-based-rainwater-harvesting-system-in-visakhapatnam/",
+  },
+  {
+    id: uuidv4(),
+    location: "Warangal",
+    url: "/polymer-based-rainwater-harvesting-system-in-warangal/",
+  }
+];

@@ -6,9 +6,9 @@ import Image from "next/image";
 const TEXTS = [
   "Rainwater Harvesting",
   "Rainwater Harvesting System For Warehouse",
-  "Modular Based Rainwater Harvesting System",
-  "Water Conservation & Management Company",
+  "Modular Rainwater Harvesting System",
   "Roof Top Rainwater Harvesting",
+  "Polymer based Rainwater Harvesting System",
 ];
 
 export const Hero1 = () => {

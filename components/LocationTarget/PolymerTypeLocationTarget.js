@@ -17,11 +17,11 @@ const TEXTS = [
   "Rainwater Harvesting",
   "Rainwater Harvesting System For Warehouse",
   "Modular Rainwater Harvesting System",
-  "Roof Top Rainwater Harvesting",
+  "Roof Top Rainwater Harvesting System",
   "Polymer based Rainwater Harvesting System",
 ];
 
-const ModularLocationTarget = ({ location }) => {
+const PolymerTypeLocationTarget = ({ location }) => {
   const [index, setIndex] = React.useState(0);
 
   React.useEffect(() => {
@@ -55,7 +55,7 @@ const ModularLocationTarget = ({ location }) => {
                 unoptimized={true}
               />
               <h2 className="text-green-700 text-xl font-semibold drop-shadow-xl md:text-2xl">
-                Modular Rainwater Harvesting System Service Provider in{" "}
+                Polymer based Rainwater Harvesting System Service Provider in{" "}
                 {location}
               </h2>
               <p className="text-base text-sky-500 font-semibold">
@@ -75,7 +75,7 @@ const ModularLocationTarget = ({ location }) => {
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
           <h1 className="text-center text-2xl font-semibold md:text-4xl">
-            Modular Rainwater Harvesting System in {location}
+            Polymer based Rainwater Harvesting System in {location}
           </h1>
           <hr className="m-2 md:m-5"></hr>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
@@ -83,11 +83,11 @@ const ModularLocationTarget = ({ location }) => {
             Construction Private Limited, is a top provider of{" "}
             <bold className="text-black font-semibold">
               <Link
-                href="https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                href="https://www.inrainconstruction.com/co-polymer-based-rainwater-harvesting-system"
                 target="_blank"
                 className="text-green-500 hover:text-sky-500"
               >
-                Modular Rainwater Harvesting System
+                Polymer based Rainwater Harvesting System
               </Link>{" "}
               in {location}
             </bold>
@@ -109,11 +109,11 @@ const ModularLocationTarget = ({ location }) => {
             <bold className="text-green-500 hover:text-sky-500 font-semibold">
               <Link
                 href={
-                  "https://www.inrainconstruction.com/co-polymer-based-rainwater-harvesting-system"
+                  "https://www.inrainconstruction.com/modular-rainwater-harvesting"
                 }
                 target="_blank"
               >
-                Polymer based Rainwater Harvesting System services
+                Modular Rainwater Harvesting System services
               </Link>
             </bold>
             , helping clients efficiently manage water resources while
@@ -211,7 +211,7 @@ const ModularLocationTarget = ({ location }) => {
           At <bold className="text-green-500 font-semibold">InRain®</bold>, we
           specialize in creating{" "}
           <bold className="text-black font-semibold">
-            Modular Rainwater Harvesting (RWH) pits in {location}
+            Polymer based Rainwater Harvesting (RWH) pits in {location}
           </bold>
           , utilizing advanced technology inspired by German engineering. Unlike
           traditional rainwater harvesting systems, our approach stands out for
@@ -330,4 +330,4 @@ const ModularLocationTarget = ({ location }) => {
   );
 };
 
-export default ModularLocationTarget;
+export default PolymerTypeLocationTarget;

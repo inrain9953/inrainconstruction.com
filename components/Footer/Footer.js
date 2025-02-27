@@ -162,14 +162,14 @@ export const Footer = () => {
               <p className="text-2xl font-semibold pb-3 m-1 text-white">
                 Quick Links
               </p>
-              <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-                <Link href="/">Home</Link>
+              <p className="font-medium text-lg m-1 text-white">
+                <Link className="hover:text-sky-700" href="/">Home</Link>
               </p>
-              <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-                <Link href="/about-us">About Us</Link>
+              <p className="font-medium text-lg m-1 text-white">
+                <Link className="hover:text-sky-700" href="/about-us">About Us</Link>
               </p>
-              <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-                <Link href="/products">Products</Link>
+              <p className="font-medium text-lg m-1 text-white">
+                <Link className="hover:text-sky-700" href="/products">Products</Link>
               </p>
               {/* <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
               <Link to="/media">Media</Link>
@@ -177,14 +177,14 @@ export const Footer = () => {
               {/* <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
               <Link to="/services">Services</Link>
             </p> */}
-              <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-                <Link href="/solutions">Solutions</Link>
+              <p className="font-medium text-lg m-1 text-white">
+                <Link className="hover:text-sky-700" href="/solutions">Solutions</Link>
               </p>
-              <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-                <Link href="/contact-us">Contact Us</Link>
+              <p className="font-medium text-lg m-1 text-white">
+                <Link className="hover:text-sky-700" href="/contact-us">Contact Us</Link>
               </p>
-              <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-                <Link href="/blogs">Blogs</Link>
+              <p className="font-medium text-lg m-1 text-white">
+                <Link className="hover:text-sky-700" href="/blogs">Blogs</Link>
               </p>
             </div>
 
