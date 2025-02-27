@@ -417,7 +417,7 @@ const About = () => {
               <CountUp
                 duration={5}
                 className=""
-                end={400}
+                end={4000}
                 enableScrollSpy={true}
                 scrollSpyDelay={50}
               />
