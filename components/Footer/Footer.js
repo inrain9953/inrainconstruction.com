@@ -163,13 +163,19 @@ export const Footer = () => {
                 Quick Links
               </p>
               <p className="font-medium text-lg m-1 text-white">
-                <Link className="hover:text-sky-700" href="/">Home</Link>
+                <Link className="hover:text-sky-700" href="/">
+                  Home
+                </Link>
               </p>
               <p className="font-medium text-lg m-1 text-white">
-                <Link className="hover:text-sky-700" href="/about-us">About Us</Link>
+                <Link className="hover:text-sky-700" href="/about-us">
+                  About Us
+                </Link>
               </p>
               <p className="font-medium text-lg m-1 text-white">
-                <Link className="hover:text-sky-700" href="/products">Products</Link>
+                <Link className="hover:text-sky-700" href="/products">
+                  Products
+                </Link>
               </p>
               {/* <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
               <Link to="/media">Media</Link>
@@ -178,13 +184,19 @@ export const Footer = () => {
               <Link to="/services">Services</Link>
             </p> */}
               <p className="font-medium text-lg m-1 text-white">
-                <Link className="hover:text-sky-700" href="/solutions">Solutions</Link>
+                <Link className="hover:text-sky-700" href="/solutions">
+                  Solutions
+                </Link>
               </p>
               <p className="font-medium text-lg m-1 text-white">
-                <Link className="hover:text-sky-700" href="/contact-us">Contact Us</Link>
+                <Link className="hover:text-sky-700" href="/contact-us">
+                  Contact Us
+                </Link>
               </p>
               <p className="font-medium text-lg m-1 text-white">
-                <Link className="hover:text-sky-700" href="/blogs">Blogs</Link>
+                <Link className="hover:text-sky-700" href="/blogs">
+                  Blogs
+                </Link>
               </p>
             </div>
 
@@ -241,7 +253,7 @@ export const Footer = () => {
 
             <div
               data-aos="zoom-in-up"
-              className="text-left ml-7 md:w-[25%] md:pt-10"
+              className="text-left ml-7 md:w-[25%] md:pt-10 pb-10 md:pb-0"
             >
               <p className="text-2xl font-semibold m-1 mb-2 text-white">
                 Our Office
@@ -264,18 +276,37 @@ export const Footer = () => {
                   sales@inrainwaterharvesting.com
                 </a>
               </p>
-              <p className="list-none mb-2 text-white hover:text-sky-700">
-                <a className=" text-base" href="tel:+919910220794">
+              <p className="list-none mb-2 text-white">
+                <a
+                  className=" text-base hover:text-sky-700"
+                  href="tel:+919910220794"
+                >
                   <CallIcon fontSize="small" />
                   +91-9910220794
+                </a>
+                <br />
+                <a
+                  className=" text-base hover:text-sky-700"
+                  href="tel:01135823511"
+                >
+                  <CallIcon fontSize="small" />
+                  01135823511
+                </a>
+                <br />
+                <a
+                  className=" text-base hover:text-sky-700"
+                  href="tel:+919953070003"
+                >
+                  <CallIcon fontSize="small" />
+                  +91-9953070003
                 </a>
               </p>
             </div>
           </div>
 
-          <div className="text-center p-4">
+          <div className="text-center p-4 pb-10 md:pb-5">
             <p className="text-xs md:text-sm">
-              &copy; 2024 InRain Construction Pvt Ltd. All Rights Reserved.
+              &copy; 2025 InRain Construction Pvt Ltd. All Rights Reserved.
             </p>
           </div>
         </div>
