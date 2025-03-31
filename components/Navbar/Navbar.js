@@ -109,6 +109,13 @@ export const Navbar = () => {
               >
                 +91-9910220794
               </a>
+              <p className="mr-2 ml-2 text-sm">|</p>
+              <a
+                className="hover:text-green-700 text-sm font-semibold"
+                href="tel:+911135823511"
+              >
+                011-35823511
+              </a>
             </div>
           </div>
 
@@ -125,7 +132,7 @@ export const Navbar = () => {
               &nbsp;<p className="mr-1 ml-1 text-xs">|</p>
               <a
                 className="hover:text-green-700 text-xs font-semibold"
-                href="tel:+01135823511"
+                href="tel:+911135823511"
               >
                 011-35823511
               </a>

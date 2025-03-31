@@ -573,3 +573,70 @@
 .mobileNavbarServices li{
   font-size: 14px;
 }
+
+
+
+
+/* Chatbar */
+.chatbar-ul {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 85%;
+  z-index: 40;
+  transition: bottom 1s;
+  bottom: -900px;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.chatbar-ul li {
+  font-size: 17px;
+  flex-direction: row;
+}
+
+.chatbar-ul-desktop {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 350px;
+  height: 65%;
+  z-index: 40;
+  transition: bottom 1s;
+  bottom: -900px;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.chatbar-ul-desktop li {
+  font-size: 17px;
+  flex-direction: row;
+}
+
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+
+  50% {
+      transform: translateY(-20px);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
+/* Chatbar */

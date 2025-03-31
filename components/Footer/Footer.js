@@ -290,7 +290,7 @@ export const Footer = () => {
                   href="tel:01135823511"
                 >
                   <CallIcon fontSize="small" />
-                  01135823511
+                  +01135823511
                 </a>
                 <br />
                 <a
