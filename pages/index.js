@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import { Hero1 } from "@/components/Hero/Hero1";
 import { Hero3 } from "@/components/Hero/Hero3";
 import { Hero2 } from "@/components/Hero/Hero2";
@@ -6,9 +5,7 @@ import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
 import PopUp from "@/components/popup";
-import Script from "next/script";
-
-const inter = Inter({ subsets: ["latin"] });
+import React from "react";
 
 export default function Home() {
   const title =

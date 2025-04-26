@@ -21,13 +21,13 @@ const About = () => {
   const desc =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
   const keyword =
-    "About ICPL, About Our Rainwater Harvesting(RWH) Technology, Water Conservation, Modular Tank Systems, Sustainable Water Management, Monolithic Structures, RWH Technology, Clean Energy Solutions, Modular Technology RWH, Water Table Recharge";
+    "About ICPL, About Our Rainwater Harvesting(RWH) Technology, Water Conservation in Delhi, Modular Tank Systems in Delhi, Rainwater Harvesting in Delhi, Sustainable Water Management, Monolithic Structures, RWH Technology, Clean Energy Solutions, Modular Technology RWH, Water Table Recharge";
   const canonical = "https://www.inrainconstruction.com/about-us";
   const ogUrl = "https://www.inrainconstruction.com/about-us";
-  const ogTitle = "About Us | InRain® Construction Pvt. Ltd.";
+  const ogTitle = "About Us | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
-  const twittertitle = "About US | InRain® Construction Pvt. Ltd.";
+  const twittertitle = "About US | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "InRain Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
 
@@ -98,7 +98,7 @@ const About = () => {
             <p className="text-[17px] text-justify md:text-lg mt-2 md:pr-10">
               We are a subsidiary company of “Singh & Singh Construction”, a
               firm with a strong presence in India with more than 30 years of
-              experience in the civil construction industry. I have completed
+              experience in the civil construction industry. We have completed
               numerous Projects for Bridges Construction under PWD/RWD,
               Irrigation & Flood Control Department, Bihar Rajya Pool Nirman
               Nigam Etc. & Constructed Roads Under Pradhan Mantri Gramin Sadark
@@ -128,13 +128,13 @@ const About = () => {
                 Modular Rainwater Harvesting
               </Link>{" "}
               Company with a strong presence all over India. The company has
-              successfully Installed more than 400 Rainwater Harvesting Projects
-              to enable it to conserve billions of gallons of water from
-              wasting. We are privileged to introduce the next level Scientific
-              Rainwater harvesting technology with more than 50 Ton/SQM Load
-              bearing Structure for the 1st time in the world. We are proud
-              partners of the Make in India Movement, having our own products
-              and manufacturing.
+              successfully installed more than 4000 Rainwater Harvesting
+              Projects to enable it to conserve billions of gallons of water
+              from wasting. We are privileged to introduce the next level
+              Scientific Rainwater Harvesting Technology with more than 50
+              Ton/Sq.M load bearing structure for the 1st time in the world. We
+              are proud partners of the Make in India Movement, having our own
+              products and manufacturing.
             </p>
           </div>
         </div>
@@ -227,8 +227,8 @@ const About = () => {
                     <bold className="text-green-700 font-semibold">
                       InRain<sup>®</sup>
                     </bold>{" "}
-                    , we are engaged in making RWH System based on the
-                    technology adopted from Germany.
+                    , we are engaged in making RWH System based on the modular
+                    technology.
                   </p>
                 </div>
               </div>
@@ -404,7 +404,7 @@ const About = () => {
                 Installation & Project Development
               </h4>
               <p className="text-[17px] text-justify mt-3">
-                Our team has done more than 400+ Rainwater Harvesting Projects
+                Our team has done more than 4000+ Rainwater Harvesting Projects
                 accross the India. Technology we are using has globally been
                 adopted in advanced country like Germany, Japan, Singapore, USA
                 and Australia.

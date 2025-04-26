@@ -3,10 +3,10 @@ export default function ChatMessage({ message, isBot }) {
     <div className={`flex ${isBot ? "justify-start" : "justify-end"} m-4`}>
       <div
         className={`max-w-lg p-3 rounded-lg ${
-          isBot ? "bg-blue-100" : "bg-green-100"
+          isBot ? "bg-blue-200" : "bg-green-200"
         }`}
       >
-        <p style={{ whiteSpace: "pre-line" }} className="text-gray-800 text-sm text-justify">
+        <p style={{ whiteSpace: "pre-line" }} className="text-black text-sm md:text-xs font-normal text-justify">
           {message.text}
           </p>
       </div>

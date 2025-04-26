@@ -173,6 +173,62 @@ const Service3 = () => {
                 unoptimized={true}
               />
             </Link>
+            <div className="m-2 mt-5 text-justify">
+              <h2 className="text-xl font-semibold">
+                Smart Use of Limited Resources
+              </h2>
+              <p className="text-[17px] md:text-lg mt-1">
+                With rapid urban development, our natural water resources are
+                under immense pressure, and water tables are depleting at an
+                alarming rate. Modular rainwater harvesting systems are an
+                intelligent, space-saving solution that helps meet rising water
+                demands without putting a strain on the environment—or your
+                wallet.
+                <br></br>
+                <br></br>
+                Whether you’re planning a new project or looking to retrofit an
+                existing space, our team at InRain® provides end-to-end modular
+                rainwater harvesting solutions that are scalable, customizable,
+                and built to last.
+              </p>
+              <p className="text-[18px] md:text-2xl mt-4 font-semibold">
+                Why Choose Modular Rainwater Harvesting?
+              </p>
+              <ul className="list-disc text-[18px] mt-2 md:text-lg">
+                <li>
+                  <bold className="font-semibold">Strong & Durable</bold> –
+                  High-quality co-polymer that offers the strength of metal
+                </li>
+                <li>
+                  <bold className="font-semibold">Quick Installation</bold> –
+                  Saves time and manpower with simple modular setup
+                </li>
+                <li>
+                  <bold className="font-semibold">Safe & Accident-Free</bold> –
+                  Underground systems reduce hazards and keep water secure
+                </li>
+                <li>
+                  <bold className="font-semibold">Low Maintenance</bold> – No
+                  algae, no rust, and barely any upkeep needed
+                </li>
+                <li>
+                  <bold className="font-semibold">Cost-Efficient</bold> – Lower
+                  cost than conventional concrete systems
+                </li>
+                <li>
+                  <bold className="font-semibold">Reusable & Relocatable</bold>{" "}
+                  – Can be easily moved and reused as per future requirements
+                </li>
+                <li>
+                  <bold className="font-semibold">Efficient Filtration</bold> –
+                  Geo-textile covered percolation tanks ensure clean recharge
+                </li>
+                <li>
+                  <bold className="font-semibold">Maximized Recharge</bold> –
+                  Water enters from five sides for higher infiltration
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 

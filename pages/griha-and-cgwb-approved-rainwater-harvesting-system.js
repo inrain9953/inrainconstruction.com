@@ -14,26 +14,21 @@ import tech4 from "../public/Technology/main4.jpg";
 import tech5 from "../public/Technology/main5.jpg";
 import newTech from "../public/new-technology-based-rainwater.jpg";
 import PopUp from "@/components/popup";
-import Script from "next/script";
+import Link from "next/link";
 
 const GrihaAndCGWB = () => {
-    const loc = "Delhi";
-    let location = "Delhi";
+  const loc = "Delhi";
+  let location = "Delhi";
 
-  const title =
-    `GRIHA & CGWB Approved Rainwater Harvesting System | Rainwater Harvesting System Service Provider in ${loc}`;
-  const desc =
-    `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
-  const keyword =
-    `GRIHA & CGWB Approved Rainwater Harvesting System, Rooftop Rainwater Harvesting System in ${loc}, GRIHA & CGWB Approved Modular Rainwater Harvesting System in ${loc}, Rainwater Harvesting Tank in ${loc}, Polymer Type Rainwater Harvesting System in ${loc}, Storm water Management in ${loc}`;
+  const title = `GRIHA & CGWB Approved Rainwater Harvesting System | Rainwater Harvesting System Service Provider in ${loc}`;
+  const desc = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
+  const keyword = `GRIHA & CGWB Approved Rainwater Harvesting System, Rooftop Rainwater Harvesting System in ${loc}, GRIHA & CGWB Approved Modular Rainwater Harvesting System in ${loc}, Rainwater Harvesting Tank in ${loc}, Polymer Type Rainwater Harvesting System in ${loc}, Storm water Management in ${loc}`;
   const canonical =
     "https://www.inrainconstruction.com/griha-and-cgwb-approved-rainwater-harvesting-system";
   const ogUrl =
     "https://www.inrainconstruction.com/griha-and-cgwb-approved-rainwater-harvesting-system";
-  const ogTitle =
-    `GRIHA & CGWB Approved Rainwater Harvesting System | Rainwater Harvesting System Service Provider in ${loc}`;
-  const ogDescription =
-    `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
+  const ogTitle = `GRIHA & CGWB Approved Rainwater Harvesting System | Rainwater Harvesting System Service Provider in ${loc}`;
+  const ogDescription = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
   const twittertitle =
     "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
@@ -41,7 +36,7 @@ const GrihaAndCGWB = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -66,14 +61,6 @@ const GrihaAndCGWB = () => {
           content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
         />
       </Head>
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-16650006765');
-        `}
-      </Script>
       <Navbar />
       <PopUp />
       <Hero1 />
@@ -108,10 +95,13 @@ const GrihaAndCGWB = () => {
             <br></br>
             <bold className="text-green-500 font-semibold">InRain®</bold>{" "}
             Construction also provides{" "}
-            <bold className="text-black font-semibold">
-              Modular Rainwater Harvesting System services
-            </bold>
-            , helping clients efficiently manage water resources while
+            <Link
+              href={"/modular-rainwater-harvesting"}
+              className="text-sky-500 hover:text-green-500 font-semibold"
+            >
+              Modular Rainwater Harvesting System
+            </Link>{" "}
+            services, helping clients efficiently manage water resources while
             supporting environmental conservation.
           </p>
         </div>
@@ -279,13 +269,16 @@ const GrihaAndCGWB = () => {
           <hr className="m-2 md:m-5"></hr>
           <p className="m-5 text-md text-center text-gray-500 drop-shadow-md md:text-xl">
             A{" "}
-            <bold className="text-black font-semibold">
-              Rooftop Rainwater Harvesting System in {location}
-            </bold>{" "}
-            intended for filtration, transitory maintenance and ensuing release.
-            It is utilized in waste channel application. It is developed
-            utilizing our restrictive plastic infusion shaped boards.We provide
-            all range of modules as per the requirements.
+            <Link
+              href={"/roof-top-rainwater-harvesting-system-RRWHS-InRain"}
+              className="text-sky-500 hover:text-green-500 font-semibold"
+            >
+              Rooftop Rainwater Harvesting System
+            </Link>{" "}
+            in {location} intended for filtration, transitory maintenance and
+            ensuing release. It is utilized in waste channel application. It is
+            developed utilizing our restrictive plastic infusion shaped
+            boards.We provide all range of modules as per the requirements.
           </p>
         </div>
 

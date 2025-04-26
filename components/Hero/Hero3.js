@@ -18,8 +18,8 @@ export const Hero3 = () => {
             A module permeation storm water tank intended for filtration,
             transitory maintenance, and ensuing release. It is utilized in waste
             channel applications. It is developed utilizing our restrictive
-            plastic infusion-shaped boards. We provide all the range of modules
-            as per the requirements.
+            plastic infusion-shaped boards. We offer a complete range of module
+            options tailored to meet your specific requirements.
           </p>
         </div>
         <div className="md:pr-14">
@@ -55,7 +55,7 @@ export const Hero3 = () => {
         </h5>
         <p className="text-[17px] md:text-[18px] text-justify text-gray-700 mt-2">
           70% of our earth is water. However, the potable water, which is
-          required for most of the human needs, is very little. Growing
+          required for every human needs, is very little. Growing
           urbanization and global development have also led to a sharp decline
           in groundwater. Climate change with global warming is not making
           things easier for humans. Water conservation and management techniques
@@ -71,7 +71,7 @@ export const Hero3 = () => {
           </bold>
           , we provide water conservation & management techniques leveraging
           modern technology. Conservation methods and solutions offered by
-          InRain are not only environmentally friendly but economical as well.
+          InRain are not only environment friendly but economical as well.
         </p>
         <br></br>
 
@@ -79,7 +79,7 @@ export const Hero3 = () => {
           <bold className="font-semibold text-black">
             The Technology We Offer:
           </bold>{" "}
-          We are using advanced and modular technology for Rainwater Harvesting
+          We are using advanced modular technology for Rainwater Harvesting
           Solutions. This advanced technology helps us to reduce costs and
           improves the longevity of the rainwater harvesting system. It helps in
           overcoming the major challenge of space-saving, which is a prime
@@ -92,9 +92,8 @@ export const Hero3 = () => {
             The Quality We Offer:
           </bold>{" "}
           We provide high-quality products as our products go through a
-          stringent quality check. Our in-house manufacturing ensures the
-          quality of products, and our quality assurance system ensures
-          consistent quality.
+          rigorous quality check. Our in-house manufacturing ensures the
+          quality of products, and we consistently deliver excellence.
         </p>
         <br></br>
 

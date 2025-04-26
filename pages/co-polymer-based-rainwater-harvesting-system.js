@@ -169,6 +169,23 @@ const Service2 = () => {
                 unoptimized={true}
               />
             </Link>
+            <div className="m-2 mt-5 text-justify">
+              <h2 className="text-xl font-semibold">
+                Why Co-Polymer Over Traditional Methods?
+              </h2>
+              <p className="text-[17px] md:text-lg mt-1">
+                Traditional concrete tanks can be bulky, expensive, and
+                high-maintenance. Over time, they may develop cracks, algae, or
+                fungal growth. Our co-polymer modules, on the other hand, offer
+                a smarter alternative:
+              </p>
+              <ul className="list-disc m-3 font-semibold text-[18px] md:text-lg">
+                <li>More affordable than RCC or PCC constructions</li>
+                <li>Algae- and fungus-resistant, minimizing maintenance needs</li>
+                <li>Portable and modular, making it easy to relocate or reconfigure when needed</li>
+                <li>Multifunctional top surface – the area above the tank can be used for parking, gardening, or even a kids’ play zone</li>
+              </ul>
+            </div>
           </div>
         </div>
 

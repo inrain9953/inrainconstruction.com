@@ -10,21 +10,21 @@ import Link from "next/link";
 
 const Service6 = () => {
   const title =
-    "Ground Water Recharge System For Industries | InRain™ Construction Pvt. Ltd.";
+    "Ground Water Recharge System For Industries | Why Industries Need Groundwater Recharge? | Benefits of Groundwater Recharge for Industries";
   const desc =
     "Ground Water recharge system or deep drainage is a hydrologic process where infiltrated water passes through the unsaturated region of groundwater and joins the water table. ";
   const keyword =
-    "Groundwater Recharge System for Industries, Industrial Water Conservation, Sustainable Water Management, InRain Construction Pvt. Ltd., Artificial Recharge Methods, Surface Water Recharge, Industrial Water Supply, Groundwater Infiltration, Water Scarcity Solutions, Recharge Pits for Industry, Rainwater Harvesting for Industry, Environmental Impact, Water Bill Reduction";
+    "Groundwater Recharge System for Industries, Benefits of Groundwater Recharge, Industrial Water Conservation, Sustainable Water Management, Artificial Recharge Methods, Surface Water Recharge, Industrial Water Supply, Groundwater Infiltration, Water Scarcity Solutions, Recharge Pits for Industry, Rainwater Harvesting for Industry, Environmental Impact, Water Bill Reduction";
   const canonical =
     "https://www.inrainconstruction.com/ground-water-recharge-system-for-industries";
   const ogUrl =
     "https://www.inrainconstruction.com/ground-water-recharge-system-for-industries";
   const ogTitle =
-    "Ground Water Recharge System For Industries | InRain™ Construction Pvt. Ltd.";
+    "Ground Water Recharge System For Industries | Why Industries Need Groundwater Recharge? | Benefits of Groundwater Recharge for Industries";
   const ogDescription =
     "Ground Water recharge system or deep drainage is a hydrologic process where infiltrated water passes through the unsaturated region of groundwater and joins the water table.";
   const twittertitle =
-    "Ground Water Recharge System For Industries | InRain™ Construction Pvt. Ltd.";
+    "Ground Water Recharge System For Industries | Why Industries Need Groundwater Recharge? | Benefits of Groundwater Recharge for Industries";
   const twitterdescription =
     "Ground Water recharge system or deep drainage is a hydrologic process where infiltrated water passes through the unsaturated region of groundwater and joins the water table.";
 
@@ -141,6 +141,51 @@ const Service6 = () => {
                 unoptimized={true}
               />
             </Link>
+            <div className="m-2 mt-5 text-justify">
+              <h2 className="text-xl font-semibold">
+                Why Industries Need Groundwater Recharge?
+              </h2>
+              <p className="text-[17px] md:text-[17px] mt-1">
+                Industries consume vast amounts of water for operations, and
+                with surface water sources drying up or becoming unreliable,
+                it's critical to look below the surface. A well-designed
+                groundwater recharge system helps reduce dependence on external
+                water sources, ensures water security during dry seasons, and
+                supports environmental sustainability.
+              </p>
+              <h3 className="text-[18px] md:text-lg mt-4 font-semibold">
+                Benefits of Groundwater Recharge for Industries
+              </h3>
+              <ul className="list-disc text-[17px] md:text-lg">
+                <li>
+                  <bold className="font-semibold">Lower Water Bills</bold> –
+                  Reduce reliance on expensive municipal or tanker water
+                </li>
+                <li>
+                  <bold className="font-semibold">
+                    Year-Round Water Availability
+                  </bold>{" "}
+                  – Maintain consistent water supply even in drought
+                </li>
+                <li>
+                  <bold className="font-semibold">Eco-Friendly</bold> –
+                  Support natural ecosystems and improve groundwater
+                  sustainability
+                </li>
+                <li>
+                  <bold className="font-semibold">
+                    Regulatory Compliance
+                  </bold>{" "}
+                  – Meet environmental norms and water management standards
+                </li>
+                <li>
+                  <bold className="font-semibold">
+                    Long-Term Cost Savings
+                  </bold>{" "}
+                  – A one-time investment with lasting returns
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -147,6 +147,42 @@ const Service4 = () => {
                 unoptimized={true}
               />
             </Link>
+            <div className="m-2 mt-5 text-justify">
+              <h2 className="text-xl font-semibold">
+                Key Benefits of FRP-Based Rainwater Harvesting Systems:
+              </h2>
+              <ul className="list-disc m-5 text-[18px] md:text-lg">
+                <li>
+                  <bold className="font-semibold">Durable & Long-Lasting</bold>{" "}
+                  – Built to withstand corrosion, weather, and time
+                </li>
+                <li>
+                  <bold className="font-semibold">Lightweight & Portable</bold>{" "}
+                  – Easy to transport, install, and reposition
+                </li>
+                <li>
+                  <bold className="font-semibold">Low Maintenance</bold> – No
+                  rusting, no cracking, no constant repairs
+                </li>
+                <li>
+                  <bold className="font-semibold">
+                    Recyclable & Eco-Friendly
+                  </bold>{" "}
+                  – Promotes sustainability with minimal waste
+                </li>
+                <li>
+                  <bold className="font-semibold">Cost-Effective</bold> – Saves
+                  on both installation and long-term maintenance costs
+                </li>
+                <li>
+                  <bold className="font-semibold">
+                    Ideal for Residential & Commercial Use
+                  </bold>{" "}
+                  – Perfect for homes, housing societies, schools, offices, and
+                  industries
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import CallIcon from "@mui/icons-material/Call";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import aibot from "../public/ai-bot.jpg";
-import aichatbot from "../public/ai-chatbot.jpg";
+import aibot from "../public/ai-bot.webp";
+import aichatbot from "../public/ai-bot.webp";
 import Image from "next/image";
 import { useState, useRef } from "react";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
@@ -102,7 +102,7 @@ const PopUp = () => {
 
       <div className="md:hidden">
         <div
-          className="chatbar-ul rounded-xl bg-green-300 font-semibold"
+          className="chatbar-ul rounded-xl"
           style={openChatMenu ? { bottom: "-1px" } : {}}
         >
           <div className="">
@@ -119,7 +119,7 @@ const PopUp = () => {
                     priority={true}
                     unoptimized={true}
                   />
-                  <span className="font-semibold">
+                  <span className="">
                     <TypeAnimation
                       sequence={["Hi! Ask InRain", 3000]}
                       repeat={Infinity}
@@ -170,7 +170,7 @@ const PopUp = () => {
           {/* for Desktop screen */}
       <div className="hidden md:flex justify-end">
         <div
-          className="chatbar-ul-desktop mr-16 rounded-xl bg-green-300 font-semibold"
+          className="chatbar-ul-desktop mr-16 rounded-xl"
           style={openChatMenu ? { bottom: "50px" } : {}}
         >
           <div className="bottom-14">
@@ -181,13 +181,13 @@ const PopUp = () => {
                     src={aichatbot}
                     className="rounded-full"
                     alt="img"
-                    height={50}
-                    width={50}
+                    height={40}
+                    width={40}
                     loading="eager"
                     priority={true}
                     unoptimized={true}
                   />
-                  <span className="font-semibold">
+                  <span className="text-sm">
                     <TypeAnimation
                       sequence={["Hi! Ask InRain", 3000]}
                       repeat={Infinity}

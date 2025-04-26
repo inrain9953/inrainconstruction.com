@@ -147,6 +147,26 @@ const Service8 = () => {
                 unoptimized={true}
               />
             </Link>
+            <div className="m-2 mt-5 text-justify">
+              <h2 className="text-xl font-semibold">How Does It Work?</h2>
+              <p className="text-[17px] md:text-lg mt-1">
+                The box is intelligently connected to your water supply system.
+                It’s designed to use the stored rainwater first, and only switch
+                to the main water line when the box is empty. This smart
+                mechanism ensures a continuous, autonomous water supply—with
+                zero disruption.
+              </p>
+              <p className="text-[18px] md:text-lg mt-4 font-semibold">
+                Since this system doesn’t involve complex purification, the
+                stored water is ideal for:
+              </p>
+              <ul className="list-disc list-inside font-semibold text-[18px] md:text-lg">
+                <li>Garden irrigation</li>
+                <li>Car washing</li>
+                <li>Toilet flushing</li>
+                <li>Laundry</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ import PopUp from "@/components/popup";
 import Link from "next/link";
 
 const Service10 = () => {
-  const title = "Bioswale for Rainwater Drain | InRain® Construction Pvt. Ltd.";
+  const title = "Bioswale for Rainwater Drain | Why Choose Bioswales?";
   const desc =
     "Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens. ";
   const canonical =
@@ -17,13 +17,13 @@ const Service10 = () => {
   const ogUrl =
     "https://www.inrainconstruction.com/bioswale-for-rainwater-drain";
   const keyword =
-    "Bioswale Rainwater Drain, Stormwater Management, Rainwater Harvesting Solutions, Water Conservation Techniques, Groundwater Recharge, Erosion Control Methods, Sustainable Water Management, Urban Green Infrastructure, Bioswale Installation Services, Inrain Construction Pvt. Ltd";
+    "Bioswale Rainwater Drain, Why Choose Bioswales, Stormwater Management, Rainwater Harvesting Solutions, Water Conservation Techniques, Groundwater Recharge, Erosion Control Methods, Sustainable Water Management, Urban Green Infrastructure, Bioswale Installation Services, Inrain Construction Pvt. Ltd";
   const ogTitle =
-    "Bioswale for Rainwater Drain | InRain® Construction Pvt. Ltd.";
+    "Bioswale for Rainwater Drain | Why Choose Bioswales?";
   const ogDescription =
     "Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens.";
   const twittertitle =
-    "Bioswale for Rainwater Drain | InRain® Construction Pvt. Ltd.";
+    "Bioswale for Rainwater Drain | Why Choose Bioswales?";
   const twitterdescription =
     "Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens.";
 
@@ -146,6 +146,23 @@ const Service10 = () => {
                 unoptimized={true}
               />
             </Link>
+            <div className="m-2 mt-5 text-justify">
+              <h2 className="text-xl font-semibold">Why Choose Bioswales?</h2>
+              <p className="text-[17px] md:text-lg mt-1">
+                Apart from being highly functional, bioswales are visually
+                appealing and can easily blend into the modern landscape of
+                residential societies, industries, and commercial spaces. They
+                not only manage excess rainwater but also support groundwater
+                recharge and enhance the green cover of the space.
+              </p>
+              <p className="text-[18px] md:text-lg mt-4 font-semibold">These systems are especially useful in areas like:</p>
+              <ul className="list-disc list-inside font-semibold text-[18px] md:text-lg">
+                <li>Parking lots</li>
+                <li>Roadside edges and sidewalks</li>
+                <li>Parks and play areas</li>
+                <li>Open green community spaces</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

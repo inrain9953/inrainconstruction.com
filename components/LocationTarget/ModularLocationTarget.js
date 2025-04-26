@@ -14,8 +14,8 @@ import newTech from "../../public/new-technology-based-rainwater.jpg";
 import Link from "next/link";
 
 const TEXTS = [
-  "Rainwater Harvesting",
-  "Rainwater Harvesting System For Warehouse",
+  "Modular Rainwater Harvesting",
+  "Modular Rainwater Harvesting System For Warehouse",
   "Modular Rainwater Harvesting System",
   "Roof Top Rainwater Harvesting",
   "Polymer based Rainwater Harvesting System",
@@ -80,7 +80,8 @@ const ModularLocationTarget = ({ location }) => {
           <hr className="m-2 md:m-5"></hr>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">InRain®</bold>{" "}
-            Construction Private Limited, is a top provider of{" "}
+            Construction Private Limited, is proud to be one of the leading
+            providers of{" "}
             <bold className="text-black font-semibold">
               <Link
                 href="https://www.inrainconstruction.com/modular-rainwater-harvesting"
@@ -90,22 +91,27 @@ const ModularLocationTarget = ({ location }) => {
                 Modular Rainwater Harvesting System
               </Link>{" "}
               in {location}
-            </bold>
-            , offering advanced solutions for water management, with a proven
-            track record. We have successfully installed over{" "}
-            <bold className="text-black font-semibold">
-              1000 Rainwater Harvesting (RWH)
             </bold>{" "}
-            systems for prestigious clients including{" "}
+            delivering smart, efficient, and sustainable water management
+            solutions. With a strong track record and deep industry expertise,
+            we’ve successfully installed over{" "}
+            <bold className="text-black font-semibold">
+              4000+ Rainwater Harvesting Systems
+            </bold>{" "}
+            across India. <br></br>
+            <br></br>
+            Some of our prestigious clients include{" "}
             <bold className="text-black font-semibold">
               TATA | Hindustan Unilever | PepsiCo | Larsen & Toubro | CPWD |
-              NHAI | Smart Cities | Fujita | Denso | Supreme Court Judges
-              Bungalows and many more.
+              NHAI | Smart Cities | Fujita | Denso and even Supreme Court
+              Judges’ Bungalows
             </bold>{" "}
-            Our focus on innovation, quality, and sustainability has established
-            us as a trusted industry leader. <br></br>
+            a testament to the quality and trust we bring to every project.
             <br></br>
-            We also provides{" "}
+            <br></br>
+            At InRain®, innovation, reliability, and sustainability are at the
+            heart of everything we do. In addition to modular systems, we also
+            offer{" "}
             <bold className="text-green-500 hover:text-sky-500 font-semibold">
               <Link
                 href={
@@ -113,11 +119,11 @@ const ModularLocationTarget = ({ location }) => {
                 }
                 target="_blank"
               >
-                Polymer based Rainwater Harvesting System services
+                Polymer based Rainwater Harvesting Solutions,
               </Link>
-            </bold>
-            , helping clients efficiently manage water resources while
-            supporting environmental conservation.
+            </bold>{" "}
+            helping our clients manage their water resources more efficiently
+            while supporting long-term environmental conservation.
           </p>
         </div>
 

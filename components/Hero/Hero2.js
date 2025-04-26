@@ -1,6 +1,5 @@
 import React from "react";
 import hero2Img from "../../public/Technology/main2.jpeg";
-// import ProgressBar from "react-animated-progress-bar";
 import Image from "next/image";
 import CountUp from "react-countup";
 import Link from "next/link";
@@ -21,19 +20,19 @@ export const Hero2 = () => {
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>,
             </bold>{" "}
-            We are expert in sustainable, eco-friendly rainwater harvesting solutions
-            for homes & businesses, designed to preserve water. We are engaged in
-            making Rainwater Harvesting (RWH) systems based on the technology
-            adopted from Germany. It is indeed entirely different from
-            conventional rainwater systems.{" "}
+            We are expert in sustainable, eco-friendly rainwater harvesting
+            solutions for homes & businesses, designed to preserve water. We are
+            engaged in making Rainwater Harvesting (RWH) systems based on the
+            modern technology. It is indeed entirely different from conventional
+            rainwater harvesting systems.{" "}
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>
             </bold>{" "}
             is fully equipped with an in-house make and manufacturing process,
             ensuring its best-in-class quality. We share our contribution to the
-            nation by being proud partners of the{" "}
+            nation by being proud partners of {" "}
             <bold className="font-semibold text-black">
-              “Make in India Movement.”
+              “The Make in India Movement.”
             </bold>
           </p>
         </div>
@@ -154,7 +153,6 @@ export const Hero2 = () => {
               />
               <span>%</span>
             </div>
-            {/* <ProgressBar width="200" trackWidth="18" percentage="70" /> */}
           </div>
         </div>
       </div>
