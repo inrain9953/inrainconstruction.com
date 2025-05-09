@@ -24,6 +24,7 @@ import img7 from "../../public/blog7.webp";
 import img8 from "../../public/blog8.jpg";
 import img9 from "../../public/blog9.jpg";
 import img10 from "../../public/blog10.png";
+import img11 from "../../public/blog11.jpg";
 import service11 from "../../public/service11.jpg";
 import Head from "next/head";
 import Image from "next/image";
@@ -418,6 +419,40 @@ const BlogsIndex = () => {
             </div>
           );
         })}
+
+        <div>
+          <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div className="">
+              <Image
+                className="w-full rounded-xl hover:shadow-xl h-80"
+                src={img11}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+              <p className="text-left mt-2 text-sm font-semibold">
+                May 09, 2025
+              </p>
+              <Link href={"/blogs/a-blueprint-for-sustainable-living"}>
+                <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  A Blueprint for Sustainable Living
+                </h1>
+              </Link>
+              <p className="text-justify text-base mt-3 mr-3">
+                In the heart of Bengaluru, architect Jaya Rayaprolu has crafted
+                a home that stands as a beacon of sustainable living. Designed
+                with a deep commitment to environmental stewardship, her
+                residence ....
+              </p>
+              <div className="flex justify-start mt-2">
+                <Button variant="contained" size="small">
+                  <Link href={'/blogs/a-blueprint-for-sustainable-living'}>Read More</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </>

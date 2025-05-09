@@ -249,6 +249,19 @@ export const sideBlogs10 = [
   },
 ];
 
+export const sideBlogs11 = [
+  {
+    id: "Blog1",
+    BlogDate: "May 09, 2025",
+    BlogHead:
+      "A Blueprint for Sustainable Living",
+    BlogContent:
+      "In the heart of Bengaluru, architect Jaya Rayaprolu has crafted a home that stands as a beacon of sustainable living. Designed with a deep commitment to environmental stewardship, her residence seamlessly integrates water conservation, renewable energy, and eco-friendly construction techniques.",
+    BlogLink:
+      "/blogs/a-blueprint-for-sustainable-living",
+  },
+];
+
 // Main Blog page side content of individual blogs
 
 // Individual Blogs Content
