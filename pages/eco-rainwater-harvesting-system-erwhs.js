@@ -71,7 +71,7 @@ const EcorainRainwater = () => {
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
           <div data-aos="zoom-in-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
-              Ecorain Rainwater Harvesting System
+              Eco Rainwater Harvesting System
             </h1>
 
             <p className="text-[17px] md:text-lg mt-3">
