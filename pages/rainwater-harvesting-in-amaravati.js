@@ -7,7 +7,7 @@ import Head from "next/head";
 import PopUp from "@/components/popup";
 
 const RainwaterAmaravati = () => {
-  const loc = "Amaravati";
+  const loc = "Amravati";
 
   const title = `Rainwater Harvesting System in ${loc} | Rooftop Rainwater Harvesting System in ${loc} | InRain® Construction Pvt. Ltd.`;
   const desc = `Are you finding Rainwater Harvesting System in ${loc}. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in ${loc} at the best price?`;
@@ -52,7 +52,7 @@ const RainwaterAmaravati = () => {
       <Navbar />
       <PopUp />
       <Hero1 />
-      <LocationTarget location={"Amaravati"} />
+      <LocationTarget location={"Amravati"} />
       <Footer />
     </>
   );

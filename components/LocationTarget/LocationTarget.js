@@ -224,7 +224,14 @@ const LocationTarget = ({ location }) => {
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             A{" "}
             <bold className="text-black font-semibold">
-              Rooftop Rainwater Harvesting System in {location}
+              Rooftop{" "}
+              <Link
+                className="text-green-500 hover:text-sky-500 font-semibold"
+                href={`https://www.inrainconstruction.com/modular-rainwater-harvesting-system-in-${location.toLowerCase()}`}
+                target="_blank"
+              >
+                Rainwater Harvesting System in {location}
+              </Link>
             </bold>{" "}
             intended for filtration, transitory maintenance and ensuing release.
             It is utilized in waste channel application. It is developed

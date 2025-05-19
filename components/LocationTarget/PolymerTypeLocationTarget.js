@@ -301,11 +301,18 @@ const PolymerTypeLocationTarget = ({ location }) => {
             utilizing our restrictive plastic infusion shaped boards. We provide
             all range of modules as per the requirements.
             <br />
-            The utilizing of Rainwater Harvesting System in {location} is a
-            Sustainable and Renewable Energy Source which is also known as Green
-            Energy. It is a natural source of water which is clean and pure. We
-            need to save the water for future use. We provide the best quality
-            products at a reasonable price for{" "}
+            The utilizing of{" "}
+            <Link
+              className="text-green-500 hover:text-sky-500 font-semibold"
+              href={`https://www.inrainconstruction.com/modular-rainwater-harvesting-system-in-${location.toLowerCase()}`}
+              target="_blank"
+            >
+              Rainwater Harvesting System in {location}
+            </Link>{" "}
+            is a Sustainable and Renewable Energy Source which is also known as
+            Green Energy. It is a natural source of water which is clean and
+            pure. We need to save the water for future use. We provide the best
+            quality products at a reasonable price for{" "}
             <bold className="text-black font-semibold">
               Rooftop Rainwater Harvesting System in {location}.
             </bold>

@@ -96,10 +96,16 @@ const Service11 = () => {
             <p className="text-[17px] text-justify md:text-lg mt-3">
               Rainwater is a precious resource that, if properly harnessed, can
               address water scarcity challenges faced by communities around the
-              world. Rainwater harvesting offers several advantages over
-              conventional water sources, including reduced reliance on
-              municipal water supplies, lowered strain on groundwater reserves,
-              and decreased{" "}
+              world.{" "}
+              <Link
+                href={"https://www.inrainwaterharvesting.com/"}
+                className="text-green-600 hover:text-sky-500 font-semibold"
+              >
+                Rainwater harvesting
+              </Link>{" "}
+              offers several advantages over conventional water sources,
+              including reduced reliance on municipal water supplies, lowered
+              strain on groundwater reserves, and decreased{" "}
               <Link
                 href={
                   "https://www.inrainconstruction.com/storm-water-recharge-and-management"
@@ -204,9 +210,7 @@ const Service11 = () => {
             <p className="text-[17px] text-justify md:text-lg mt-3">
               When installing a{" "}
               <Link
-                href={
-                  "/rainwater-harvesting-system-in-india"
-                }
+                href={"/rainwater-harvesting-system-in-india"}
                 className="text-green-600 hover:text-sky-500 font-semibold"
               >
                 Rainwater Harvesting System,
