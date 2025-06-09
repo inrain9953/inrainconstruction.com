@@ -1,4 +1,5 @@
 import { data } from "autoprefixer";
+import { url } from "inspector";
 
 const { SitemapStream, streamToPromise } = require("sitemap");
 const { Readable } = require("stream");
@@ -117,6 +118,8 @@ export default async (req, res) => {
     { url: "/rainwater-harvesting-in-dehradun/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-jammu-kashmir/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-jhansi/", changefreq: "daily", priority: 0.8 },
+    { url: "/rainwater-harvesting-in-panipat/", changefreq: "daily", priority: 0.8 },
+    { url: "/rainwater-harvesting-in-sonipat/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-aligarh/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-amritsar/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-system-bareilly/", changefreq: "daily", priority: 0.8 },
@@ -215,6 +218,8 @@ export default async (req, res) => {
     { url: "/modular-rainwater-harvesting-system-in-dehradun/", changefreq: "daily", priority: 0.8 },
     { url: "/modular-rainwater-harvesting-system-in-jammu-kashmir/", changefreq: "daily", priority: 0.8 },
     { url: "/modular-rainwater-harvesting-system-in-jhansi/", changefreq: "daily", priority: 0.8 },
+    { url: "/modular-rainwater-harvesting-system-in-panipat/", changefreq: "daily", priority: 0.8 },
+    { url: "/modular-rainwater-harvesting-system-in-sonipat/", changefreq: "daily", priority: 0.8 },
     { url: "/modular-rainwater-harvesting-system-in-india/", changefreq: "daily", priority: 0.8 },
     { url: "/polymer-based-rainwater-harvesting-system-in-delhi/", changefreq: "daily", priority: 0.8 },
     { url: "/polymer-based-rainwater-harvesting-system-in-gurgaon/", changefreq: "daily", priority: 0.8 },
