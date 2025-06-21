@@ -142,13 +142,11 @@ const RWHSinIndia = () => {
 
       <div>
         <p className="text-center text-3xl font-bold">Business Network</p>
-        <div
-          data-aos="zoom-in-up"
-          className="md:grid md:grid-cols-6 grid grid-cols-3 p-3 md:p-10 bg-slate-500"
-        >
+        <div className="md:grid md:grid-cols-6 grid grid-cols-3 p-3 md:p-5 border-2 bg-sky-200 border-black m-5">
           {LocationWise.map((items) => (
             <a
-              className="text-center m-1 font-semibold hover:text-green-500"
+              data-aos="zoom-in-up"
+              className="text-center m-1 text-[14px] md:text-[17px] font-semibold hover:text-green-500"
               href={items.url}
             >
               {items.location}

@@ -205,7 +205,7 @@ export const LocationWise = [
   },
   {
     id: uuidv4(),
-    location: "belagavi",
+    location: "Belagavi",
     url: "/rainwater-harvesting-in-belagavi/",
   },
   {

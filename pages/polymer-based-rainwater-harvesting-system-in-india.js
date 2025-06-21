@@ -53,11 +53,11 @@ const PolymerTypeIndia = () => {
     <PolymerTypeLocationTarget location={"India"} />
     <div>
             <p className="text-center text-3xl font-bold">Business Network</p>
-            <div className="md:grid md:grid-cols-6 grid grid-cols-3 m-5 border-2 border-black p-3 md:p-10">
+            <div className="md:grid md:grid-cols-6 grid grid-cols-3 m-5 border-2 bg-sky-200 border-black p-3 md:p-5">
               {PolymerLocationWise.map((items) => (
                 <a
                   data-aos="zoom-in-up"
-                  className="text-center m-1 font-semibold hover:text-green-500"
+                  className="text-center m-1 text-[14px] md:text-[17px] font-semibold hover:text-green-500"
                   href={items.url}
                 >
                   {items.location}

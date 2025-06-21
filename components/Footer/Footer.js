@@ -102,7 +102,7 @@ export const Footer = () => {
                   unoptimized={true}
                 />
               </Link>
-              <div className="flex mb-7 gap-5">
+              <div className="flex gap-5">
                 <a
                   className="hover:text-white"
                   target="_blank"
@@ -144,14 +144,27 @@ export const Footer = () => {
                 >
                   <YouTubeIcon fontSize="large" />
                 </a>
-                {/* <a
-                target="_blank"
-                href={"https://in.pinterest.com/inrainc0212/"}
-              >
-                <li className="list-none hover:text-white">
-                  <PinterestIcon fontSize="large" />
-                </li>
-              </a> */}
+              </div>
+
+              <div className="mb-7 mt-5 flex flex-col">
+                <a
+                  className="text-[15px] text-white hover:text-sky-700"
+                  href="/modular-rainwater-harvesting-system-in-india"
+                >
+                  Modular Rainwater Harvesting System in India
+                </a>
+                <a
+                  className="text-[15px] text-white hover:text-sky-700"
+                  href="/rainwater-harvesting-system-in-india"
+                >
+                  Rainwater Harvesting System in India
+                </a>
+                <a
+                  className="text-[15px] text-white hover:text-sky-700"
+                  href="/polymer-based-rainwater-harvesting-system-in-india"
+                >
+                  Polymer based Rainwater Harvesting System in India
+                </a>
               </div>
             </div>
 
@@ -177,12 +190,6 @@ export const Footer = () => {
                   Products
                 </Link>
               </p>
-              {/* <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-              <Link to="/media">Media</Link>
-            </p> */}
-              {/* <p className="font-medium text-lg m-1 text-white hover:text-sky-700">
-              <Link to="/services">Services</Link>
-            </p> */}
               <p className="font-medium text-lg m-1 text-white">
                 <Link className="hover:text-sky-700" href="/solutions">
                   Solutions
