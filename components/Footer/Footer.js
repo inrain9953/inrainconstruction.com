@@ -79,10 +79,6 @@ export const Footer = () => {
           id="gmap_canvas"
           src="https://maps.google.com/maps?width=800&amp;height=500&amp;hl=en&amp;q=InRain%20Construction%20Private%20Limited%20-%20Rainwater%20Harvesting%20System%20&amp;%20Modular%20Rainwater%20Harvesting%20System%20in%20Delhi%20New%20Delhi+(InRain%20Construction%20Pvt.%20Ltd.)&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         />
-        {/* <script
-          type="text/javascript"
-          src="https://embedmaps.com/google-maps-authorization/script.js?id=aecee3cf4ca1b15c6e791b9de0619c842ffc5ca6"
-        ></script> */}
       </div>
 
       <div>
@@ -104,7 +100,7 @@ export const Footer = () => {
               </Link>
               <div className="flex gap-5">
                 <a
-                  className="hover:text-white"
+                  className="hover:text-sky-600"
                   target="_blank"
                   href={
                     "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
@@ -113,9 +109,9 @@ export const Footer = () => {
                   <FacebookIcon fontSize="large" />
                 </a>
                 <a
-                  className="hover:text-white"
+                  className="hover:text-red-600"
                   target="_blank"
-                  href={"https://www.instagram.com/inrainconstruction_icpl/"}
+                  href={"https://www.instagram.com/inrainconstruction/"}
                 >
                   <InstagramIcon fontSize="large" />
                 </a>
@@ -127,7 +123,7 @@ export const Footer = () => {
                   <XIcon fontSize="large" />
                 </a>
                 <a
-                  className="hover:text-white"
+                  className="hover:text-sky-800"
                   target="_blank"
                   href={
                     "https://www.linkedin.com/company/35590476/admin/dashboard/"
@@ -136,7 +132,7 @@ export const Footer = () => {
                   <LinkedInIcon fontSize="large" />
                 </a>
                 <a
-                  className="hover:text-white"
+                  className="hover:text-red-600"
                   target="_blank"
                   href={
                     "https://youtube.com/@inrainharvesting?si=Fxx_8_rhzHt2ZBLF"
