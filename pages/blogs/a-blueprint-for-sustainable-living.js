@@ -95,7 +95,7 @@ const Blog11 = () => {
       <div className="m-5 md:m-10 md:flex md:gap-14 md:justify-center">
         <div className="md:w-[70%]">
           <div>
-            <p className="text-[30px] text-justify">
+            <p className="md:text-[30px] text-justify">
               In the heart of Bengaluru, architect Jaya Rayaprolu has crafted a
               home that stands as a beacon of sustainable living. Designed with
               a deep commitment to environmental stewardship, her residence
@@ -111,12 +111,12 @@ const Blog11 = () => {
             />
           </div>
           <div>
-            <div className="md:text-justify text-center">
+            <div className="md:text-justify text-justify">
               <div className="mt-5">
-                <h1 className="text-[35px] font-semibold">
+                <h1 className="md:text-[35px] text-[20px] font-semibold">
                   🌿 A Blueprint for Sustainable Living
                 </h1>
-                <p className="text-[20px]">
+                <p className="md:text-[20px]">
                   Jaya's home is more than just a dwelling; it's a holistic
                   system that harmoniously blends with nature. By incorporating
                   innovative solutions, she has created a self-sufficient
@@ -125,10 +125,10 @@ const Blog11 = () => {
                 </p>
               </div>
               <div className="mt-5">
-                <h2 className="text-[35px] font-semibold">
+                <h2 className="md:text-[35px] text-[20px] font-semibold">
                   💧 Harnessing the Power of Rain
                 </h2>
-                <p className="text-[20px]">
+                <p className="md:text-[20px]">
                   Central to the home's design is a robust rainwater harvesting
                   system. A substantial 30,000-litre underground sump collects
                   rainwater from the rooftop, accumulating approximately 1.3
@@ -138,10 +138,10 @@ const Blog11 = () => {
                 </p>
               </div>
               <div className="mt-5">
-                <h2 className="text-[35px] font-semibold">
+                <h2 className="md:text-[35px] text-[20px] font-semibold">
                   🔄 Recycling Greywater Naturally
                 </h2>
-                <p className="text-[20px]">
+                <p className="md:text-[20px]">
                   Understanding the importance of water reuse, Jaya has
                   implemented an effective greywater recycling system.
                   Wastewater from the kitchen and bathrooms first enters a
@@ -153,10 +153,10 @@ const Blog11 = () => {
                 </p>
               </div>
               <div className="mt-5">
-                <h2 className="text-[35px] font-semibold">
+                <h2 className="md:text-[35px] text-[20px] font-semibold">
                   🚽 Zero Sewage Waste with Biodigester Technology
                 </h2>
-                <p className="text-[20px]">
+                <p className="md:text-[20px]">
                   To address sewage management, the home utilizes a
                   DRDO-developed biodigester. This compact system employs
                   bioenzymes to convert sewage into 95% pure water, which can be
@@ -165,10 +165,10 @@ const Blog11 = () => {
                 </p>
               </div>
               <div className="mt-5">
-                <h3 className="text-[35px] font-semibold">
+                <h3 className="md:text-[35px] text-[20px] font-semibold">
                   🧱 Eco-Friendly Construction Materials
                 </h3>
-                <p className="text-[20px]">
+                <p className="md:text-[20px]">
                   The house is constructed using sun-dried bricks made from soil
                   excavated during the building process. This choice not only
                   reduces the carbon footprint but also ensures natural
@@ -177,10 +177,10 @@ const Blog11 = () => {
                 </p>
               </div>
               <div className="mt-5">
-                <h3 className="text-[35px] font-semibold">
+                <h3 className="md:text-[35px] text-[20px] font-semibold">
                   ☀️ Embracing Solar Energy
                 </h3>
-                <p className="text-[20px]">
+                <p className="md:text-[20px]">
                   Equipped with 3kW solar panels, the home generates sufficient
                   electricity to meet its energy needs. This renewable energy
                   source powers all household appliances, resulting in zero
@@ -189,10 +189,10 @@ const Blog11 = () => {
                 </p>
               </div>
               <div className="mt-5">
-                <h3 className="text-[35px] font-semibold">
+                <h3 className="md:text-[35px] text-[20px] font-semibold">
                   🌱 A Model for Future Homes
                 </h3>
-                <p className="text-[20px]">
+                <p className="md:text-[20px]">
                   Jaya Rayaprolu's residence exemplifies how thoughtful design
                   and sustainable practices can lead to a harmonious and
                   eco-friendly lifestyle. By integrating water conservation,
