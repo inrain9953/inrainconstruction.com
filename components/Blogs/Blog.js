@@ -239,7 +239,7 @@ export const sideBlogs9 = [
 
 export const sideBlogs10 = [
   {
-    id: "Blog9",
+    id: "Blog10",
     BlogDate: "December 02, 2024",
     BlogHead: "Significant of Rain Water harvesting in Indian urban areas",
     BlogContent:
@@ -251,7 +251,7 @@ export const sideBlogs10 = [
 
 export const sideBlogs11 = [
   {
-    id: "Blog1",
+    id: "Blog11",
     BlogDate: "May 09, 2025",
     BlogHead:
       "A Blueprint for Sustainable Living",
@@ -259,6 +259,19 @@ export const sideBlogs11 = [
       "In the heart of Bengaluru, architect Jaya Rayaprolu has crafted a home that stands as a beacon of sustainable living. Designed with a deep commitment to environmental stewardship, her residence seamlessly integrates water conservation, renewable energy, and eco-friendly construction techniques.",
     BlogLink:
       "/blogs/a-blueprint-for-sustainable-living",
+  },
+];
+
+export const sideBlogs12 = [
+  {
+    id: "Blog12",
+    BlogDate: "July 05, 2025",
+    BlogHead:
+      "Simple and Practical Methods for Groundwater Augmentation in Our Homes",
+    BlogContent:
+      "Groundwater, a hidden treasure beneath our feet, is facing a real crisis. As cities grow and our need for water increases, these vital underground reserves are shrinking at an alarming rate. But here's the good news: we, as individual homeowners, have a significant role to play in bringing them back to life.",
+    BlogLink:
+      "/blogs/simple-and-practical-methods-for-groundwater-augmentation-in-our-homes",
   },
 ];
 

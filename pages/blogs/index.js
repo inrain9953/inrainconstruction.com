@@ -447,7 +447,55 @@ const BlogsIndex = () => {
               </p>
               <div className="flex justify-start mt-2">
                 <Button variant="contained" size="small">
-                  <Link href={'/blogs/a-blueprint-for-sustainable-living'}>Read More</Link>
+                  <Link href={"/blogs/a-blueprint-for-sustainable-living"}>
+                    Read More
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div className="">
+              <Image
+                className="w-full rounded-xl hover:shadow-xl h-80"
+                src={img1}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+              <p className="text-left mt-2 text-sm font-semibold">
+                July 05, 2025
+              </p>
+              <a
+                href={
+                  "/blogs/simple-and-practical-methods-for-groundwater-augmentation-in-our-homes"
+                }
+              >
+                <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  Simple and Practical Methods for Groundwater Augmentation in
+                  Our Homes
+                </h1>
+              </a>
+              <p className="text-justify text-base mt-3 mr-3">
+                Groundwater, a hidden treasure beneath our feet, is facing a
+                real crisis. As cities grow and our need for water increases,
+                these vital underground reserves are shrinking at an alarming
+                rate. But here's the good news: we, as individual homeowners
+                ....
+              </p>
+              <div className="flex justify-start mt-2">
+                <Button variant="contained" size="small">
+                  <a
+                    href={
+                      "/blogs/simple-and-practical-methods-for-groundwater-augmentation-in-our-homes"
+                    }
+                  >
+                    Read More
+                  </a>
                 </Button>
               </div>
             </div>

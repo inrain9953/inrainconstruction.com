@@ -36,6 +36,7 @@ export default async (req, res) => {
     { url: "/blogs/why-beneficial-of-modular-rainwater-harvesting-systems-for-home-and-commercial-buildings/", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/eco-friendly-benefits-of-a-modular-rainwater-harvesting-system/", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/a-blueprint-for-sustainable-living/", changefreq: "daily", priority: 0.8 },
+    { url: "/blogs/simple-and-practical-methods-for-groundwater-augmentation-in-our-homes/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-delhi/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-gurgaon/", changefreq: "daily", priority: 0.8 },
     { url: "/rainwater-harvesting-in-lucknow/", changefreq: "daily", priority: 0.8 },
