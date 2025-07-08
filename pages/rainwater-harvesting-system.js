@@ -11,9 +11,9 @@ import Link from "next/link";
 const Service11 = () => {
   const title = "Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const desc =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    "Are you searching for a rainwater harvesting system in India? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
   const keyword =
-    "rainwater harvesting system in Delhi, rainwater harvesting, rain harvesting system, Urban Water Sustainability, rainwater harvesting company, Water Conservation Techniques, Stormwater Runoff Control, Rainwater Harvesting System Services in Delhi";
+    "rainwater harvesting system, rainwater harvesting, rain harvesting system, Urban Water Sustainability, rainwater harvesting company, Water Conservation Techniques, Stormwater Runoff Control, Rainwater Harvesting System Services in India";
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-system";
   const ogUrl =
@@ -21,11 +21,11 @@ const Service11 = () => {
   const ogTitle =
     "Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const ogDescription =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    "Are you searching for a rainwater harvesting system in India? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
   const twittertitle =
     "Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    "Are you searching for a rainwater harvesting system in India? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
 
   return (
     <>
@@ -72,7 +72,7 @@ const Service11 = () => {
           </div>
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
+        <div className="m-5 md:grid md:grid-cols-2 md:justify-center md:gap-10 md:items-center">
           <div data-aos="zoom-in-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
               Rainwater Harvesting System
@@ -90,9 +90,9 @@ const Service11 = () => {
               benefits, and how they contribute to a more sustainable future.{" "}
             </p>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h2 className="text-2xl mt-5 md:text-3xl font-semibold">
               The Importance of Rainwater Harvesting
-            </h3>
+            </h2>
             <p className="text-[17px] text-justify md:text-lg mt-3">
               Rainwater is a precious resource that, if properly harnessed, can
               address water scarcity challenges faced by communities around the
