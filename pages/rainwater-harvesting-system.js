@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
 import service11 from "./../public/service11.jpg";
 import harvesting11 from "./../public/services/harvesting7.jpg";
+import img2 from "./../public/blog7.webp";
 import Image from "next/image";
 import Head from "next/head";
 import PopUp from "@/components/popup";
@@ -72,7 +73,7 @@ const Service11 = () => {
           </div>
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:justify-center md:gap-10 md:items-center">
+        <div className="m-5 md:grid md:grid-cols-2 md:justify-center md:gap-10 md:items-start">
           <div data-aos="zoom-in-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
               Rainwater Harvesting System
@@ -223,10 +224,21 @@ const Service11 = () => {
               purposes.
             </p>
           </div>
-          <div data-aos="zoom-in-up" className="mt-5">
+          <div className="mt-5 flex flex-col items-center justify-center">
+            <Image
+              data-aos="zoom-in-up"
+              className=""
+              alt="Rainwater Harvesting System"
+              loading="eager"
+              priority={true}
+              unoptimized={true}
+              src={img2}
+            />
+
             <Link href={"https://www.inrainconstruction.com/"}>
               <Image
-                className="w-full"
+                data-aos="zoom-in-up"
+                className="w-full mt-10"
                 src={harvesting11}
                 alt="Rainwater Harvesting"
                 loading="eager"
