@@ -3,11 +3,14 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
 import service11 from "./../public/service11.jpg";
 import harvesting11 from "./../public/services/harvesting7.jpg";
-import img2 from "./../public/blog7.webp";
+import logo from "./../public/logo.png";
 import Image from "next/image";
+import { useState } from "react";
 import Head from "next/head";
 import PopUp from "@/components/popup";
 import Link from "next/link";
+import { Button } from "@mui/material";
+import axios from "axios";
 
 const Service11 = () => {
   const title = "Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
@@ -27,6 +30,38 @@ const Service11 = () => {
     "Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Are you searching for a rainwater harvesting system in India? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+
+  const [myname, setMyname] = useState("");
+  const [myemail, setMyemail] = useState("");
+  const [mymobile, setMymobile] = useState("");
+  const [mymessage, setMymessage] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [showNotification, setShowNotification] = useState(false);
+  const GoogleAds = "This is not from Google Ads";
+
+  async function onFormSubmit(e) {
+    if (!myname || !myemail || !mymobile || !mymessage) {
+      alert("Please fill all the fields");
+      return;
+    }
+    setLoading(true);
+    e.preventDefault();
+    try {
+      const response = await axios.post("/api/signup", {
+        myname,
+        myemail,
+        mymobile,
+        mymessage,
+        GoogleAds,
+      });
+      if (response.data.success) {
+        setLoading(false);
+        setShowNotification(true);
+      }
+    } catch (error) {
+      console.log("Something went wrong");
+    }
+  }
 
   return (
     <>
@@ -72,6 +107,29 @@ const Service11 = () => {
             </p>
           </div>
         </div>
+
+        {loading && (
+          <div className="loader absolute md:top-[70%] top-[3200px] right-0 left-0 md:left-[45%] bottom-0"></div>
+        )}
+        {showNotification && (
+          <div className="justify-center absolute items-center z-10 flex md:top-[70%] top-[3200px] right-0 left-0 bottom-0">
+            <div className="notification1">
+              <div className="notiglow1"></div>
+              <div className="notiborderglow1"></div>
+              <div className="notititle1">Thank you {myname}</div>
+              <div className="notibody1">
+                Our team will reach out to you shortly
+              </div>
+              <div className="notibody1 flex justify-center items-center">
+                <Link href="/">
+                  <Button variant="contained" size="small" color="success">
+                    OK
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="m-5 md:grid md:grid-cols-2 md:justify-center md:gap-10 md:items-start">
           <div data-aos="zoom-in-up" className="text-left">
@@ -225,16 +283,76 @@ const Service11 = () => {
             </p>
           </div>
           <div className="mt-5 flex flex-col items-center justify-center">
-            <Image
-              data-aos="zoom-in-up"
-              className=""
-              alt="Rainwater Harvesting System"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-              src={img2}
-            />
+            <form className="form bg-gray-400 md:w-96" onSubmit={onFormSubmit}>
+              <div className="flex justify-center mt-5">
+                <Image
+                  className="w-[100px]"
+                  src={logo}
+                  alt="img"
+                  loading="eager"
+                  priority={true}
+                  unoptimized={true}
+                />
+              </div>
+              <p className="form-heading mt-3 mb-3 text-black">Get In Touch</p>
 
+              <div className="form-field">
+                <input
+                  placeholder="Name"
+                  className="input-field"
+                  type="text"
+                  name="Name"
+                  value={myname}
+                  onChange={(e) => setMyname(e.target.value)}
+                />
+              </div>
+
+              <div className="form-field">
+                <input
+                  placeholder="Email"
+                  className="input-field"
+                  type="email"
+                  name="Email"
+                  value={myemail}
+                  onChange={(e) => setMyemail(e.target.value)}
+                />
+              </div>
+
+              <div className="form-field">
+                <input
+                  placeholder="Mobile Number"
+                  className="input-field"
+                  type="tel"
+                  name="Mobile_No"
+                  value={mymobile}
+                  onChange={(e) => setMymobile(e.target.value)}
+                />
+              </div>
+
+              <div className="form-field">
+                <textarea
+                  placeholder="Message"
+                  cols="30"
+                  rows="3"
+                  className="input-field"
+                  name="message"
+                  value={mymessage}
+                  onChange={(e) => setMymessage(e.target.value)}
+                ></textarea>
+              </div>
+
+              <div className="md:mt-2 md:mb-2">
+                <input className="w-4 h-4 mr-2" type="checkbox" />
+                <label className="text-black text-base">
+                  Yes, I would like to receive communications by call / email
+                  about Company's services.{" "}
+                </label>
+              </div>
+
+              <button className="sendMessage-btn" type="submit">
+                Send Message
+              </button>
+            </form>
             <Link href={"https://www.inrainconstruction.com/"}>
               <Image
                 data-aos="zoom-in-up"

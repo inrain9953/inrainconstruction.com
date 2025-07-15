@@ -19,7 +19,10 @@ export default async function signup(req, res) {
         message: mymessage,
       });
       const result = await product.save();
-      res.status(200);
+      res.status(200).json({
+        success: true,
+        message: "Data Submitted Successfully",
+      });
 
       try {
         const transporter = nodemailer.createTransport({
