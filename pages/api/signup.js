@@ -34,7 +34,7 @@ export default async function signup(req, res) {
           subject: sub,
           text: `Submission: ${GoogleAds} \n\n Name: ${myname} \n\n Email: ${myemail} \n\n Mobile No: ${mymobile} \n\n Message: ${mymessage}`,
         };
-        const info = transporter.sendMail(mailOptions);
+        const info = await transporter.sendMail(mailOptions);
         console.log("Email sent successfully");
       } catch (err) {
         console.log("Connection not build");
