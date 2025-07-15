@@ -19,10 +19,6 @@ export default async function signup(req, res) {
         message: mymessage,
       });
       const result = await product.save();
-      res.status(200).json({
-        success: true,
-        message: "Data Submitted Successfully",
-      });
 
       try {
         const transporter = nodemailer.createTransport({
@@ -32,19 +28,22 @@ export default async function signup(req, res) {
             pass: password,
           },
         });
-
         const mailOptions = {
           from: username,
           to: process.env.receivingmail,
           subject: sub,
           text: `Submission: ${GoogleAds} \n\n Name: ${myname} \n\n Email: ${myemail} \n\n Mobile No: ${mymobile} \n\n Message: ${mymessage}`,
         };
-
         const info = transporter.sendMail(mailOptions);
         console.log("Email sent successfully");
       } catch (err) {
         console.log("Connection not build");
       }
+
+      res.status(200).json({
+        success: true,
+        message: "Data Submitted Successfully",
+      });
     } else {
       res.setHeader("Allow", ["POST"]);
       return res.status(405).end(`Method ${req.method} Not Allowed`);
