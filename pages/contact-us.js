@@ -53,8 +53,12 @@ const Contact = () => {
   const contactapikey = api;
 
   const onFormSubmit = async (event) => {
-    event.preventDefault();
+    if(!myname || !myemail || !mymobile || !mymessage) {
+      alert("Please fill all the fields");
+      return;
+    }
 
+    event.preventDefault();
     const formData = new FormData(event.target);
     formData.append("access_key", contactapikey);
     const object = Object.fromEntries(formData);

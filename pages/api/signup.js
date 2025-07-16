@@ -20,7 +20,6 @@ export default async function signup(req, res) {
       });
       const result = await product.save();
 
-      try {
         const transporter = nodemailer.createTransport({
           service: "gmail",
           auth: {
@@ -36,14 +35,12 @@ export default async function signup(req, res) {
         };
         const info = transporter.sendMail(mailOptions);
         console.log("Email sent successfully");
-      } catch (err) {
-        console.log("Connection not build");
-      }
 
       res.status(200).json({
         success: true,
         message: "Data Submitted Successfully",
       });
+      
     } else {
       res.setHeader("Allow", ["POST"]);
       return res.status(405).end(`Method ${req.method} Not Allowed`);
