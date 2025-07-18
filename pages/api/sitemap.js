@@ -9,6 +9,7 @@ export default async (req, res) => {
   const links = [
     { url: "/", changefreq: "daily", priority: 0.8 },
     { url: "/about-us/", changefreq: "daily", priority: 0.8 },
+    { url: "/about_icpl/", changefreq: "daily", priority: 0.8 },
     { url: "/products/", changefreq: "daily", priority: 0.8 },
     { url: "/solutions/", changefreq: "daily", priority: 0.8 },
     { url: "/contact-us/", changefreq: "daily", priority: 0.8 },

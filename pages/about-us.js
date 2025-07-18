@@ -24,10 +24,12 @@ const About = () => {
     "About ICPL, About Our Rainwater Harvesting(RWH) Technology, Water Conservation in Delhi, Modular Tank Systems in Delhi, Rainwater Harvesting in Delhi, Sustainable Water Management, Monolithic Structures, RWH Technology, Clean Energy Solutions, Modular Technology RWH, Water Table Recharge";
   const canonical = "https://www.inrainconstruction.com/about-us";
   const ogUrl = "https://www.inrainconstruction.com/about-us";
-  const ogTitle = "About Us | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
+  const ogTitle =
+    "About Us | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
   const ogDescription =
     "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
-  const twittertitle = "About US | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
+  const twittertitle =
+    "About US | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "InRain Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
 
@@ -60,9 +62,9 @@ const About = () => {
       <Navbar />
       <PopUp />
       <div>
-        <div data-aos="zoom-in-up" className="pt-5 pb-5 md:pt-0">
+        <div data-aos="zoom-in-up" className="md:m-5 m-2 md:pt-0">
           <Image
-            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+            className="w-full h-28 md:h-72 rounded-xl md:shadow-2xl relative"
             src={banner}
             alt="img"
             loading="eager"
@@ -80,7 +82,7 @@ const About = () => {
           data-aos="zoom-in-up"
           className="m-5 md:m-10 md:grid md:grid-cols-2 md:gap-14 md:items-center "
         >
-          <div className="md:ml-10">
+          <div className="">
             <Image
               className="w-full rounded-xl"
               src={abt}
@@ -90,12 +92,18 @@ const About = () => {
               unoptimized={true}
             />
           </div>
-          <div className="mt-5 text-left md:mr-10">
-            <p className="text-2xl md:text-4xl font-semibold md:mb-10">
+          <div className="mt-5 text-left">
+            <p className="text-2xl md:text-4xl font-semibold md:mb-5">
               Who We Are
             </p>
-            <p className="text-2xl font-bold mt-5 md:text-3xl">ICPL</p>
-            <p className="text-[17px] text-justify md:text-lg mt-2 md:pr-10">
+            <a
+              target="_blank"
+              href="https://www.inrainconstruction.com/about_icpl"
+              className="text-2xl text-sky-500 hover:text-green-500 font-bold md:text-3xl"
+            >
+              ICPL
+            </a>
+            <p className="text-[17px] text-justify md:text-lg md:mt-2">
               We are a subsidiary company of “Singh & Singh Construction”, a
               firm with a strong presence in India with more than 30 years of
               experience in the civil construction industry. We have completed
@@ -260,9 +268,13 @@ const About = () => {
                 InRain<sup>®</sup>
               </bold>{" "}
               filtration system, developed in-house by the{" "}
-              <bold className="text-green-500 font-semibold">
+              <a
+                href="https://www.inrainconstruction.com/about_icpl"
+                target="_blank"
+                className="text-green-500 hover:text-sky-500 font-semibold"
+              >
                 ICPL R&D team
-              </bold>
+              </a>
               , clean rain water is trapped in the tank, thereby saving on
               maintenance parts tremendously as it is very easy & handy with
               negligible maintenance cost as compared to conventional systems.

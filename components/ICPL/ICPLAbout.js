@@ -335,7 +335,7 @@ const ICPLAbout = () => {
                 Installation & Project Development
               </h2>
               <p className="text-[17px] text-justify mt-3">
-                Our team has done more than 400+ Rainwater Harvesting Projects
+                Our team has done more than 4000+ Rainwater Harvesting Projects
                 in accross the India.Technology we are using has globally been
                 adopted in advanced country like Germany, Japan, Singapore, USA
                 and Australia.
@@ -345,7 +345,7 @@ const ICPLAbout = () => {
                   <CountUp
                     duration={5}
                     className=""
-                    end={400}
+                    end={4000}
                     enableScrollSpy={true}
                     scrollSpyDelay={50}
                   />
