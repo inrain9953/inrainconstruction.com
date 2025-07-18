@@ -131,8 +131,11 @@ const AboutICPL = () => {
         <div className="md:flex mt-5 md:mt-0 md:flex-col justify-center items-center">
           <Image
             src={md}
-            alt="ICPL Director"
+            alt="Mr. Nishant Gaurav (Chairman & Managing Director)"
             className="w-96 h-auto m-auto rounded-2xl shadow-2xl "
+            loading="eager"
+            priority={true}
+            unoptimized={true}
           />
           <h2 className="md:text-[20px] text-[18px] text-center m-2 font-semibold">
             Mr. Nishant Gaurav
