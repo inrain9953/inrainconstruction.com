@@ -81,10 +81,10 @@ const Service8 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              Rainwater harvesting is a need of the modern world by practicing
-              rainwater harvesting we can help in improving global water
-              reserves. Inrain Construction Pvt. Ltd. is a leading company, in
-              providing water conservation and management solutions offering
+              Rainwater harvesting is a need of the modern world. By practicing
+              rainwater harvesting, we can help in improving global water
+              reserves. Inrain Construction Pvt. Ltd. is a leading company in
+              providing water conservation and management solutions, offering
               various varieties of rainwater harvesting solutions. We use
               modern-day technology and excel in providing economical water
               conservation methods to our clients as per their needs. Among the
@@ -97,41 +97,42 @@ const Service8 = () => {
               >
                 Rainwater Harvesting Systems,
               </Link>{" "}
-              Box Type Rainwater Harvesting is one that helps you in saving the
-              mains water. Since in this methodology rainwater collected from
-              the roof doesn’t go through rigorous filtration and purification,
-              it is majorly suited for outdoor activities like car washing and
+              box-Type Rainwater Harvesting is one that helps you in saving the
+              rainwater. Since in this methodology, rainwater collected from the
+              roof doesn’t go through rigorous filtration and purification, it
+              is majorly suited for outdoor activities like car washing and
               watering your garden area. The rainwater stored through this
-              method can also be utilised for laundry and flushing the toilet.
-              Inrain Construction Pvt. Ltd, a water conservation and management
-              company is one of the leading water conservation and management
-              service providers. We are well known to provide technology-based
-              modern solutions that fit today’s requirements. We are the top
-              most rainwater harvesting vendors in Delhi-Gurgaon. We completely
-              understand the challenges of the modern-day industries and housing
-              societies. Therefore, we offer technologically advanced but
-              cost-effective solutions for water conservation needs. <br></br>
+              method can also be utilized for laundry and flushing the toilet.
+              InRain Construction Pvt. Ltd., a water conservation and management
+              company, is one of the leading water conservation and management
+              service providers. We are well known for providing
+              technology-based modern solutions that fit today’s requirements.
+              We are the topmost rainwater harvesting vendors in Delhi-Gurgaon.
+              We completely understand the challenges of modern-day industries
+              and housing societies. Therefore, we offer technologically
+              advanced but cost-effective solutions for water conservation
+              needs. <br></br>
               <br></br>
-              As the name suggests box type rainwater harvesting system uses a
-              box to store water. A water collector is attached to the rooftop
-              for collecting water, the collected water then goes through a
+              As the name suggests, a box-type rainwater harvesting system uses
+              a box to store water. A water collector is attached to the rooftop
+              for collecting water; the collected water then goes through a
               filter system that removes impurities collected from the rooftop.
               The filtered water then goes to the box for storage.
               <br></br>
               <br></br>
-              The installation and the water supply mechanism is the main
-              feature of box type rainwater harvesting system. The water supply
+              The installation and the water supply mechanism are the main
+              features of box type rainwater harvesting system. The water supply
               mechanism of this system is maintained in such a way that it
               always ensures water supply from the rain box before your main
               supply. It has been designed in a way that in case your rain box
-              runs out of water your supply will be maintained through mains,
-              ensuring continuous water supply autonomous systems. This helps in
-              reducing your water bills significantly by effectively utilizing
-              the stored rainwater.
+              runs out of water, your supply will be maintained through mains,
+              ensuring a continuous water supply for autonomous systems. This
+              helps in reducing your water bills significantly by effectively
+              utilizing the stored rainwater.
               <br></br>
-              <br></br>Box type rainwater harvesting systems use very compact
-              size box, it is easily installable and cost-effective and
-              addresses the specific need of our customers. Our skilled team
+              <br></br>Box-type rainwater harvesting systems use a very
+              compact-sized box; they are easily installable and cost-effective
+              and address the specific needs of our customers. Our skilled team
               provides help to our customers in choosing the correct rainwater
               harvesting systems as per their requirements and budget.
             </p>
@@ -151,7 +152,7 @@ const Service8 = () => {
               <h2 className="text-xl font-semibold">How Does It Work?</h2>
               <p className="text-[17px] md:text-lg mt-1">
                 The box is intelligently connected to your water supply system.
-                It’s designed to use the stored rainwater first, and only switch
+                It’s designed to use the stored rainwater first and only switch
                 to the main water line when the box is empty. This smart
                 mechanism ensures a continuous, autonomous water supply—with
                 zero disruption.

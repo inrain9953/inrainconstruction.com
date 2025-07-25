@@ -20,17 +20,17 @@ export const Hero2 = () => {
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>,
             </bold>{" "}
-            We are expert in sustainable, eco-friendly rainwater harvesting
+            we are experts in sustainable, eco-friendly rainwater harvesting
             solutions for homes & businesses, designed to preserve water. We are
-            engaged in making Rainwater Harvesting (RWH) systems based on the
-            modern technology. It is indeed entirely different from conventional
+            engaged in making Rainwater Harvesting (RWH) systems based on modern
+            technology. It is indeed entirely different from conventional
             rainwater harvesting systems.{" "}
             <bold className="text-green-600 font-semibold">
               InRain<sup>®</sup>
             </bold>{" "}
-            is fully equipped with an in-house make and manufacturing process,
+            is fully equipped with an in-house making and manufacturing process,
             ensuring its best-in-class quality. We share our contribution to the
-            nation by being proud partners of {" "}
+            nation by being proud partners of{" "}
             <bold className="font-semibold text-black">
               “The Make in India Movement.”
             </bold>
@@ -72,7 +72,7 @@ export const Hero2 = () => {
               >
                 Modular Rainwater Harvesting
               </Link>{" "}
-              is a new technique for rainwater harvesting. It is both convenient
+              is a new technique for Rainwater Harvesting. It is both convenient
               and easy to maintain in comparison to traditional RWH. This New
               Age RWH system is designed with a maintenance-free structure,
               which makes it both cost-effective and eco-friendly.

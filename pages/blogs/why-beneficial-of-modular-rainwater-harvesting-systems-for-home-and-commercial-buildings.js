@@ -1,39 +1,17 @@
 import React from "react";
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
-import {
-  individualBLog8,
-  sideBlogs1,
-  sideBlogs10,
-  sideBlogs11,
-  sideBlogs2,
-  sideBlogs3,
-  sideBlogs4,
-  sideBlogs5,
-  sideBlogs6,
-  sideBlogs7,
-  sideBlogs9,
-} from "@/components/Blogs/Blog";
+import { individualBLog8 } from "@/components/Blogs/Blog";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import blog7img from "../../public/blog7.webp";
-import blog1img from "../../public/blog1.jpg";
-import blog2img from "../../public/blog2.jpg";
-import blog3img from "../../public/blog3.jpg";
-import blog4img from "../../public/blog4.jpg";
-import blog5img from "../../public/blog5.jpg";
-import blog6img from "../../public/blog6.jpeg";
 import blog8img from "../../public/blog8.jpg";
-import blog9img from "../../public/blog9.jpg";
-import blog10img from "../../public/blog10.png";
-import blog11img from "@/public/blog11.jpg";
 import PopUp from "@/components/popup";
 import SideBlogs from "@/components/Blogs/SideBlogs";
 
 const Blog8 = () => {
   const title =
-    "Why Beneficial of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?";
+    "What are the Benefits of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?";
   const desc =
     "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
   const keyword =
@@ -45,9 +23,9 @@ const Blog8 = () => {
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/why-beneficial-of-modular-rainwater-harvesting-systems-for-home-and-commercial-buildings";
   const ogTitle =
-    "Why Beneficial of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?";
+    "What are the Benefits of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?";
   const twittertitle =
-    "Why Beneficial of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?";
+    "What are the Benefits of Modular Rainwater Harvesting Systems for Home & Commercial Buildings?";
   const twitterdescription =
     "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
 

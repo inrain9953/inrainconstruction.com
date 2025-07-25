@@ -43,11 +43,8 @@ export const Hero3 = () => {
         </h4>
         <hr className="m-2"></hr>
         <p className="text-[17px] md:text-[18px] text-gray-700">
-          At{" "}
-          <bold className="text-green-600 font-semibold">
-            InRain<sup>®</sup>
-          </bold>{" "}
-          Construction Pvt. Ltd., we firmly believe in the popular quote
+          At <bold className="text-green-600 font-semibold">InRain®</bold>{" "}
+          Construction, we firmly believe in the popular quote
         </p>
 
         <h5 className="text-xl font-semibold mt-5">
@@ -55,13 +52,13 @@ export const Hero3 = () => {
         </h5>
         <p className="text-[17px] md:text-[18px] text-justify text-gray-700 mt-2">
           70% of our earth is water. However, the potable water, which is
-          required for every human needs, is very little. Growing
-          urbanization and global development have also led to a sharp decline
-          in groundwater. Climate change with global warming is not making
-          things easier for humans. Water conservation and management techniques
-          are vital for sustainable development. It helps in managing the
-          increasing demand for water with growing industrialization and an
-          increasing population.
+          required for every human need, is very little. Growing urbanization
+          and global development have also led to a sharp decline in
+          groundwater. Climate change with global warming is not making things
+          easier for humans. Water conservation and management techniques are
+          vital for sustainable development. It helps in managing the increasing
+          demand for water with growing industrialization and an increasing
+          population.
         </p>
         <br></br>
         <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
@@ -71,7 +68,7 @@ export const Hero3 = () => {
           </bold>
           , we provide water conservation & management techniques leveraging
           modern technology. Conservation methods and solutions offered by
-          InRain are not only environment friendly but economical as well.
+          InRain are not only environmentally friendly but economical as well.
         </p>
         <br></br>
 
@@ -79,8 +76,8 @@ export const Hero3 = () => {
           <bold className="font-semibold text-black">
             The Technology We Offer:
           </bold>{" "}
-          We are using advanced modular technology for Rainwater Harvesting
-          Solutions. This advanced technology helps us to reduce costs and
+          We use advanced modular technology for rainwater harvesting
+          solutions. This advanced technology helps us to reduce costs and
           improves the longevity of the rainwater harvesting system. It helps in
           overcoming the major challenge of space-saving, which is a prime
           concern in urban planning and development.
@@ -91,17 +88,17 @@ export const Hero3 = () => {
           <bold className="font-semibold text-black">
             The Quality We Offer:
           </bold>{" "}
-          We provide high-quality products as our products go through a
-          rigorous quality check. Our in-house manufacturing ensures the
-          quality of products, and we consistently deliver excellence.
+          We provide high-quality products that undergo a rigorous quality
+          check. Our in-house manufacturing ensures the quality of products, and
+          we consistently deliver excellence.
         </p>
         <br></br>
 
         <p className="text-[17px] md:text-[18px] text-justify text-gray-700">
-          We firmly believes that the future of urban planning and development
+          We firmly believe that the future of urban planning and development
           is through the practice of water conservation and management. We are
           fortunate to be blessed with the ability to contribute to saving the
-          environment, while we help others to incorporate water conservation
+          environment while we help others to incorporate water conservation
           methods and practices into life.{" "}
         </p>
         <br></br>
@@ -111,7 +108,7 @@ export const Hero3 = () => {
           <bold className="text-green-600 font-semibold">
             InRain<sup>®</sup>
           </bold>
-          , we help organizations, housing societies and individuals to
+          , we help organizations, housing societies, and individuals to
           integrate water conservation and management into their development
           plans. We aim to provide sustainability in water conservation
           practices.

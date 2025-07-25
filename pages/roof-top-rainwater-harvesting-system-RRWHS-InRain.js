@@ -81,14 +81,14 @@ const Service5 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              Roof top rainwater harvesting system(RRWHS) is one of the most
-              popular rainwater harvesting systems of the current times. Rain is
-              one of the most natural resources of water by applying roof top
-              rainwater harvesting, systems we will be able to use natural
-              rainwater. The roof top rainwater harvesting systems are suitable
+              Rooftop Rainwater Harvesting Systems (RRWHS) are one of the most
+              popular rainwater harvesting systems of current times. Rain is one
+              of the most natural source of water. By applying a rooftop
+              rainwater harvesting system, we will be able to use natural
+              rainwater. The rooftop rainwater harvesting systems are suitable
               for both residential and commercial areas. <br></br>
               <br></br>
-              Inrain Construction Pvt. Ltd., we deal with a wide variety of{" "}
+              In InRain Construction Pvt. Ltd., we deal with a wide variety of{" "}
               <Link
                 href={
                   "https://www.inrainconstruction.com/rainwater-harvesting-system"
@@ -97,10 +97,10 @@ const Service5 = () => {
               >
                 Rainwater Harvesting Systems.
               </Link>{" "}
-              Our water conservation and management services are very flexible
+              Our water conservation and management services are very flexible,
               as we provide solutions based on the customer’s needs. We provide
               both complete package installation and management services. In
-              case you need to install the roof top rainwater harvesting system
+              case you need to install the rooftop rainwater harvesting system
               in your newly constructed house, we provide a complete package
               along with maintenance services. You can choose specific
               components if you have already installed the rainwater harvesting
@@ -108,11 +108,11 @@ const Service5 = () => {
               residential areas.
               <br></br>
               <br></br>
-              Filtration is the major requirement for roof top rainwater
-              harvesting systems. As the device collects rainwater from the roof
-              top it also collects various harmful pollutants which can be
-              organic and inorganic. Hence, having proper water filtration is a
-              must, various types of water filters can be used in roof top
+              Filtration is the major requirement for rooftop rainwater
+              harvesting systems. As the device collects rainwater from the
+              rooftop it also collects various harmful pollutants, which can be
+              organic or inorganic. Hence, having proper water filtration is
+              must; various types of water filters can be used in rooftop
               rainwater harvesting systems depending on the use of water. If you
               intend to use the harvested water for drinking and cooking, then
               filtration needs to be at a micro-level to make the water free
@@ -121,21 +121,22 @@ const Service5 = () => {
               water filters depending on your filtration needs.
               <br></br>
               <br></br>A rooftop rainwater harvesting system comes with various
-              benefits. Not only it helps to reduce water bills by providing a
-              backup system for your mains supply but also helps in having a
-              positive impact on the environment.
+              benefits. Not only does it helps to reduce water bills by
+              providing a backup system for your mains supply, but it also helps
+              in having a positive impact on the environment.
             </p>
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
             <Link href={"https://www.inrainconstruction.com/"}>
-            <Image
-              className="w-full"
-              src={harvesting5}
-              alt="Rainwater Harvesting Module View"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            /></Link>
+              <Image
+                className="w-full"
+                src={harvesting5}
+                alt="Rainwater Harvesting Module View"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+            </Link>
           </div>
         </div>
       </div>

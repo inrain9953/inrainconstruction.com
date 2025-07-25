@@ -67,7 +67,7 @@ const ICPLAbout = () => {
             </h1>
             <p className="text-[17px] text-justify md:text-lg">
               Rainwater Harvesting Company with a strongpresence in All Over
-              India .The company has successfully Installed morethan 400 Rain
+              India .The company has successfully Installed morethan 4000 Rain
               Water Harvesting Projects enabling in conserving billion of
               gallons of water from of getting it waste. We are privileged to
               introduce the next level and Scientific Rain water harvesting’

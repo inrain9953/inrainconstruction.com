@@ -212,7 +212,7 @@ const Blog12 = () => {
                   Imagine your roof as a giant collector. Rainwater flows from
                   your roof through pipes, gets a quick clean-up in a filter,
                   and then goes into a pit. This pit is typically filled with
-                  layers of gravel, sand, and pebbles – a natural filter that
+                  layers of gravel, sand, and pebbles—a natural filter that
                   slowly lets the water seep into the ground, recharging the
                   aquifer below.
                 </li>
@@ -298,7 +298,7 @@ const Blog12 = () => {
                   Instead of letting all the rainwater rush into the city
                   drains, try designing your garden or yard to absorb it. Think
                   about creating shallow depressions (swales), beautiful rain
-                  gardens, or simply making sure your land is graded so water
+                  gardens, or simply making sure your land is graded, so water
                   can spread out and slowly sink into the soil.
                 </li>
                 <li className="mt-1">
@@ -336,7 +336,7 @@ const Blog12 = () => {
               </li>
               <li className="mt-1">
                 <bold className="font-semibold text-[18px] md:text-[20px]">
-                  Cleanliness is Key:
+                  Cleanliness is key:
                 </bold>{" "}
                 Make sure the water you're putting back into the ground is
                 clean. Good filtration systems are essential.
@@ -358,7 +358,7 @@ const Blog12 = () => {
               of the solution, actively contributing to saving water and
               ensuring a healthier, more sustainable future for our groundwater
               resources. It's a small effort at home that can make a monumental
-              difference for our communities and the planet.
+              difference to our communities and the planet.
             </p>
             <p className="text-[20px] md:text-[20px] mt-5 font-semibold p-10 rounded-2xl bg-sky-400 text-center">
               What are you doing at home to conserve water? We'd love to hear

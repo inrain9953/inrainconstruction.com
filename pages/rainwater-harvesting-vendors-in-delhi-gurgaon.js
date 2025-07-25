@@ -81,23 +81,24 @@ const Service7 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              Inrain Construction Pvt. Ltd, a water conservation and management
-              company is one of the leading water conservation and management
-              service providers. We are well known to provide technology-based
-              modern solutions that fit today’s requirements. We are the top
-              most rainwater harvesting vendors in Delhi-Gurgaon. We completely
-              understand the challenges of the modern-day industries and housing
-              societies. Therefore, we offer technologically advanced but
-              cost-effective solutions for water conservation needs. <br></br>
+              InRain Construction Pvt. Ltd., a water conservation and management
+              company, is one of the leading water conservation and management
+              service providers. We are well known for providing
+              technology-based modern solutions that meet today’s requirements.
+              We are the topmost rainwater harvesting vendors in Delhi-Gurgaon.
+              We completely understand the challenges of modern-day industries
+              and housing societies. Therefore, we offer technologically
+              advanced but cost-effective solutions for water conservation
+              needs. <br></br>
               <br></br>
               Our rainwater harvesting systems are based on advanced German
               technology. We are proud to say that we are fully committed to the
-              ‘Make in India’ initiative and all our manufacturing is in-house
-              which helps in keeping a consistent quality, thereby helping us in
-              achieving better customer satisfaction.
+              ‘Make in India’ initiative, and all our manufacturing is in-house,
+              which helps to maintain a consistent quality, thereby helping us
+              to achieve better customer satisfaction.
               <br></br>
               <br></br>
-              India is a country which is densely populated and there is a
+              India is a country that is densely populated, and there is a
               rising need for eco-friendly water conservation techniques. Hence,
               our advanced{" "}
               <Link
@@ -109,12 +110,12 @@ const Service7 = () => {
                 Modular Rainwater Harvesting System
               </Link>{" "}
               is a perfect match for our growing nation. Fortunately, our
-              country has a very good geo location and it sees a decent rainfall
+              country has very good geolocation, and it sees decent rainfall
               every year, so utilizing the available natural rainwater is
               perfectly suitable here. Our modular rainwater harvesting systems
-              are not only economical and eco-friendly but also help in space
-              saving which is one of the major requirements in a country like
-              India.
+              are not only economical and eco-friendly but also help with
+              space-saving, which is one of the major requirements in a country
+              like India.
               <br></br>
               <br></br>The groundwater level is depreciating all across the
               globe very fast due to the extensive use of the available
@@ -122,8 +123,8 @@ const Service7 = () => {
               system is a need of the hour. We are a proud contributor to this
               socio-economic cause by helping people utilize natural rainwater.
               Our team has proudly supported more than 150 rainwater harvesting
-              projects. We provide our support for the installation, maintenance
-              and management of rain water harvesting projects. The rainwater
+              projects. We provide our support for the installation, maintenance,
+              and management of rainwater harvesting projects. The rainwater
               harvesting solutions that we provide are economical, eco-friendly,
               and environment-friendly and have the advantage over the old
               traditional methods of rainwater harvesting.
@@ -131,14 +132,14 @@ const Service7 = () => {
           </div>
           <div data-aos="zoom-in-up" className="mt-5">
             <Link href={"https://www.inrainconstruction.com"}>
-            <Image
-              className="w-full"
-              src={harvesting7}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
+              <Image
+                className="w-full"
+                src={harvesting7}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
             </Link>
           </div>
         </div>

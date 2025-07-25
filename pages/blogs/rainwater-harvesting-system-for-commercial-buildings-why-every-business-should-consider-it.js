@@ -1,30 +1,8 @@
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
-import {
-  individualBLog3,
-  sideBlogs1,
-  sideBlogs10,
-  sideBlogs11,
-  sideBlogs2,
-  sideBlogs4,
-  sideBlogs5,
-  sideBlogs6,
-  sideBlogs7,
-  sideBlogs8,
-  sideBlogs9,
-} from "../../components/Blogs/Blog";
-import blog1img from "../../public/blog1.jpg";
-import blog2img from "../../public/blog2.jpg";
+import { individualBLog3 } from "../../components/Blogs/Blog";
 import blog3img from "../../public/blog3.jpg";
-import blog4img from "../../public/blog4.jpg";
-import blog5img from "../../public/blog5.jpg";
-import blog6img from "../../public/blog6.jpeg";
-import blog7img from "../../public/blog7.webp";
-import blog8img from "../../public/blog8.jpg";
-import blog9img from "../../public/blog9.jpg";
-import blog10img from "../../public/blog10.png";
-import blog11img from "@/public/blog11.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
@@ -120,7 +98,7 @@ const Blog3 = () => {
                       buildings is one such strategy that is gaining popularity.
                       We'll explore the many benefits of adopting this
                       environmentally beneficial practice in this article and
-                      introduce you to Inrain Construction, a top company for
+                      introduce you to InRain Construction, a top company for
                       installing{" "}
                       <Link
                         className="text-blue-500 font-semibold"

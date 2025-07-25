@@ -82,22 +82,22 @@ const Service1 = () => {
             <p className="text-[17px] text-justify md:text-lg mt-3">
               At{" "}
               <bold className="text-green-700 font-semibold">
-                InRain<sup>®</sup>
+                InRain®
               </bold>{" "}
-              Construction, Our endeavor is to provide comprehensive water
+              Construction, our endeavor is to provide comprehensive water
               conservation and management solutions as per the client's
               requirements. The use of potable water has increased over the
-              years and the source of water is very limited. There is a growing
+              years, and the source of water is very limited. There is a growing
               need to save continuously declining water levels because of the
               extensive use of water in various daily activities. Rainwater
               harvesting is one of the best solutions for water conservation and
               management. It works for both residential and commercial spaces.{" "}
               <br></br>
               <br></br>
-              Commercial places like warehouses have a huge water consumption on
+              Commercial places like warehouses have heavy water consumption on
               a daily basis, so depending on the mains supply or groundwater is
               not feasible. Not only will it exhaust natural resources faster,
-              but it will also be very expensive in the pocket and both these
+              but it will also be very expensive in the pocket, and both these
               concerns can be easily addressed by installing a rainwater
               harvesting system for the warehouse. Commercial warehouses have to
               overcome the challenges of saving cost and space at the same time.
@@ -117,7 +117,7 @@ const Service1 = () => {
               </Link>{" "}
               are perfectly suitable for water conservation and management in
               commercial places like warehouses. In this rainwater harvesting
-              system, recycled co-polymer-based modules are used. These
+              system, recycled copolymer-based modules are used. These
               stackable modules are easy to install and help in building the
               rainwater harvesting structure in a very short amount of time.
               These modules are made of recycled material. Hence, they are not

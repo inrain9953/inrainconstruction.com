@@ -1,33 +1,11 @@
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import React from "react";
-import {
-  individualBLog7,
-  sideBlogs1,
-  sideBlogs10,
-  sideBlogs11,
-  sideBlogs2,
-  sideBlogs3,
-  sideBlogs4,
-  sideBlogs5,
-  sideBlogs6,
-  sideBlogs8,
-  sideBlogs9,
-} from "@/components/Blogs/Blog";
+import { individualBLog7 } from "@/components/Blogs/Blog";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import blog7img from "../../public/blog7.webp";
-import blog1img from "../../public/blog1.jpg";
-import blog2img from "../../public/blog2.jpg";
-import blog3img from "../../public/blog3.jpg";
-import blog4img from "../../public/blog4.jpg";
-import blog5img from "../../public/blog5.jpg";
-import blog6img from "../../public/blog6.jpeg";
-import blog8img from "../../public/blog8.jpg";
-import blog9img from "../../public/blog9.jpg";
-import blog10img from "../../public/blog10.png";
-import blog11img from "@/public/blog11.jpg";
 import PopUp from "@/components/popup";
 import SideBlogs from "@/components/Blogs/SideBlogs";
 

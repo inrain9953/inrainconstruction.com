@@ -247,7 +247,7 @@ const Service11 = () => {
               traditional water sources, such as rivers and groundwater, thereby
               ensuring their long-term sustainability. Secondly, rainwater
               harvesting helps mitigate the impact of urbanization by reducing
-              storm water runoff and the risk of localized flooding.
+              stormwater runoff and the risk of localized flooding.
               Additionally, utilizing rainwater for non-potable uses like
               irrigation can result in significant cost savings for homeowners
               and businesses by offsetting the need for treated municipal water.

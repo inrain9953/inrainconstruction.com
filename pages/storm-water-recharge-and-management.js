@@ -80,13 +80,13 @@ const Service9 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              Storm Water Recharge & Management is very crucial in the
-              modern-day world. The climatic change and depreciating resources
+              Stormwater recharge & management is very crucial in the
+              modern-day world. Climatic change and depreciating resources
               require humankind to take steps for water conservation to maintain
-              sustainable development growth. We can easily see the negative
-              effect of fast pace urban development on natural resources like
-              water; to mitigate adverse effects incorporating stormwater
-              recharge & management in the current development plan is very
+              sustainable development and growth. We can easily see the negative
+              effect of fast-paced urban development on natural resources like
+              water; to mitigate adverse effects, incorporating stormwater
+              recharge and management in the current development plan is very
               important. <br></br>
               <br></br>
               Urbanization and rainwater harvesting have to go hand in hand for
@@ -102,7 +102,7 @@ const Service9 = () => {
               across different surfaces gets through a connected recharge shaft,
               and after getting filtered, it gets stored in a honeycomb box-type
               structure. This saves funds for the construction of excess sewage
-              lines and over pumps by local bodies.
+              lines and overpumps by local bodies.
               <br></br>
               <br></br>We also offer stormwater recharge and management
               solutions like
@@ -127,12 +127,12 @@ const Service9 = () => {
               equally popular in both urban and suburban areas. It uses a porous
               surface of permeable concrete that lets runoff water infiltrate
               into the ground. This technique is very useful in parking lots,
-              sidewalks internal housing society roads.
+              sidewalks, and internal housing society roads.
               <br></br>
               <br></br>
-              Green Roofs, Rain Garder and Constructed Wetlands are a few other
-              ways of managing stormwater runoff. Stormwater management,
-              providing more sustainable and effective solutions that benefit
+              Green roofs, rain garder and constructed wetlands are a few other
+              ways of managing stormwater runoff. Stormwater management
+              provides more sustainable and effective solutions that benefit
               both the environment and society.
             </p>
           </div>

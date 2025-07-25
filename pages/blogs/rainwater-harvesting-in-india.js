@@ -5,29 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import blog6img from "../../public/blog6.jpeg";
-import blog1img from "../../public/blog1.jpg";
-import blog2img from "../../public/blog2.jpg";
-import blog3img from "../../public/blog3.jpg";
-import blog4img from "../../public/blog4.jpg";
-import blog5img from "../../public/blog5.jpg";
-import blog7img from "../../public/blog7.webp";
-import blog8img from "../../public/blog8.jpg";
-import blog9img from "../../public/blog9.jpg";
-import blog10img from "../../public/blog10.png";
-import blog11img from "@/public/blog11.jpg";
-import {
-  individualBLog6,
-  sideBlogs1,
-  sideBlogs10,
-  sideBlogs11,
-  sideBlogs2,
-  sideBlogs3,
-  sideBlogs4,
-  sideBlogs5,
-  sideBlogs7,
-  sideBlogs8,
-  sideBlogs9,
-} from "@/components/Blogs/Blog";
+import { individualBLog6 } from "@/components/Blogs/Blog";
 import PopUp from "@/components/popup";
 import SideBlogs from "@/components/Blogs/SideBlogs";
 

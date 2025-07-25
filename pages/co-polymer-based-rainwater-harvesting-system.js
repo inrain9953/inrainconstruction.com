@@ -80,10 +80,8 @@ const Service2 = () => {
               Co-Polymer Based Rainwater Harvesting System
             </h1>
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              <bold className="text-green-700 font-semibold">
-                InRain<sup>®</sup>
-              </bold>{" "}
-              Construction Private Limited offers co-polymer based rainwater
+              <bold className="text-green-700 font-semibold">InRain®</bold>{" "}
+              Construction Private Limited offers co-polymer-based rainwater
               harvesting system services for water conservation and management.
               This is a modern-day technique of harvesting natural rainwater.
               This technique is cost-effective and easy to maintain compared to
@@ -93,20 +91,20 @@ const Service2 = () => {
               harvesting system; this makes construction and installation faster
               and easier. <br></br>
               <br></br>
-              The co-polymer based rainwater harvesting system uses a structure
+              The co-polymer-based rainwater harvesting system uses a structure
               that offers an economical and eco-friendly solution compared to
               traditional rainwater harvesting systems. Co-polymer products are
               less expensive when compared to the cost of building brick and
               reinforced cement concrete or plain cement concrete storage.
               Moreover, cement concrete storage that is used in traditional
-              systems will require maintenance as it has the chance of
-              developing of infestation algae and fungi. Co-polymer modules are
+              systems will require maintenance, as it has the chance of
+              developing infestations of algae and fungi. Co-polymer modules are
               not only economical but also come with the option of portability,
               which allows the top surface to be used for a variety of purposes,
-              like parking vehicles, floriculture and kids' playground etc.
+              like parking vehicles, floriculture, children's playgrounds etc.
               <br></br>
               <br></br>
-              Co-polymer based{" "}
+              The co-polymer-based{" "}
               <Link
                 className="hover:text-green-500 text-sky-500"
                 href={
@@ -121,7 +119,7 @@ const Service2 = () => {
             </p>
 
             <ol className="list-decimal m-5 font-semibold text-[17px] text-justify md:text-lg">
-              <li>Eco-friendly and economical solution.</li>
+              <li>Eco-friendly and economical solutions.</li>
               <li>
                 Geo sheet-covered percolation storage tank to ensure excellent
                 filtration.
@@ -132,14 +130,14 @@ const Service2 = () => {
               </li>
               <li>
                 Low or almost no maintenance in comparison to traditional
-                rainwater harvesting system.
+                rainwater harvesting systems.
               </li>
               <li>Higher recharge capacity as water comes from five sides.</li>
-              <li>Co-polymer based modules have a high lifespan.</li>
+              <li>Co-polymer-based modules have a high lifespan.</li>
               <li>
-                Portability is one of the main properties of these co-polymer
-                based stackable modules, as these modules can be easily shifted
-                and installed at different locations.
+                Portability is one of the main properties of these
+                co-polymer-based stackable modules, as these modules can be
+                easily shifted and installed at different locations.
               </li>
             </ol>
 
@@ -154,7 +152,7 @@ const Service2 = () => {
                 Modular Rainwater Harvesting System
               </Link>{" "}
               meets the modern-day requirements and comes with safety assurance
-              with an option of portability which makes it one of the most
+              and an option of portability, which makes it one of the most
               sought-after water conservation and management systems.
             </p>
           </div>
@@ -180,10 +178,18 @@ const Service2 = () => {
                 a smarter alternative:
               </p>
               <ul className="list-disc m-3 font-semibold text-[18px] md:text-lg">
-                <li>More affordable than RCC or PCC constructions</li>
-                <li>Algae- and fungus-resistant, minimizing maintenance needs</li>
-                <li>Portable and modular, making it easy to relocate or reconfigure when needed</li>
-                <li>Multifunctional top surface – the area above the tank can be used for parking, gardening, or even a kids’ play zone</li>
+                <li>More affordable than RCC or PCC constructions.</li>
+                <li>
+                  Algae and fungus-resistant, minimizing maintenance needs.
+                </li>
+                <li>
+                  Portable and modular, making it easy to relocate or
+                  reconfigure when needed.
+                </li>
+                <li>
+                  Multifunctional top surface—the area above the tank can be
+                  used for parking, gardening, or even a kid's play zone.
+                </li>
               </ul>
             </div>
           </div>
@@ -195,17 +201,17 @@ const Service2 = () => {
         >
           <p className="text-[17px] text-justify md:text-lg mt-3 p-5">
             Unlike conventional RWH systems, the recharge chamber in modular RWH
-            need not be PCC/ RCC, thereby saving cost. Further, the PCC/ RCC
-            Storage-cum-Recharge Tank, after a few years, gets infested with
+            need not be PCC/RCC, thereby saving cost. Further, the PCC/RCC
+            storage-cum-recharge tank, after a few years, gets infested with
             algae/cobwebs and is very difficult to clean, whereas modular RWH
             with polypropylene blocks wrapped on all sides with geo-textile is
-            almost maintenance free and its useful life is more with an option
-            of portability if there is a need to use the occupied land for some
-            construction purposes. Also, it has been the experience that the
-            conventional RWH system always goes dysfunctional after 2–3 seasons,
-            whereas a modular RWH system in its concept and design has addressed
-            several factors that help it* have many relative advantages over the
-            conventional RWH system.
+            almost maintenance-free, and its useful life is longer with an
+            option of portability if there is a need to use the occupied land
+            for some construction purposes. Also, it has been the experience
+            that the conventional RWH system always goes dysfunctional after 2–3
+            seasons, whereas a modular RWH system in its concept and design has
+            addressed several factors that help it have many relative advantages
+            over the conventional RWH system.
           </p>
         </div>
       </div>

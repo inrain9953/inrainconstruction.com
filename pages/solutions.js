@@ -70,7 +70,9 @@ const Solutions = () => {
             <p className="text-sm md:text-4xl text-white font-semibold">
               Solutions
             </p>
-            <p className="text-xs md:text-lg text-black"><Link href={"/"}>Home</Link> / Solutions</p>
+            <p className="text-xs md:text-lg text-black">
+              <Link href={"/"}>Home</Link> / Solutions
+            </p>
           </div>
         </div>
 
@@ -91,16 +93,17 @@ const Solutions = () => {
             </div>
             <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
               <h1 className="text-[25px] md:text-4xl font-bold">
-                Reuse of Rain Water
+                Reuse of Rainwater
               </h1>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-base">
-                Reuse of Rainwater is the key benefactor towards the securing
-                and abnormal state usage of Water Resources.<br></br>
-                <br></br> We have a solid nearness in Designing, Implementation
-                and Management of such activities. Our center organizations are
-                held up by administrations for Rainwater Harvesting and Ground
-                Water Management, broad Research and Development.
+                Reuse of rainwater is the key benefactor towards securing and
+                abnormally using water resources.<br></br>
+                <br></br> We have a solid nearness in the design,
+                implementation, and management of such activities. Our center
+                organizations are held up by administrations for rainwater
+                harvesting and groundwater management and broad research and
+                development.
               </p>
             </div>
           </div>
@@ -116,25 +119,27 @@ const Solutions = () => {
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-base">
                 Water bodies are like life in Indian culture. This is a standout
-                among the best revival cum holding structures, which require the
-                least venture and gives the most noteworthy return. At{" "}
+                among the best revival-cum-holding structures, which require the
+                least venture and give the most noteworthy return. At{" "}
                 <Link
-                  href={"https://www.inrainconstruction.com/"}
+                  target="_blank"
+                  href={"https://www.inrainconstruction.com/about_icpl"}
                   className="text-sky-500 hover:text-green-500"
                 >
                   ICPL
                 </Link>{" "}
-                we utilize most trend-setting innovation to protect water assets
-                in their unique state. We work past to make the lakes look
-                great.
+                we utilize the most trend-setting innovation to protect water
+                assets in their unique state. We work past to make the lakes
+                look great.
                 <br></br>
-                <br></br> Our work incorporates purifying, creation and the
+                <br></br> Our work incorporates purification, creation, and the
                 board of lakes securely following every single required
-                guideline and rules of the government. In order to maintain a
+                guideline and rule of the government. In order to maintain a
                 standard, each water body needs to undergo certain processes
-                like desalting, water augmentation, bio-remediation,
-                decentralization, visual attraction and monitoring. We make sure
-                that the entire process is professionally and smoothly managed.
+                like desalting, water augmentation, bioremediation,
+                decentralization, visual attraction, and monitoring. We make
+                sure that the entire process is professionally and smoothly
+                managed.
               </p>
             </div>
             <div className="md:w-[30%]">
@@ -177,21 +182,19 @@ const Solutions = () => {
                 >
                   Rainwater Harvesting
                 </Link>{" "}
-                Recharge will be water that starts amid precipitation occasions
-                in light of the fact that impenetrable surfaces (parking areas,
-                streets, structures, compacted soil) don’t enable downpour to
-                penetrate into the ground, and more spillover is created than in
-                undeveloped conditions.<br></br>
-                <br></br> Rainwater Harvesting Recharge the board additionally
-                adds to network well-being and money-related hazards for the
-                executives by decreasing the danger of urban flooding and
-                disintegration.{" "}
-                <bold className="text-green-700 font-semibold">
-                  InRain<sup>®</sup>
-                </bold>{" "}
-                Construction Pvt. Ltd. helps you to reduce mains water
-                dependence by strong structural design through a low maintenance
-                structure.
+                recharge involves capturing rainwater that would otherwise run
+                off impermeable surfaces like roads, parking lots, rooftops, and
+                compacted soil. These surfaces prevent rain from seeping into
+                the ground, leading to higher runoff compared to natural,
+                undeveloped areas.<br></br>
+                <br></br> Effective rainwater recharge not only helps restore
+                groundwater levels but also plays a crucial role in reducing the
+                risks of urban flooding and soil erosion. At{" "}
+                <bold className="text-green-700 font-semibold">InRain®</bold>{" "}
+                Construction Pvt. Ltd., we design durable, low-maintenance
+                rainwater harvesting systems that help reduce dependence on
+                municipal water supplies—promoting both environmental and
+                financial sustainability for your community.
               </p>
             </div>
           </div>

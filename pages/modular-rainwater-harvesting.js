@@ -87,7 +87,7 @@ const Service3 = () => {
               >
                 Modular Rainwater Harvesting
               </Link>{" "}
-              Technologies to store or recharge the groundwater in order to
+              technologies to store or recharge the groundwater in order to
               realize the needs of an enriched tomorrow with abundant water
               resources in place.
             </p>
@@ -95,11 +95,11 @@ const Service3 = () => {
             <ul className="list-disc m-5 font-semibold text-[17px] text-justify md:text-lg">
               <li>Polymer as strong as metal.</li>
               <li>Load bearing and top surface utilization.</li>
-              <li>Time saving in installation.</li>
-              <li>Accident free.</li>
-              <li>Less maintenance cost than civil pit.</li>
+              <li>Time-saving during installation.</li>
+              <li>Accident-free.</li>
+              <li>Less maintenance cost than a civil pit.</li>
               <li>Maintenance time and resource utilization.</li>
-              <li>Alteration and re-use advantage.</li>
+              <li>Alteration and reuse advantage.</li>
               <li>Cost advantage.</li>
             </ul>
             <p className="text-[17px] text-justify md:text-lg mt-3">
@@ -131,8 +131,8 @@ const Service3 = () => {
 
             <ol className="list-decimal m-5 font-semibold text-[17px] text-justify md:text-lg">
               <li>
-                The eco-friendly and economical solution as a polymer can be
-                recycled or reused.
+                The eco-friendly and economical solution is that a polymer can
+                be recycled or reused.
               </li>
               <li>
                 It ensures excellent filtration as the percolation tank remains
@@ -143,22 +143,22 @@ const Service3 = () => {
                 underground to ensure no easy access to the water tank.
               </li>
               <li>
-                Cost Saving on Maintenance: Low or almost no maintenance
-                compared to traditional rainwater harvesting system.
+                Cost Savings on Maintenance: Low or almost no maintenance
+                compared to traditional rainwater harvesting systems.
               </li>
               <li>Higher recharge capacity as water comes from five sides.</li>
-              <li>Co-polymer based modules have a high lifespan.</li>
+              <li>Co-polymer-based modules have a high lifespan.</li>
               <li>
-                Portability is one of the main properties of these co-polymer
-                based stackable modules, as these modules can be easily shifted
-                and installed at different locations.
+                Portability is one of the main properties of these
+                copolymer-based stackable modules, as these modules can be
+                easily shifted and installed at different locations.
               </li>
             </ol>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              The modular Rainwater Harvesting method helps in restoring and
+              The modular rainwater harvesting method helps in restoring and
               reusing the rainwater within your budget. It allows you to
-              contribute to your social and environmental cause without
+              contribute to your social and environmental causes without
               compromising on your budget and space.
             </p>
           </div>
@@ -196,36 +196,36 @@ const Service3 = () => {
               </p>
               <ul className="list-disc text-[18px] mt-2 md:text-lg">
                 <li>
-                  <bold className="font-semibold">Strong & Durable</bold> –
-                  High-quality co-polymer that offers the strength of metal
+                  <bold className="font-semibold">Strong & Durable</bold> —
+                  High-quality co-polymer that offers the strength of metal.
                 </li>
                 <li>
-                  <bold className="font-semibold">Quick Installation</bold> –
-                  Saves time and manpower with simple modular setup
+                  <bold className="font-semibold">Quick Installation</bold> —
+                  Saves time and workforce with simple modular setup.
                 </li>
                 <li>
-                  <bold className="font-semibold">Safe & Accident-Free</bold> –
-                  Underground systems reduce hazards and keep water secure
+                  <bold className="font-semibold">Safe & Accident-Free</bold> —
+                  Underground systems reduce hazards and keep water secure.
                 </li>
                 <li>
-                  <bold className="font-semibold">Low Maintenance</bold> – No
-                  algae, no rust, and barely any upkeep needed
+                  <bold className="font-semibold">Low Maintenance</bold> — No
+                  algae, no rust, and barely any upkeep needed.
                 </li>
                 <li>
-                  <bold className="font-semibold">Cost-Efficient</bold> – Lower
-                  cost than conventional concrete systems
+                  <bold className="font-semibold">Cost-Efficient</bold> — Lower
+                  cost than conventional concrete systems.
                 </li>
                 <li>
                   <bold className="font-semibold">Reusable & Relocatable</bold>{" "}
-                  – Can be easily moved and reused as per future requirements
+                  — Can be easily moved and reused as per future requirements.
                 </li>
                 <li>
-                  <bold className="font-semibold">Efficient Filtration</bold> –
-                  Geo-textile covered percolation tanks ensure clean recharge
+                  <bold className="font-semibold">Efficient Filtration</bold> —
+                  Geo-textile covered percolation tanks ensure clean recharge.
                 </li>
                 <li>
-                  <bold className="font-semibold">Maximized Recharge</bold> –
-                  Water enters from five sides for higher infiltration
+                  <bold className="font-semibold">Maximized Recharge</bold> —
+                  Water enters from five sides for higher infiltration.
                 </li>
               </ul>
             </div>
@@ -238,15 +238,15 @@ const Service3 = () => {
         >
           <p className="text-[17px] text-justify md:text-lg mt-3 p-5">
             Precious land over the modular tank is not wasted, since it is a
-            load bearing structure and can bear tons of loads thereby making the
-            whole system truly economical as compared with the case of having
-            civil pit. 95% of the capacity of tank is usable as compared to only
-            50-55% usability in case of civil pit. No Risk of accidents as no
-            one can fall into this kind of tank whereas having a RCC Civil tank
-            is highly accident prone. Easy removable and transportable to any
-            other location which is not possible in case of civil pit. Holding /
-            Recharge Capacity begins from 1 Cubic Meter to any imaginable Size
-            within significantly lesser time.
+            load-bearing structure and can bear tons of loads, thereby making
+            the whole system truly economical as compared with the case of
+            having a civil pit. 95% of the capacity of the tank is usable as
+            compared to only 50-55% usability in the case of a civil pit. There is no risk of
+            accidents, as no one can fall into this kind of tank, whereas having an
+            RCC civil tank is highly accident-prone. Easily removable and
+            transportable to any other location, which is not possible in the case of
+            a civil pit. Holding/Recharge Capacity begins from 1 cubic meter to
+            any imaginable size within significantly less time.
           </p>
         </div>
       </div>

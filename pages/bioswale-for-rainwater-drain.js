@@ -18,12 +18,10 @@ const Service10 = () => {
     "https://www.inrainconstruction.com/bioswale-for-rainwater-drain";
   const keyword =
     "Bioswale Rainwater Drain, Why Choose Bioswales, Stormwater Management, Rainwater Harvesting Solutions, Water Conservation Techniques, Groundwater Recharge, Erosion Control Methods, Sustainable Water Management, Urban Green Infrastructure, Bioswale Installation Services, Inrain Construction Pvt. Ltd";
-  const ogTitle =
-    "Bioswale for Rainwater Drain | Why Choose Bioswales?";
+  const ogTitle = "Bioswale for Rainwater Drain | Why Choose Bioswales?";
   const ogDescription =
     "Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens.";
-  const twittertitle =
-    "Bioswale for Rainwater Drain | Why Choose Bioswales?";
+  const twittertitle = "Bioswale for Rainwater Drain | Why Choose Bioswales?";
   const twitterdescription =
     "Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens.";
 
@@ -79,20 +77,20 @@ const Service10 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              Inrain Construction Pvt. Ltd is leading a socio-economic cause by
+              InRain Construction Pvt. Ltd. is leading a socio-economic cause by
               helping people effectively utilize rainwater. We offer various
               solutions for rainwater conservation and management. Rainwater
-              harvesting is a need of the modern-day world and it needs to be
-              practised to save our fast-declining natural ground resources.
+              harvesting is a need of the modern-day world, and it needs to be
+              practiced to save our fast-declining natural ground resources.
               Bioswale is one of the popular methods in water conservation and
-              management. After rain stormwater runoff if not managed carefully,
-              can do some serious damage, can damage public property & private
-              property, can cause erosion, pollute lake water, and creates water
-              logging that can lead to an infestation that can spread diseases.{" "}
+              management. After rain, stormwater runoff, if not managed
+              carefully, can do some serious damage, can damage public property
+              & private property, can cause erosion, pollute lake water, and
+              creates water logging that can lead to an infestation that can
+              spread diseases. <br></br>
               <br></br>
-              <br></br>
-              At Inrain Construction Pvt. Ltd. we help in creating bioswale for
-              rainwater drain. Bioswale is an excellent solution for{" "}
+              At InRain Construction Pvt. Ltd., we help in creating bioswales
+              for rainwater drainage. Bioswale is an excellent solution for{" "}
               <Link
                 href={
                   "https://www.inrainconstruction.com/storm-water-recharge-and-management"
@@ -102,29 +100,29 @@ const Service10 = () => {
                 managing stormwater runoff.
               </Link>{" "}
               Since it uses green plants for filtration and management of water
-              conservation through a channel, bioswale looks very pleasing to
-              the eyes. The stormwater runoff gets conveyed through a slopped
-              channel helping in removing pollutants in the water. Plants and
-              species used in bioswale depend on the climate and the size of the
-              place.
+              conservation through a channel, a bioswale looks very pleasing to
+              the eyes. The stormwater runoff gets conveyed through a sloped
+              channel, helping to remove pollutants from the water. Plants and
+              species used in bioswales depend on the climate and the size of
+              the place.
               <br></br>
               <br></br>
               Bioswale is an excellent solution for new-age residential
-              societies and industries. Not only it helps in managing the excess
-              water flow after the rain but also helps in recharging groundwater
-              and with improved greenery at the location. These are designed in
-              such a way that helps in reducing the stormwater runoff of
-              velocity which not only helps in cleaning the water before
+              societies and industries. Not only does it help in managing the
+              excess water flow after the rain but it also helps in recharging
+              groundwater and with improved greenery at the location. These are
+              designed in such a way that they help in reducing the stormwater
+              runoff velocity which not only helps in cleaning the water before
               infiltration but also helps in avoiding soil erosion.
               <br></br>
               <br></br>Bioswales can easily be installed in modern
-              infrastructure, some of the popular areas where bioswales are used
-              are parking lots, near the sidewalks, kids' parks, streets and
-              green open areas. Bioswale installation requires soil testing as
+              infrastructure. Some of the popular areas where bioswales are used
+              are parking lots, near the sidewalks, kids' parks, streets, and
+              green open areas. Bioswale installation requires soil testing, as
               it has to meet the required infiltration rate before it can be
-              installed. Inrain Construction Pvt. Ltd. with its advanced
-              technology and the professional team helps in providing an
-              end-to-end solution from consultation, and{" "}
+              installed. InRain Construction Pvt. Ltd., with its advanced
+              technology and professional team, helps in providing an end-to-end
+              solution from consultation and{" "}
               <Link
                 href={
                   "https://www.inrainconstruction.com/rainwater-harvesting-installation-company"
@@ -155,7 +153,9 @@ const Service10 = () => {
                 not only manage excess rainwater but also support groundwater
                 recharge and enhance the green cover of the space.
               </p>
-              <p className="text-[18px] md:text-lg mt-4 font-semibold">These systems are especially useful in areas like:</p>
+              <p className="text-[18px] md:text-lg mt-4 font-semibold">
+                These systems are especially useful in areas like
+              </p>
               <ul className="list-disc list-inside font-semibold text-[18px] md:text-lg">
                 <li>Parking lots</li>
                 <li>Roadside edges and sidewalks</li>

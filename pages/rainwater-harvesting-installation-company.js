@@ -81,7 +81,7 @@ const Service12 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              The premier rainwater harvesting Installation Company dedicated to
+              The premier rainwater harvesting installation company dedicated to
               sustainable water solutions. We specialize in designing,
               installing, and maintaining state-of-the-art rainwater harvesting
               systems for residential, commercial, and industrial properties in
@@ -103,7 +103,7 @@ const Service12 = () => {
               <li>
                 <bold className="font-semibold">Expertise and Experience:</bold>{" "}
                 With years of experience in rainwater harvesting, our team of
-                experts possesses unparalleled knowledge and expertise in
+                experts possess unparalleled knowledge and expertise in
                 designing and implementing efficient systems. We stay up to date
                 with the latest industry trends and technologies to ensure that
                 our clients receive the most innovative and effective solutions.
@@ -120,7 +120,7 @@ const Service12 = () => {
               </li>
               <li>
                 <bold className="font-semibold">Comprehensive Services:</bold>{" "}
-                From initial consultation to system installation and on-going
+                From initial consultation to system installation and ongoing
                 maintenance, we provide end-to-end services to make your
                 rainwater harvesting journey seamless and hassle-free. Our
                 dedicated team handles all aspects of the project, including
@@ -139,7 +139,7 @@ const Service12 = () => {
                 <bold className="font-semibold">
                   Environmental Stewardship:
                 </bold>{" "}
-                At Inrain Construction Pvt Ltd, we are committed to
+                At InRain Construction Pvt. Ltd., we are committed to
                 environmental stewardship and sustainability. Rainwater
                 harvesting is an eco-conscious choice that allows you to reduce
                 your carbon footprint and contribute to water conservation
@@ -167,8 +167,8 @@ const Service12 = () => {
                 of the economic advantages associated with rainwater harvesting.
               </li>
               <li>
-                <bold className="font-semibold">Local Expertise:</bold> As local
-                rainwater harvesting Installation Company, we possess a deep
+                <bold className="font-semibold">Local Expertise:</bold> As a local
+                rainwater harvesting installation company, we possess a deep
                 understanding of the unique challenges and opportunities present
                 in Delhi. We are well-versed in local regulations, building
                 codes, and weather patterns, allowing us to design and install
@@ -178,8 +178,8 @@ const Service12 = () => {
                 <bold className="font-semibold">Customer Satisfaction:</bold> We
                 prioritize customer satisfaction and strive to exceed your
                 expectations in every aspect of our service. From prompt
-                communication and transparent pricing to meticulous workmanship
-                and on-going support, we aim to provide you with an exceptional
+                communication and transparent pricing to meticulous expertise
+                and ongoing support, we aim to provide you with an exceptional
                 experience from start to finish. Our dedicated customer support
                 team is always available to address any questions or concerns
                 you may have.

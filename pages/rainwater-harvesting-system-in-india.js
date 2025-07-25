@@ -8,6 +8,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { LocationWise } from "@/components/constant";
 import Head from "next/head";
+import ICPLCertification from "@/components/ICPL/ICPLCertification";
+import ICPLSolutions from "@/components/ICPL/ICPLSolutions";
 
 const RWHSinIndia = () => {
   const title =
@@ -67,15 +69,15 @@ const RWHSinIndia = () => {
             Rainwater Harvesting System in India
           </h1>
           <p className="text-[16px] md:text-[18px] mt-5 text-justify text-gray-700 md:pl-28 md:pr-28">
-            India facing rising of water scarcity, mostly the urban areas facing
-            scarcity of water. Speedy development, because of fast development
-            of cities. Led to a decline in the availability of freshwater
-            resources because of the inconsistent monsoon patterns. They are
-            which hang on deeply on centralized water systems. Some time they
-            faced with increasing gab between demand of water and supply of
-            water. The rainwater harvesting system is become is bridge for
-            filling gap tapping into the natural rainfall and providing another
-            source of water for uses.
+            India is facing rising of water scarcity, mostly the urban areas
+            facing scarcity of water. Speedy development because of the fast
+            development of cities. This led to a decline in the availability of
+            freshwater resources because of the inconsistent monsoon patterns.
+            They are the ones who hang on deeply to centralized water systems.
+            Sometimes they are faced with an increasing gap between the demand
+            for water and the supply of water. The rainwater harvesting system
+            is becoming a bridge for filling the gap by tapping into the natural
+            rainfall and providing another source of water for uses.
             <br /> The{" "}
             <Link
               href={
@@ -85,14 +87,15 @@ const RWHSinIndia = () => {
             >
               Rainwater Harvesting System
             </Link>{" "}
-            work is collecting water from rooftop and hard surface area, after
-            that it will be store in storage tank under the ground or recharge
-            the groundwater level. That is the best for increasing ground water
-            level and it is also eco-friendly. Rainwater harvesting system
-            prepared in low cost. This is cost friendly for both urban areas and
-            rural areas. Rainwater harvesting is the way to reduce dependence on
-            municipal water source and save are traditional water sources. This
-            best way to solve water problems in India.
+            works by collecting water from rooftops and hard surface areas;
+            after that, it will be stored in storage tanks under the ground or
+            recharge the groundwater level. That is the best for increasing the
+            groundwater level, and it is also eco-friendly. A rainwater
+            harvesting system is prepared at a low cost. This is cost-friendly
+            for both urban and rural areas. Rainwater harvesting is the way to
+            reduce dependence on municipal water sources and save our
+            traditional water sources. This is the best way to solve water
+            problems in India.
           </p>
         </div>
 
@@ -104,7 +107,7 @@ const RWHSinIndia = () => {
             <p className="text-[16px] md:text-[18px] mt-5 text-justify text-gray-700">
               The solution is aimed at solving the problem of the water crisis
               in cities where there is a lack of space for storage of water and
-              huge populations, leading to a shortage of water supply and
+              immense populations, leading to a shortage of water supply and
               excessive withdrawal of water from the ground.
             </p>
           </div>
@@ -154,6 +157,8 @@ const RWHSinIndia = () => {
           ))}
         </div>
       </div>
+      <ICPLSolutions />
+      <ICPLCertification />
       <Footer />
     </>
   );

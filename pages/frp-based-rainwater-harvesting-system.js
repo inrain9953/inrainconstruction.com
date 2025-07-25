@@ -90,15 +90,15 @@ const Service4 = () => {
               time-consuming and costly solution with high maintenance. Advanced
               technology has quickly started to revolutionize the industry with
               its cost-effective solutions. We at Inrain Construction Pvt. Ltd.
-              offer a wide range of solutions which are not only cost-effective
+              offer a wide range of solutions that are not only cost-effective
               but also environmentally friendly. <br></br>
               <br></br>
               The FRP-based rainwater harvesting system offers an economic
-              solution to modern-day economic requirements. Fiber Reinforced
-              Polymer-based systems are becoming popular very fast as they are
+              solution to modern-day economic requirements. Fiber-reinforced
+              polymer-based systems are becoming popular very fast as they are
               not only lightweight but also very sturdy. Its ability to resist
-              corrosion and ultraviolet makes it the material of choice for
-              rainwater harvesting systems.
+              corrosion and ultraviolet light makes it the material of choice
+              for rainwater harvesting systems.
               <br></br>
               <br></br>
               In the traditional methods of{" "}
@@ -108,18 +108,18 @@ const Service4 = () => {
                 }
                 className="text-green-600 hover:text-sky-500 font-semibold"
               >
-                Rainwater Harvesting System,
-              </Link>{" "}
-              installation cost and maintenance are the major challenges. As it
-              was using concrete or metal for constructing the water collection
+                Rainwater Harvesting Systems
+              </Link>
+              , installation cost and maintenance are the major challenges. As
+              it was using concrete or metal to construct the water collection
               tank or pit. These pits are not only expensive but also have high
-              maintenance as they are prone to corrosion and developing
-              infestation. However, Fiber Reinforced Polymers, on the other
+              maintenance, as they are prone to corrosion and developing
+              infestations. However, fiber-reinforced polymers, on the other
               hand, are very durable and low on maintenance. This has increased
               the interest of people in FRP-based rainwater harvesting systems.
               <br></br>
               <br></br>
-              These FRP based rainwater harvesting systems are portable and
+              These FRP-based rainwater harvesting systems are portable and
               recyclable, which helps in reducing waste and cost. Thereby
               encouraging more and more people to adopt sustainable water
               conservation methods and reduce their dependency on mains water
@@ -131,7 +131,7 @@ const Service4 = () => {
               contribute to the environment positively, the FRP-based rainwater
               harvesting system is a perfect choice. So, whether you are
               building a new house, looking to reduce the water bill of your
-              business or trying to include sustainable water conservation in
+              business, or trying to include sustainable water conservation in
               your renovated accommodation, FRP-based rainwater harvesting
               offers the complete solution.
             </p>
@@ -154,32 +154,32 @@ const Service4 = () => {
               <ul className="list-disc m-5 text-[18px] md:text-lg">
                 <li>
                   <bold className="font-semibold">Durable & Long-Lasting</bold>{" "}
-                  – Built to withstand corrosion, weather, and time
+                  — Built to withstand corrosion, weather, and time.
                 </li>
                 <li>
                   <bold className="font-semibold">Lightweight & Portable</bold>{" "}
-                  – Easy to transport, install, and reposition
+                  — Easy to transport, install, and reposition.
                 </li>
                 <li>
-                  <bold className="font-semibold">Low Maintenance</bold> – No
-                  rusting, no cracking, no constant repairs
+                  <bold className="font-semibold">Low Maintenance</bold> — No
+                  rusting, no cracking, no constant repairs.
                 </li>
                 <li>
                   <bold className="font-semibold">
                     Recyclable & Eco-Friendly
                   </bold>{" "}
-                  – Promotes sustainability with minimal waste
+                  — Promotes sustainability with minimal waste.
                 </li>
                 <li>
-                  <bold className="font-semibold">Cost-Effective</bold> – Saves
-                  on both installation and long-term maintenance costs
+                  <bold className="font-semibold">Cost-Effective</bold> — Saves
+                  on both installation and long-term maintenance costs.
                 </li>
                 <li>
                   <bold className="font-semibold">
                     Ideal for Residential & Commercial Use
                   </bold>{" "}
-                  – Perfect for homes, housing societies, schools, offices, and
-                  industries
+                  — Perfect for homes, housing societies, schools, offices, and
+                  industries.
                 </li>
               </ul>
             </div>

@@ -1,33 +1,11 @@
 import React from "react";
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
-import {
-  individualBLog9,
-  sideBlogs1,
-  sideBlogs10,
-  sideBlogs11,
-  sideBlogs2,
-  sideBlogs3,
-  sideBlogs4,
-  sideBlogs5,
-  sideBlogs6,
-  sideBlogs7,
-  sideBlogs8,
-} from "@/components/Blogs/Blog";
+import { individualBLog9 } from "@/components/Blogs/Blog";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import blog7img from "../../public/blog7.webp";
-import blog1img from "../../public/blog1.jpg";
-import blog2img from "../../public/blog2.jpg";
-import blog3img from "../../public/blog3.jpg";
-import blog4img from "../../public/blog4.jpg";
-import blog5img from "../../public/blog5.jpg";
-import blog6img from "../../public/blog6.jpeg";
-import blog8img from "../../public/blog8.jpg";
 import blog9img from "../../public/blog9.jpg";
-import blog10img from "../../public/blog10.png";
-import blog11img from "@/public/blog11.jpg";
 import PopUp from "@/components/popup";
 import SideBlogs from "@/components/Blogs/SideBlogs";
 
@@ -133,16 +111,16 @@ const Blog9 = () => {
                       >
                         Modular Rainwater Harvesting system
                       </Link>{" "}
-                      are designed to collect rainwater right where is
-                      waterfalls. This system very flexible and also
-                      customizable to fit your place, this is suitable for both
-                      rural areas or business places. This is mange storm water
+                      are designed to collect rainwater right where it
+                      waterfalls. This system is very flexible and also
+                      customizable to fit your place. This is suitable for both
+                      rural areas and business places. This manages stormwater
                       overflow efficiently. These systems help to keep our
-                      waterways clean and less risk of overflowing. The modular
-                      rainwater harvesting system cost is lower than other. The
-                      storing and capturing this water, they significantly
-                      reduce the amount of overflow that goes into drainage
-                      system.
+                      waterways clean and less at risk of overflowing. The
+                      modular rainwater harvesting system cost is lower than
+                      others. By storing and capturing this water, they
+                      significantly reduce the amount of overflow that goes into
+                      the drainage system.
                     </p>
                   </div>
 
@@ -155,12 +133,12 @@ const Blog9 = () => {
                       <br />
                       <br />
                       Collecting the rainwater for things like toilet flushing,
-                      gardening and irrigation, this system can expressively
+                      gardening, and irrigation, this system can expressively
                       reduce the pressure on usual supplies of fresh water. This
                       modular rainwater harvesting system is especially
-                      important for those areas they have limited resources of
-                      fresh water. When we are using rainwater for irrigation it
-                      is actually improve soil health and also decrease the need
+                      important for those areas that have limited resources of
+                      fresh water. When we use rainwater for irrigation, it
+                      actually improves soil health and also decreases the need
                       for chemical composts for crops. Rainwater is generally
                       cleaner and free from the pollutants found in preserved
                       municipal water supplies.
@@ -175,16 +153,16 @@ const Blog9 = () => {
                       {blog.BlogSubHeadingContent3}
                       <br />
                       <br />
-                      The modular rainwater harvesting systems is designed to
-                      encourage this soaking process. The system allowing the
+                      The modular rainwater harvesting system is designed to
+                      encourage this soaking process. The system allows the
                       collected rainwater to seep back into the ground soil.
-                      This is not only helps to refill local aquifers but this
-                      is also beneficial for our surrounding environment. When
-                      will ground water levels increase it makes to healthy
-                      plant life and better habitats for the wildlife. Also
-                      improving groundwater recharge can good result in cleaner
-                      water in wells, which very important for both people and
-                      the environment.
+                      This not only helps to refill local aquifers, but this is
+                      also beneficial for our surrounding environment. When
+                      groundwater levels increase, it leads to healthy plant
+                      life and better habitats for the wildlife. Also, improving
+                      groundwater recharge can result in cleaner water in
+                      wells, which is very important for both people and the
+                      environment.
                     </p>
                   </div>
 

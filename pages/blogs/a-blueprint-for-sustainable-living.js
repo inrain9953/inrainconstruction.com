@@ -5,28 +5,6 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import { Footer } from "@/components/Footer/Footer";
 import PopUp from "@/components/popup";
 import Link from "next/link";
-import {
-  sideBlogs1,
-  sideBlogs10,
-  sideBlogs2,
-  sideBlogs3,
-  sideBlogs4,
-  sideBlogs5,
-  sideBlogs6,
-  sideBlogs7,
-  sideBlogs8,
-  sideBlogs9,
-} from "@/components/Blogs/Blog";
-import blog1img from "../../public/blog1.jpg";
-import blog2img from "../../public/blog2.jpg";
-import blog3img from "../../public/blog3.jpg";
-import blog4img from "../../public/blog4.jpg";
-import blog5img from "../../public/blog5.jpg";
-import blog6img from "../../public/blog6.jpeg";
-import blog7img from "../../public/blog7.webp";
-import blog8img from "../../public/blog8.jpg";
-import blog9img from "../../public/blog9.jpg";
-import blog10img from "../../public/blog10.png";
 import Head from "next/head";
 import SideBlogs from "@/components/Blogs/SideBlogs";
 
@@ -130,11 +108,12 @@ const Blog11 = () => {
                 </h2>
                 <p className="md:text-[20px]">
                   Central to the home's design is a robust rainwater harvesting
-                  system. A substantial 30,000-litre underground sump collects
-                  rainwater from the rooftop, accumulating approximately 1.3
-                  lakh litres annually. This harvested water caters to various
-                  household needs, including drinking, cooking, and washing,
-                  significantly reducing dependence on external water sources.
+                  system. A substantial 30,000-liter underground sump collects
+                  rainwater from the rooftop, accumulating approximately
+                  1,30,000 liters annually. This harvested water caters to
+                  various household needs, including drinking, cooking, and
+                  washing, significantly reducing dependence on external water
+                  sources.
                 </p>
               </div>
               <div className="mt-5">

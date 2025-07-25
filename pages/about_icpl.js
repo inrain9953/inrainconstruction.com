@@ -62,7 +62,7 @@ const AboutICPL = () => {
       <div className="container mx-auto bg-gray-50 md:pl-10 md:pr-10 md:gap-5 p-4 md:grid md:grid-cols-2 justify-center items-center">
         <div className="text-justify">
           <h1 className="md:text-[30px] text-[20px] font-semibold">
-            About ICPL : InRain® Construction Pvt. Ltd.
+            About ICPL: InRain® Construction Pvt. Ltd.
           </h1>
           <p className="md:text-[17px] text-[15px] drop-shadow-lg md:mt-2">
             InRain® Construction Pvt. Ltd. (ICPL) is the{" "}
@@ -89,10 +89,10 @@ const AboutICPL = () => {
               target="_blank"
               href="https://www.inrainconstruction.com/co-polymer-based-rainwater-harvesting-system"
             >
-              Polymer based Rainwater Harvesting Systems
+              Polymer-based Rainwater Harvesting Systems
             </a>{" "}
-            have conserved billions of gallons of rainwater across residential,
-            commercial, and public sectors . Our flagship solution is a
+            have conserved billions of gallons of rainwater across the residential,
+            commercial, and public sectors. Our flagship solution is a
             cutting-edge, scientific RWH system featuring a world‑first
             load‑bearing modular structure capable of supporting over
             50 t/m²—ideal for high-traffic areas like roads and parking lots.
@@ -104,7 +104,7 @@ const AboutICPL = () => {
             <bold className="text-green-500 text-[18px] md:text-[20px] font-semibold">
               “Make in India”
             </bold>{" "}
-            initiative . ICPL’s rainwater harvesting technology—based on
+            initiative. ICPL’s rainwater harvesting technology—based on
             German-inspired modular designs—offers quick installation, high
             water-use efficiency (95% usable capacity vs. ~55% in traditional
             civil pits), and low maintenance requirements.

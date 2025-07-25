@@ -94,7 +94,7 @@ const About = () => {
           </div>
           <div className="mt-5 text-left">
             <p className="text-2xl md:text-4xl font-semibold md:mb-5">
-              Who We Are
+              Who We Are ?
             </p>
             <a
               target="_blank"
@@ -104,14 +104,14 @@ const About = () => {
               ICPL
             </a>
             <p className="text-[17px] text-justify md:text-lg md:mt-2">
-              We are a subsidiary company of “Singh & Singh Construction”, a
+              We are a subsidiary company of “Singh & Singh Construction,” a
               firm with a strong presence in India with more than 30 years of
               experience in the civil construction industry. We have completed
-              numerous Projects for Bridges Construction under PWD/RWD,
+              numerous projects for Bridges Construction under PWD/RWD, the
               Irrigation & Flood Control Department, Bihar Rajya Pool Nirman
-              Nigam Etc. & Constructed Roads Under Pradhan Mantri Gramin Sadark
-              Yojana, and continued to undertake construction projects for more
-              than 30 years.
+              Nigam etc., and constructed roads under Pradhan Mantri Gramin
+              Sadark Yojana, and continued to undertake construction projects
+              for more than 30 years.
             </p>
           </div>
         </div>
@@ -124,7 +124,7 @@ const About = () => {
           </div>
           <div className="text-center m-5 shadow-2xl p-5 rounded-lg md:mt-7 md:w-[75%] md:m-auto">
             <h2 className="text-2xl font-semibold m-3 md:text-3xl md:font-bold md:mt-5 md:mb-3">
-              InRain<sup>®</sup> Construction Pvt. Ltd.(ICPL)
+              InRain® Construction Pvt. Ltd.(ICPL)
             </h2>
             <p className="text-[17px] text-justify md:text-lg">
               <Link
@@ -136,13 +136,13 @@ const About = () => {
                 Modular Rainwater Harvesting
               </Link>{" "}
               Company with a strong presence all over India. The company has
-              successfully installed more than 4000 Rainwater Harvesting
-              Projects to enable it to conserve billions of gallons of water
-              from wasting. We are privileged to introduce the next level
-              Scientific Rainwater Harvesting Technology with more than 50
-              Ton/Sq.M load bearing structure for the 1st time in the world. We
-              are proud partners of the Make in India Movement, having our own
-              products and manufacturing.
+              successfully installed more than 4000+ rainwater harvesting
+              projects to enable it to conserve billions of gallons of water
+              from being wasted. We are privileged to introduce the next level
+              of scientific rainwater harvesting technology with more than a
+              50-ton/sq. m load-bearing structure for the first time in the
+              world. We are proud partners of the "Make in India" movement,
+              having our own products and manufacturing.
             </p>
           </div>
         </div>
@@ -233,7 +233,7 @@ const About = () => {
                   <p className="text-[17px] mt-2 ml-5">
                     At{" "}
                     <bold className="text-green-700 font-semibold">
-                      InRain<sup>®</sup>
+                      InRain®
                     </bold>{" "}
                     , we are engaged in making RWH System based on the modular
                     technology.
@@ -256,10 +256,10 @@ const About = () => {
             className="m-5 md:flex md:justify-center md:gap-10"
           >
             <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
-              Monolithic Structures are quick to install and the same turns into
-              a Rainwater Holding Tank below the ground within no time as
-              compared to making a Civil Pit. Modular tanks can be used for
-              holding/reusing the rainwater, recharging the water table and
+              Monolithic structures are quick to install, and the same turns
+              into a rainwater holding tank below the ground in no time as
+              compared to making a civil pit. Modular tanks can be used for
+              holding/reusing the rainwater, recharging the water table, and
               percolating.
             </p>
             <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
@@ -275,22 +275,22 @@ const About = () => {
               >
                 ICPL R&D team
               </a>
-              , clean rain water is trapped in the tank, thereby saving on
-              maintenance parts tremendously as it is very easy & handy with
-              negligible maintenance cost as compared to conventional systems.
+              , clean rainwater is trapped in the tank, thereby saving on
+              maintenance parts tremendously, as it is very easy & handy with
+              negligible maintenance costs as compared to conventional systems.
               Precious land over the modular tank is not wasted, since it is a
-              load bearing structure and can bear tons of loads, thereby making
+              load-bearing structure and can bear tons of loads, thereby making
               the whole system truly economical as compared with the case of
               having a civil pit.
             </p>
             <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
-              95% of the capacity of the tank is usable as compared to only
-              50-55% usability in case of civil pit. No risk of accidents as no
-              one can fall into this kind of tank, whereas having an RCC Civil
-              tank is highly accident-prone. Removable and transportable to any
-              other location, which is not possible in the case of a civil pit.
-              Holding/Recharge Capacity begins from 1 Cubic Meter to any
-              imaginable size within significantly less time.
+              95% of the capacity of the tank is usable, as compared to only
+              50-55% usability in the case of a civil pit. There is no risk of
+              accidents, as no one can fall into this kind of tank, whereas
+              having an RCC civil tank is highly accident-prone. Removable and
+              transportable to any other location, which is not possible in the
+              case of a civil pit. Holding/recharge capacity begins from 1 cubic
+              meter to any imaginable size within significantly less time.
             </p>
           </div>
         </div>
@@ -310,7 +310,7 @@ const About = () => {
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
                   <p className="text-[16px]">
-                    Concur on the Project Value and plan the Project Controls to
+                    Concur on the project value and plan the project controls to
                     be connected.
                   </p>
                 </div>
@@ -354,7 +354,7 @@ const About = () => {
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
                   <p className="text-[16px]">
-                    Issue a hole examination dependent on the review.
+                    Issue a whole examination dependent on the review.
                   </p>
                 </div>
                 <div className="flex gap-2">
@@ -385,11 +385,11 @@ const About = () => {
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">Mobilize site based resources.</p>
+                  <p className="text-[16px]">Mobilize site-based resources.</p>
                 </div>
                 <div className="flex gap-2">
                   <ArrowRightAltIcon />
-                  <p className="text-[16px]">Monitor, control and report.</p>
+                  <p className="text-[16px]">Monitor, control, and report.</p>
                 </div>
               </div>
             </div>
@@ -416,10 +416,10 @@ const About = () => {
                 Installation & Project Development
               </h4>
               <p className="text-[17px] text-justify mt-3">
-                Our team has done more than 4000+ Rainwater Harvesting Projects
-                accross the India. Technology we are using has globally been
-                adopted in advanced country like Germany, Japan, Singapore, USA
-                and Australia.
+                Our team has done more than 4000+ rainwater harvesting projects
+                across India. The technology we are using has been globally
+                adopted in advanced countries like Germany, Japan, Singapore,
+                the USA, and Australia.
               </p>
             </div>
           </div>

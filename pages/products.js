@@ -13,7 +13,8 @@ import PopUp from "@/components/popup";
 import Link from "next/link";
 
 const Products = () => {
-  const title = "Rainwater Harvesting Modules | Rainwater Harvesting Filtration System | InRain® Construction Pvt. Ltd.";
+  const title =
+    "Rainwater Harvesting Modules | Rainwater Harvesting Filtration System | InRain® Construction Pvt. Ltd.";
   const desc =
     "Are you looking for Rainwater Harvesting products? InRain® construction provides high quality product Rainwater Harvesting Filtration, Rainwater Harvesting Modules, Pressure Regulator Valve (PRV), Self Cleaning Mesh Filter System, EPDM Liner, Geo Textile.";
   const keyword =
@@ -67,10 +68,10 @@ const Products = () => {
             unoptimized={true}
           />
           <div className="absolute top-1/2 md:left-56 left-20 transform -translate-x-1/2 -translate-y-1/2">
-            <p className="text-lg md:text-4xl font-semibold">
-              Our Products
+            <p className="text-lg md:text-4xl font-semibold">Our Products</p>
+            <p className="text-xs md:text-lg text-green-500">
+              <Link href={"/"}>Home</Link> / Our Products
             </p>
-            <p className="text-xs md:text-lg text-green-500"><Link href={"/"}>Home</Link> / Our Products</p>
           </div>
         </div>
 
@@ -85,11 +86,11 @@ const Products = () => {
               </h1>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
-                A Rainwater Harvesting Module permeation storm water tank intended for filtration,
-                transitory maintenance and ensuing release. It is utilized in
-                waste channel applications. It is developed utilizing our
-                restrictive plastic infusion shaped boards. We provide a range
-                of modules as per the requirements.
+                A rainwater harvesting module is a permeation stormwater tank
+                intended for filtration, transitory maintenance, and ensuing
+                release. It is utilized in waste channel applications. It is
+                developed utilizing our restrictive plastic infusion-shaped
+                boards. We provide a range of modules as per the requirements.
               </p>
             </div>
             <div className="md:w-[30%]">
@@ -124,14 +125,13 @@ const Products = () => {
               </h2>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
-                The channel is utilized to expel suspended contamination from
-                water gathered over rooftop. A channel unit is a chamber loaded
-                up with sifting media to expel garbage and soil from water.{" "}
-                <bold className="text-green-700 font-semibold">
-                  InRain<sup>®</sup>
-                </bold>{" "}
-                Construction provide wide a range of filtration units required
-                for domestic water harvesting.
+                The filter channel is used to remove suspended impurities from
+                the rainwater collected on rooftops. It consists of a chamber
+                filled with filtering media that helps trap dust, debris, and
+                other particles. At InRain® Construction, we offer a variety of
+                high-quality filtration units designed for domestic and
+                industrial rainwater harvesting needs, ensuring clean and safe
+                water collection.
               </p>
             </div>
           </div>
@@ -149,7 +149,7 @@ const Products = () => {
                 </bold>{" "}
                 Construction's Ethylene Propylene Diene Monomer (EPDM) Liner has
                 been figured to be perfect for amphibian life. It is suggested
-                that clients test EPDM Liner before using it to guarantee it is
+                that clients test the EPDM liner before using it to guarantee it is
                 good for the particular oceanic species for the proposed
                 application.
               </p>
@@ -184,11 +184,11 @@ const Products = () => {
               <h3 className="text-[25px] md:text-4xl font-bold">Geo Textile</h3>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
-                Geo-Textile is essentially a porous texture which, when utilized
+                Geo-textile is essentially a porous texture that, when utilized
                 in relationship with soil, can isolate, channel, strengthen,
                 secure, or channel. Ordinarily produced using polypropylene or
                 polyester, geotextile textures come in three fundamental
-                structures: woven, needle punched or heat reinforced.
+                structures: woven, needle-punched, or heat-reinforced.
               </p>
             </div>
           </div>
@@ -203,7 +203,7 @@ const Products = () => {
               </h4>
               <hr className="m-2"></hr>
               <p className="text-[17px] text-justify md:text-lg">
-                1. Time saving - The filtration process is not interrupted
+                1. Time-saving — The filtration process is not interrupted
                 during the cleaning cycle, eliminating the need to shut down the
                 irrigation system.<br></br>2. Low water and energy consumption.
                 <br></br>3. Sturdy and durable.<br></br>4. Easy installation and

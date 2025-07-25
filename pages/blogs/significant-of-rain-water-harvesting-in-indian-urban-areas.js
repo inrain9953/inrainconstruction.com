@@ -1,43 +1,21 @@
 import React from "react";
 import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
-import {
-  individualBLog10,
-  sideBlogs1,
-  sideBlogs11,
-  sideBlogs2,
-  sideBlogs3,
-  sideBlogs4,
-  sideBlogs5,
-  sideBlogs6,
-  sideBlogs7,
-  sideBlogs8,
-  sideBlogs9,
-} from "@/components/Blogs/Blog";
+import { individualBLog10 } from "@/components/Blogs/Blog";
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import blog7img from "../../public/blog7.webp";
-import blog1img from "../../public/blog1.jpg";
-import blog2img from "../../public/blog2.jpg";
-import blog3img from "../../public/blog3.jpg";
-import blog4img from "../../public/blog4.jpg";
-import blog5img from "../../public/blog5.jpg";
-import blog6img from "../../public/blog6.jpeg";
-import blog8img from "../../public/blog8.jpg";
-import blog9img from "../../public/blog9.jpg";
 import blog10img from "../../public/blog10.png";
-import blog11img from "@/public/blog11.jpg";
 import PopUp from "@/components/popup";
 import SideBlogs from "@/components/Blogs/SideBlogs";
 
 const Blog10 = () => {
   const title =
-    "Significant of Rain Water Harvesting in Indian Urban Areas | Groundwater Recharge | InRain® Construction Pvt. Ltd.";
+    "Significance of Rainwater Harvesting in Indian Urban Areas | Groundwater Recharge | InRain® Construction Pvt. Ltd.";
   const desc =
     "Discover the significance of Rainwater Harvesting Systems in Indian urban areas. Learn how this sustainable solution addresses water scarcity, groundwater recharge, flood reduction, and climate change adaptation while promoting eco-friendly urban development.";
   const keyword =
-    "Rain Water Harvesting in Indian Urban Areas, groundwater recharge, Indian urban areas, Rainwater Harvesting System, water scarcity solutions, urban flood reduction, cost-effective water supply, conservation of freshwater, sustainable urban development, rainwater management, climate change adaptation, eco-friendly water solutions";
+    "Rainwater Harvesting in Indian Urban Areas, groundwater recharge, Indian urban areas, Rainwater Harvesting System, water scarcity solutions, urban flood reduction, cost-effective water supply, conservation of freshwater, sustainable urban development, rainwater management, climate change adaptation, eco-friendly water solutions";
   const canonical =
     "https://www.inrainconstruction.com/blogs/significant-of-rain-water-harvesting-in-indian-urban-areas";
   const ogDescription =
@@ -45,9 +23,9 @@ const Blog10 = () => {
   const ogUrl =
     "https://www.inrainconstruction.com/blogs/significant-of-rain-water-harvesting-in-indian-urban-areas";
   const ogTitle =
-    "Significant of Rain Water Harvesting in Indian Urban Areas | Groundwater Recharge | InRain® Construction Pvt. Ltd.";
+    "Significance of Rainwater Harvesting in Indian Urban Areas | Groundwater Recharge | InRain® Construction Pvt. Ltd.";
   const twittertitle =
-    "Significant of Rain Water Harvesting in Indian Urban Areas | Groundwater Recharge | InRain® Construction Pvt. Ltd.";
+    "Significance of Rainwater Harvesting in Indian Urban Areas | Groundwater Recharge | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Discover the significance of Rainwater Harvesting Systems in Indian urban areas. Learn how this sustainable solution addresses water scarcity, groundwater recharge, flood reduction, and climate change adaptation while promoting eco-friendly urban development.";
 
@@ -88,7 +66,7 @@ const Blog10 = () => {
           <Link className="hover:text-white" href={"/blogs"}>
             Blogs
           </Link>{" "}
-          / Significant of Rain Water Harvesting in Indian Urban Areas
+          / Significance of Rainwater Harvesting in Indian Urban Areas
         </span>
       </div>
       <div className="m-5 md:m-10">
@@ -117,12 +95,12 @@ const Blog10 = () => {
                         className="text-blue-500 hover:text-green-500 font-semibold"
                         href={"https://www.inrainconstruction.com/"}
                       >
-                        Rainwater Harvesting System
+                        Rainwater Harvesting Systems
                       </Link>{" "}
-                      is of extreme importance for Indian urban areas due to
-                      quite a lot of pressing environmental, social and economic
-                      challenges. the key reasons why rainwater harvesting is
-                      significant given bellow:
+                      are of extreme importance for Indian urban areas due to
+                      quite a lot of pressing environmental, social, and
+                      economic challenges. The key reasons why rainwater
+                      harvesting is significant are given below:
                     </p>
                   </div>
 
@@ -149,15 +127,15 @@ const Blog10 = () => {
                         Groundwater
                       </Link>{" "}
                       is the primary source of drinking water for the urban
-                      areas. Day by day pollution is increasing and over
-                      withdraw are the main reason of down the ground water
+                      areas. Day by day, pollution is increasing, and
+                      over-withdrawal are the main reason for the groundwater
                       levels.{" "}
                       <bold className="font-semibold">
-                        The rainwater harvesting system is a best way to
-                        recharge the ground water and increase the water level,
+                        The rainwater harvesting system is the best way to
+                        recharge the groundwater and increase the water level.
                       </bold>{" "}
-                      this is very helpful to collect the water and save the
-                      natural resources of water.
+                      This is very helpful for collecting water and saving
+                      natural sources of water.
                     </p>
                   </div>
 
@@ -175,6 +153,7 @@ const Blog10 = () => {
                       {blog.BlogSubHeading4}
                     </h3>
                     <p className="text-[17px] text-justify md:text-lg mt-3 mb-3">
+                      A{" "}
                       <Link
                         className="text-blue-500 hover:text-green-500 font-semibold"
                         href={
@@ -183,20 +162,19 @@ const Blog10 = () => {
                       >
                         Rainwater Harvesting System
                       </Link>{" "}
-                      is an affordable method for businesses and houses in the
-                      urban areas for secure a dependable water source.
-                      Rainwater harvesting system is cheaper than large
-                      maintenance and centralized water supply system for our
-                      building.{" "}
+                      is an affordable method for businesses and houses in urban
+                      areas to secure a dependable water source. A rainwater
+                      harvesting system is cheaper than a large maintenance and
+                      centralized water supply system for our building.{" "}
                       <bold className="font-semibold">
-                        The rainwater harvesting system is one-time investment.
-                        For making a rainwater system we required a storage
-                        tank, pipes, filter etc.
+                        The rainwater harvesting system is a one-time
+                        investment. For making a rainwater harvesting system, we
+                        required a storage tank, pipes, a filter, etc.
                       </bold>{" "}
-                      The water will be collecting from rainwater harvesting
-                      system is very clean and good for health, and cleaner than
-                      from rivers and lakes, river’s water is polluted and
-                      harmful for health. Thus the reason is the{" "}
+                      The water collected from the rainwater harvesting system
+                      is very clean and good for health and cleaner than water
+                      from rivers and lakes. River water is polluted and harmful
+                      to your health. Thus, the reason is that the{" "}
                       <bold className="font-semibold">
                         rainwater harvesting system is a cost-effective option
                         for urban areas.
@@ -218,7 +196,7 @@ const Blog10 = () => {
                       areas where resources for getting water are limited or
                       endangered. By using rain water harvesting system, they
                       are save water for their next generation. So that our
-                      coming generation also get fresh water.
+                      coming generation will also get fresh water.
                     </p>
                   </div>
 

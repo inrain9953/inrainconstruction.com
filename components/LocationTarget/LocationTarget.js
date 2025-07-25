@@ -10,6 +10,8 @@ import tech4 from "../../public/Technology/main4.jpg";
 import tech5 from "../../public/Technology/main5.jpg";
 import newTech from "../../public/new-technology-based-rainwater.jpg";
 import Link from "next/link";
+import ICPLProducts from "../ICPL/ICPLProducts";
+import ICPLCertification from "../ICPL/ICPLCertification";
 
 const LocationTarget = ({ location }) => {
   return (
@@ -25,20 +27,20 @@ const LocationTarget = ({ location }) => {
           <hr className="m-2 md:m-5"></hr>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">InRain®</bold>{" "}
-            Construction Private Limited, is a top provider of{" "}
+            Construction Private Limited is a top provider of{" "}
             <bold className="text-black font-semibold">
-              Rainwater Harvesting System in {location}
+              Rainwater Harvesting Systems in {location}
             </bold>
             , offering advanced solutions for water management, with a proven
             track record. We have successfully installed over{" "}
             <bold className="text-black font-semibold">
-              1000 Rainwater Harvesting (RWH)
+              4000+ Rainwater Harvesting (RWH)
             </bold>{" "}
-            systems for prestigious clients including{" "}
+            systems for prestigious clients, including{" "}
             <bold className="text-black font-semibold">
               TATA | Hindustan Unilever | PepsiCo | Larsen & Toubro | CPWD |
               NHAI | Smart Cities | Fujita | Denso | Supreme Court Judges
-              Bungalows and many more.
+              Bungalows, and many more.
             </bold>{" "}
             Our focus on innovation, quality, and sustainability has established
             us as a trusted industry leader. <br></br>
@@ -233,15 +235,15 @@ const LocationTarget = ({ location }) => {
                 Rainwater Harvesting System in {location}
               </Link>
             </bold>{" "}
-            intended for filtration, transitory maintenance and ensuing release.
-            It is utilized in waste channel application. It is developed
-            utilizing our restrictive plastic infusion shaped boards. We provide
-            all range of modules as per the requirements.
+            intended for filtration, transitory maintenance, and ensuing
+            release. It is utilized in waste channel applications. It is
+            developed utilizing our restrictive plastic infusion-shaped boards.
+            We provide a full range of modules as per the requirements.
             <br />
-            The utilizing of Rainwater Harvesting System in {location} is a
-            Sustainable and Renewable Energy Source which is also known as Green
-            Energy. It is a natural source of water which is clean and pure. We
-            need to save the water for future use. We provide the best quality
+            The utilization of the Rainwater Harvesting System in {location} is a
+            sustainable and renewable energy source which is also known as green
+            energy. It is a natural source of water which is clean and pure. We
+            need to save water for future use. We provide the best quality
             products at a reasonable price for{" "}
             <bold className="text-black font-semibold">
               Rooftop Rainwater Harvesting System in {location}.
@@ -263,6 +265,9 @@ const LocationTarget = ({ location }) => {
           />
         </div>
       </div>
+
+      <ICPLProducts />
+      <ICPLCertification />
     </>
   );
 };

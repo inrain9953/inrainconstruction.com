@@ -72,7 +72,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
       <div className="m-5 md:flex md:justify-center md:gap-2 md:items-center md:m-10 mt-20">
         <div data-aos="zoom-in-up" className="md:content-center">
           <p className="text-center font-semibold text-xs text-green-500">
-            InRain<sup>®</sup> Construction Pvt Ltd.
+            InRain® Construction Pvt Ltd.
           </p>
           <h1 className="text-center text-2xl font-semibold md:text-4xl">
             Polymer based Rainwater Harvesting System in {location}
@@ -80,32 +80,32 @@ const PolymerTypeLocationTarget = ({ location }) => {
           <hr className="m-2 md:m-5"></hr>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">InRain®</bold>{" "}
-            Construction Private Limited, is a top provider of{" "}
+            Construction Private Limited is a top provider of{" "}
             <bold className="text-black font-semibold">
               <Link
                 href="https://www.inrainconstruction.com/co-polymer-based-rainwater-harvesting-system"
                 target="_blank"
                 className="text-green-500 hover:text-sky-500"
               >
-                Polymer based Rainwater Harvesting System
+                Polymer-based Rainwater Harvesting Systems
               </Link>{" "}
               in {location}
             </bold>
-            , offering advanced solutions for water management, with a proven
+            , offering advanced solutions for water management with a proven
             track record. We have successfully installed over{" "}
             <bold className="text-black font-semibold">
-              1000 Rainwater Harvesting (RWH)
+              4000+ Rainwater Harvesting (RWH)
             </bold>{" "}
-            systems for prestigious clients including{" "}
+            systems for prestigious clients, including{" "}
             <bold className="text-black font-semibold">
               TATA | Hindustan Unilever | PepsiCo | Larsen & Toubro | CPWD |
               NHAI | Smart Cities | Fujita | Denso | Supreme Court Judges
-              Bungalows and many more.
+              Bungalows, and many more.
             </bold>{" "}
             Our focus on innovation, quality, and sustainability has established
             us as a trusted industry leader. <br></br>
             <br></br>
-            We also provides{" "}
+            We also provide{" "}
             <bold className="text-green-500 hover:text-sky-500 font-semibold">
               <Link
                 href={
@@ -211,7 +211,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
           At <bold className="text-green-500 font-semibold">InRain®</bold>, we
           specialize in creating{" "}
           <bold className="text-black font-semibold">
-            Polymer based Rainwater Harvesting (RWH) pits in {location}
+            Polymer-based Rainwater Harvesting (RWH) pits in {location}
           </bold>
           , utilizing advanced technology inspired by German engineering. Unlike
           traditional rainwater harvesting systems, our approach stands out for
@@ -276,7 +276,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
       <div className="m-5 md:flex md:justify-center md:items-center md:m-10 mt-20">
         <div data-aos="zoom-in-up" className="md:content-center">
           <p className="text-center font-semibold text-md text-green-500 md:text-lg">
-            InRain<sup>®</sup> Construction Pvt Ltd.
+            InRain® Construction Pvt Ltd.
           </p>
           <h3 className="text-center text-2xl font-semibold md:text-4xl">
             Rooftop Rainwater Harvesting System in {location}
@@ -296,12 +296,12 @@ const PolymerTypeLocationTarget = ({ location }) => {
               </Link>{" "}
               in {location}
             </bold>{" "}
-            intended for filtration, transitory maintenance and ensuing release.
-            It is utilized in waste channel application. It is developed
-            utilizing our restrictive plastic infusion shaped boards. We provide
-            all range of modules as per the requirements.
+            intended for filtration, transitory maintenance, and ensuing
+            release. It is utilized in waste channel applications. It is
+            developed utilizing our restrictive plastic infusion-shaped boards.
+            We provide a full range of modules as per the requirements.
             <br />
-            The utilizing of{" "}
+            The utilization of the{" "}
             <Link
               className="text-green-500 hover:text-sky-500 font-semibold"
               href={`https://www.inrainconstruction.com/modular-rainwater-harvesting-system-in-${location.toLowerCase()}`}
@@ -309,10 +309,10 @@ const PolymerTypeLocationTarget = ({ location }) => {
             >
               Rainwater Harvesting System in {location}
             </Link>{" "}
-            is a Sustainable and Renewable Energy Source which is also known as
-            Green Energy. It is a natural source of water which is clean and
-            pure. We need to save the water for future use. We provide the best
-            quality products at a reasonable price for{" "}
+            is a sustainable and renewable energy source which is also known as
+            green energy. It is a natural source of water which is clean and
+            pure. We need to save water for future use. We provide the best
+            quality products at a reasonable price for the{" "}
             <bold className="text-black font-semibold">
               Rooftop Rainwater Harvesting System in {location}.
             </bold>

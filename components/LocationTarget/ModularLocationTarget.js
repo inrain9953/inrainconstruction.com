@@ -12,6 +12,8 @@ import tech4 from "../../public/Technology/main4.jpg";
 import tech5 from "../../public/Technology/main5.jpg";
 import newTech from "../../public/new-technology-based-rainwater.jpg";
 import Link from "next/link";
+import ICPLCertification from "../ICPL/ICPLCertification";
+import ICPLProducts from "../ICPL/ICPLProducts";
 
 const TEXTS = [
   "Modular Rainwater Harvesting",
@@ -72,7 +74,7 @@ const ModularLocationTarget = ({ location }) => {
       <div className="m-5 md:flex md:justify-center md:gap-2 md:items-center md:m-10 mt-20">
         <div data-aos="zoom-in-up" className="md:content-center">
           <p className="text-center font-semibold text-xs text-green-500">
-            InRain<sup>®</sup> Construction Pvt Ltd.
+            InRain® Construction Pvt Ltd.
           </p>
           <h1 className="text-center text-2xl font-semibold md:text-4xl">
             Modular Rainwater Harvesting System in {location}
@@ -80,7 +82,7 @@ const ModularLocationTarget = ({ location }) => {
           <hr className="m-2 md:m-5"></hr>
           <p className="text-md text-justify text-gray-500 drop-shadow-md md:text-xl">
             <bold className="text-green-500 font-semibold">InRain®</bold>{" "}
-            Construction Private Limited, is proud to be one of the leading
+            Construction Private Limited is proud to be one of the leading
             providers of{" "}
             <bold className="text-black font-semibold">
               <Link
@@ -88,9 +90,9 @@ const ModularLocationTarget = ({ location }) => {
                 target="_blank"
                 className="text-green-500 hover:text-sky-500"
               >
-                Modular Rainwater Harvesting System
+                Modular Rainwater Harvesting Systems
               </Link>{" "}
-              in {location}
+              in {location},
             </bold>{" "}
             delivering smart, efficient, and sustainable water management
             solutions. With a strong track record and deep industry expertise,
@@ -104,7 +106,7 @@ const ModularLocationTarget = ({ location }) => {
             <bold className="text-black font-semibold">
               TATA | Hindustan Unilever | PepsiCo | Larsen & Toubro | CPWD |
               NHAI | Smart Cities | Fujita | Denso and even Supreme Court
-              Judges’ Bungalows
+              Judges’ Bungalows,
             </bold>{" "}
             a testament to the quality and trust we bring to every project.
             <br></br>
@@ -119,7 +121,7 @@ const ModularLocationTarget = ({ location }) => {
                 }
                 target="_blank"
               >
-                Polymer based Rainwater Harvesting Solutions,
+                Polymer-based Rainwater Harvesting Solutions,
               </Link>
             </bold>{" "}
             helping our clients manage their water resources more efficiently
@@ -302,18 +304,18 @@ const ModularLocationTarget = ({ location }) => {
               </Link>{" "}
               in {location}
             </bold>{" "}
-            intended for filtration, transitory maintenance and ensuing release.
-            It is utilized in waste channel application. It is developed
-            utilizing our restrictive plastic infusion shaped boards. We provide
-            all range of modules as per the requirements.
+            intended for filtration, transitory maintenance, and ensuing
+            release. It is utilized in waste channel applications. It is
+            developed utilizing our restrictive plastic infusion-shaped boards.
+            We provide a full range of modules as per the requirements.
             <br />
-            The utilizing of Rainwater Harvesting System in {location} is a
-            Sustainable and Renewable Energy Source which is also known as Green
-            Energy. It is a natural source of water which is clean and pure. We
-            need to save the water for future use. We provide the best quality
-            products at a reasonable price for{" "}
+            The utilization of the Rainwater Harvesting System in {location} is
+            a sustainable and renewable energy source, which is also known as
+            green energy. It is a natural source of water which is clean and
+            pure. We need to save water for future use. We provide the best
+            quality products at a reasonable price for{" "}
             <bold className="text-black font-semibold">
-              Rooftop Rainwater Harvesting System in {location}.
+              Rooftop Rainwater Harvesting Systems in {location}.
             </bold>
           </p>
         </div>
@@ -332,6 +334,9 @@ const ModularLocationTarget = ({ location }) => {
           />
         </div>
       </div>
+
+      <ICPLProducts />
+      <ICPLCertification />
     </>
   );
 };

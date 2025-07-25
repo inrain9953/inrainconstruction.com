@@ -81,7 +81,7 @@ const Service6 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              Inrain Construction Pvt. Ltd. is committed to providing
+              InRain Construction Pvt. Ltd. is committed to providing
               sustainable water conservation solutions for housing and
               commercial requirements. Industries these days require{" "}
               <Link
@@ -97,35 +97,35 @@ const Service6 = () => {
               supplies during periods of drought or water scarcity. <br></br>
               <br></br>
               InRain Construction Pvt. Ltd. a water conservation and water
-              management company offer groundwater recharge system for
+              management company, offers groundwater recharge systems for
               industries. Naturally, the groundwater gets recharged when water
               infiltrates through the top surface and reaches the water table.
               An optimized infiltration level is required for natural
-              groundwater recharge. The other way is preserving wetlands,
-              streams, and lakes is to ensure that they continue to recharge
-              groundwater as it can seep through the surface to reach down the
-              water table.
+              groundwater recharge. The other way to preserve wetlands, streams,
+              and lakes is to ensure that they continue to recharge groundwater
+              as it can seep through the surface to reach down to the water
+              table.
               <br></br>
               <br></br>
-              Surface Recharge and Artificial Recharge are the other way that
+              Surface recharge and artificial recharge are the other ways that
               can help the industry to reduce their water bills by helping them
-              to recharge the groundwater. In surface recharge methods the
+              to recharge the groundwater. In surface recharge methods, the
               rainwater is collected and directed through a recharge pit where
               it can be percolated to the ground. This method is highly
-              successful in areas which receive a decent amount of rain in a
+              successful in areas that receive a decent amount of rain in a
               year.
               <br></br>
-              <br></br>Artificial Recharge methods for industrial groundwater
-              recharge can be used effectively in the areas which have a
-              scarcity of surface water. This methodology requires to use of
-              artificial structures to infuse water directly into the ground to
-              recharge groundwater. With help of artificial wells, water storage
-              tanks and water infiltration galleries ground can easily be
+              <br></br>Artificial recharge methods for industrial groundwater
+              recharge can be used effectively in areas that have a scarcity of
+              surface water. This methodology requires the use of artificial
+              structures to infuse water directly into the ground to recharge
+              groundwater. With the help of artificial wells, water storage
+              tanks, and water infiltration galleries, the ground can easily be
               recharged.
               <br></br>
               <br></br>
               Recharging groundwater will not only have a positive impact on the
-              environment but also it will help in reducing the water bills of
+              environment, but it will also help in reducing the water bills of
               the industry. It will significantly reduce their reliance on the
               main supply.
             </p>
@@ -143,7 +143,7 @@ const Service6 = () => {
             </Link>
             <div className="m-2 mt-5 text-justify">
               <h2 className="text-xl font-semibold">
-                Why Industries Need Groundwater Recharge?
+                Why Industries Need Groundwater Recharge
               </h2>
               <p className="text-[17px] md:text-[17px] mt-1">
                 Industries consume vast amounts of water for operations, and
@@ -158,31 +158,26 @@ const Service6 = () => {
               </h3>
               <ul className="list-disc text-[17px] md:text-lg">
                 <li>
-                  <bold className="font-semibold">Lower Water Bills</bold> –
-                  Reduce reliance on expensive municipal or tanker water
+                  <bold className="font-semibold">Lower Water Bills</bold> —
+                  Reduce reliance on expensive municipal or tanker water.
                 </li>
                 <li>
                   <bold className="font-semibold">
                     Year-Round Water Availability
                   </bold>{" "}
-                  – Maintain consistent water supply even in drought
+                  — Maintain consistent water supply even in drought.
                 </li>
                 <li>
-                  <bold className="font-semibold">Eco-Friendly</bold> –
-                  Support natural ecosystems and improve groundwater
-                  sustainability
+                  <bold className="font-semibold">Eco-Friendly</bold> — Support
+                  natural ecosystems and improve groundwater sustainability.
                 </li>
                 <li>
-                  <bold className="font-semibold">
-                    Regulatory Compliance
-                  </bold>{" "}
-                  – Meet environmental norms and water management standards
+                  <bold className="font-semibold">Regulatory Compliance</bold> —
+                  Meet environmental norms and water management standards.
                 </li>
                 <li>
-                  <bold className="font-semibold">
-                    Long-Term Cost Savings
-                  </bold>{" "}
-                  – A one-time investment with lasting returns
+                  <bold className="font-semibold">Long-Term Cost Savings</bold>{" "}
+                  — A one-time investment with lasting returns.
                 </li>
               </ul>
             </div>

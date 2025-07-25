@@ -80,11 +80,11 @@ const Service13 = () => {
             </h1>
 
             <p className="text-[17px] text-justify md:text-lg mt-3">
-              we are passionate about sustainable water management and the
+              We are passionate about sustainable water management and the
               preservation of our precious natural resources. As a leading
               rainwater harvesting manufacturer in Delhi, we specialize in
               providing innovative solutions for residential, commercial, and
-              industrial applications. With the growing concerns over water
+              industrial applications. With growing concerns over water
               scarcity and the need for efficient{" "}
               <Link
                 href={
@@ -107,7 +107,7 @@ const Service13 = () => {
               <li>
                 <bold className="font-semibold">Expertise and Experience:</bold>{" "}
                 With years of experience in rainwater harvesting, our team of
-                experts possesses unparalleled knowledge and expertise in
+                experts possess unparalleled knowledge and expertise in
                 designing and implementing efficient systems. We stay up to date
                 with the latest industry trends and technologies to ensure that
                 our clients receive the most innovative and effective solutions.
@@ -124,7 +124,7 @@ const Service13 = () => {
               </li>
               <li>
                 <bold className="font-semibold">Comprehensive Services:</bold>{" "}
-                From initial consultation to system installation and on-going
+                From initial consultation to system installation and ongoing
                 maintenance, we provide end-to-end services to make your
                 rainwater harvesting journey seamless and hassle-free. Our
                 dedicated team handles all aspects of the project, including
@@ -170,9 +170,9 @@ const Service13 = () => {
                 investment.
               </li>
               <li>
-                <bold className="font-semibold">On-going Support:</bold> Our
+                <bold className="font-semibold">Ongoing Support:</bold> Our
                 commitment to our clients extends beyond the installation phase.
-                We provide on-going support, including system maintenance,
+                We provide ongoing support, including system maintenance,
                 repairs, and upgrades. Our goal is to ensure the optimal
                 performance and longevity of your rainwater harvesting system.
               </li>
