@@ -9,7 +9,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import PinterestIcon from "@mui/icons-material/Pinterest";
 import Link from "next/link";
 import Image from "next/image";
 import { clientSlider1, clientSlider2 } from "../constant";
@@ -17,7 +16,7 @@ import { clientSlider1, clientSlider2 } from "../constant";
 export const Footer = () => {
   return (
     <>
-      <div>
+      <div className="">
         <div className="mt-20">
           <p
             data-aos="zoom-in-up"
@@ -33,7 +32,7 @@ export const Footer = () => {
               <div className="m-7 w-36 md:m-10 carouselAnimation md:w-44">
                 <Image
                   alt="img"
-                  className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl"
+                  className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl rounded-lg"
                   src={items.img}
                   loading="eager"
                   priority={true}
@@ -54,7 +53,7 @@ export const Footer = () => {
               <div className="m-7 w-36 md:m-10 carouselAnimation md:w-44">
                 <Image
                   alt="img"
-                  className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl"
+                  className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl rounded-lg"
                   src={items.img}
                   loading="eager"
                   priority={true}
