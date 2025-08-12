@@ -58,7 +58,7 @@ const Products = () => {
       <Navbar />
       <PopUp />
       <div>
-        <div data-aos="zoom-in-up" className="pt-5 pb-5 md:pt-0">
+        <div data-aos="fade-up" className="pt-5 pb-5 md:pt-0">
           <Image
             className="w-full relative"
             src={banner}
@@ -77,7 +77,7 @@ const Products = () => {
 
         <div className="m-5 md:grid md:grid-cols-1">
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
             <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
@@ -106,7 +106,7 @@ const Products = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
             <div className="md:w-[30%]">
@@ -137,7 +137,7 @@ const Products = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
             <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">
@@ -167,7 +167,7 @@ const Products = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
             <div className="md:w-[30%]">
@@ -194,7 +194,7 @@ const Products = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
           >
             <div className="text-left mt-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%]">

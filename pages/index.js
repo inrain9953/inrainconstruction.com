@@ -6,6 +6,8 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import Head from "next/head";
 import PopUp from "@/components/popup";
 import React from "react";
+import ICPLCertification from "@/components/ICPL/ICPLCertification";
+import ICPLSolutions from "@/components/ICPL/ICPLSolutions";
 
 export default function Home() {
   const title =
@@ -56,6 +58,8 @@ export default function Home() {
       <Hero1 />
       <Hero2 />
       <Hero3 />
+      <ICPLSolutions />
+      <ICPLCertification />
       <Footer />
     </>
   );

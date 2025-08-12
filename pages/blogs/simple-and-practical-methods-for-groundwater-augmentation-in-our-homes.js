@@ -65,7 +65,7 @@ const Blog12 = () => {
       <Navbar />
       <PopUp />
       <div className="md:flex md:justify-center md:items-start">
-        <div data-aos="zoom-in-up" className="m-5 block md:hidden md:mt-10 shadow-xl shadow-sky-200 rounded-2xl">
+        <div data-aos="fade-up" className="m-5 block md:hidden md:mt-10 shadow-xl shadow-sky-200 rounded-2xl">
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Simple and Practical Methods of Artificial Recharge for Ground
@@ -116,7 +116,7 @@ const Blog12 = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-5 m-5 mt-10">
-          <div data-aos="zoom-in-up">
+          <div data-aos="fade-up">
             <h1 className="text-[20px] md:text-[30px] font-semibold text-justify text-sky-500">
               Simple and Practical Methods for Groundwater Augmentation in Our
               Homes
@@ -147,7 +147,7 @@ const Blog12 = () => {
             </p>
           </div>
 
-          <div data-aos="zoom-in-up">
+          <div data-aos="fade-up">
             <h2 className="text-[20px] md:text-[30px] font-semibold text-justify text-sky-500">
               Why Should We Care About Artificial Recharge?
             </h2>
@@ -186,7 +186,7 @@ const Blog12 = () => {
             </p>
           </div>
 
-          <div data-aos="zoom-in-up">
+          <div data-aos="fade-up">
             <h3 className="text-[20px] md:text-[30px] font-semibold text-justify text-sky-500">
               Easy Ways to Recharge Groundwater at Home
             </h3>
@@ -312,7 +312,7 @@ const Blog12 = () => {
             </div>
           </div>
 
-          <div data-aos="zoom-in-up">
+          <div data-aos="fade-up">
             <h4 className="text-[20px] md:text-[30px] font-semibold text-justify text-sky-500">
               Things to Keep in Mind Before You Start
             </h4>
@@ -352,7 +352,7 @@ const Blog12 = () => {
             </ul>
           </div>
 
-          <div data-aos="zoom-in-up">
+          <div data-aos="fade-up">
             <p className="text-[16px] md:text-[18px] mt-2 text-gray-700 text-justify">
               By embracing these practical steps, each of us can become a part
               of the solution, actively contributing to saving water and
@@ -367,7 +367,7 @@ const Blog12 = () => {
           </div>
         </div>
 
-        <div data-aos="zoom-in-up" className="m-5 hidden md:block md:mt-10 rounded-2xl">
+        <div data-aos="fade-up" className="m-5 hidden md:block md:mt-10 rounded-2xl">
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
               Simple and Practical Methods of Artificial Recharge for Ground

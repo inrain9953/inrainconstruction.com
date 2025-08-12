@@ -62,7 +62,7 @@ const RWHSinIndia = () => {
       <Hero1 />
       <div className="mt-10">
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="text-center m-5 md:ml-52 md:mr-52"
         >
           <h1 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
@@ -99,7 +99,7 @@ const RWHSinIndia = () => {
           </p>
         </div>
 
-        <div data-aos="zoom-in-up" className="md:grid md:grid-cols-3 md:m-12">
+        <div data-aos="fade-up" className="md:grid md:grid-cols-3 md:m-12">
           <div className="text-center m-5 mt-7">
             <p className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
               Vision
@@ -148,7 +148,7 @@ const RWHSinIndia = () => {
         <div className="md:grid md:grid-cols-6 grid grid-cols-3 p-3 md:p-5 border-2 bg-sky-200 border-black m-5">
           {LocationWise.map((items) => (
             <a
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
               className="text-center m-1 text-[14px] md:text-[17px] font-semibold hover:text-green-500"
               href={items.url}
             >

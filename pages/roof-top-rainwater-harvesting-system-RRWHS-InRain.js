@@ -57,7 +57,7 @@ const Service5 = () => {
       <Navbar />
       <PopUp />
       <div className="mt-5 md:m-10">
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-up">
           <Image
             className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service5}
@@ -75,7 +75,7 @@ const Service5 = () => {
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="zoom-in-up" className="text-left">
+          <div data-aos="fade-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
               Roof Top Rainwater Harvesting System
             </h1>
@@ -126,7 +126,7 @@ const Service5 = () => {
               in having a positive impact on the environment.
             </p>
           </div>
-          <div data-aos="zoom-in-up" className="mt-5">
+          <div data-aos="fade-up" className="mt-5">
             <Link href={"https://www.inrainconstruction.com/"}>
               <Image
                 className="w-full"

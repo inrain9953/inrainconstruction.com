@@ -12,7 +12,7 @@ const ICPLAbout = () => {
     <>
       <div>
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-5 md:m-10 md:grid md:grid-cols-2 md:gap-14 md:items-center "
         >
           <div id="icplAbout" className="md:ml-10">
@@ -43,14 +43,14 @@ const ICPLAbout = () => {
           </div>
         </div>
 
-        <div data-aos="zoom-in-up" className="mt-10 md:mt-16 ">
+        <div data-aos="fade-up" className="mt-10 md:mt-16 ">
           <div className="text-center mb-5">
             <h2 className="text-2xl font-semibold md:text-3xl md:font-bold">
               About ICPL
             </h2>
           </div>
 
-          <div data-aos="zoom-in-up" className="m-5 md:m-10">
+          <div data-aos="fade-up" className="m-5 md:m-10">
             <Image
               className="w-full rounded-xl"
               src={Service11img}
@@ -80,7 +80,7 @@ const ICPLAbout = () => {
 
         <div className="m-5 md:flex md:justify-center md:items-center md:gap-10 md:m-10">
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
           >
             <Image
@@ -95,7 +95,7 @@ const ICPLAbout = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
           >
             <Image
@@ -112,7 +112,7 @@ const ICPLAbout = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
           >
             <Image
@@ -127,7 +127,7 @@ const ICPLAbout = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
           >
             <Image
@@ -146,7 +146,7 @@ const ICPLAbout = () => {
 
         <div className="pt-5">
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="m-5 pb-5 md:flex md:justify-center md:items-center"
           >
             <div className="border-l-2 border-black md:mr-5 md:border-l-0 md:w-[30%]">
@@ -182,7 +182,7 @@ const ICPLAbout = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="m-5 md:flex md:justify-center md:gap-10"
           >
             <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg p-5 rounded-lg bg-yellow-50">
@@ -215,13 +215,13 @@ const ICPLAbout = () => {
         </div>
 
         <div>
-          <div data-aos="zoom-in-up" className="text-center m-10">
+          <div data-aos="fade-up" className="text-center m-10">
             <h3 className="text-lg font-bold text-blue-700">OUR RESEARCH</h3>
             <h2 className="text-3xl font-bold mt-3 mb-5">How We Work</h2>
           </div>
 
           <div className="md:grid md:grid-cols-3">
-            <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
+            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
                 <h2 className="text-base font-bold">STRATEGY</h2>
               </div>
@@ -252,7 +252,7 @@ const ICPLAbout = () => {
               </div>
             </div>
 
-            <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
+            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
                 <h2 className="text-base font-bold">TARGET & ASSURANCE</h2>
               </div>
@@ -285,7 +285,7 @@ const ICPLAbout = () => {
               </div>
             </div>
 
-            <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
+            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
                 <h2 className="text-base font-bold">CONTROL</h2>
               </div>
@@ -317,7 +317,7 @@ const ICPLAbout = () => {
 
         <div>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="m-5 md:flex md:justify-center md:items-center md:gap-10"
           >
             <div className="pt-10 md:w-[30%]">
@@ -340,7 +340,7 @@ const ICPLAbout = () => {
                 adopted in advanced country like Germany, Japan, Singapore, USA
                 and Australia.
               </p>
-              <div data-aos="zoom-in-up" className="text-center mt-3">
+              <div data-aos="fade-up" className="text-center mt-3">
                 <div className="text-6xl font-semibold">
                   <CountUp
                     duration={5}

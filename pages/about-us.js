@@ -62,7 +62,7 @@ const About = () => {
       <Navbar />
       <PopUp />
       <div>
-        <div data-aos="zoom-in-up" className="md:m-5 m-2 md:pt-0">
+        <div data-aos="fade-up" className="md:m-5 m-2 md:pt-0">
           <Image
             className="w-full h-28 md:h-72 rounded-xl md:shadow-2xl relative"
             src={banner}
@@ -79,7 +79,7 @@ const About = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-5 md:m-10 md:grid md:grid-cols-2 md:gap-14 md:items-center "
         >
           <div className="">
@@ -116,7 +116,7 @@ const About = () => {
           </div>
         </div>
 
-        <div data-aos="zoom-in-up" className="mt-10 md:mt-16 ">
+        <div data-aos="fade-up" className="mt-10 md:mt-16 ">
           <div className="text-center mb-5">
             <h1 className="text-2xl font-semibold md:text-3xl md:font-bold">
               About ICPL
@@ -149,7 +149,7 @@ const About = () => {
 
         <div className="m-5 md:flex md:justify-center md:items-center md:gap-10 md:m-10">
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
           >
             <Image
@@ -164,7 +164,7 @@ const About = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
           >
             <Image
@@ -181,7 +181,7 @@ const About = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
           >
             <Image
@@ -196,7 +196,7 @@ const About = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
           >
             <Image
@@ -215,7 +215,7 @@ const About = () => {
 
         <div className="pt-5">
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="m-5 pb-5 md:flex md:justify-center md:items-center"
           >
             <div className="border-l-2 border-black md:mr-5 md:border-l-0 md:w-[30%]">
@@ -252,7 +252,7 @@ const About = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="m-5 md:flex md:justify-center md:gap-10"
           >
             <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
@@ -296,13 +296,13 @@ const About = () => {
         </div>
 
         <div>
-          <div data-aos="zoom-in-up" className="text-center m-10">
+          <div data-aos="fade-up" className="text-center m-10">
             <h4 className="text-lg font-bold text-blue-700">OUR RESEARCH</h4>
             <h4 className="text-3xl font-bold mt-3 mb-5">How We Work</h4>
           </div>
 
           <div className="md:grid md:grid-cols-3">
-            <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
+            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
                 <p className="text-base font-bold">STRATEGY</p>
               </div>
@@ -333,7 +333,7 @@ const About = () => {
               </div>
             </div>
 
-            <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
+            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
                 <p className="text-base font-bold">TARGET & ASSURANCE</p>
               </div>
@@ -366,7 +366,7 @@ const About = () => {
               </div>
             </div>
 
-            <div data-aos="zoom-in-up" className="m-5 shadow-2xl rounded-md">
+            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
               <div className="bg-sky-600 text-white rounded-md p-3 text-center">
                 <p className="text-base font-bold">CONTROL</p>
               </div>
@@ -398,7 +398,7 @@ const About = () => {
 
         <div>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="m-5 md:flex md:justify-center md:items-center md:gap-10"
           >
             <div className="pt-10 md:w-[30%]">
@@ -424,7 +424,7 @@ const About = () => {
             </div>
           </div>
 
-          <div data-aos="zoom-in-up" className="text-center m-10">
+          <div data-aos="fade-up" className="text-center m-10">
             <div className="text-6xl font-semibold">
               <CountUp
                 duration={5}
@@ -443,12 +443,12 @@ const About = () => {
         </div>
 
         <div className="text-center">
-          <p data-aos="zoom-in-up" className="text-3xl font-bold">
+          <p data-aos="fade-up" className="text-3xl font-bold">
             Our Certification
           </p>
           <div className="m-5 md:grid md:grid-cols-3 md:items-center md:align-middle md:gap-10">
             <Image
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
               className="rounded-lg m-auto pb-2"
               width={400}
               src={iso1}
@@ -458,7 +458,7 @@ const About = () => {
               unoptimized={true}
             />
             <Image
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
               className="rounded-lg m-auto pb-2"
               width={400}
               src={iso2}
@@ -468,7 +468,7 @@ const About = () => {
               unoptimized={true}
             />
             <Image
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
               className="rounded-lg m-auto pb-2"
               width={400}
               src={griha}

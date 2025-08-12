@@ -60,7 +60,7 @@ const PureRain = () => {
       <Hero1 />
       <Hero2 />
       <div className="mt-5 md:m-10">
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-up">
           <Image
             className="w-full md:rounded-xl md:shadow-2xl"
             src={service11}
@@ -72,7 +72,7 @@ const PureRain = () => {
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="zoom-in-up" className="text-left">
+          <div data-aos="fade-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
               Purerain Rainwater Harvesting System
             </h1>
@@ -186,7 +186,7 @@ const PureRain = () => {
               the stored water remains clean and safe for its intended purposes.
             </p>
           </div>
-          <div data-aos="zoom-in-up" className="mt-5">
+          <div data-aos="fade-up" className="mt-5">
             <Image
               className="w-full"
               src={harvesting11}

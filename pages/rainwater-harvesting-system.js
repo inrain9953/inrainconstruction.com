@@ -92,7 +92,7 @@ const Service11 = () => {
       <Navbar />
       <PopUp />
       <div className="mt-5 md:m-10">
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-up">
           <Image
             className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service11}
@@ -132,7 +132,7 @@ const Service11 = () => {
         )}
 
         <div className="m-5 md:grid md:grid-cols-2 md:justify-center md:gap-10 md:items-start">
-          <div data-aos="zoom-in-up" className="text-left">
+          <div data-aos="fade-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
               Rainwater Harvesting System
             </h1>
@@ -355,7 +355,7 @@ const Service11 = () => {
             </form>
             <Link href={"https://www.inrainconstruction.com/"}>
               <Image
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
                 className="w-full mt-10"
                 src={harvesting11}
                 alt="Rainwater Harvesting"

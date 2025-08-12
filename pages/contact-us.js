@@ -122,7 +122,7 @@ const Contact = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div data-aos="zoom-in-up">
+      <div data-aos="fade-up">
         <div>
           <Image
             className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
@@ -190,7 +190,7 @@ const Contact = () => {
       </div>
 
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="md:flex m-10 md:justify-center md:items-center md:gap-10 md:w-[75%] md:m-auto"
       >
         <div className="hidden md:block">
@@ -236,7 +236,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div data-aos="zoom-in-up" className="mt-10 mb-10 contact-form">
+        <div data-aos="fade-up" className="mt-10 mb-10 contact-form">
           <div className="flex justify-center">
             <div className="form-card1">
               <div className="form-card2 relative">

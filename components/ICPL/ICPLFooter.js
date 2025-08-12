@@ -20,13 +20,13 @@ const ICPLFooter = () => {
       <div>
         <div className="mt-20">
           <h3
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="text-center font-bold text-2xl md:text-4xl"
           >
             Our Happy Clients
           </h3>
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="flex overflow-clip align-middle drop-shadow-2xl"
           >
             {clientSlider1.map((items) => (
@@ -47,7 +47,7 @@ const ICPLFooter = () => {
           </div>
 
           <div
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
             className="flex overflow-clip align-middle drop-shadow-2xl"
           >
             {clientSlider2.map((items) => (
@@ -73,7 +73,7 @@ const ICPLFooter = () => {
         <div className="footer-background">
           <div className="md:flex md:mr-7">
             <div
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
               className="text-left ml-7 pt-10 md:w-[25%]"
             >
               <Link href="#">
@@ -141,7 +141,7 @@ const ICPLFooter = () => {
             </div>
 
             <div
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
               className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
             >
               <h3 className="text-2xl font-semibold pb-3 m-1 text-white">
@@ -210,7 +210,7 @@ const ICPLFooter = () => {
             </div>
 
             <div
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
               className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
             >
               <Link
@@ -310,7 +310,7 @@ const ICPLFooter = () => {
             </div>
 
             <div
-              data-aos="zoom-in-up"
+              data-aos="fade-up"
               className="text-left ml-7 md:w-[25%] md:pt-10"
             >
               <h3 className="text-2xl font-semibold m-1 mb-2 text-white">

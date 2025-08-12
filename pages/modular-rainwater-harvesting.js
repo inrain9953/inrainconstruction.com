@@ -57,7 +57,7 @@ const Service3 = () => {
       <Navbar />
       <PopUp />
       <div className="mt-5 md:m-10">
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-up">
           <Image
             className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service3}
@@ -74,7 +74,7 @@ const Service3 = () => {
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="zoom-in-up" className="text-left">
+          <div data-aos="fade-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
               Modular Rainwater Harvesting
             </h1>
@@ -162,7 +162,7 @@ const Service3 = () => {
               compromising on your budget and space.
             </p>
           </div>
-          <div data-aos="zoom-in-up" className="mt-5">
+          <div data-aos="fade-up" className="mt-5">
             <Link href={"https://www.inrainconstruction.com/"}>
               <Image
                 className="w-full"
@@ -233,7 +233,7 @@ const Service3 = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-5 md:m-10 bg-sky-300 rounded-lg"
         >
           <p className="text-[17px] text-justify md:text-lg mt-3 p-5">

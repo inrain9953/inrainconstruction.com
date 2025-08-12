@@ -25,6 +25,7 @@ import img8 from "../../public/blog8.jpg";
 import img9 from "../../public/blog9.jpg";
 import img10 from "../../public/blog10.png";
 import img11 from "../../public/blog11.jpg";
+import img13 from "../../public/blog13.jpg";
 import service11 from "../../public/service11.jpg";
 import Head from "next/head";
 import Image from "next/image";
@@ -92,7 +93,7 @@ const BlogsIndex = () => {
       <div className="md:grid md:grid-cols-3 md:m-10">
         {Blog.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl"
@@ -125,7 +126,7 @@ const BlogsIndex = () => {
 
         {Blog2.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl"
@@ -158,7 +159,7 @@ const BlogsIndex = () => {
 
         {Blog3.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl"
@@ -191,7 +192,7 @@ const BlogsIndex = () => {
 
         {Blog4.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl"
@@ -224,7 +225,7 @@ const BlogsIndex = () => {
 
         {Blog5.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl"
@@ -257,7 +258,7 @@ const BlogsIndex = () => {
 
         {Blog6.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl"
@@ -290,7 +291,7 @@ const BlogsIndex = () => {
 
         {Blog7.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl h-80"
@@ -323,7 +324,7 @@ const BlogsIndex = () => {
 
         {Blog8.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl h-80"
@@ -356,7 +357,7 @@ const BlogsIndex = () => {
 
         {Blog9.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl h-80"
@@ -389,7 +390,7 @@ const BlogsIndex = () => {
 
         {Blog10.map((blog) => {
           return (
-            <div data-aos="zoom-in-up" className="m-5 mb-10">
+            <div data-aos="fade-up" className="m-5 mb-10">
               <div className="">
                 <Image
                   className="w-full rounded-xl hover:shadow-xl h-80"
@@ -421,7 +422,7 @@ const BlogsIndex = () => {
         })}
 
         <div>
-          <div data-aos="zoom-in-up" className="m-5 mb-10">
+          <div data-aos="fade-up" className="m-5 mb-10">
             <div className="">
               <Image
                 className="w-full rounded-xl hover:shadow-xl h-80"
@@ -457,7 +458,7 @@ const BlogsIndex = () => {
         </div>
 
         <div>
-          <div data-aos="zoom-in-up" className="m-5 mb-10">
+          <div data-aos="fade-up" className="m-5 mb-10">
             <div className="">
               <Image
                 className="w-full rounded-xl hover:shadow-xl h-80"
@@ -496,6 +497,51 @@ const BlogsIndex = () => {
                   >
                     Read More
                   </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="">
+              <Image
+                className="w-full rounded-xl hover:shadow-xl h-80"
+                src={img13}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+              <p className="text-left mt-2 text-sm font-semibold">
+                August 12, 2025
+              </p>
+              <Link
+                href={"/blogs/top-five-rainwater-harvesting-companies-in-india"}
+              >
+                <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  #1 in the top 5 Rainwater Harvesting Companies in India
+                  (2019–25)
+                </h1>
+              </Link>
+              <p className="text-justify text-base mt-3 mr-3">
+                Water scarcity is one of the most pressing challenges of our
+                time, and Rainwater Harvesting (RWH) has emerged as a vital
+                solution to address it. By collecting and storing rainwater for
+                later use or groundwater recharge, RWH systems reduce dependency
+                on traditional water sources and contribute to environmental
+                sustainability.
+              </p>
+              <div className="flex justify-start mt-2">
+                <Button variant="contained" size="small">
+                  <Link
+                    href={
+                      "/blogs/top-five-rainwater-harvesting-companies-in-india"
+                    }
+                  >
+                    Read More
+                  </Link>
                 </Button>
               </div>
             </div>

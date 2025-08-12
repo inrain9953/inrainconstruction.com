@@ -87,7 +87,7 @@ const Blog1 = () => {
                     />
                   </Link>
 
-                  <div data-aos="zoom-in-up" className="mt-5">
+                  <div data-aos="fade-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
                       {blog.BlogHead}
                     </h1>
@@ -112,7 +112,7 @@ const Blog1 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
                     </h2>
@@ -121,7 +121,7 @@ const Blog1 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="fade-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
                     </h3>
@@ -141,7 +141,7 @@ const Blog1 = () => {
                     </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="fade-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
                     </h3>
@@ -161,7 +161,7 @@ const Blog1 = () => {
                     </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="fade-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
                     </h3>
@@ -182,13 +182,13 @@ const Blog1 = () => {
                   </div>
 
                   <h3
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     className="font-bold text-xl md:text-3xl"
                   >
                     {blog.BlogSubHeading5}
                   </h3>
                   <p
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     className="text-[17px] text-justify mt-3 md:ml-5 mb-3 md:text-lg"
                   >
                     {blog.BlogSubHeadingContent5}

@@ -86,7 +86,7 @@ const Blog4 = () => {
                     />
                   </Link>
 
-                  <div data-aos="zoom-in-up" className="mt-5">
+                  <div data-aos="fade-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
                       {blog.BlogHead}
                     </h1>
@@ -110,7 +110,7 @@ const Blog4 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
                     </h3>
@@ -119,7 +119,7 @@ const Blog4 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="fade-up" className="mb-5 mt-10">
                     <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
                     </h2>
@@ -139,7 +139,7 @@ const Blog4 = () => {
                     </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="fade-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
                     </h3>
@@ -159,7 +159,7 @@ const Blog4 = () => {
                     </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="fade-up" className="mb-5 mt-10">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
                     </h3>
@@ -197,7 +197,7 @@ const Blog4 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="fade-up" className="mb-5 mt-10">
                     <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading7}
                     </h4>

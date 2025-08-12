@@ -23,7 +23,7 @@ export const Hero1 = () => {
   }, []);
 
   return (
-    <div data-aos="zoom-in-up" className="">
+    <div data-aos="fade-up" className="">
       <div className="relative hero1-background">
         <div className="absolute md:top-24 top-28 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <TextTransition

@@ -57,7 +57,7 @@ const Service4 = () => {
       <Navbar />
       <PopUp />
       <div className="mt-5 md:m-10">
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-up">
           <Image
             className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
             src={service4}
@@ -75,7 +75,7 @@ const Service4 = () => {
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="zoom-in-up" className="text-left">
+          <div data-aos="fade-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
               FRP Based Rainwater Harvesting System
             </h1>
@@ -136,7 +136,7 @@ const Service4 = () => {
               offers the complete solution.
             </p>
           </div>
-          <div data-aos="zoom-in-up" className="mt-5">
+          <div data-aos="fade-up" className="mt-5">
             <Link href={"https://www.inrainconstruction.com/"}>
               <Image
                 className="w-full"

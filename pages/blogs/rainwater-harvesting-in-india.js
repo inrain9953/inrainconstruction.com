@@ -87,7 +87,7 @@ const Blog6 = () => {
                     />
                   </Link>
 
-                  <div data-aos="zoom-in-up" className="mt-5">
+                  <div data-aos="fade-up" className="mt-5">
                     <h1 className="text-3xl md:text-4xl font-semibold">
                       {blog.BlogHead}
                     </h1>
@@ -96,7 +96,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h2 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading1}
                     </h2>
@@ -105,7 +105,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h3 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading2}
                     </h3>
@@ -130,7 +130,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading3}
                     </h4>
@@ -139,7 +139,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading4}
                     </h4>
@@ -148,7 +148,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading5}
                     </h4>
@@ -171,7 +171,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h4 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading6}
                     </h4>
@@ -180,7 +180,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-10">
+                  <div data-aos="fade-up" className="mb-5 mt-10">
                     <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading7}
                     </h5>
@@ -200,7 +200,7 @@ const Blog6 = () => {
                     </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading8}
                     </h5>
@@ -209,7 +209,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5">
+                  <div data-aos="fade-up" className="mb-5">
                     <div className="mt-3 md:ml-5 mb-3">
                       {blog.BlogSubHeadingContent9.map((content) => {
                         return (
@@ -226,7 +226,7 @@ const Blog6 = () => {
                     </div>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5 mt-5">
+                  <div data-aos="fade-up" className="mb-5 mt-5">
                     <h5 className="font-bold text-xl md:text-3xl">
                       {blog.BlogSubHeading10}
                     </h5>
@@ -235,7 +235,7 @@ const Blog6 = () => {
                     </p>
                   </div>
 
-                  <div data-aos="zoom-in-up" className="mb-5">
+                  <div data-aos="fade-up" className="mb-5">
                     <div className="mt-3 md:ml-5  mb-3">
                       {blog.BlogSubHeadingContent11.map((content) => {
                         return (
@@ -253,13 +253,13 @@ const Blog6 = () => {
                   </div>
 
                   <h5
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     className="font-bold text-xl md:text-3xl"
                   >
                     {blog.BlogSubHeading12}
                   </h5>
                   <p
-                    data-aos="zoom-in-up"
+                    data-aos="fade-up"
                     className="text-[17px] text-justify mt-3 md:ml-5 mb-3 md:text-lg"
                   >
                     {blog.BlogSubHeadingContent12}

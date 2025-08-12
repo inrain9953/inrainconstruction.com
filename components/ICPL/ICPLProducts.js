@@ -13,7 +13,7 @@ const ICPLProducts = () => {
       <div id="icplProducts" className="text-center mt-20">
         <h2 className="md:text-4xl text-2xl font-bold">Our Products</h2>
       </div>
-      <div data-aos="zoom-in-up" className="md:m-10 m-3">
+      <div data-aos="fade-up" className="md:m-10 m-3">
         <Image
           className="w-full rounded-xl"
           src={service4}
@@ -25,7 +25,7 @@ const ICPLProducts = () => {
       </div>
       <div className="m-5 md:grid md:grid-cols-1">
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="mt-5 pb-10 md:flex md:justify-center md:items-center md:gap-14"
         >
           <div className="md:w-[30%]">
@@ -54,7 +54,7 @@ const ICPLProducts = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
         >
           <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%] bg-yellow-50">
@@ -83,7 +83,7 @@ const ICPLProducts = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
         >
           <div className="md:w-[30%]">
@@ -112,7 +112,7 @@ const ICPLProducts = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
         >
           <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%] bg-yellow-50">
@@ -139,7 +139,7 @@ const ICPLProducts = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
         >
           <div className="md:w-[30%]">

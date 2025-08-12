@@ -9,7 +9,7 @@ export const Hero2 = () => {
     <>
       <div className="mt-10">
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="text-center m-3 md:ml-52 md:mr-52"
         >
           <h1 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
@@ -37,7 +37,7 @@ export const Hero2 = () => {
           </p>
         </div>
 
-        <div data-aos="zoom-in-up" className="md:grid md:grid-cols-3 md:m-12">
+        <div data-aos="fade-up" className="md:grid md:grid-cols-3 md:m-12">
           <div className="text-center m-3 mt-7">
             <p className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
               Vision
@@ -82,7 +82,7 @@ export const Hero2 = () => {
       </div>
 
       <div className="text-center mt-5 hero2-background flex flex-col gap-5 justify-center items-center">
-        <div data-aos="zoom-in-up" className="m-5">
+        <div data-aos="fade-up" className="m-5">
           <p className="text-xl md:text-white md:text-4xl font-semibold">
             <bold className="text-green-600">
               InRain<sup>®</sup>
@@ -92,7 +92,7 @@ export const Hero2 = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="md:flex justify-center items-center gap-24"
         >
           <div className="flex flex-col justify-center items-center mt-7">

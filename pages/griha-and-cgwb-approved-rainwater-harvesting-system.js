@@ -65,7 +65,7 @@ const GrihaAndCGWB = () => {
       <PopUp />
       <Hero1 />
       <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
-        <div data-aos="zoom-in-up" className="md:content-center md:p-10">
+        <div data-aos="fade-up" className="md:content-center md:p-10">
           <p className="text-center font-semibold text-md text-green-500 md:text-lg">
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
@@ -107,7 +107,7 @@ const GrihaAndCGWB = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-2 flex justify-center md:inline"
         >
           <div className="flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
@@ -145,7 +145,7 @@ const GrihaAndCGWB = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-2 flex justify-center md:inline"
         >
           <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center md:h-60 md:w-60 md:m-5 md:p-6">
@@ -184,13 +184,13 @@ const GrihaAndCGWB = () => {
 
       <div className="text-center pt-10 m-5 md:m-10">
         <h3
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="md:text-4xl font-semibold text-2xl"
         >
           About Our Technology
         </h3>
         <p
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="text-md mt-7 text-gray-500 md:pl-36 md:pr-36 drop-shadow-md md:text-xl"
         >
           At <bold className="text-green-500 font-semibold">InRain®</bold>, we
@@ -207,7 +207,7 @@ const GrihaAndCGWB = () => {
           initiative.
         </p>
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="grid grid-cols-1 md:grid-cols-2 m-2"
         >
           <Image
@@ -228,7 +228,7 @@ const GrihaAndCGWB = () => {
           />
         </div>
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="grid grid-cols-1 md:grid-cols-3 m-2"
         >
           <Image
@@ -259,7 +259,7 @@ const GrihaAndCGWB = () => {
       </div>
 
       <div className="m-2 md:flex md:justify-center md:m-10 mt-20">
-        <div data-aos="zoom-in-up" className="md:content-center md:p-10">
+        <div data-aos="fade-up" className="md:content-center md:p-10">
           <p className="text-center font-semibold text-md text-green-500 md:text-lg">
             InRain<sup>®</sup> Construction Pvt Ltd.
           </p>
@@ -283,7 +283,7 @@ const GrihaAndCGWB = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-10 md:w-full flex justify-center items-center md:inline"
         >
           <Image

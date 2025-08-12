@@ -11,7 +11,7 @@ const ICPLSolutions = () => {
       <div id="icplSolutions" className="text-center mt-16">
         <h2 className="text-2xl md:text-4xl font-bold">Solutions</h2>
       </div>
-      <div data-aos="zoom-in-up" className="md:m-10 m-3">
+      <div data-aos="fade-up" className="md:m-10 m-3">
         <Image
           className="w-full rounded-2xl"
           src={banner4}
@@ -23,7 +23,7 @@ const ICPLSolutions = () => {
       </div>
       <div className="m-5 md:grid md:grid-cols-1 ">
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="pb-10 md:flex md:justify-center md:items-center md:gap-14"
         >
           <div className="md:w-[30%]">
@@ -53,7 +53,7 @@ const ICPLSolutions = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
         >
           <div className="text-left mb-5 shadow-xl rounded-xl p-5 md:p-10 md:w-[40%] bg-yellow-50">
@@ -89,7 +89,7 @@ const ICPLSolutions = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="mt-10 pb-10 md:flex md:justify-center md:items-center md:gap-14"
         >
           <div className="md:w-[30%]">

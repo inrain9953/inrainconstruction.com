@@ -6,7 +6,7 @@ export const Hero3 = () => {
   return (
     <>
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="mt-10 md:flex justify-center items-center md:ml-14 md:mr-14"
       >
         <div className="text-left m-5  md:pl-14">
@@ -35,7 +35,7 @@ export const Hero3 = () => {
       </div>
 
       <div
-        data-aos="zoom-in-up"
+        data-aos="fade-up"
         className="text-left mt-10 m-5 md:ml-10 md:mr-10 md:p-10"
       >
         <h4 className="text-2xl font-semibold">

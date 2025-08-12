@@ -60,7 +60,7 @@ const PolyRain = () => {
       <Hero1 />
       <Hero2 />
       <div className="mt-5 md:m-10">
-        <div data-aos="zoom-in-up">
+        <div data-aos="fade-up">
           <Image
             className="w-full md:rounded-xl md:shadow-2xl"
             src={service2}
@@ -72,7 +72,7 @@ const PolyRain = () => {
         </div>
 
         <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="zoom-in-up" className="text-left">
+          <div data-aos="fade-up" className="text-left">
             <h1 className="text-3xl md:text-4xl font-semibold">
               Polymer Type Rainwater Harvesting System
             </h1>
@@ -138,7 +138,7 @@ const PolyRain = () => {
               conservation and management systems.
             </p>
           </div>
-          <div data-aos="zoom-in-up" className="mt-5">
+          <div data-aos="fade-up" className="mt-5">
             <Image
               className="w-full"
               src={harvesting2}
@@ -151,7 +151,7 @@ const PolyRain = () => {
         </div>
 
         <div
-          data-aos="zoom-in-up"
+          data-aos="fade-up"
           className="m-5 md:m-10 bg-sky-300 rounded-lg"
         >
           <p className="text-[17px] md:text-lg mt-3 p-5">

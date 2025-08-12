@@ -75,7 +75,7 @@ const ICPLMain = () => {
     <>
       <div id="icplMain" className="ICPLpage-background">
         <div className="pt-2 md:flex md:justify-center md:items-center md:gap-10">
-          <div data-aos="zoom-in-up" className="text-center">
+          <div data-aos="fade-up" className="text-center">
             <h1 className="text-base m-3 text-green-800 font-semibold align-middle md:text-2xl">
               "A Water Conservation and Management Company"
             </h1>
@@ -89,8 +89,8 @@ const ICPLMain = () => {
             </a>
           </div>
 
-          <div data-aos="zoom-in-up" className="m-5 md:w-96">
-            <div data-aos="zoom-in-up" className="contact-form">
+          <div data-aos="fade-up" className="m-5 md:w-96">
+            <div data-aos="fade-up" className="contact-form">
               <div className="flex justify-center">
                 <div className="form-card1">
                   <div className="form-card2 relative">
