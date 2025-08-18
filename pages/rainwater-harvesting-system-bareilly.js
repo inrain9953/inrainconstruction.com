@@ -27,7 +27,9 @@ const RainwaterSystemBareilly = () => {
     <>
       <Head>
         <title>{title}</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
+        <meta name="language" content="en" />
+        <meta name="author" content="InRain® Construction Pvt. Ltd." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
@@ -40,7 +42,6 @@ const RainwaterSystemBareilly = () => {
         <meta property="og:url" content={ogUrl} />
         <meta name="twitter:title" content={twittertitle} />
         <meta name="twitter:description" content={twitterdescription} />
-        <meta name="author" content="InRain® Construction Pvt Ltd"></meta>
         <meta
           property="og:site_name"
           content="InRain® Construction Pvt. Ltd."

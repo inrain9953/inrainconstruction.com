@@ -102,7 +102,7 @@ export const Footer = () => {
                   className="hover:text-sky-600"
                   target="_blank"
                   href={
-                    "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr"
+                    "https://www.facebook.com/inrainconstructions"
                   }
                 >
                   <FacebookIcon fontSize="large" />
