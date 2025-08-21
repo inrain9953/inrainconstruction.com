@@ -91,7 +91,7 @@ export default function App({ Component, pageProps }) {
           url: "https://www.inrainconstruction.com/",
           logo: "https://www.inrainconstruction.com/public/logo.png",
           sameAs: [
-            "https://www.facebook.com/p/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr",
+            "https://www.facebook.com/inrainconstructions",
             "https://x.com/InrainC",
             "https://www.instagram.com/inrainconstruction_/",
             "https://in.pinterest.com/inrainc0212/",
@@ -142,7 +142,7 @@ export default function App({ Component, pageProps }) {
             addressCountry: "IN",
           },
           sameAs: [
-            "https://www.facebook.com/InRain-Construction-Pvt-Ltd-100084454944911/?_rdr",
+            "https://www.facebook.com/inrainconstructions",
             "https://x.com/InrainC",
             "https://www.instagram.com/inrainconstruction_/",
             "https://in.pinterest.com/inrainc0212/",

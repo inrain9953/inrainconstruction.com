@@ -11,7 +11,7 @@ import SideBlogs from "@/components/Blogs/SideBlogs";
 
 const Blog7 = () => {
   const title =
-    "Rainwater Harvesting and It's Importace: How InRain Rainwater Harvesting System is different from others?";
+    "How InRain Rainwater Harvesting System is different from others?";
   const desc =
     "Discover the eco-friendly, cost-effective, and space-efficient InRain Rainwater Harvesting System. Our modular solutions offer easy installation, high percolation efficiency, minimal civil work, and superior groundwater recharge. Perfect for urban or rural setups, our systems save water, reduce flooding, and are scalable to meet your needs. Choose InRain for sustainable water management and a greener future.";
   const keyword =

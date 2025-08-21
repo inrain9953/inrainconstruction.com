@@ -11,7 +11,7 @@ import ICPLSolutions from "@/components/ICPL/ICPLSolutions";
 
 export default function Home() {
   const title =
-    "Rainwater Harvesting System in India | Modular Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting System in India | Modular Rainwater Harvesting | InRain";
   const desc =
     "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Best Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
   const keyword =
@@ -19,11 +19,11 @@ export default function Home() {
   const canonical = "https://www.inrainconstruction.com/";
   const ogUrl = "https://www.inrainconstruction.com/";
   const ogTitle =
-    "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting System in India | Modular Rainwater Harvesting | InRain";
   const ogDescription =
     "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Best Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
   const twittertitle =
-    "Rainwater Harvesting System in India | InRain® Construction Pvt. Ltd.";
+    "Rainwater Harvesting System in India | Modular Rainwater Harvesting | InRain";
   const twitterdescription =
     "Are you searching for a Rainwater harvesting system? InRain Water Harvesting company that provides Rainwater harvesting system based on the technology adopted from Germany. Contact us today for a free consultation.";
 
