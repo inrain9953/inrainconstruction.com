@@ -564,7 +564,7 @@ const BlogsIndex = () => {
           <div className="m-5 mb-10">
             <div className="">
               <Image
-                className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl h-80"
+                className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                 src={img13}
                 alt="img"
                 loading="eager"
