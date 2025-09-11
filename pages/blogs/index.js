@@ -90,33 +90,41 @@ const BlogsIndex = () => {
           </p>
         </div>
       </div>
-      <div className="md:grid md:grid-cols-3 md:m-10">
+      <div
+        data-aos="fade-up"
+        className="md:grid md:grid-cols-3 grid grid-cols-2 md:m-10"
+      >
         {Blog.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img1}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h2 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h2>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -126,30 +134,35 @@ const BlogsIndex = () => {
 
         {Blog2.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img2}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h3 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h3>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -159,30 +172,35 @@ const BlogsIndex = () => {
 
         {Blog3.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img3}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h4 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h4>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -192,30 +210,35 @@ const BlogsIndex = () => {
 
         {Blog4.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img4}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h2 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h2>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -225,30 +248,35 @@ const BlogsIndex = () => {
 
         {Blog5.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img5}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h3 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h3>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -258,30 +286,35 @@ const BlogsIndex = () => {
 
         {Blog6.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img6}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h4 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h4>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -291,30 +324,35 @@ const BlogsIndex = () => {
 
         {Blog7.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl h-80"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img7}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h2 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h2>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -324,30 +362,35 @@ const BlogsIndex = () => {
 
         {Blog8.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl h-80"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img8}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h5 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h5>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -357,30 +400,35 @@ const BlogsIndex = () => {
 
         {Blog9.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl h-80"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img9}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h3 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h3>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -390,30 +438,35 @@ const BlogsIndex = () => {
 
         {Blog10.map((blog) => {
           return (
-            <div data-aos="fade-up" className="m-5 mb-10">
+            <div className="m-5 mb-10">
               <div className="">
                 <Image
-                  className="w-full rounded-xl hover:shadow-xl h-80"
+                  className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                   src={img10}
                   alt="img"
                   loading="eager"
                   priority={true}
                   unoptimized={true}
                 />
-                <p className="text-left mt-2 text-sm font-semibold">
+                <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                   {blog.BlogDate}
                 </p>
                 <Link href={blog.BlogLink}>
-                  <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                  <h2 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                     {blog.BlogHead}
-                  </h1>
+                  </h2>
                 </Link>
-                <p className="text-justify text-base mt-3 mr-3">
+                <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                   {blog.BlogContent}
                 </p>
                 <div className="flex justify-start mt-2">
                   <Button variant="contained" size="small">
-                    <Link href={blog.BlogLink}>Read More</Link>
+                    <Link
+                      className="text-[8px] md:text-[13px]"
+                      href={blog.BlogLink}
+                    >
+                      Read More
+                    </Link>
                   </Button>
                 </div>
               </div>
@@ -422,25 +475,25 @@ const BlogsIndex = () => {
         })}
 
         <div>
-          <div data-aos="fade-up" className="m-5 mb-10">
+          <div className="m-5 mb-10">
             <div className="">
               <Image
-                className="w-full rounded-xl hover:shadow-xl h-80"
+                className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                 src={img11}
                 alt="img"
                 loading="eager"
                 priority={true}
                 unoptimized={true}
               />
-              <p className="text-left mt-2 text-sm font-semibold">
+              <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                 May 09, 2025
               </p>
               <Link href={"/blogs/a-blueprint-for-sustainable-living"}>
-                <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                <h3 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                   A Blueprint for Sustainable Living
-                </h1>
+                </h3>
               </Link>
-              <p className="text-justify text-base mt-3 mr-3">
+              <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                 In the heart of Bengaluru, architect Jaya Rayaprolu has crafted
                 a home that stands as a beacon of sustainable living. Designed
                 with a deep commitment to environmental stewardship, her
@@ -448,7 +501,10 @@ const BlogsIndex = () => {
               </p>
               <div className="flex justify-start mt-2">
                 <Button variant="contained" size="small">
-                  <Link href={"/blogs/a-blueprint-for-sustainable-living"}>
+                  <Link
+                    className="text-[8px] md:text-[13px]"
+                    href={"/blogs/a-blueprint-for-sustainable-living"}
+                  >
                     Read More
                   </Link>
                 </Button>
@@ -458,17 +514,17 @@ const BlogsIndex = () => {
         </div>
 
         <div>
-          <div data-aos="fade-up" className="m-5 mb-10">
+          <div className="m-5 mb-10">
             <div className="">
               <Image
-                className="w-full rounded-xl hover:shadow-xl h-80"
+                className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl"
                 src={img1}
                 alt="img"
                 loading="eager"
                 priority={true}
                 unoptimized={true}
               />
-              <p className="text-left mt-2 text-sm font-semibold">
+              <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                 July 05, 2025
               </p>
               <a
@@ -476,12 +532,12 @@ const BlogsIndex = () => {
                   "/blogs/simple-and-practical-methods-for-groundwater-augmentation-in-our-homes"
                 }
               >
-                <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                <h4 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                   Simple and Practical Methods for Groundwater Augmentation in
                   Our Homes
-                </h1>
+                </h4>
               </a>
-              <p className="text-justify text-base mt-3 mr-3">
+              <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                 Groundwater, a hidden treasure beneath our feet, is facing a
                 real crisis. As cities grow and our need for water increases,
                 these vital underground reserves are shrinking at an alarming
@@ -491,6 +547,7 @@ const BlogsIndex = () => {
               <div className="flex justify-start mt-2">
                 <Button variant="contained" size="small">
                   <a
+                    className="text-[8px] md:text-[13px]"
                     href={
                       "/blogs/simple-and-practical-methods-for-groundwater-augmentation-in-our-homes"
                     }
@@ -504,28 +561,28 @@ const BlogsIndex = () => {
         </div>
 
         <div>
-          <div data-aos="fade-up" className="m-5 mb-10">
+          <div className="m-5 mb-10">
             <div className="">
               <Image
-                className="w-full rounded-xl hover:shadow-xl h-80"
+                className="md:w-full md:h-full w-[250px] h-[100px] rounded-xl hover:shadow-xl h-80"
                 src={img13}
                 alt="img"
                 loading="eager"
                 priority={true}
                 unoptimized={true}
               />
-              <p className="text-left mt-2 text-sm font-semibold">
+              <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
                 August 12, 2025
               </p>
               <Link
                 href={"/blogs/top-five-rainwater-harvesting-companies-in-india"}
               >
-                <h1 className="text-left hover:text-green-500 underline mt-1 text-2xl font-semibold text-blue-500">
+                <h2 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
                   #1 in the top 5 Rainwater Harvesting Companies in India
                   (2019–25)
-                </h1>
+                </h2>
               </Link>
-              <p className="text-justify text-base mt-3 mr-3">
+              <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
                 Water scarcity is one of the most pressing challenges of our
                 time, and Rainwater Harvesting (RWH) has emerged as a vital
                 solution to address it. By collecting and storing rainwater for
@@ -536,6 +593,7 @@ const BlogsIndex = () => {
               <div className="flex justify-start mt-2">
                 <Button variant="contained" size="small">
                   <Link
+                    className="text-[8px] md:text-[13px]"
                     href={
                       "/blogs/top-five-rainwater-harvesting-companies-in-india"
                     }

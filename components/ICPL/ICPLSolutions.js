@@ -28,7 +28,7 @@ const ICPLSolutions = () => {
         >
           <div className="md:w-[30%]">
             <Image
-              className="w-full"
+              className="w-full rounded-lg"
               src={solution1}
               alt="img"
               loading="eager"
@@ -78,7 +78,7 @@ const ICPLSolutions = () => {
           </div>
           <div className="md:w-[30%]">
             <Image
-              className="w-full"
+              className="w-full rounded-lg"
               src={solution2}
               alt="img"
               loading="eager"
@@ -94,7 +94,7 @@ const ICPLSolutions = () => {
         >
           <div className="md:w-[30%]">
             <Image
-              className="w-full"
+              className="w-full rounded-lg"
               src={solution3}
               alt="img"
               loading="eager"
