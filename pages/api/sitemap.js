@@ -80,6 +80,16 @@ export default async (req, res) => {
       priority: 0.8,
     },
     {
+      url: "/rainwater-harvesting-pit/",
+      changefreq: "daily",
+      priority: 0.8,
+    },
+    {
+      url: "/rainwater-harvesting-recharge-pit/",
+      changefreq: "daily",
+      priority: 0.8,
+    },
+    {
       url: "/blogs/rainwater-harvesting-supercharge-your-life-to-sustainable-living/",
       changefreq: "daily",
       priority: 0.8,

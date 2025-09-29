@@ -349,6 +349,18 @@ export const Navbar = () => {
               Rainwater Harvesting Manufacturers
             </li>
           </Link>
+          <Link href="/rainwater-harvesting-pit">
+            <li className="hover:text-green-500">
+              <ArrowRightAltIcon size="small" />
+              Rainwater Harvesting Pit
+            </li>
+          </Link>
+          <Link href="/rainwater-harvesting-recharge-pit">
+            <li className="hover:text-green-500">
+              <ArrowRightAltIcon size="small" />
+              Rainwater Harvesting Recharge Pit
+            </li>
+          </Link>
         </ul>
       </div>
 
@@ -371,7 +383,7 @@ export const Navbar = () => {
 
       <div className="hidden contact-form z-10 fixed left-0 right-0 bottom-10">
         <div className="flex justify-center">
-          <div className="form-card1 relative m-7 md:w-[20%] md:top-10">
+          <div className="form-card1 relative m-7 md:w-[280px]">
             <div className="form-card2">
               <form onSubmit={onSubmit} className="form bg-gray-400">
                 <div className="flex justify-center mt-5">
@@ -431,14 +443,6 @@ export const Navbar = () => {
                   ></textarea>
                 </div>
 
-                {/* <div className="md:mt-2 md:mb-2">
-                  <input className="w-4 h-4 mr-2" type="checkbox" />
-                  <label className="text-black text-base">
-                    Yes, I would like to receive communications by call / email
-                    about Company's services.{" "}
-                  </label>
-                </div> */}
-
                 <button
                   onClick={SubmissionAnimation}
                   type="submit"
@@ -463,7 +467,7 @@ export const Navbar = () => {
       {/* For Mobile View (SideNav) */}
       <div className="md:hidden">
         <ul
-          className="sidebar-ul mt-28 rounded-xl bg-sky-300 font-semibold"
+          className="sidebar-ul overflow-y-auto mt-28 rounded-xl bg-sky-300 font-semibold max-h-[70vh]"
           style={openSidebarMenu ? { top: "1px" } : {}}
         >
           <li className="hover:text-green-500">
@@ -499,7 +503,7 @@ export const Navbar = () => {
               <ArrowDropDownIcon />
             </p>
             <div className="relative text-left hidden z-20 onHoverMobile">
-              <ul className="flex flex-col gap-2 rounded-lg p-5 mobileNavbarServices font-normal bg-sky-600">
+              <ul className="flex flex-col gap-2 rounded-lg p-5 mobileNavbarServices font-normal bg-sky-500">
                 <li className="hover:text-green-500">
                   <Link href="/rainwater-harvesting-system-for-warehouse">
                     <ArrowRightAltIcon size="small" />
@@ -576,6 +580,18 @@ export const Navbar = () => {
                   <Link href="/rainwater-harvesting-manufacturers">
                     <ArrowRightAltIcon size="small" />
                     Rainwater Harvesting Manufacturers
+                  </Link>
+                </li>
+                <li className="hover:text-green-500">
+                  <Link href="/rainwater-harvesting-pit">
+                    <ArrowRightAltIcon size="small" />
+                    Rainwater Harvesting Pit
+                  </Link>
+                </li>
+                <li className="hover:text-green-500">
+                  <Link href="/rainwater-harvesting-recharge-pit">
+                    <ArrowRightAltIcon size="small" />
+                    Rainwater Harvesting Recharge Pit
                   </Link>
                 </li>
               </ul>
