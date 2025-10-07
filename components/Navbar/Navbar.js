@@ -270,7 +270,7 @@ export const Navbar = () => {
       </div>
 
       <div className="fixed hidden z-20 onHover left-1/2 -translate-x-1/2">
-        <ul className="bg-white flex flex-col gap-2 shadow-2xl rounded-xl p-5">
+        <ul className="bg-white flex flex-col gap-2 shadow-2xl rounded-xl p-5 max-h-[400px] overflow-y-auto">
           <Link href="/rainwater-harvesting-system-for-warehouse">
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
