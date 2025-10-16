@@ -26,6 +26,7 @@ import img9 from "../../public/blog9.jpg";
 import img10 from "../../public/blog10.png";
 import img11 from "../../public/blog11.jpg";
 import img13 from "../../public/blog13.jpg";
+import img14 from "../../public/igbc_certificate.jpg";
 import service11 from "../../public/service11.jpg";
 import Head from "next/head";
 import Image from "next/image";
@@ -596,6 +597,55 @@ const BlogsIndex = () => {
                     className="text-[8px] md:text-[13px]"
                     href={
                       "/blogs/top-five-rainwater-harvesting-companies-in-india"
+                    }
+                  >
+                    Read More
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="m-5 mb-10">
+            <div className="">
+              <Image
+                className="md:w-full md:h-[250px] w-[250px] h-[100px] rounded-xl hover:shadow-xl"
+                src={img14}
+                alt="img"
+                loading="eager"
+                priority={true}
+                unoptimized={true}
+              />
+              <p className="text-left mt-2 md:text-sm text-[8px] font-semibold">
+                October 16, 2025
+              </p>
+              <Link
+                href={"/blogs/inrain-construction-receives-igbc-founding-member-certificate"}
+              >
+                <h2 className="text-left hover:text-green-500 underline mt-1 md:text-2xl text-[12px] font-semibold text-blue-500">
+                  InRain Construction Pvt. Ltd. Receives IGBC Founding Member
+                  Certificate
+                </h2>
+              </Link>
+              <p className="text-justify md:text-base text-[10px] md:mt-3 mt-1 mr-3">
+                “We are proud to announce that InRain Construction Pvt. Ltd. has
+                been certified as a Founding Member of the Indian Green Building
+                Council (IGBC), bearing Membership No. IGBCFM250800, effective 8
+                October 2025. This recognition underscores our commitment to
+                sustainable construction and leadership in green building
+                practices. As a Founding Member, we will leverage this status to
+                deliver superior, environmentally responsible, and
+                high‐performance solutions in rainwater harvesting and green
+                infrastructure.”
+              </p>
+              <div className="flex justify-start mt-2">
+                <Button variant="contained" size="small">
+                  <Link
+                    className="text-[8px] md:text-[13px]"
+                    href={
+                      "/blogs/inrain-construction-receives-igbc-founding-member-certificate"
                     }
                   >
                     Read More

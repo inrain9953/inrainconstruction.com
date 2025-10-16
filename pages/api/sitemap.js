@@ -150,6 +150,11 @@ export default async (req, res) => {
       priority: 0.8,
     },
     {
+      url: "/blogs/inrain-construction-receives-igbc-founding-member-certificate/",
+      changefreq: "daily",
+      priority: 0.8,
+    },
+    {
       url: "/rainwater-harvesting-in-delhi/",
       changefreq: "daily",
       priority: 0.8,
