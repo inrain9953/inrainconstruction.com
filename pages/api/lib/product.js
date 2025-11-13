@@ -7,4 +7,4 @@ const productionModel = new mongoose.Schema({
     message:String,
 });
 
-export const Product = mongoose.models.inrain9953 || mongoose.model("inrain9953", productionModel)
+export const Product = mongoose.models?.inrain9953 || mongoose.model("inrain9953", productionModel)

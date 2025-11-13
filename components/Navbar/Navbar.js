@@ -229,7 +229,7 @@ export const Navbar = () => {
 
         {/* For Desktop View */}
         <div className="bg-white hidden md:block">
-          <div className="flex justify-center items-center gap-20 h-10 text-[17px]">
+          <div className="flex justify-center items-center gap-12 h-10 text-[16px]">
             <Link className="hover:text-green-500" href="/">
               Home
             </Link>
@@ -239,9 +239,6 @@ export const Navbar = () => {
             <Link className="hover:text-green-500" href="/products">
               Products
             </Link>
-            {/* <a className="hover:text-green-500" href="#">
-              Media
-            </a> */}
             <p
               className="hover:text-green-500 cursor-pointer"
               onClick={() => {
@@ -262,6 +259,9 @@ export const Navbar = () => {
             </Link>
             <Link className="hover:text-green-500" href="/blogs">
               Blogs
+            </Link>
+            <Link className="hover:text-green-500" href="/careers">
+              Career
             </Link>
           </div>
         </div>
@@ -485,11 +485,6 @@ export const Navbar = () => {
               Products
             </Link>
           </li>
-          {/* <li>
-              <a href="/products" style={{ textDecoration: "none" }}>
-                Media
-              </a>
-            </li> */}
           <li className="text-center cursor-pointer">
             <p
               onClick={() => {
@@ -610,6 +605,11 @@ export const Navbar = () => {
           <li className="hover:text-green-500">
             <Link href="/blogs" style={{ textDecoration: "none" }}>
               Blogs
+            </Link>
+          </li>
+          <li>
+            <Link href="/careers" style={{ textDecoration: "none" }}>
+              Career
             </Link>
           </li>
         </ul>
