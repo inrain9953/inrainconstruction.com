@@ -9,7 +9,7 @@ import axios from "axios";
 
 function UserData() {
   const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [showJobForm, setShowJobForm] = useState(false);
   const [showClientForm, setShowClientForm] = useState(true);
   const [showPostedJobForm, setShowPostedJobForm] = useState(false);
@@ -68,17 +68,17 @@ function UserData() {
 
   useEffect(() => {
     async function fetchData() {
-      setLoading(true);
       try {
         const response = await fetch("/api/hello");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
         const data = await response.json();
-        setLoading(false);
         setProducts(data);
       } catch (error) {
         console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
       }
     }
 
@@ -327,43 +327,62 @@ function UserData() {
 
       {showClientForm && (
         <div className="text-center flex justify-center m-5">
-          <table className=" w-full">
-            <caption className="text-2xl text-center m-5">User Data</caption>
-            <thead>
-              <tr>
-                <th className="text-xl">Name</th>
-                <th className="text-xl">Email</th>
-                <th className="text-xl">Mobile No.</th>
-                <th className="text-xl">Message</th>
-              </tr>
-            </thead>
-            <tbody className="border-separate border-2 border-spacing-3 text-md">
-              {products.map((product) => (
-                <tr className="text-center m-2">
-                  <>
-                    <td className="border-2 p-3 border-black">
+          {loading ? (
+            // 🔹 Show loading spinner while fetching
+            <div className="flex justify-center items-center m-10">
+              <CircularProgress color="success" />
+            </div>
+          ) : products && products.length > 0 ? (
+            // 🔹 Show table when data is loaded
+            <table className="w-full border-collapse border border-gray-300">
+              <caption className="text-2xl font-semibold text-gray-800 my-5">
+                User Data
+              </caption>
+              <thead className="bg-gray-200">
+                <tr>
+                  <th className="text-lg p-3 border border-gray-400">Name</th>
+                  <th className="text-lg p-3 border border-gray-400">Email</th>
+                  <th className="text-lg p-3 border border-gray-400">
+                    Mobile No.
+                  </th>
+                  <th className="text-lg p-3 border border-gray-400">
+                    Message
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {products.map((product) => (
+                  <tr
+                    key={product._id || product.email}
+                    className="text-center hover:bg-gray-100 transition"
+                  >
+                    <td className="border border-gray-300 p-3">
                       {product.name}
                     </td>
-                    <td className="border-2 p-3 border-black">
+                    <td className="border border-gray-300 p-3">
                       {product.email}
                     </td>
-                    <td className="border-2 p-3 border-black">
+                    <td className="border border-gray-300 p-3">
                       {product.mobile}
                     </td>
-                    <td className="border-2 p-3 border-black">
+                    <td className="border border-gray-300 p-3">
                       {product.message}
                     </td>
-                  </>
-                  <hr></hr>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ) : (
+            // 🔹 Show message when no users found
+            <p className="text-gray-500 text-lg mt-10">
+              No user data available.
+            </p>
+          )}
         </div>
       )}
 
       {showPostedJobForm && (
-        <div className="mt-10 flex justify-center items-center">
+        <div className="m-5 mt-10 flex justify-center items-center">
           {jobs.length === 0 ? (
             <p className="text-center text-gray-500 text-lg">No Active Jobs.</p>
           ) : (
@@ -371,9 +390,9 @@ function UserData() {
               {jobs.map((job) => (
                 <div
                   key={job._id}
-                  className="bg-white border border-gray-200 shadow-md rounded-xl p-5 hover:shadow-lg transition-all duration-300"
+                  className="bg-white border max-w-[500px] border-gray-200 shadow-md rounded-xl p-5 hover:shadow-lg transition-all duration-300"
                 >
-                  <h3 className="text-xl font-semibold text-gray-800">
+                  <h3 className="text-xl font-semibold text-red-500">
                     {job.title}
                   </h3>
                   <p className="text-sm text-gray-600 mt-1">
@@ -389,7 +408,7 @@ function UserData() {
                     <strong>Experience Required:</strong>{" "}
                     {job.experienceRequired}
                   </p>
-                  <p className="text-sm text-gray-600 mt-2">
+                  <p className="text-sm text-justify text-gray-600">
                     <strong>Description:</strong> {job.jobDescription}
                   </p>
                   <p className="text-sm text-gray-600">

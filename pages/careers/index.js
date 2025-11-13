@@ -2,12 +2,13 @@ import { Footer } from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Navbar/Navbar";
 import PopUp from "@/components/popup";
 import { useEffect, useState } from "react";
+import CircularProgress from "@mui/material/CircularProgress";
 
 export default function CareerPage() {
   const [jobs, setJobs] = useState([]);
   const [showJobForm, setShowJobForm] = useState(false);
   const [jobHeading, setJobHeading] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [message, setMessage] = useState("");
   const [formData, setFormData] = useState({
     name: "",
@@ -122,11 +123,18 @@ export default function CareerPage() {
   }
 
   useEffect(() => {
-    async function fetchJobs() {
-      const res = await fetch("/api/jobfetch");
-      const data = await res.json();
-      setJobs(data);
-    }
+    const fetchJobs = async () => {
+      try {
+        const res = await fetch("/api/jobfetch");
+        const data = await res.json();
+        setJobs(data);
+      } catch (err) {
+        console.error("Error fetching jobs:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
     fetchJobs();
   }, []);
 
@@ -151,30 +159,49 @@ export default function CareerPage() {
           </h2>
 
           <div className="grid gap-6 md:grid-cols-3">
-            {jobs.map((job, index) => (
-              <div
-                key={index}
-                className="bg-white p-6 shadow-md rounded-lg border hover:shadow-xl transition"
-              >
-                <h3 className="text-xl font-semibold text-blue-700">
-                  {job.title}
-                </h3>
-                <p className="text-gray-700 mt-2">Location: {job.location}</p>
-                <p className="text-gray-700">Job Type: {job.employmentType}</p>
-                <p className="text-gray-700">
-                  Experience: {job.experienceRequired}
-                </p>
-                <p className="text-gray-700">
-                  Qualifications: {job.qualifications}
-                </p>
-                <button
-                  onClick={(e) => ApplyJob(job.title)}
-                  className="mt-4 w-full py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition"
-                >
-                  Apply Now
-                </button>
+            {loading ? (
+              // 🔹 Show loading spinner while fetching
+              <div className="col-span-3 flex justify-center m-10">
+                <CircularProgress color="success" />
               </div>
-            ))}
+            ) : jobs && jobs.length > 0 ? (
+              // 🔹 Show job cards when data is ready
+              jobs.map((job) => (
+                <div
+                  key={job._id || job.title}
+                  className="bg-white p-6 shadow-md rounded-lg border hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
+                >
+                  <h3 className="text-xl font-semibold text-blue-700">
+                    {job.title}
+                  </h3>
+                  <p className="text-gray-700 mt-2"><strong>Location:</strong> {job.location}</p>
+                  <p className="text-gray-700">
+                    <strong>Job Type:</strong> {job.employmentType}
+                  </p>
+                  <p className="text-gray-700">
+                    <strong>Experience:</strong> {job.experienceRequired}
+                  </p>
+                  <p className="text-gray-700">
+                    <strong>Qualifications:</strong> {job.qualifications}
+                  </p>
+                  <p className="text-gray-700 text-justify">
+                    <strong>Job Description:</strong> <bold className="text-sm">{job.jobDescription}</bold>
+                  </p>
+
+                  <button
+                    onClick={() => ApplyJob(job.title)}
+                    className="mt-4 w-full py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition"
+                  >
+                    Apply Now
+                  </button>
+                </div>
+              ))
+            ) : (
+              // 🔹 Show message when no jobs found
+              <p className="text-center text-gray-500 col-span-3 mt-5">
+                No active job postings available.
+              </p>
+            )}
           </div>
         </section>
 
