@@ -30,6 +30,11 @@ export default async (req, res) => {
       priority: 0.8,
     },
     {
+      url: "/rainwater-harvesting-tank/",
+      changefreq: "daily",
+      priority: 0.8,
+    },
+    {
       url: "/frp-based-rainwater-harvesting-system/",
       changefreq: "daily",
       priority: 0.8,
@@ -86,6 +91,11 @@ export default async (req, res) => {
     },
     {
       url: "/rainwater-harvesting-recharge-pit/",
+      changefreq: "daily",
+      priority: 0.8,
+    },
+    {
+      url: "/careers/",
       changefreq: "daily",
       priority: 0.8,
     },

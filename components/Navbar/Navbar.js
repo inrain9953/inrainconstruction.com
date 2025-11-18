@@ -289,10 +289,10 @@ export const Navbar = () => {
               Modular Rainwater Harvesting System
             </li>
           </Link>
-          <Link href="/frp-based-rainwater-harvesting-system">
+          <Link href="/rainwater-harvesting-tank">
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
-              FRP based Rainwater Harvesting System
+              Rainwater Harvesting Tank
             </li>
           </Link>
           <Link href="/roof-top-rainwater-harvesting-system-RRWHS-InRain">
@@ -518,9 +518,9 @@ export const Navbar = () => {
                   </Link>
                 </li>
                 <li className="hover:text-green-500">
-                  <Link href="/frp-based-rainwater-harvesting-system">
+                  <Link href="/rainwater-harvesting-tank">
                     <ArrowRightAltIcon size="small" />
-                    FRP based Rainwater Harvesting System
+                    Rainwater Harvesting Tank
                   </Link>
                 </li>
                 <li className="hover:text-green-500">

@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar/Navbar";
 import PopUp from "@/components/popup";
 import { useEffect, useState } from "react";
 import CircularProgress from "@mui/material/CircularProgress";
+import Head from "next/head";
 
 export default function CareerPage() {
   const [jobs, setJobs] = useState([]);
@@ -140,6 +141,50 @@ export default function CareerPage() {
 
   return (
     <>
+      <Head>
+        <title>
+          Join Our Team | Career Opportunities at InRain Construction Pvt. Ltd.
+        </title>
+        <meta charSet="UTF-8" />
+        <meta name="language" content="en" />
+        <meta name="author" content="InRain® Construction Pvt. Ltd." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta
+          name="description"
+          content="Explore exciting career opportunities at InRain Construction Pvt. Ltd., a leading provider of Rainwater Harvesting and Sustainable Water Management Solutions in India. Join our team of innovators dedicated to building a greener, water-secure future."
+        />
+        <meta
+          name="keywords"
+          content="InRain Construction careers, job openings InRain, rainwater harvesting jobs, environmental jobs India, sustainability careers, construction jobs Delhi, InRain hiring, water conservation jobs, green building jobs, eco-friendly company careers"
+        />
+        <meta
+          name="canonical"
+          content="https://www.inrainconstruction.com/careers"
+        />
+        <meta
+          property="og:title"
+          content="Join Our Team | Career Opportunities at InRain Construction Pvt. Ltd."
+        />
+        <meta
+          property="og:description"
+          content="Explore exciting career opportunities at InRain Construction Pvt. Ltd., a leading provider of Rainwater Harvesting and Sustainable Water Management Solutions in India. Join our team of innovators dedicated to building a greener, water-secure future."
+        />
+        <meta
+          property="og:url"
+          content="https://www.inrainconstruction.com/careers"
+        />
+        <meta
+          property="og:site_name"
+          content="InRain® Construction Pvt. Ltd."
+        />
+        <meta
+          name="google-site-verification"
+          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+        />
+      </Head>
       <Navbar />
       <PopUp />
 
@@ -174,7 +219,9 @@ export default function CareerPage() {
                   <h3 className="text-xl font-semibold text-blue-700">
                     {job.title}
                   </h3>
-                  <p className="text-gray-700 mt-2"><strong>Location:</strong> {job.location}</p>
+                  <p className="text-gray-700 mt-2">
+                    <strong>Location:</strong> {job.location}
+                  </p>
                   <p className="text-gray-700">
                     <strong>Job Type:</strong> {job.employmentType}
                   </p>
@@ -185,7 +232,8 @@ export default function CareerPage() {
                     <strong>Qualifications:</strong> {job.qualifications}
                   </p>
                   <p className="text-gray-700 text-justify">
-                    <strong>Job Description:</strong> <bold className="text-sm">{job.jobDescription}</bold>
+                    <strong>Job Description:</strong>{" "}
+                    <bold className="text-sm">{job.jobDescription}</bold>
                   </p>
 
                   <button
