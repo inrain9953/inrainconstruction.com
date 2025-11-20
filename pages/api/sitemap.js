@@ -170,6 +170,11 @@ export default async (req, res) => {
       priority: 0.8,
     },
     {
+      url: "/government-approved-rainwater-harvesting/",
+      changefreq: "daily",
+      priority: 0.8,
+    },
+    {
       url: "/rainwater-harvesting-in-gurgaon/",
       changefreq: "daily",
       priority: 0.8,
