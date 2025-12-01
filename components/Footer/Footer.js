@@ -245,10 +245,10 @@ export const Footer = () => {
                   Storm Water Management Company
                 </p>
               </Link>
-              <Link href="/modular-rainwater-harvesting">
+              <Link href="/rainwater-harvesting-for-industries">
                 <p className="list-none text-[15px] text-white hover:tracking-wide hover:text-sky-700">
                   <ArrowRightAltIcon fontSize="medium" />
-                  Modular Rainwater Harvesting System for Industries
+                  Rainwater Harvesting for Industries
                 </p>
               </Link>
             </div>

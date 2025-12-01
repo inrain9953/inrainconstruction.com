@@ -6,7 +6,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 const GovernmentRWH = () => {
-    const title =
+  const title =
     "Government Approved Rainwater Harvesting | Certified RWH Solutions by InRain Construction";
   const desc =
     "Get fully Government Approved Rainwater Harvesting systems by InRain Construction Pvt. Ltd. Our certified, compliant, and sustainable RWH solutions meet CPWD, PWD, CGWA, and Smart City guidelines. Trusted by leading industries, institutions, and developers across India.";
@@ -14,7 +14,8 @@ const GovernmentRWH = () => {
     "government approved rainwater harvesting, certified rainwater harvesting system, compliant RWH system India, approved rainwater harvesting solutions, InRain Construction rainwater harvesting, CPWD approved RWH system, CGWA rainwater harvesting guidelines, government compliant rainwater harvesting, sustainable water management India, rainwater harvesting contractors India";
   const canonical =
     "https://www.inrainconstruction.com/government-approved-rainwater-harvesting";
-  const ogUrl = "https://www.inrainconstruction.com/government-approved-rainwater-harvesting";
+  const ogUrl =
+    "https://www.inrainconstruction.com/government-approved-rainwater-harvesting";
   const ogTitle =
     "Government Approved Rainwater Harvesting | Certified RWH Solutions by InRain Construction";
   const ogDescription =
@@ -26,7 +27,7 @@ const GovernmentRWH = () => {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>{title}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -54,10 +55,10 @@ const GovernmentRWH = () => {
       <PopUp />
 
       <div className="max-w-4xl mx-auto p-6 text-gray-800 leading-relaxed">
-        <h1 className="text-3xl font-bold text-justify mb-4">
+        <h1 className="text-3xl font-bold text-justify mb-3">
           Government Approved Rainwater Harvesting
         </h1>
-        <h2 className="text-xl font-semibold text-justify mb-4">
+        <h2 className="text-xl font-semibold text-justify mb-2">
           Certified Solutions for Sustainable Water Management
         </h2>
 
@@ -92,16 +93,16 @@ const GovernmentRWH = () => {
 
         <hr className="my-6" />
 
-        <h2 className="text-2xl font-semibold mb-3">
-          What Is Government Approved Rainwater Harvesting?
+        <h2 className="text-2xl font-semibold mb-2">
+          What Is Government Approved Rainwater Harvesting
         </h2>
-        <p className="mb-4 text-justify">
+        <p className="mb-2 text-justify">
           Government Approved Rainwater Harvesting refers to systems that are
           designed and installed according to official standards and
           environmental policies. These systems must pass checks for:
         </p>
 
-        <ul className="list-disc pl-6 space-y-1 mb-6">
+        <ul className="list-disc pl-6 space-y-1 mb-2">
           <li>Groundwater recharge efficiency</li>
           <li>Filtration quality and safety</li>
           <li>Structural strength and design accuracy</li>
@@ -117,11 +118,11 @@ const GovernmentRWH = () => {
 
         <hr className="my-6" />
 
-        <h2 className="text-2xl font-semibold mb-4">
-          Why Choose InRain for Government Approved RWH Systems?
+        <h2 className="text-2xl font-semibold mb-2">
+          Why Choose InRain for Government Approved RWH Systems
         </h2>
 
-        <div className="space-y-4">
+        <div className="space-y-2">
           <div>
             <h3 className="font-semibold">
               1. Certified & Compliant Installations
@@ -179,11 +180,11 @@ const GovernmentRWH = () => {
 
         <hr className="my-6" />
 
-        <h2 className="text-2xl font-semibold mb-4">
+        <h2 className="text-2xl font-semibold mb-2">
           Key Features of InRain’s Government Approved RWH Systems
         </h2>
 
-        <ol className="list-decimal pl-6 space-y-2 mb-6">
+        <ol className="list-decimal pl-6 space-y-1 mb-6">
           <li>High-quality filtration units</li>
           <li>Engineered recharge pits and bore recharge systems</li>
           <li>Integrated storage tank options</li>
@@ -197,12 +198,12 @@ const GovernmentRWH = () => {
 
         <hr className="my-6" />
 
-        <h2 className="text-2xl font-semibold mb-4">
+        <h2 className="text-2xl font-semibold mb-2">
           Benefits of Installing a Government Approved Rainwater Harvesting
           System
         </h2>
 
-        <ul className="list-disc pl-6 space-y-2 mb-6">
+        <ul className="list-disc pl-6 space-y-1 mb-6">
           <li>Compliance with mandatory RWH guidelines (where applicable)</li>
           <li>Significant water bill reduction</li>
           <li>
@@ -219,11 +220,11 @@ const GovernmentRWH = () => {
 
         <hr className="my-6" />
 
-        <h2 className="text-2xl font-semibold mb-4">
+        <h2 className="text-2xl font-semibold mb-2">
           Applications Across Multiple Sectors
         </h2>
 
-        <ul className="list-disc pl-6 space-y-2 mb-6">
+        <ul className="list-disc pl-6 space-y-1 mb-6">
           <li>Residential buildings & large apartments</li>
           <li>Factories, manufacturing units, and industrial parks</li>
           <li>Schools, colleges, universities</li>
@@ -235,14 +236,14 @@ const GovernmentRWH = () => {
 
         <hr className="my-6" />
 
-        <h2 className="text-2xl font-semibold mb-3">Why Compliance Matters?</h2>
-        <p className="mb-2 text-justify">
+        <h2 className="text-2xl font-semibold mb-2">Why Compliance Matters</h2>
+        <p className="mb-1 text-justify">
           In many cities, installing RWH systems is mandatory for specific plot
           sizes and building categories. A government-approved system not only
           meets these legal requirements but also protects organizations from
           penalties, inspection delays, and compliance risks.
         </p>
-        <p className="mb-4 text-justify">
+        <p className="mb-2 text-justify">
           InRain’s certified approach ensures your system meets:
         </p>
 
@@ -256,7 +257,7 @@ const GovernmentRWH = () => {
 
         <hr className="my-6" />
 
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-2">
           InRain – Your Trusted Partner in Government-Approved RWH Solutions
         </h2>
         <p className="mb-6">
