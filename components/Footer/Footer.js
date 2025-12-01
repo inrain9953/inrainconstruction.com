@@ -19,13 +19,11 @@ export const Footer = () => {
       <div className="">
         <div className="mt-20">
           <p
-            data-aos="fade-up"
             className="text-center font-bold text-2xl md:text-4xl"
           >
             Our Happy Clients
           </p>
           <div
-            data-aos="fade-up"
             className="flex overflow-clip align-middle drop-shadow-2xl"
           >
             {clientSlider1.map((items) => (
@@ -46,7 +44,6 @@ export const Footer = () => {
           </div>
 
           <div
-            data-aos="fade-up"
             className="flex overflow-clip align-middle drop-shadow-2xl"
           >
             {clientSlider2.map((items) => (
@@ -67,7 +64,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div data-aos="fade-up">
+      <div>
         <iframe
           width="100%"
           height="450"
@@ -84,7 +81,6 @@ export const Footer = () => {
         <div className="footer-background">
           <div className="md:flex md:mr-7">
             <div
-              data-aos="fade-up"
               className="text-left ml-7 pt-10 md:w-[25%]"
             >
               <Link href="/">
@@ -164,7 +160,6 @@ export const Footer = () => {
             </div>
 
             <div
-              data-aos="fade-up"
               className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
             >
               <p className="text-2xl font-semibold pb-3 m-1 text-white">
@@ -203,7 +198,6 @@ export const Footer = () => {
             </div>
 
             <div
-              data-aos="fade-up"
               className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
             >
               <p className="text-2xl font-semibold pb-3 m-1 text-white">
@@ -254,7 +248,6 @@ export const Footer = () => {
             </div>
 
             <div
-              data-aos="fade-up"
               className="text-left ml-7 md:w-[25%] md:pt-10 pb-10 md:pb-0"
             >
               <p className="text-2xl font-semibold m-1 mb-2 text-white">
