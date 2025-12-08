@@ -11,7 +11,7 @@ const RWHIndustries = () => {
   const desc =
     "Discover high-capacity Rainwater Harvesting systems for industries by InRain Construction Pvt. Ltd. Reduce water costs, meet CGWA compliance, recharge groundwater, and secure long-term water availability for factories, industrial parks, and manufacturing units.";
   const keyword =
-    "rainwater harvesting for industries, industrial rainwater harvesting system, factory rainwater harvesting, CGWA compliance rainwater harvesting, industrial water conservation system, borewell recharge for industries, rainwater harvesting solutions India, InRain industrial RWH, water management for industries, industrial sustainability water solutions";
+    "rainwater harvesting for industries, industrial rainwater harvesting, factory rainwater harvesting, CGWA compliance rainwater harvesting, industrial water conservation system, borewell recharge for industries, rainwater harvesting solutions India, InRain industrial RWH, water management for industries, industrial sustainability water solutions";
   const canonical =
     "https://www.inrainconstruction.com/rainwater-harvesting-for-industries";
   const ogUrl =
@@ -316,8 +316,10 @@ const RWHIndustries = () => {
           InRain Construction Pvt. Ltd. is committed to helping industries adopt
           sustainable water practices with confidence and reliability.
         </p>
+        There's nothing happening from your side on social media and 
+        the followers is still 150 only. Please do the needful.
 
-        <hr className="my-6" />
+        <hr />
       </div>
 
       <Footer />

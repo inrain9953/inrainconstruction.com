@@ -260,7 +260,7 @@ const GovernmentRWH = () => {
         <h2 className="text-2xl font-semibold mb-2">
           InRain – Your Trusted Partner in Government-Approved RWH Solutions
         </h2>
-        <p className="mb-6">
+        <p>
           With a deep commitment to innovation, quality, and sustainability,
           InRain Construction Pvt. Ltd. continues to lead the way in India’s
           rainwater harvesting industry. Our government-approved systems empower
