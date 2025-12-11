@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../public/logo.png";
-import TextTransition, { presets } from "react-text-transition";
 import Image from "next/image";
 import trophy from "../../public/trophyImg.png";
 import approved from "../../public/approved.png";
@@ -11,6 +10,7 @@ import tech3 from "../../public/Technology/main3.jpg";
 import tech4 from "../../public/Technology/main4.jpg";
 import tech5 from "../../public/Technology/main5.jpg";
 import newTech from "../../public/new-technology-based-rainwater.jpg";
+import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 const TEXTS = [
@@ -36,12 +36,18 @@ const PolymerTypeLocationTarget = ({ location }) => {
       <div data-aos="fade-up" className="">
         <div className="relative hero1-background">
           <div className="absolute md:top-24 top-28 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <TextTransition
-              className="md:text-xl text-center text-base text-white"
-              springConfig={presets.gentle}
-            >
-              {TEXTS[index % TEXTS.length]}
-            </TextTransition>
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -15 }}
+                transition={{ duration: 0.5 }}
+                className="md:text-xl text-center text-base text-white"
+              >
+                {TEXTS[index % TEXTS.length]}
+              </motion.div>
+            </AnimatePresence>
           </div>
 
           <div className="text-center">
@@ -121,10 +127,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
           </p>
         </div>
 
-        <div
-          data-aos="fade-up"
-          className="m-2 flex justify-center md:inline"
-        >
+        <div data-aos="fade-up" className="m-2 flex justify-center md:inline">
           <div className="flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
@@ -159,10 +162,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
           </div>
         </div>
 
-        <div
-          data-aos="fade-up"
-          className="m-2 flex justify-center md:inline"
-        >
+        <div data-aos="fade-up" className="m-2 flex justify-center md:inline">
           <div className="flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center">
             <div>
               <Image
@@ -198,10 +198,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
       </div>
 
       <div className="text-center pt-10 m-5 md:m-10">
-        <h3
-          data-aos="fade-up"
-          className="md:text-4xl font-semibold text-2xl"
-        >
+        <h3 data-aos="fade-up" className="md:text-4xl font-semibold text-2xl">
           About Our Technology
         </h3>
         <p
@@ -221,10 +218,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
           <bold className="text-black font-semibold">"Make in India"</bold>{" "}
           initiative.
         </p>
-        <div
-          data-aos="fade-up"
-          className="grid grid-cols-1 md:grid-cols-2 m-2"
-        >
+        <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 m-2">
           <Image
             className=""
             alt="Modular Rainwater Harvesting by InRain®"
@@ -242,10 +236,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
             unoptimized={true}
           />
         </div>
-        <div
-          data-aos="fade-up"
-          className="grid grid-cols-1 md:grid-cols-3 m-2"
-        >
+        <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-3 m-2">
           <Image
             className=""
             alt="Modular Rainwater Harvesting by InRain®"

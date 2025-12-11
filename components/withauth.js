@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import jwt_decode from "jwt-decode";
+import jwtDecode from "jwt-decode";
 import { Navbar } from "./Navbar/Navbar";
 import { Footer } from "./Footer/Footer";
 
@@ -10,20 +10,26 @@ const withAuth = (WrappedComponent) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-      const token = localStorage.getItem("token");
+      const token =
+        typeof window !== "undefined" ? localStorage.getItem("token") : null;
 
-      if (token) {
-        try {
-          const decoded = jwt_decode(token);
-          // Check token expiration
-          if (decoded.exp * 1000 < Date.now()) {
-            localStorage.removeItem("token");
-            router.push("/admin");
-          }
-        } catch (error) {
+      if (!token) {
+        router.push("/admin");
+        return;
+      }
+
+      try {
+        const decoded = jwtDecode(token);
+
+        // Check expiration
+        if (decoded.exp * 1000 < Date.now()) {
+          localStorage.removeItem("token");
+          router.push("/admin");
+        } else {
           setLoading(false);
         }
-      } else {
+      } catch (error) {
+        localStorage.removeItem("token");
         router.push("/admin");
       }
     }, []);

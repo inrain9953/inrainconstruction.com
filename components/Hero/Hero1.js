@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../public/logo.png";
-import TextTransition, { presets } from "react-text-transition";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
 const TEXTS = [
@@ -26,12 +26,18 @@ export const Hero1 = () => {
     <div data-aos="fade-up" className="">
       <div className="relative hero1-background">
         <div className="absolute md:top-24 top-28 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <TextTransition
-            className="md:text-xl text-center text-base text-white"
-            springConfig={presets.gentle}
-          >
-            {TEXTS[index % TEXTS.length]}
-          </TextTransition>
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -15 }}
+              transition={{ duration: 0.5 }}
+              className="md:text-xl text-center text-base text-white"
+            >
+              {TEXTS[index % TEXTS.length]}
+            </motion.div>
+          </AnimatePresence>
         </div>
 
         <div className="text-center">
