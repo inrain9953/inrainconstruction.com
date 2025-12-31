@@ -16,7 +16,7 @@ const TEXTS = [
 ];
 
 const AboutICPL = () => {
-  const title = "About ICPL | InRain® Construction Pvt. Ltd.";
+  const title = "About Nishant Gaurav (ICPL) | InRain® Construction Pvt. Ltd.";
   const desc =
     "Modular Rainwater Harvesting by ICPL—India’s leader in sustainable, load-bearing, polymer-based RWH systems for smart cities, industries & urban infrastructure.";
   const keyword =
@@ -93,9 +93,9 @@ const AboutICPL = () => {
             >
               Polymer-based Rainwater Harvesting Systems
             </a>{" "}
-            have conserved billions of gallons of rainwater across the residential,
-            commercial, and public sectors. Our flagship solution is a
-            cutting-edge, scientific RWH system featuring a world‑first
+            have conserved billions of gallons of rainwater across the
+            residential, commercial, and public sectors. Our flagship solution
+            is a cutting-edge, scientific RWH system featuring a world‑first
             load‑bearing modular structure capable of supporting over
             50 t/m²—ideal for high-traffic areas like roads and parking lots.
             <br />
@@ -147,6 +147,22 @@ const AboutICPL = () => {
             A dynamic leader driving innovation and excellence in the Rainwater
             Harvesting industry.
           </p>
+        </div>
+      </div>
+
+      <div className="mt-10">
+        <div>
+          <h2 className="text-center text-xl font-semibold">
+            Indian Green Building Council (IGBC) Certification
+          </h2>
+        </div>
+        <div className="md:flex justify-center items-center gap-5 mt-5">
+          <div>
+            <Image className="md:h-[350px]" width={500} height={500} src={"/igbc_certificate.jpg"} />
+          </div>
+          <div className="m-2 md:m-0">
+            <Image width={500} height={500} src={"/igbc_award.jpg"} />
+          </div>
         </div>
       </div>
 

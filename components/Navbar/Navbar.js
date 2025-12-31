@@ -263,6 +263,9 @@ export const Navbar = () => {
             <Link className="hover:text-green-500" href="/careers">
               Career
             </Link>
+            <Link className="hover:text-green-500" href="/about-nishant-gaurav">
+              Director
+            </Link>
           </div>
         </div>
         {/* For Desktop View */}
@@ -610,6 +613,11 @@ export const Navbar = () => {
           <li>
             <Link href="/careers" style={{ textDecoration: "none" }}>
               Career
+            </Link>
+          </li>
+          <li>
+            <Link href="/about-nishant-gaurav" style={{ textDecoration: "none" }}>
+              Director
             </Link>
           </li>
         </ul>
