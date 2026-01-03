@@ -20,7 +20,7 @@ const AboutICPL = () => {
   const desc =
     "Modular Rainwater Harvesting by ICPL—India’s leader in sustainable, load-bearing, polymer-based RWH systems for smart cities, industries & urban infrastructure.";
   const keyword =
-    "ICPL, InRain® Construction Pvt. Ltd., Mr. Nishant Gaurav, Rainwater Harvesting, Modular Rainwater Harvesting System, Sustainable Water Management, Load-bearing RWH, Smart City Water Solutions, Urban Stormwater Management, Rainwater Harvesting India, Polymer Based RWH, Rooftop Harvesting. ";
+    "About Nishant Gaurav - InRain, Indian Green Building Council (IGBC) Certification, ICPL, Rainwater Harvesting, Modular Rainwater Harvesting System, Sustainable Water Management, Load-bearing RWH, Smart City Water Solutions, Urban Stormwater Management, Rainwater Harvesting India, Polymer Based RWH, Rooftop Harvesting. ";
   const canonical = "https://www.inrainconstruction.com/about_icpl";
   const ogUrl = "https://www.inrainconstruction.com/about_icpl";
   const ogTitle = "About ICPL | InRain® Construction Pvt. Ltd.";
@@ -64,7 +64,7 @@ const AboutICPL = () => {
       <div className="container mx-auto bg-gray-50 md:pl-10 md:pr-10 md:gap-5 p-4 md:grid md:grid-cols-2 justify-center items-center">
         <div className="text-justify">
           <h1 className="md:text-[30px] text-[20px] font-semibold">
-            About ICPL: InRain® Construction Pvt. Ltd.
+            About NISHANT GAURAV - InRain
           </h1>
           <p className="md:text-[17px] text-[15px] drop-shadow-lg md:mt-2">
             InRain® Construction Pvt. Ltd. (ICPL) is the{" "}
