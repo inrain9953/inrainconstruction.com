@@ -16,7 +16,7 @@ const TEXTS = [
 ];
 
 const AboutICPL = () => {
-  const title = "About Nishant Gaurav (ICPL) | InRain® Construction Pvt. Ltd.";
+  const title = "About Nishant Gaurav Singh (ICPL) | InRain® Construction Pvt. Ltd.";
   const desc =
     "Modular Rainwater Harvesting by ICPL—India’s leader in sustainable, load-bearing, polymer-based RWH systems for smart cities, industries & urban infrastructure.";
   const keyword =
@@ -64,7 +64,7 @@ const AboutICPL = () => {
       <div className="container mx-auto bg-gray-50 md:pl-10 md:pr-10 md:gap-5 p-4 md:grid md:grid-cols-2 justify-center items-center">
         <div className="text-justify">
           <h1 className="md:text-[30px] text-[20px] font-semibold">
-            About NISHANT GAURAV - InRain
+            About NISHANT GAURAV SINGH - InRain
           </h1>
           <p className="md:text-[17px] text-[15px] drop-shadow-lg md:mt-2">
             InRain® Construction Pvt. Ltd. (ICPL) is the{" "}
@@ -158,7 +158,12 @@ const AboutICPL = () => {
         </div>
         <div className="md:flex justify-center items-center gap-5 mt-5">
           <div>
-            <Image className="md:h-[350px]" width={500} height={500} src={"/igbc_certificate.jpg"} />
+            <Image
+              className="md:h-[350px]"
+              width={500}
+              height={500}
+              src={"/igbc_certificate.jpg"}
+            />
           </div>
           <div className="m-2 md:m-0">
             <Image width={500} height={500} src={"/igbc_award.jpg"} />

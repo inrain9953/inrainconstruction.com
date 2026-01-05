@@ -263,7 +263,7 @@ export const Navbar = () => {
             <Link className="hover:text-green-500" href="/careers">
               Career
             </Link>
-            <Link className="hover:text-green-500" href="/about-nishant-gaurav">
+            <Link className="hover:text-green-500" href="/about-nishant-gaurav-singh">
               Director
             </Link>
           </div>
@@ -616,7 +616,7 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/about-nishant-gaurav" style={{ textDecoration: "none" }}>
+            <Link href="/about-nishant-gaurav-singh" style={{ textDecoration: "none" }}>
               Director
             </Link>
           </li>
