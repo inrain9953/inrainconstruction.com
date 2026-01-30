@@ -12,55 +12,78 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import Link from "next/link";
 import Image from "next/image";
 import { clientSlider1, clientSlider2 } from "../constant";
+import Marquee from "react-fast-marquee";
 
 export const Footer = () => {
   return (
     <>
       <div className="">
-        <div className="mt-20">
-          <p
-            className="text-center font-bold text-2xl md:text-4xl"
-          >
+        <div className="mt-10">
+          <p className="text-center font-bold text-2xl md:text-4xl">
             Our Happy Clients
           </p>
-          <div
-            className="flex overflow-clip align-middle drop-shadow-2xl"
-          >
-            {clientSlider1.map((items) => (
-              <div className="m-7 w-36 md:m-10 carouselAnimation md:w-44">
-                <Image
-                  alt="img"
-                  className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl rounded-lg"
-                  src={items.img}
-                  loading="eager"
-                  priority={true}
-                  unoptimized={true}
-                ></Image>
-                <p className="text-center font-semibold text-sm md:text-lg m-2">
-                  {items.description}
-                </p>
-              </div>
-            ))}
-          </div>
+          <div className="flex flex-col gap-3 mt-5 mb-8">
+            <div className="w-full flex">
+              <Marquee
+                gradient={false}
+                speed={80}
+                pauseOnHover={true}
+                pauseOnClick={true}
+                delay={0}
+                play={true}
+                direction="left"
+                className="md:h-[230px] h-[200px]"
+              >
+                {clientSlider1.map((item, i) => (
+                  <div
+                    key={i}
+                    className="m-3 shadow-xl rounded-2xl md:h-[160px] h-[110px]"
+                  >
+                    <Image
+                      src={item.img}
+                      width={200}
+                      height={200}
+                      alt={item.name}
+                      className="rounded-2xl border h-[100%] w-[100%]"
+                    />
+                    <p className="flex items-center justify-center text-center text-[15px] font-semibold mt-3">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </Marquee>
+            </div>
 
-          <div
-            className="flex overflow-clip align-middle drop-shadow-2xl"
-          >
-            {clientSlider2.map((items) => (
-              <div className="m-7 w-36 md:m-10 carouselAnimation md:w-44">
-                <Image
-                  alt="img"
-                  className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl rounded-lg"
-                  src={items.img}
-                  loading="eager"
-                  priority={true}
-                  unoptimized={true}
-                ></Image>
-                <p className="text-center font-semibold text-sm md:text-lg m-2">
-                  {items.description}
-                </p>
-              </div>
-            ))}
+            <div className="w-full flex">
+              <Marquee
+                gradient={false}
+                speed={80}
+                pauseOnHover={true}
+                pauseOnClick={true}
+                delay={0}
+                play={true}
+                direction="right"
+                className="md:h-[230px] h-[200px]"
+              >
+                {clientSlider2.map((item, i) => (
+                  <div
+                    key={i}
+                    className="m-3 shadow-xl rounded-2xl md:h-[160px] h-[110px]"
+                  >
+                    <Image
+                      src={item.img}
+                      width={200}
+                      height={200}
+                      alt={item.name}
+                      className="rounded-2xl border h-[100%] w-[100%]"
+                    />
+                    <p className="flex items-center justify-center text-center text-[15px] mt-3 font-semibold">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </Marquee>
+            </div>
           </div>
         </div>
       </div>
@@ -80,9 +103,7 @@ export const Footer = () => {
       <div>
         <div className="footer-background">
           <div className="md:flex md:mr-7">
-            <div
-              className="text-left ml-7 pt-10 md:w-[25%]"
-            >
+            <div className="text-left ml-7 pt-10 md:w-[25%]">
               <Link href="/">
                 <Image
                   className="w-24 mb-5"
@@ -97,9 +118,7 @@ export const Footer = () => {
                 <a
                   className="hover:text-sky-600"
                   target="_blank"
-                  href={
-                    "https://www.facebook.com/inrainconstructions"
-                  }
+                  href={"https://www.facebook.com/inrainconstructions"}
                 >
                   <FacebookIcon fontSize="large" />
                 </a>
@@ -159,9 +178,7 @@ export const Footer = () => {
               </div>
             </div>
 
-            <div
-              className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
-            >
+            <div className="text-left ml-7 mb-7 md:w-[25%] md:pt-10">
               <p className="text-2xl font-semibold pb-3 m-1 text-white">
                 Quick Links
               </p>
@@ -197,9 +214,7 @@ export const Footer = () => {
               </p>
             </div>
 
-            <div
-              className="text-left ml-7 mb-7 md:w-[25%] md:pt-10"
-            >
+            <div className="text-left ml-7 mb-7 md:w-[25%] md:pt-10">
               <p className="text-2xl font-semibold pb-3 m-1 text-white">
                 Our Products
               </p>
@@ -247,9 +262,7 @@ export const Footer = () => {
               </Link>
             </div>
 
-            <div
-              className="text-left ml-7 md:w-[25%] md:pt-10 pb-10 md:pb-0"
-            >
+            <div className="text-left ml-7 md:w-[25%] md:pt-10 pb-10 md:pb-0">
               <p className="text-2xl font-semibold m-1 mb-2 text-white">
                 Our Office
               </p>

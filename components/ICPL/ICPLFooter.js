@@ -9,10 +9,10 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import PinterestIcon from "@mui/icons-material/Pinterest";
 import { Link } from "react-scroll";
 import Image from "next/image";
 import { clientSlider1, clientSlider2 } from "../constant";
+import Marquee from "react-fast-marquee";
 
 const ICPLFooter = () => {
   return (
@@ -25,46 +25,68 @@ const ICPLFooter = () => {
           >
             Our Happy Clients
           </h3>
-          <div
-            data-aos="fade-up"
-            className="flex overflow-clip align-middle drop-shadow-2xl"
-          >
-            {clientSlider1.map((items) => (
-              <div className="m-7 w-36 md:m-10 carouselAnimation md:w-44">
-                <Image
-                  alt="img"
-                  className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl"
-                  src={items.img}
-                  loading="eager"
-                  priority={true}
-                  unoptimized={true}
-                ></Image>
-                <p className="text-center font-semibold text-sm md:text-lg m-2">
-                  {items.description}
-                </p>
-              </div>
-            ))}
-          </div>
+          <div className="flex flex-col gap-3 mt-5 mb-8">
+            <div className="w-full flex">
+              <Marquee
+                gradient={false}
+                speed={80}
+                pauseOnHover={true}
+                pauseOnClick={true}
+                delay={0}
+                play={true}
+                direction="left"
+                className="md:h-[230px] h-[200px]"
+              >
+                {clientSlider1.map((item, i) => (
+                  <div
+                    key={i}
+                    className="m-3 shadow-xl rounded-2xl md:h-[160px] h-[110px]"
+                  >
+                    <Image
+                      src={item.img}
+                      width={200}
+                      height={200}
+                      alt={item.name}
+                      className="rounded-2xl border h-[100%] w-[100%]"
+                    />
+                    <p className="flex items-center justify-center text-center text-[15px] font-semibold mt-3">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </Marquee>
+            </div>
 
-          <div
-            data-aos="fade-up"
-            className="flex overflow-clip align-middle drop-shadow-2xl"
-          >
-            {clientSlider2.map((items) => (
-              <div className="m-7 w-36 md:m-10 carouselAnimation md:w-44">
-                <Image
-                  alt="img"
-                  className="h-20 min-w-20 md:min-w-28 md:h-28 drop-shadow-xl"
-                  src={items.img}
-                  loading="eager"
-                  priority={true}
-                  unoptimized={true}
-                ></Image>
-                <p className="text-center font-semibold text-sm md:text-lg m-2">
-                  {items.description}
-                </p>
-              </div>
-            ))}
+            <div className="w-full flex">
+              <Marquee
+                gradient={false}
+                speed={80}
+                pauseOnHover={true}
+                pauseOnClick={true}
+                delay={0}
+                play={true}
+                direction="right"
+                className="md:h-[230px] h-[200px]"
+              >
+                {clientSlider2.map((item, i) => (
+                  <div
+                    key={i}
+                    className="m-3 shadow-xl rounded-2xl md:h-[160px] h-[110px]"
+                  >
+                    <Image
+                      src={item.img}
+                      width={200}
+                      height={200}
+                      alt={item.name}
+                      className="rounded-2xl border h-[100%] w-[100%]"
+                    />
+                    <p className="flex items-center justify-center text-center text-[15px] mt-3 font-semibold">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </Marquee>
+            </div>
           </div>
         </div>
       </div>
@@ -72,10 +94,7 @@ const ICPLFooter = () => {
       <div>
         <div className="footer-background">
           <div className="md:flex md:mr-7">
-            <div
-              data-aos="fade-up"
-              className="text-left ml-7 pt-10 md:w-[25%]"
-            >
+            <div data-aos="fade-up" className="text-left ml-7 pt-10 md:w-[25%]">
               <Link href="#">
                 <Image
                   className="w-24 mb-5"

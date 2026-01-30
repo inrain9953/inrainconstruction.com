@@ -1,132 +1,222 @@
-import ClientImg1 from "./../public/clients/tata.png";
-import ClientImg2 from "./../public/clients/pepsico.jpg";
-import ClientImg3 from "./../public/clients/honda.png";
-import ClientImg4 from "./../public/clients/smart-city-karimnagar.png";
-import ClientImg5 from "./../public/clients/delhi-development.png";
-import ClientImg6 from "./../public/clients/pradhanmantri-sangrahalaya.jpg";
-import ClientImg7 from "./../public/clients/nhai.jpg";
-import ClientImg8 from "./../public/clients/international-arrivals.jpg";
-import ClientImg9 from "./../public/clients/ndmc.jpg";
-import ClientImg10 from "./../public/clients/hindustan-unilever.jpg";
-import ClientImg11 from "./../public/clients/cpwd.jpg";
-import ClientImg12 from "./../public/clients/pwd.jpg";
-import ClientImg13 from "./../public/clients/larsen-and-toubro.png";
-import ClientImg14 from "./../public/clients/marathon-electric.png";
-import ClientImg15 from "./../public/clients/mittal.png";
-import ClientImg16 from "./../public/clients/gmda.jpg";
-import ClientImg17 from "./../public/clients/fujita.jpeg";
-import ClientImg18 from "./../public/clients/brookfield-properties.png";
-import ClientImg19 from "./../public/clients/denso.png";
-import ClientImg20 from "./../public/clients/gls.png";
-import ClientImg21 from "./../public/clients/cbre.png";
-import ClientImg22 from "./../public/clients/smc.png";
-import ClientImg23 from "./../public/clients/supreme-pipes.png";
-import ClientImg24 from "./../public/clients/ahresty.png";
-import ClientImg25 from "./../public/clients/v3.jpg";
-
 export const clientSlider1 = [
   {
-    img: ClientImg1,
+    img: "/clients/tata.png",
     description: "TATA",
   },
   {
-    img: ClientImg2,
+    img: "/clients/pepsico.jpg",
     description: "PEPSICO",
   },
   {
-    img: ClientImg3,
-    description: "HONDA",
-  },
-  {
-    img: ClientImg4,
+    img: "/clients/smart-city-karimnagar.png",
     description: "SMART CITY KARIMNAGAR",
   },
   {
-    img: ClientImg5,
+    img: "/clients/delhi-development.png",
     description: "DELHI DEVELOPMENT AUTHORITY",
   },
   {
-    img: ClientImg6,
+    img: "/clients/pradhanmantri-sangrahalaya.jpg",
     description: "PRADHANMANTRI SANGRAHALAYA",
   },
   {
-    img: ClientImg7,
+    img: "/clients/nhai.jpg",
     description: "NHAI",
   },
   {
-    img: ClientImg8,
+    img: "/clients/international-arrivals.jpg",
     description: "INTERNATIONAL ARRIVALS",
   },
   {
-    img: ClientImg9,
+    img: "/clients/ndmc.jpg",
     description: "NDMC",
   },
   {
-    img: ClientImg10,
+    img: "/clients/hindustan-unilever.jpg",
     description: "HINDUSTAN UNILEVER",
   },
   {
-    img: ClientImg11,
+    img: "/clients/cpwd.jpg",
     description: "CPWD",
   },
   {
-    img: ClientImg12,
+    img: "/clients/pwd.jpg",
     description: "PWD",
+  },
+  {
+    img: "/clients/ahluwalia.png",
+    description: "Ahluwalia Contracts India Ltd.",
+  },
+  {
+    img: "/clients/airportauthorityindia.webp",
+    description: "AIRPORT AUTHORITY OF INDIA",
+  },
+  {
+    img: "/clients/bharatiyam.jpg",
+    description: "BHARATIYAM",
+  },
+  {
+    img: "/clients/blkashyap.jpg",
+    description: "BL KASHYAP",
+  },
+  {
+    img: "/clients/creambell.png",
+    description: "CREAM BELL",
+  },
+  {
+    img: "/clients/dlf.jpg",
+    description: "DLF",
+  },
+  {
+    img: "/clients/emperiumbuilding.png",
+    description: "EMPERIUM BUILDING",
+  },
+  {
+    img: "/clients/epackdurable.jpg",
+    description: "EPACK DURABLE",
+  },
+  {
+    img: "/clients/glc.jpg",
+    description: "GLC",
+  },
+  {
+    img: "/clients/hng.avif",
+    description: "HNG Glass",
+  },
+  {
+    img: "/clients/idvb.png",
+    description: "IDVB",
+  },
+   {
+    img: "/clients/republicmedia.png",
+    description: "REPUBLIC MEDIA",
+  },
+  {
+    img: "/clients/rlda.jpg",
+    description: "RLDA",
+  },
+  {
+    img: "/clients/stylam.png",
+    description: "STYLAM",
+  },
+  {
+    img: "/clients/swadeshi.webp",
+    description: "SWADESHI INFRA",
   },
 ];
 
 export const clientSlider2 = [
   {
-    img: ClientImg13,
+    img: "/clients/larsen-and-toubro.png",
     description: "LARSEN & TOUBRO",
   },
   {
-    img: ClientImg14,
+    img: "/clients/marathon-electric.png",
     description: "MARATHON ELECTRIC",
   },
   {
-    img: ClientImg15,
+    img: "/clients/mittal.png",
     description: "MITTAL CONS.",
   },
   {
-    img: ClientImg16,
+    img: "/clients/gmda.jpg",
     description: "GMDA",
   },
   {
-    img: ClientImg17,
+    img: "/clients/fujita.jpeg",
     description: "FUJITA",
   },
   {
-    img: ClientImg18,
+    img: "/clients/brookfield-properties.png",
     description: "BROOKFIELD PROPERTIES",
   },
   {
-    img: ClientImg19,
+    img: "/clients/denso.png",
     description: "DENSO",
   },
   {
-    img: ClientImg20,
+    img: "/clients/gls.png",
     description: "GLS",
   },
   {
-    img: ClientImg21,
+    img: "/clients/cbre.png",
     description: "CBRE",
   },
   {
-    img: ClientImg22,
-    description: "SMC",
-  },
-  {
-    img: ClientImg23,
+    img: "/clients/supreme-pipes.png",
     description: "SUPREME PIPES",
   },
   {
-    img: ClientImg24,
+    img: "/clients/ahresty.png",
     description: "AHRESTY",
   },
   {
-    img: ClientImg25,
+    img: "/clients/v3.jpg",
     description: "V3",
+  },
+  {
+    img: "/clients/jaypee.jpg",
+    description: "JAYPEE",
+  },
+  {
+    img: "/clients/jindal.png",
+    description: "JINDAL",
+  },
+  {
+    img: "/clients/kwhomes.jpg",
+    description: "KW HOMES",
+  },
+  {
+    img: "/clients/lenskart.webp",
+    description: "LENSKART",
+  },
+  {
+    img: "/clients/max.webp",
+    description: "MAX",
+  },
+  {
+    img: "/clients/mes.png",
+    description: "MES",
+  },
+  {
+    img: "/clients/nbcc.png",
+    description: "NBCC",
+  },
+  {
+    img: "/clients/noidagolfcourse.png",
+    description: "NOIDA GOLF COURSE",
+  },
+  {
+    img: "/clients/ongc.svg",
+    description: "ONGC",
+  },
+  {
+    img: "/clients/ozone.png",
+    description: "OZONE",
+  },
+  {
+    img: "/clients/parnika.avif",
+    description: "PARNIKA COMMERCIAL",
+  },
+  {
+    img: "/clients/radisson.jpg",
+    description: "RADISSON BLU",
+  },
+  {
+    img: "/clients/tataconsumer.jpg",
+    description: "TATA CONSUMER",
+  },
+  {
+    img: "/clients/tatasteel.png",
+    description: "TATA STEEL",
+  },
+  {
+    img: "/clients/vishwapublic.png",
+    description: "VISHWA BHARTI PUBLIC SCHOOL",
+  },
+  {
+    img: "/clients/whirlpool.jpg",
+    description: "WHIRLPOOL",
   },
 ];
 
