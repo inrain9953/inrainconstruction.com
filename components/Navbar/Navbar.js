@@ -229,7 +229,7 @@ export const Navbar = () => {
 
         {/* For Desktop View */}
         <div className="bg-white hidden md:block">
-          <div className="flex justify-center items-center gap-12 h-10 text-[16px]">
+          <div className="flex justify-center items-center gap-10 h-10 text-[15px]">
             <Link className="hover:text-green-500" href="/">
               Home
             </Link>

@@ -64,7 +64,7 @@ const RWHTank = () => {
           A{" "}
           <Link
             className="font-semibold hover:text-sky-500 text-green-500"
-            href="/"
+            href="https://www.inrainconstruction.com/"
           >
             Rainwater Harvesting Tank
           </Link>{" "}

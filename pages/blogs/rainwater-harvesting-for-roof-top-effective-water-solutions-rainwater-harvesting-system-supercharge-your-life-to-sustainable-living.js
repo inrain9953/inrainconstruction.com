@@ -75,7 +75,7 @@ const Blog5 = () => {
             <div className="md:flex md:gap-14 md:justify-center">
               <div className="md:w-[70%]">
                 <div>
-                  <Link href={"/https://www.inrainconstruction.com/"}>
+                  <Link href={"https://www.inrainconstruction.com/"}>
                     <Image
                       className="w-full md:w-1/2"
                       src={blog5img}
