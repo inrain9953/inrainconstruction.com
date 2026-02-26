@@ -37,7 +37,7 @@ const ModularAgartala = () => {
         <meta property="og:title" content={ogTitle} />
         <meta property="og:description" content={ogDescription} />
         <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
+        <meta name="twitter:title" content={twittertitle} /> 
         <meta name="twitter:description" content={twitterdescription} />
         <meta name="author" content="InRain® Construction Pvt Ltd"></meta>
         <meta

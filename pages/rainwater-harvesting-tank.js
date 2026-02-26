@@ -4,6 +4,7 @@ import PopUp from "@/components/popup";
 import Head from "next/head";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const RWHTank = () => {
   const title =
@@ -60,14 +61,21 @@ const RWHTank = () => {
         </h1>
 
         <p className="text-lg text-justify mb-6">
-          A <strong>Rainwater Harvesting Tank</strong> is an essential component
-          of any modern water conservation system. Designed to collect, store,
-          and supply harvested rainwater, these tanks help households,
-          industries, and commercial spaces reduce dependency on municipal water
-          sources while promoting sustainable resource management. With growing
-          water scarcity and rising groundwater depletion across cities,
-          installing a dedicated harvesting tank has become both a practical and
-          environmentally responsible choice.
+          A{" "}
+          <Link
+            className="font-semibold hover:text-sky-500 text-green-500"
+            href="/"
+          >
+            Rainwater Harvesting Tank
+          </Link>{" "}
+          is an essential component of any modern water conservation system.
+          Designed to collect, store, and supply harvested rainwater, these
+          tanks help households, industries, and commercial spaces reduce
+          dependency on municipal water sources while promoting sustainable
+          resource management. With growing water scarcity and rising
+          groundwater depletion across cities, installing a dedicated harvesting
+          tank has become both a practical and environmentally responsible
+          choice.
         </p>
 
         <Image
