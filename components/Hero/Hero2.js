@@ -96,7 +96,7 @@ export const Hero2 = () => {
           className="md:flex justify-center items-center gap-24"
         >
           <div className="flex flex-col justify-center items-center mt-7">
-            <p className="text-lg md:text-xl font-semibold h-12 md:h-20 bg-green-300 rounded-lg flex justify-center items-center p-5">
+            <p className="text-lg font-semibold bg-green-300 rounded-lg flex justify-center items-center p-3">
               Making The Planet Green
             </p>
             <div className="text-3xl mt-5 font-bold">
@@ -111,7 +111,7 @@ export const Hero2 = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center mt-7">
-            <p className="text-lg md:text-xl font-semibold h-12 md:h-20 bg-green-300 rounded-lg flex justify-center items-center p-5">
+            <p className="text-lg font-semibold bg-green-300 rounded-lg flex justify-center items-center p-3">
               Recycling Rainwater
             </p>
             <div className="text-3xl mt-5 font-bold">
@@ -126,7 +126,7 @@ export const Hero2 = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center mt-7">
-            <p className="text-lg md:text-xl font-semibold h-12 md:h-20 bg-green-300 rounded-lg flex justify-center items-center p-5">
+            <p className="text-lg font-semibold bg-green-300 rounded-lg flex justify-center items-center p-3">
               Decreases The Demand For Water
             </p>
             <div className="text-3xl mt-5 font-bold">
@@ -141,7 +141,7 @@ export const Hero2 = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center mt-7">
-            <p className="text-lg md:text-xl font-semibold h-12 md:h-20 bg-green-300 rounded-lg flex justify-center items-center p-5">
+            <p className="text-lg font-semibold bg-green-300 rounded-lg flex justify-center items-center p-3">
               Reduces Stormwater Flow
             </p>
             <div className="text-3xl mt-5 font-bold">

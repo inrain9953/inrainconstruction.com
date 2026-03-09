@@ -1,7 +1,7 @@
 import React from "react";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
-import { Button } from "@mui/material";
+import { Button, ButtonBase } from "@mui/material";
 import logo from "../../public/logo.png";
 import stamp from "../../public/stamp.png";
 import trophy from "../../public/trophy.png";
@@ -170,16 +170,26 @@ export const Navbar = () => {
 
           {/* For Desktop View */}
           <div className="hidden md:block">
-            <div className="flex gap-5 mr-7">
+            <div className="flex gap-3">
               <div className="flex items-center">
-                <div className="mr-2 text-right">
-                  <p className="text-base font-semibold uppercase">
+                <Link href="/sitework-gallery">
+                  <button
+                    className="bg-green-600 p-1.5 text-[12px] text-white rounded-xl animate-pulse"
+                  >
+                    Site Gallery
+                  </button>
+                </Link>
+              </div>
+
+              <div className="flex items-center">
+                <div className="text-right">
+                  <p className="text-[15px] font-semibold uppercase">
                     The Best Industrial
                   </p>
-                  <p className="text-sm text-gray-600">Solution Provider</p>
+                  <p className="text-xs text-gray-600">Solution Provider</p>
                 </div>
                 <Image
-                  className="h-10"
+                  className="h-9"
                   src={trophy}
                   alt="img"
                   loading="eager"
@@ -189,14 +199,14 @@ export const Navbar = () => {
               </div>
 
               <div className="flex items-center">
-                <div className="mr-2 text-right">
-                  <p className="text-base font-semibold uppercase">
+                <div className="text-right">
+                  <p className="text-[15px] font-semibold uppercase">
                     Certified Company
                   </p>
-                  <p className="text-sm text-gray-600">ISO 9001:2015</p>
+                  <p className="text-xs text-gray-600">ISO 9001:2015</p>
                 </div>
                 <Image
-                  className="h-10"
+                  className="h-9"
                   src={stamp}
                   alt="img"
                   loading="eager"
@@ -206,14 +216,14 @@ export const Navbar = () => {
               </div>
 
               <div className="flex items-center">
-                <div className="mr-2 text-right">
-                  <p className="text-base font-semibold uppercase">
+                <div className="text-right">
+                  <p className="text-[15px] font-semibold uppercase">
                     Certified Company
                   </p>
-                  <p className="text-sm text-gray-600">ISO 14001:2015</p>
+                  <p className="text-xs text-gray-600">ISO 14001:2015</p>
                 </div>
                 <Image
-                  className="h-10"
+                  className="h-9"
                   src={stamp}
                   alt="img"
                   loading="eager"
@@ -263,7 +273,10 @@ export const Navbar = () => {
             <Link className="hover:text-green-500" href="/careers">
               Career
             </Link>
-            <Link className="hover:text-green-500" href="/about-nishant-gaurav-singh">
+            <Link
+              className="hover:text-green-500"
+              href="/about-nishant-gaurav-singh"
+            >
               Director
             </Link>
           </div>
@@ -616,8 +629,19 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/about-nishant-gaurav-singh" style={{ textDecoration: "none" }}>
+            <Link
+              href="/about-nishant-gaurav-singh"
+              style={{ textDecoration: "none" }}
+            >
               Director
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/sitework-gallery"
+              style={{ textDecoration: "none" }}
+            >
+              Site Gallery
             </Link>
           </li>
         </ul>
