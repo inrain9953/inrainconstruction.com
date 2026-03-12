@@ -153,7 +153,7 @@ export default function App({ Component, pageProps }) {
           aggregateRating: {
             "@type": "AggregateRating",
             ratingValue: "4.8",
-            reviewCount: "4683",
+            ratingCount: "4683",
           },
         })}
       </Script>
