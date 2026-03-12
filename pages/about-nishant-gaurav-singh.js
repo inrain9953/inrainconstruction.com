@@ -6,17 +6,28 @@ import Head from "next/head";
 import { Footer } from "@/components/Footer/Footer";
 import md from "./../public/inrain-md.jpg";
 import ICPLCertification from "@/components/ICPL/ICPLCertification";
+import { useState, useRef, useEffect } from "react";
+import Button from "@mui/material/Button";
+import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import CloseIcon from "@mui/icons-material/Close";
+import Link from "next/link";
 
-const TEXTS = [
-  "Rainwater Harvesting",
-  "Rainwater Harvesting System For Warehouse",
-  "Modular Rainwater Harvesting System",
-  "Roof Top Rainwater Harvesting",
-  "Polymer based Rainwater Harvesting System",
+const images = [
+  "/inrain_ppt/inrain1.jpg",
+  "/inrain_ppt/inrain2.jpg",
+  "/inrain_ppt/inrain3.jpg",
+  "/inrain_ppt/inrain4.jpg",
+  "/inrain_ppt/inrain5.jpg",
+  "/inrain_ppt/inrain6.jpg",
+  "/inrain_ppt/inrain7.jpg",
+  "/inrain_ppt/inrain8.jpg",
+  "/inrain_ppt/inrain9.jpg",
 ];
 
 const AboutICPL = () => {
-  const title = "About Nishant Gaurav Singh (ICPL) | InRain® Construction Pvt. Ltd.";
+  const title =
+    "About Nishant Gaurav Singh (ICPL) | InRain® Construction Pvt. Ltd.";
   const desc =
     "Modular Rainwater Harvesting by ICPL—India’s leader in sustainable, load-bearing, polymer-based RWH systems for smart cities, industries & urban infrastructure.";
   const keyword =
@@ -29,6 +40,93 @@ const AboutICPL = () => {
   const twittertitle = "About ICPL | InRain® Construction Pvt. Ltd.";
   const twitterdescription =
     "Modular Rainwater Harvesting by ICPL—India’s leader in sustainable, load-bearing, polymer-based RWH systems for smart cities, industries & urban infrastructure.";
+
+  const [open, setOpen] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
+  const [password, setPassword] = useState("");
+  const [authorized, setAuthorized] = useState(false);
+  const [index, setIndex] = useState(0);
+  const viewerRef = useRef(null);
+  const correctPassword = "9953070003"; // change this
+
+  const startPPT = () => {
+    setIndex(0);
+    setOpen(true);
+
+    setTimeout(() => {
+      if (viewerRef.current?.requestFullscreen) {
+        viewerRef.current.requestFullscreen();
+      }
+    }, 100);
+  };
+
+  const closeViewer = () => {
+    setOpen(false);
+
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    }
+  };
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      if (!document.fullscreenElement) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFullscreenChange);
+    };
+  }, []);
+
+  useEffect(() => {
+  const handleKeyDown = (e) => {
+    if (!open) return;
+
+    if (e.key === "ArrowRight") {
+      nextSlide();
+    }
+
+    if (e.key === "ArrowLeft") {
+      prevSlide();
+    }
+
+    if (e.key === "Escape") {
+      closeViewer();
+    }
+  };
+
+  window.addEventListener("keydown", handleKeyDown);
+
+  return () => {
+    window.removeEventListener("keydown", handleKeyDown);
+  };
+}, [open]);
+
+  const nextSlide = () => {
+    setIndex((prev) => (prev + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  const handleToggle = () => {
+    setShowPopup(true);
+  };
+  const checkPassword = () => {
+    if (password === correctPassword) {
+      setAuthorized(true);
+      setShowPopup(false);
+      setPassword("");
+    } else {
+      alert("Wrong Password");
+      setPassword("");
+    }
+  };
 
   return (
     <>
@@ -139,7 +237,10 @@ const AboutICPL = () => {
             priority={true}
             unoptimized={true}
           />
-          <h2 className="md:text-[20px] text-[18px] text-center m-2 font-semibold">
+          <h2
+            onClick={handleToggle}
+            className="md:text-[20px] cursor-pointer text-[18px] text-center m-2 font-semibold"
+          >
             Mr. Nishant Gaurav
             <br />( Chairman & Managing Director )
           </h2>
@@ -147,6 +248,30 @@ const AboutICPL = () => {
             A dynamic leader driving innovation and excellence in the Rainwater
             Harvesting industry.
           </p>
+          <div className="mt-5 h-5 flex gap-2 justify-center items-center">
+            {/* Buttons (visible only after correct password) */}
+            {authorized && (
+              <div className="mt-4 space-x-3">
+                <Button
+                  onClick={startPPT}
+                  variant="contained"
+                  className="bg-sky-500 rounded-xl"
+                >
+                  Start PPT
+                </Button>
+                <Link
+                  href={
+                    "https://drive.google.com/file/d/1fDlStawe6z9hgybtZscTy9BmC5G7MVeZ/view?usp=sharing"
+                  }
+                  target="_blank"
+                >
+                  <Button variant="contained" className="bg-sky-500 rounded-xl">
+                    Show TDS
+                  </Button>
+                </Link>
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
@@ -170,6 +295,82 @@ const AboutICPL = () => {
           </div>
         </div>
       </div>
+
+      {/* Password Popup */}
+      {showPopup && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-xl w-[300px] shadow-xl">
+            <h3 className="text-lg font-semibold mb-3">Enter Password</h3>
+
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="border w-full p-2 rounded mb-4"
+              placeholder="Password"
+            />
+
+            <div className="flex justify-between">
+              <button
+                onClick={() => setShowPopup(false)}
+                className="px-4 py-2 bg-gray-300 rounded"
+              >
+                Cancel
+              </button>
+
+              <button
+                onClick={checkPassword}
+                className="px-4 py-2 bg-sky-500 text-white rounded"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Fullscreen Viewer */}
+      {open && (
+        <div
+          ref={viewerRef}
+          className="fixed inset-0 bg-black flex items-center justify-center z-50"
+        >
+          {/* Close Button */}
+          <button
+            onClick={closeViewer}
+            className="absolute top-6 right-6 text-white"
+          >
+            <CloseIcon fontSize="large" />
+          </button>
+
+          {/* Left Arrow */}
+          <button
+            onClick={prevSlide}
+            className="absolute bg-green-500 left-10 text-white"
+          >
+            <ArrowBackIosNewIcon fontSize="large" />
+          </button>
+
+          {/* Image */}
+          <div className="w-full h-full flex items-center justify-center">
+            <Image
+              src={images[index]}
+              alt="ppt slide"
+              width={1600}
+              height={900}
+              className="object-contain max-h-[95vh] w-auto"
+            />
+          </div>
+
+          {/* Right Arrow */}
+          <button
+            onClick={nextSlide}
+            className="absolute right-10 text-white bg-green-500"
+          >
+            <ArrowForwardIosIcon fontSize="large" />
+          </button>
+        </div>
+      )}
 
       <ICPLCertification />
       <Footer />

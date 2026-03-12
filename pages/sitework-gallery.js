@@ -9,18 +9,24 @@ import { Footer } from "@/components/Footer/Footer";
 import Head from "next/head";
 
 const reviews = [
-  { id: 1, src: "/projects/1.jpeg" },
-  { id: 2, src: "/projects/2.jpeg" },
-  { id: 3, src: "/projects/3.jpeg" },
-  { id: 4, src: "/projects/4.jpeg" },
-  { id: 5, src: "/projects/5.jpeg" },
-  { id: 6, src: "/projects/6.jpeg" },
-  { id: 7, src: "/projects/7.jpeg" },
-  { id: 8, src: "/projects/8.jpeg" },
-  { id: 9, src: "/projects/9.jpeg" },
-  { id: 10, src: "/projects/10.jpeg" },
-  { id: 11, src: "/projects/11.jpeg" },
-  { id: 12, src: "/projects/12.jpeg" },
+  { id: 1, src: "/projects/1.jpeg", alt: "Working Site 1" },
+  { id: 2, src: "/projects/2.jpeg", alt: "Working Site 2" },
+  { id: 3, src: "/projects/3.jpeg", alt: "Working Site 3" },
+  { id: 4, src: "/projects/4.jpeg", alt: "Working Site 4" },
+  { id: 5, src: "/projects/5.jpeg", alt: "Working Site 5" },
+  { id: 6, src: "/projects/6.jpeg", alt: "Working Site 6" },
+  { id: 7, src: "/projects/7.jpeg", alt: "Working Site 7" },
+  { id: 8, src: "/projects/8.jpeg", alt: "Working Site 8" },
+  { id: 9, src: "/projects/9.jpeg", alt: "Working Site 9" },
+  { id: 10, src: "/projects/10.jpeg", alt: "Working Site 10" },
+  { id: 11, src: "/projects/11.jpeg", alt: "Working Site 11" },
+  { id: 12, src: "/projects/12.jpeg", alt: "Working Site 12" },
+  { id: 13, src: "/projects/13.jpeg", alt: "Working Site 13" },
+  { id: 14, src: "/projects/14.jpeg", alt: "Working Site 14" },
+  { id: 15, src: "/projects/15.jpeg", alt: "Working Site 15" },
+  { id: 16, src: "/projects/16.jpeg", alt: "Working Site 16" },
+  { id: 17, src: "/projects/17.jpeg", alt: "Working Site 17" },
+  { id: 18, src: "/projects/18.jpeg", alt: "Working Site 18" },
 ];
 
 const SiteWork = () => {
@@ -87,7 +93,7 @@ const SiteWork = () => {
             >
               <Image
                 src={item.src}
-                alt="Product Review"
+                alt={item.alt}
                 width={500}
                 height={500}
                 className="rounded-xl object-cover w-full h-auto"
