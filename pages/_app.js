@@ -79,7 +79,7 @@ export default function App({ Component, pageProps }) {
       />
 
       {/* Organization JSON-LD */}
-      <Script
+      {/* <Script
         id="organization-jsonld"
         type="application/ld+json"
         strategy="beforeInteractive"
@@ -97,10 +97,10 @@ export default function App({ Component, pageProps }) {
             "https://in.pinterest.com/inrainc0212/",
           ],
         })}
-      </Script>
+      </Script> */}
 
       {/* Website JSON-LD */}
-      <Script
+      {/* <Script
         id="website-jsonld"
         type="application/ld+json"
         strategy="beforeInteractive"
@@ -117,7 +117,7 @@ export default function App({ Component, pageProps }) {
             "query-input": "required name=search_term_string",
           },
         })}
-      </Script>
+      </Script> */}
 
       {/* Local Business JSON-LD */}
       <Script
@@ -127,10 +127,11 @@ export default function App({ Component, pageProps }) {
       >
         {JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "LocalBusiness",
+          "@type": "Product",
           name: "InRain® Construction Pvt. Ltd",
           image: "https://www.inrainconstruction.com/public/logo.png",
-          "@id": "https://www.inrainconstruction.com",
+          description:
+            "Find a Rainwater Harvesting System in India. We are the best Modular Rainwater Harvesting System Service Provider in India. Get & Install a Rainwater Harvesting System at the best price.",
           url: "https://www.inrainconstruction.com/",
           telephone: "011-35823511",
 
@@ -150,6 +151,10 @@ export default function App({ Component, pageProps }) {
             "https://in.pinterest.com/inrainc0212/",
           ],
 
+          brand: {
+            "@type": "Brand",
+            name: "InRain Construction Pvt Ltd",
+          },
           aggregateRating: {
             "@type": "AggregateRating",
             ratingValue: "4.8",
