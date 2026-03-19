@@ -145,7 +145,7 @@ export default function App({ Component, pageProps }) {
           },
 
           sameAs: [
-            "https://www.facebook.com/inrainconstructions",
+            "https://www.facebook.com/inrainconstructionofficial",
             "https://x.com/InrainC",
             "https://www.instagram.com/inrainconstruction_/",
             "https://in.pinterest.com/inrainc0212/",
