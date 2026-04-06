@@ -173,9 +173,7 @@ export const Navbar = () => {
             <div className="flex gap-3">
               <div className="flex items-center">
                 <Link href="/sitework-gallery">
-                  <button
-                    className="bg-green-600 p-1.5 text-[12px] text-white rounded-xl animate-pulse"
-                  >
+                  <button className="bg-green-600 p-1.5 text-[12px] text-white rounded-xl animate-pulse">
                     Site Gallery
                   </button>
                 </Link>
@@ -287,91 +285,210 @@ export const Navbar = () => {
 
       <div className="fixed hidden z-20 onHover left-1/2 -translate-x-1/2">
         <ul className="bg-white flex flex-col gap-2 shadow-2xl rounded-xl p-5 max-h-[400px] overflow-y-auto">
-          <Link href="/rainwater-harvesting-system-for-warehouse">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/vendor"
+          >
+            <li className="text-red-600 animate-pulse hover:text-green-500">
+              <ArrowRightAltIcon size="small" />
+              Looking for Vendors
+              <sup className="bg-amber-100 p-1 rounded-full">New</sup>
+            </li>
+          </Link>
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/rainwater-harvesting-system-for-warehouse"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rainwater Harvesting System For Warehouses
             </li>
           </Link>
-          <Link href="/co-polymer-based-rainwater-harvesting-system">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/co-polymer-based-rainwater-harvesting-system"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Co-Polymer based Rainwater Harvesting System
             </li>
           </Link>
-          <Link href="/modular-rainwater-harvesting">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/modular-rainwater-harvesting"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Modular Rainwater Harvesting System
             </li>
           </Link>
-          <Link href="/rainwater-harvesting-tank">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/rainwater-harvesting-tank"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rainwater Harvesting Tank
             </li>
           </Link>
-          <Link href="/roof-top-rainwater-harvesting-system-RRWHS-InRain">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/roof-top-rainwater-harvesting-system-RRWHS-InRain"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rooftop Rainwater Harvesting System
             </li>
           </Link>
-          <Link href="/ground-water-recharge-system-for-industries">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/ground-water-recharge-system-for-industries"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Ground Water Recharge System For Industries
             </li>
           </Link>
-          <Link href="/rainwater-harvesting-vendors-in-delhi-gurgaon">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/rainwater-harvesting-vendors-in-delhi-gurgaon"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rainwater Harvesting Vendors in Delhi-Gurgaon
             </li>
           </Link>
-          <Link href="/box-type-rainwater-harvesting">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/box-type-rainwater-harvesting"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Box Type Rainwater Harvesting System
             </li>
           </Link>
-          <Link href="/storm-water-recharge-and-management">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/storm-water-recharge-and-management"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Storm Water Recharge and Management
             </li>
           </Link>
-          <Link href="/bioswale-for-rainwater-drain">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/bioswale-for-rainwater-drain"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Bioswale for Rainwater Drain
             </li>
           </Link>
-          <Link href="/rainwater-harvesting-system">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/rainwater-harvesting-system"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rainwater Harvesting System
             </li>
           </Link>
-          <Link href="/rainwater-harvesting-installation-company">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/rainwater-harvesting-installation-company"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rainwater Harvesting Installation Company
             </li>
           </Link>
-          <Link href="/rainwater-harvesting-manufacturers">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/rainwater-harvesting-manufacturers"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rainwater Harvesting Manufacturers
             </li>
           </Link>
-          <Link href="/rainwater-harvesting-pit">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/rainwater-harvesting-pit"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rainwater Harvesting Pit
             </li>
           </Link>
-          <Link href="/rainwater-harvesting-recharge-pit">
+          <Link
+            onClick={() => {
+              document
+                .querySelector(".onHover")
+                .classList.toggle("showService");
+            }}
+            href="/rainwater-harvesting-recharge-pit"
+          >
             <li className="hover:text-green-500">
               <ArrowRightAltIcon size="small" />
               Rainwater Harvesting Recharge Pit
@@ -515,6 +632,13 @@ export const Navbar = () => {
             </p>
             <div className="relative text-left hidden z-20 onHoverMobile">
               <ul className="flex flex-col gap-2 rounded-lg p-5 mobileNavbarServices font-normal bg-sky-500">
+                <li className="text-red-600 animate-pulse">
+                  <Link href="/vendor">
+                    <ArrowRightAltIcon size="small" />
+                    Looking for Vendors
+                    <sup className="p-1 rounded-full bg-sky-300">New</sup>
+                  </Link>
+                </li>
                 <li className="hover:text-green-500">
                   <Link href="/rainwater-harvesting-system-for-warehouse">
                     <ArrowRightAltIcon size="small" />
@@ -637,10 +761,7 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link
-              href="/sitework-gallery"
-              style={{ textDecoration: "none" }}
-            >
+            <Link href="/sitework-gallery" style={{ textDecoration: "none" }}>
               Site Gallery
             </Link>
           </li>

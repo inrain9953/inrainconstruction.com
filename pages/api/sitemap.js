@@ -15,6 +15,7 @@ export default async (req, res) => {
     { url: "/contact-us/", changefreq: "daily", priority: 0.8 },
     { url: "/blogs/", changefreq: "daily", priority: 0.8 },
     { url: "/sitework-gallery/", changefreq: "daily", priority: 0.8 },
+    { url: "/vendor/", changefreq: "daily", priority: 0.8 },
     {
       url: "/rainwater-harvesting-system-for-warehouse/",
       changefreq: "daily",
