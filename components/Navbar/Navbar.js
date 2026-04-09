@@ -50,38 +50,44 @@ export const Navbar = () => {
   }
 
   const onSubmit = async (event) => {
-    event.preventDefault();
+    if (!myname || !myemail || !mymobile || !mymessage) {
+      alert("Please fill all the fields");
+      return;
+    } else {
+      event.preventDefault();
 
-    const formData = new FormData(event.target);
-    formData.append("access_key", contactapikey);
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+      const formData = new FormData(event.target);
+      formData.append("access_key", contactapikey);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    }).then((res) => res.json());
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      }).then((res) => res.json());
 
-    try {
-      const response = await axios.post("/api/signup", {
-        myname,
-        myemail,
-        mymobile,
-        mymessage,
-        GoogleAds,
-      });
-      if (response.success) {
-        setTimeout(() => {
-          document.querySelector(".loader").classList.remove("onAnimation");
-        }, 2000);
-        console.log("Data Submitted Successfully");
+      try {
+        const response = await axios.post("/api/signup", {
+          myname,
+          myemail,
+          mymobile,
+          mymessage,
+          GoogleAds,
+        });
+        if (response.success) {
+          setTimeout(() => {
+            document.querySelector(".loader").classList.remove("onAnimation");
+          }, 2000);
+        }
+      } catch (error) {
+        alert(
+          "An error occurred while submitting the form. Please try again later.",
+        );
       }
-    } catch (error) {
-      console.log("Something went wrong");
     }
   };
 

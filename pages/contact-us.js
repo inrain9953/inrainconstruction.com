@@ -53,7 +53,7 @@ const Contact = () => {
   const contactapikey = api;
 
   const onFormSubmit = async (event) => {
-    if(!myname || !myemail || !mymobile || !mymessage) {
+    if (!myname || !myemail || !mymobile || !mymessage) {
       alert("Please fill all the fields");
       return;
     }
@@ -87,10 +87,11 @@ const Contact = () => {
             .querySelector(".loader")
             .classList.remove("onContactAnimation");
         }, 2000);
-        console.log("Data Submitted Successfully");
       }
     } catch (error) {
-      console.log("Invalid Username or Password");
+      alert(
+        "An error occurred while submitting the form. Please try again later.",
+      );
     }
   };
 
