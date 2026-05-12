@@ -25,6 +25,8 @@ function UserData() {
     jobDescription: "",
     qualifications: "",
   });
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -69,12 +71,17 @@ function UserData() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("/api/hello");
+        setLoading(true);
+
+        const response = await fetch(`/api/hello?page=${currentPage}&limit=50`);
+
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
+
         const data = await response.json();
-        setProducts(data);
+        setProducts(data.products);
+        setTotalPages(data.pagination.totalPages);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
@@ -82,12 +89,8 @@ function UserData() {
       }
     }
 
-    // setTimeout(() => {
-    //   localStorage.removeItem("token");
-    // }, 3000);
-
     fetchData();
-  }, []);
+  }, [currentPage]);
 
   async function toggleJobForm() {
     setShowJobForm(true);
@@ -326,58 +329,83 @@ function UserData() {
       )}
 
       {showClientForm && (
-        <div className="text-center flex justify-center m-5">
-          {loading ? (
-            // 🔹 Show loading spinner while fetching
-            <div className="flex justify-center items-center m-10">
-              <CircularProgress color="success" />
-            </div>
-          ) : products && products.length > 0 ? (
-            // 🔹 Show table when data is loaded
-            <table className="w-full border-collapse border border-gray-300">
-              <caption className="text-2xl font-semibold text-gray-800 my-5">
-                User Data
-              </caption>
-              <thead className="bg-gray-200">
-                <tr>
-                  <th className="text-lg p-3 border border-gray-400">Name</th>
-                  <th className="text-lg p-3 border border-gray-400">Email</th>
-                  <th className="text-lg p-3 border border-gray-400">
-                    Mobile No.
-                  </th>
-                  <th className="text-lg p-3 border border-gray-400">
-                    Message
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {products.map((product) => (
-                  <tr
-                    key={product._id || product.email}
-                    className="text-center hover:bg-gray-100 transition"
-                  >
-                    <td className="border border-gray-300 p-3">
-                      {product.name}
-                    </td>
-                    <td className="border border-gray-300 p-3">
-                      {product.email}
-                    </td>
-                    <td className="border border-gray-300 p-3">
-                      {product.mobile}
-                    </td>
-                    <td className="border border-gray-300 p-3">
-                      {product.message}
-                    </td>
+        <div>
+          <div className="text-center flex justify-center m-5">
+            {loading ? (
+              // 🔹 Show loading spinner while fetching
+              <div className="flex justify-center items-center m-10">
+                <CircularProgress color="success" />
+              </div>
+            ) : products && products.length > 0 ? (
+              // 🔹 Show table when data is loaded
+              <table className="w-full border-collapse border border-gray-300 text-sm">
+                <caption className="text-2xl font-semibold text-gray-800 my-5">
+                  User Data
+                </caption>
+                <thead className="bg-gray-200">
+                  <tr>
+                    <th className="text-lg p-1 border border-gray-400">Name</th>
+                    <th className="text-lg p-1 border border-gray-400">
+                      Email
+                    </th>
+                    <th className="text-lg p-3 border border-gray-400">
+                      Mobile No.
+                    </th>
+                    <th className="text-lg p-1 border border-gray-400">
+                      Message
+                    </th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          ) : (
-            // 🔹 Show message when no users found
-            <p className="text-gray-500 text-lg mt-10">
-              No user data available.
-            </p>
-          )}
+                </thead>
+                <tbody>
+                  {products.map((product) => (
+                    <tr
+                      key={product._id || product.email}
+                      className="text-center hover:bg-gray-100 transition"
+                    >
+                      <td className="border border-gray-300 p-3">
+                        {product.name}
+                      </td>
+                      <td className="border border-gray-300 p-3">
+                        {product.email}
+                      </td>
+                      <td className="border border-gray-300 p-3">
+                        {product.mobile}
+                      </td>
+                      <td className="border border-gray-300 p-3">
+                        {product.message}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            ) : (
+              // 🔹 Show message when no users found
+              <p className="text-gray-500 text-lg mt-10">
+                No user data available.
+              </p>
+            )}
+          </div>
+          <div className="flex justify-center items-center gap-2 mt-8">
+            <button
+              disabled={currentPage === 1}
+              onClick={() => setCurrentPage((prev) => prev - 1)}
+              className="px-4 py-2 border rounded-lg disabled:opacity-50"
+            >
+              Previous
+            </button>
+
+            <span className="font-medium">
+              Page {currentPage} of {totalPages}
+            </span>
+
+            <button
+              disabled={currentPage === totalPages}
+              onClick={() => setCurrentPage((prev) => prev + 1)}
+              className="px-4 py-2 border rounded-lg disabled:opacity-50"
+            >
+              Next
+            </button>
+          </div>
         </div>
       )}
 
