@@ -59,66 +59,6 @@ export default function App({ Component, pageProps }) {
         `}
       </Script>
 
-      <Script
-        id="gtm"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(w,d,s,l,i){
-              w[l]=w[l]||[];
-              w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});
-              var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-              j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;
-              f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-NZN89TXV');
-          `,
-        }}
-      />
-
-      {/* Organization JSON-LD */}
-      {/* <Script
-        id="organization-jsonld"
-        type="application/ld+json"
-        strategy="beforeInteractive"
-      >
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          name: "InRain® Construction Pvt. Ltd",
-          url: "https://www.inrainconstruction.com/",
-          logo: "https://www.inrainconstruction.com/public/logo.png",
-          sameAs: [
-            "https://www.facebook.com/inrainconstructions",
-            "https://x.com/InrainC",
-            "https://www.instagram.com/inrainconstruction_/",
-            "https://in.pinterest.com/inrainc0212/",
-          ],
-        })}
-      </Script> */}
-
-      {/* Website JSON-LD */}
-      {/* <Script
-        id="website-jsonld"
-        type="application/ld+json"
-        strategy="beforeInteractive"
-      >
-        {JSON.stringify({
-          "@context": "https://schema.org/",
-          "@type": "WebSite",
-          name: "InRain® Construction Pvt. Ltd",
-          url: "https://www.inrainconstruction.com/",
-          potentialAction: {
-            "@type": "SearchAction",
-            target:
-              "https://www.inrainconstruction.com/search?q={search_term_string}",
-            "query-input": "required name=search_term_string",
-          },
-        })}
-      </Script> */}
-
       {/* Local Business JSON-LD */}
       <Script
         id="localbusiness-jsonld"
