@@ -4,8 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 import Script from "next/script";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -102,8 +100,6 @@ export default function App({ Component, pageProps }) {
           },
         })}
       </Script>
-      <Analytics />
-      <SpeedInsights />
       {/* <!-- Google Tag Manager (noscript) --> */}
       <noscript
         dangerouslySetInnerHTML={{
