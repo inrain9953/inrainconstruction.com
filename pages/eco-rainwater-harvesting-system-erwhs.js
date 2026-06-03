@@ -1,84 +1,84 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Navbar } from "@/components/Navbar/Navbar";
-import service11 from "./../public/service11.jpg";
-import harvesting11 from "./../public/services/harvesting7.jpg";
-import PopUp from "@/components/popup";
-import React from "react";
-import Image from "next/image";
-import Head from "next/head";
-import Link from "next/link";
+import { Footer } from '@/components/Footer/Footer'
+import { Navbar } from '@/components/Navbar/Navbar'
+import service11 from './../public/service11.jpg'
+import harvesting11 from './../public/services/harvesting7.jpg'
+import PopUp from '@/components/popup'
+import React from 'react'
+import Image from 'next/image'
+import Head from 'next/head'
+import Link from 'next/link'
 
 const EcorainRainwater = () => {
   const title =
-    "EcoRain Rainwater Harvesting System | How the Ecorain System Works?";
+    'EcoRain Rainwater Harvesting System | How the Ecorain System Works?'
   const desc =
-    "Are you searching for EcoRain Rainwater Harvesting System and How the Ecorain System Works? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for EcoRain Rainwater Harvesting System and How the Ecorain System Works? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
   const keyword =
-    "EcoRain Rainwater Harvesting System, Ecorain System Works, Ecorain advantages, ecorain system in delhi, rainwater harvesting system in delhi, ecorain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company";
+    'EcoRain Rainwater Harvesting System, Ecorain System Works, Ecorain advantages, ecorain system in delhi, rainwater harvesting system in delhi, ecorain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company'
   const canonical =
-    "https://www.inrainconstruction.com/eco-rainwater-harvesting-system-erwhs";
+    'https://www.inrainconstruction.com/eco-rainwater-harvesting-system-erwhs'
   const ogUrl =
-    "https://www.inrainconstruction.com/eco-rainwater-harvesting-system-erwhs";
+    'https://www.inrainconstruction.com/eco-rainwater-harvesting-system-erwhs'
   const ogTitle =
-    "EcoRain Rainwater Harvesting System | How the Ecorain System Works?";
+    'EcoRain Rainwater Harvesting System | How the Ecorain System Works?'
   const ogDescription =
-    "Are you searching for EcoRain Rainwater Harvesting System and How the Ecorain System Works? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for EcoRain Rainwater Harvesting System and How the Ecorain System Works? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
   const twittertitle =
-    "EcoRain Rainwater Harvesting System | How the Ecorain System Works?";
+    'EcoRain Rainwater Harvesting System | How the Ecorain System Works?'
   const twitterdescription =
-    "Are you searching for EcoRain Rainwater Harvesting System and How the Ecorain System Works? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for EcoRain Rainwater Harvesting System and How the Ecorain System Works? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charSet="UTF-8" />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charSet='UTF-8' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
-      <div className="mt-5 md:m-10">
-        <div data-aos="fade-up">
+      <div className='mt-5 md:m-10'>
+        <div>
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className='w-full md:rounded-xl md:shadow-2xl'
             src={service11}
-            alt="img"
-            loading="eager"
+            alt='img'
+            loading='eager'
             priority={true}
             unoptimized={true}
           />
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="fade-up" className="text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold">
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+          <div className='text-left'>
+            <h1 className='text-3xl md:text-4xl font-semibold'>
               Eco Rainwater Harvesting System
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               Water scarcity is a pressing global issue, and as populations
               continue to grow, it becomes imperative to explore alternative
               methods for water conservation. One such method gaining popularity
@@ -87,13 +87,13 @@ const EcorainRainwater = () => {
               shortages, reduce strain on existing water sources, and promote
               sustainable water management. In this article, we will delve into
               the various aspects of rainwater harvesting systems, their
-              benefits, and how they contribute to a more sustainable future.{" "}
+              benefits, and how they contribute to a more sustainable future.{' '}
             </p>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
               The Importance of Rainwater Harvesting
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               Rainwater is a precious resource that, if properly harnessed, can
               address water scarcity challenges faced by communities around the
               world. Rainwater harvesting offers several advantages over
@@ -106,17 +106,17 @@ const EcorainRainwater = () => {
               and industrial processes.
             </p>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
               Components of a Rainwater Harvesting System
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
-              A{" "}
+            <p className='text-[17px] md:text-lg mt-3'>
+              A{' '}
               <Link
-                href={"/rainwater-harvesting-system"}
-                className="text-green-500 hover:text-sky-500 font-semibold"
+                href={'/rainwater-harvesting-system'}
+                className='text-green-500 hover:text-sky-500 font-semibold'
               >
                 Rainwater Harvesting System
-              </Link>{" "}
+              </Link>{' '}
               consists of several key components that work together to capture,
               store, and distribute rainwater. The primary components include:
               Catchment Surface: This can be the rooftop of a building, which
@@ -124,42 +124,42 @@ const EcorainRainwater = () => {
               should be made of materials that are safe and non-toxic for water
               storage. Polymer as strong as metal.
             </p>
-            <ul className="list-disc m-5 text-[17px] md:text-lg">
+            <ul className='list-disc m-5 text-[17px] md:text-lg'>
               <li>
-                <bold className="font-semibold">Gutters and Downspouts:</bold>{" "}
+                <bold className='font-semibold'>Gutters and Downspouts:</bold>{' '}
                 These channels collect rainwater from the catchment surface and
                 direct it into the storage system.
               </li>
               <li>
-                <bold className="font-semibold">Leaf Screens and Filters:</bold>{" "}
+                <bold className='font-semibold'>Leaf Screens and Filters:</bold>{' '}
                 These prevent debris, leaves, and other contaminants from
                 entering the storage system and clogging the pipes or tanks.
               </li>
               <li>
-                <bold className="font-semibold">Storage Tanks:</bold> These are
+                <bold className='font-semibold'>Storage Tanks:</bold> These are
                 containers designed to hold and store the collected rainwater.
                 Tanks can be above ground or underground, depending on space
                 availability and local regulations.
               </li>
               <li>
-                <bold className="font-semibold">First Flush Diverters:</bold>{" "}
+                <bold className='font-semibold'>First Flush Diverters:</bold>{' '}
                 These devices ensure that the initial runoff, which may contain
                 pollutants and debris, is diverted away from the storage system.
               </li>
               <li>
-                <bold className="font-semibold">
+                <bold className='font-semibold'>
                   Pumps and Distribution Systems:
-                </bold>{" "}
+                </bold>{' '}
                 These components are used to extract and distribute the
                 harvested rainwater for various uses, such as irrigation or
                 indoor non-potable water needs.
               </li>
             </ul>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
               Benefits of Rainwater Harvesting
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               Implementing a rainwater harvesting system brings numerous
               benefits. Firstly, it reduces the strain on traditional water
               sources, such as rivers and groundwater, thereby ensuring their
@@ -181,10 +181,10 @@ const EcorainRainwater = () => {
               distribution.
             </p>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
               Considerations and Maintenance
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               When installing a rainwater harvesting system, it is essential to
               consider factors such as local regulations, the size of the
               catchment area, and the intended uses of the harvested water.
@@ -193,97 +193,97 @@ const EcorainRainwater = () => {
               the stored water remains clean and safe for its intended purposes.
             </p>
           </div>
-          <div data-aos="fade-up" className="mt-5">
-            <Link href={"/"}>
+          <div className='mt-5'>
+            <Link href={'/'}>
               <Image
-                className="w-full"
+                className='w-full'
                 src={harvesting11}
-                alt="img"
-                loading="eager"
+                alt='img'
+                loading='eager'
                 priority={true}
                 unoptimized={true}
               />
             </Link>
-            <div className="m-1 mt-5 text-justify">
-              <h2 className="text-xl font-semibold">
+            <div className='m-1 mt-5 text-justify'>
+              <h2 className='text-xl font-semibold'>
                 How the Ecorain System Works?
               </h2>
-              <p className="text-[17px] md:text-lg mt-1">
+              <p className='text-[17px] md:text-lg mt-1'>
                 Our Ecorain Rainwater Harvesting System is designed with modern
                 efficiency and simplicity in mind. It includes all the essential
                 components needed for smooth operation and minimal maintenance:
               </p>
-              <ul className="list-disc m-3 text-[18px] md:text-lg">
+              <ul className='list-disc m-3 text-[18px] md:text-lg'>
                 <li>
-                  <bold className="font-semibold">Catchment Surface</bold> –
+                  <bold className='font-semibold'>Catchment Surface</bold> –
                   Usually the rooftop of a building, made of durable, non-toxic
                   materials. Our systems use polymer surfaces as strong as metal
                   for better performance and longevity.
                 </li>
                 <li>
-                  <bold className="font-semibold">Gutters & Downspouts</bold> –
+                  <bold className='font-semibold'>Gutters & Downspouts</bold> –
                   Direct the rainwater from the roof to the storage system.
                 </li>
                 <li>
-                  <bold className="font-semibold">Leaf Screens & Filters</bold>{" "}
+                  <bold className='font-semibold'>Leaf Screens & Filters</bold>{' '}
                   – Block leaves, dirt, and other debris from entering the tank.
                 </li>
                 <li>
-                  <bold className="font-semibold">Storage Tanks</bold> – Can be
+                  <bold className='font-semibold'>Storage Tanks</bold> – Can be
                   installed above or below ground, depending on your space.
                   Built for strength and designed for long-term use.
                 </li>
                 <li>
-                  <bold className="font-semibold">First Flush Diverters</bold> –
+                  <bold className='font-semibold'>First Flush Diverters</bold> –
                   Ensure that the first dirty runoff (which may contain
                   pollutants) is diverted away from your clean water supply.
                 </li>
                 <li>
-                  <bold className="font-semibold">
+                  <bold className='font-semibold'>
                     Pumps & Distribution Units
-                  </bold>{" "}
+                  </bold>{' '}
                   – Help move water to where it’s needed, whether it’s the
                   garden, your washroom, or a factory floor.
                 </li>
               </ul>
 
-              <div className="mt-5 text-justify">
-                <h3 className="text-xl font-semibold">
+              <div className='mt-5 text-justify'>
+                <h3 className='text-xl font-semibold'>
                   The Ecorain Advantage :
                 </h3>
 
-                <ul className=" mt-2 text-[18px] md:text-lg">
+                <ul className=' mt-2 text-[18px] md:text-lg'>
                   <li>
-                    <bold className="font-semibold">
+                    <bold className='font-semibold'>
                       ✅ Saves Water & Money
-                    </bold>{" "}
+                    </bold>{' '}
                     – Reduces your reliance on treated municipal water and
                     slashes water bills.
                   </li>
                   <li>
-                    <bold className="font-semibold">✅ Eco-Friendly</bold> –
+                    <bold className='font-semibold'>✅ Eco-Friendly</bold> –
                     Helps recharge groundwater and manage rain runoff
                     responsibly.
                   </li>
                   <li>
-                    <bold className="font-semibold">
+                    <bold className='font-semibold'>
                       ✅ Ideal for Urban & Rural Spaces
-                    </bold>{" "}
+                    </bold>{' '}
                     – Works great in homes, commercial complexes, schools, and
                     industries.
                   </li>
                   <li>
-                    <bold className="font-semibold">✅ Low Maintenance</bold> –
+                    <bold className='font-semibold'>✅ Low Maintenance</bold> –
                     Designed for easy upkeep with minimal effort.
                   </li>
                   <li>
-                    <bold className="font-semibold">
+                    <bold className='font-semibold'>
                       ✅ Empowers Self-Reliance
-                    </bold>{" "}
+                    </bold>{' '}
                     – Puts control of water resources back into your hands.
                   </li>
                   <li>
-                    <bold className="font-semibold">✅ Energy Efficient</bold> –
+                    <bold className='font-semibold'>✅ Energy Efficient</bold> –
                     Reduces the energy needed to treat and transport water
                     through centralized systems.
                   </li>
@@ -295,7 +295,7 @@ const EcorainRainwater = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default EcorainRainwater;
+export default EcorainRainwater

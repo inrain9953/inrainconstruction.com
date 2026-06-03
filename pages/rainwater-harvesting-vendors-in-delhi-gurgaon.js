@@ -1,86 +1,86 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Navbar } from "@/components/Navbar/Navbar";
-import React from "react";
-import service7 from "./../public/service7.jpg";
-import harvesting7 from "./../public/services/harvesting7.jpg";
-import Image from "next/image";
-import Head from "next/head";
-import PopUp from "@/components/popup";
-import Link from "next/link";
+import { Footer } from '@/components/Footer/Footer'
+import { Navbar } from '@/components/Navbar/Navbar'
+import React from 'react'
+import service7 from './../public/service7.jpg'
+import harvesting7 from './../public/services/harvesting7.jpg'
+import Image from 'next/image'
+import Head from 'next/head'
+import PopUp from '@/components/popup'
+import Link from 'next/link'
 
 const Service7 = () => {
   const title =
-    "Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.'
   const desc =
-    "Rainwater Harvesting Vendors in Delhi-Gurgaon India. We are offering best quality rainwater Harvesting system in affordable price.";
+    'Rainwater Harvesting Vendors in Delhi-Gurgaon India. We are offering best quality rainwater Harvesting system in affordable price.'
   const canonical =
-    "https://www.inrainconstruction.com/rainwater-harvesting-vendors-in-delhi-gurgaon";
+    'https://www.inrainconstruction.com/rainwater-harvesting-vendors-in-delhi-gurgaon'
   const ogUrl =
-    "https://www.inrainconstruction.com/rainwater-harvesting-vendors-in-delhi-gurgaon";
+    'https://www.inrainconstruction.com/rainwater-harvesting-vendors-in-delhi-gurgaon'
   const keyword =
-    "Rainwater Harvesting Vendors, Delhi-Gurgaon Water Conservation, InRain Construction Pvt. Ltd., Modular Rainwater Systems, German Technology Rainwater Harvesting, Make in India Water Solutions, Eco-Friendly Water Conservation, Industrial Water Management, Groundwater Recharge Solutions, Rainwater Harvesting Installation, Delhi-Gurgaon Rainwater Projects, Sustainable Water Management";
+    'Rainwater Harvesting Vendors, Delhi-Gurgaon Water Conservation, InRain Construction Pvt. Ltd., Modular Rainwater Systems, German Technology Rainwater Harvesting, Make in India Water Solutions, Eco-Friendly Water Conservation, Industrial Water Management, Groundwater Recharge Solutions, Rainwater Harvesting Installation, Delhi-Gurgaon Rainwater Projects, Sustainable Water Management'
   const ogTitle =
-    "Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.'
   const ogDescription =
-    "Rainwater Harvesting Vendors in Delhi-Gurgaon India. We are offering best quality rainwater Harvesting system in affordable price.";
+    'Rainwater Harvesting Vendors in Delhi-Gurgaon India. We are offering best quality rainwater Harvesting system in affordable price.'
   const twittertitle =
-    "Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting Vendors in Delhi-Gurgaon | InRain® Construction Pvt. Ltd.'
   const twitterdescription =
-    "Rainwater Harvesting Vendors in Delhi-Gurgaon India. We are offering best quality rainwater Harvesting system in affordable price.";
+    'Rainwater Harvesting Vendors in Delhi-Gurgaon India. We are offering best quality rainwater Harvesting system in affordable price.'
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charset='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
-      <div className="mt-5 md:m-10">
-        <div data-aos="fade-up">
+      <div className='mt-5 md:m-10'>
+        <div>
           <Image
-            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service7}
-            alt="Rainwater Harvesting Vendors in Delhi-Gurgaon"
-            loading="eager"
+            alt='Rainwater Harvesting Vendors in Delhi-Gurgaon'
+            loading='eager'
             priority={true}
             unoptimized={true}
           />
-          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
-            <p className="text-xs md:text-lg text-black">
-              <Link href={"/"}>Home</Link> / Rainwater Harvesting Vendors in
+          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
+            <p className='text-xs md:text-lg text-black'>
+              <Link href={'/'}>Home</Link> / Rainwater Harvesting Vendors in
               Delhi-Gurgaon
             </p>
           </div>
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="fade-up" className="text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold">
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+          <div className='text-left'>
+            <h1 className='text-3xl md:text-4xl font-semibold'>
               Rainwater Harvesting Vendors in Delhi-Gurgaon
             </h1>
 
-            <p className="text-[17px] text-justify md:text-lg mt-3">
+            <p className='text-[17px] text-justify md:text-lg mt-3'>
               InRain Construction Pvt. Ltd., a water conservation and management
               company, is one of the leading water conservation and management
               service providers. We are well known for providing
@@ -100,15 +100,15 @@ const Service7 = () => {
               <br></br>
               India is a country that is densely populated, and there is a
               rising need for eco-friendly water conservation techniques. Hence,
-              our advanced{" "}
+              our advanced{' '}
               <Link
                 href={
-                  "https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                  'https://www.inrainconstruction.com/modular-rainwater-harvesting'
                 }
-                className="text-green-600 hover:text-sky-500 font-semibold"
+                className='text-green-600 hover:text-sky-500 font-semibold'
               >
                 Modular Rainwater Harvesting System
-              </Link>{" "}
+              </Link>{' '}
               is a perfect match for our growing nation. Fortunately, our
               country has very good geolocation, and it sees decent rainfall
               every year, so utilizing the available natural rainwater is
@@ -123,20 +123,20 @@ const Service7 = () => {
               system is a need of the hour. We are a proud contributor to this
               socio-economic cause by helping people utilize natural rainwater.
               Our team has proudly supported more than 150 rainwater harvesting
-              projects. We provide our support for the installation, maintenance,
-              and management of rainwater harvesting projects. The rainwater
-              harvesting solutions that we provide are economical, eco-friendly,
-              and environment-friendly and have the advantage over the old
-              traditional methods of rainwater harvesting.
+              projects. We provide our support for the installation,
+              maintenance, and management of rainwater harvesting projects. The
+              rainwater harvesting solutions that we provide are economical,
+              eco-friendly, and environment-friendly and have the advantage over
+              the old traditional methods of rainwater harvesting.
             </p>
           </div>
-          <div data-aos="fade-up" className="mt-5">
-            <Link href={"https://www.inrainconstruction.com"}>
+          <div className='mt-5'>
+            <Link href={'https://www.inrainconstruction.com'}>
               <Image
-                className="w-full"
+                className='w-full'
                 src={harvesting7}
-                alt="img"
-                loading="eager"
+                alt='img'
+                loading='eager'
                 priority={true}
                 unoptimized={true}
               />
@@ -146,7 +146,7 @@ const Service7 = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Service7;
+export default Service7

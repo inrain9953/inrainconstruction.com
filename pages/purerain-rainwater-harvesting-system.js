@@ -1,85 +1,85 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Hero1 } from "@/components/Hero/Hero1";
-import { Hero2 } from "@/components/Hero/Hero2";
-import { Navbar } from "@/components/Navbar/Navbar";
-import PopUp from "@/components/popup";
-import service11 from "./../public/service11.jpg";
-import harvesting11 from "./../public/services/harvesting7.jpg";
-import Image from "next/image";
-import React from "react";
-import Head from "next/head";
+import { Footer } from '@/components/Footer/Footer'
+import { Hero1 } from '@/components/Hero/Hero1'
+import { Hero2 } from '@/components/Hero/Hero2'
+import { Navbar } from '@/components/Navbar/Navbar'
+import PopUp from '@/components/popup'
+import service11 from './../public/service11.jpg'
+import harvesting11 from './../public/services/harvesting7.jpg'
+import Image from 'next/image'
+import React from 'react'
+import Head from 'next/head'
 
 const PureRain = () => {
   const title =
-    "Purerain Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'Purerain Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const desc =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
   const keyword =
-    "rainwater harvesting system in Delhi, purerain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company";
+    'rainwater harvesting system in Delhi, purerain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company'
   const canonical =
-    "https://www.inrainconstruction.com/purerain-rainwater-harvesting-system";
+    'https://www.inrainconstruction.com/purerain-rainwater-harvesting-system'
   const ogUrl =
-    "https://www.inrainconstruction.com/purerain-rainwater-harvesting-system";
+    'https://www.inrainconstruction.com/purerain-rainwater-harvesting-system'
   const ogTitle =
-    "Purerain Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'Purerain Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const ogDescription =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
   const twittertitle =
-    "Purerain Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'Purerain Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const twitterdescription =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charSet="UTF-8" />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charSet='UTF-8' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
       <Hero1 />
       <Hero2 />
-      <div className="mt-5 md:m-10">
-        <div data-aos="fade-up">
+      <div className='mt-5 md:m-10'>
+        <div>
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className='w-full md:rounded-xl md:shadow-2xl'
             src={service11}
-            alt="img"
-            loading="eager"
+            alt='img'
+            loading='eager'
             priority={true}
             unoptimized={true}
           />
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="fade-up" className="text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold">
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+          <div className='text-left'>
+            <h1 className='text-3xl md:text-4xl font-semibold'>
               Purerain Rainwater Harvesting System
             </h1>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               Water scarcity is a pressing global issue, and as populations
               continue to grow, it becomes imperative to explore alternative
               methods for water conservation. One such method gaining popularity
@@ -88,13 +88,13 @@ const PureRain = () => {
               shortages, reduce strain on existing water sources, and promote
               sustainable water management. In this article, we will delve into
               the various aspects of rainwater harvesting systems, their
-              benefits, and how they contribute to a more sustainable future.{" "}
+              benefits, and how they contribute to a more sustainable future.{' '}
             </p>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
               The Importance of Rainwater Harvesting
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               Rainwater is a precious resource that, if properly harnessed, can
               address water scarcity challenges faced by communities around the
               world. Rainwater harvesting offers several advantages over
@@ -107,10 +107,10 @@ const PureRain = () => {
               and industrial processes.
             </p>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
               Components of a Rainwater Harvesting System
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               A rainwater harvesting system consists of several key components
               that work together to capture, store, and distribute rainwater.
               The primary components include: Catchment Surface: This can be the
@@ -119,42 +119,42 @@ const PureRain = () => {
               are safe and non-toxic for water storage. Polymer as strong as
               metal.
             </p>
-            <ul className="list-disc m-5 text-[17px] md:text-lg">
+            <ul className='list-disc m-5 text-[17px] md:text-lg'>
               <li>
-                <bold className="font-semibold">Gutters and Downspouts:</bold>{" "}
+                <bold className='font-semibold'>Gutters and Downspouts:</bold>{' '}
                 These channels collect rainwater from the catchment surface and
                 direct it into the storage system.
               </li>
               <li>
-                <bold className="font-semibold">Leaf Screens and Filters:</bold>{" "}
+                <bold className='font-semibold'>Leaf Screens and Filters:</bold>{' '}
                 These prevent debris, leaves, and other contaminants from
                 entering the storage system and clogging the pipes or tanks.
               </li>
               <li>
-                <bold className="font-semibold">Storage Tanks:</bold> These are
+                <bold className='font-semibold'>Storage Tanks:</bold> These are
                 containers designed to hold and store the collected rainwater.
                 Tanks can be above ground or underground, depending on space
                 availability and local regulations.
               </li>
               <li>
-                <bold className="font-semibold">First Flush Diverters:</bold>{" "}
+                <bold className='font-semibold'>First Flush Diverters:</bold>{' '}
                 These devices ensure that the initial runoff, which may contain
                 pollutants and debris, is diverted away from the storage system.
               </li>
               <li>
-                <bold className="font-semibold">
+                <bold className='font-semibold'>
                   Pumps and Distribution Systems:
-                </bold>{" "}
+                </bold>{' '}
                 These components are used to extract and distribute the
                 harvested rainwater for various uses, such as irrigation or
                 indoor non-potable water needs.
               </li>
             </ul>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
               Benefits of Rainwater Harvesting
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               Implementing a rainwater harvesting system brings numerous
               benefits. Firstly, it reduces the strain on traditional water
               sources, such as rivers and groundwater, thereby ensuring their
@@ -176,10 +176,10 @@ const PureRain = () => {
               distribution.
             </p>
 
-            <h3 className="text-2xl mt-5 md:text-3xl font-semibold">
+            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
               Considerations and Maintenance
             </h3>
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               When installing a rainwater harvesting system, it is essential to
               consider factors such as local regulations, the size of the
               catchment area, and the intended uses of the harvested water.
@@ -188,12 +188,12 @@ const PureRain = () => {
               the stored water remains clean and safe for its intended purposes.
             </p>
           </div>
-          <div data-aos="fade-up" className="mt-5">
+          <div className='mt-5'>
             <Image
-              className="w-full"
+              className='w-full'
               src={harvesting11}
-              alt="img"
-              loading="eager"
+              alt='img'
+              loading='eager'
               priority={true}
               unoptimized={true}
             />
@@ -202,7 +202,7 @@ const PureRain = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default PureRain;
+export default PureRain

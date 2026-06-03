@@ -1,91 +1,91 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Navbar } from "@/components/Navbar/Navbar";
-import React from "react";
-import harvesting4 from "./../public/services/harvesting4.jpg";
-import service4 from "./../public/service4.jpg";
-import Image from "next/image";
-import Head from "next/head";
-import PopUp from "@/components/popup";
-import Link from "next/link";
+import { Footer } from '@/components/Footer/Footer'
+import { Navbar } from '@/components/Navbar/Navbar'
+import React from 'react'
+import harvesting4 from './../public/services/harvesting4.jpg'
+import service4 from './../public/service4.jpg'
+import Image from 'next/image'
+import Head from 'next/head'
+import PopUp from '@/components/popup'
+import Link from 'next/link'
 
 const Service4 = () => {
   const title =
-    "FRP Based Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'FRP Based Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const desc =
-    "FRP Based Rainwater Harvesting System: InRain® Construction Pvt. Ltd. solutions are in form of Pre Cast modular systems that can adapt itself to various site conditions and are highly reliable & efficient.";
+    'FRP Based Rainwater Harvesting System: InRain® Construction Pvt. Ltd. solutions are in form of Pre Cast modular systems that can adapt itself to various site conditions and are highly reliable & efficient.'
   const keyword =
-    "FRP Rainwater Harvesting System, Fiber Reinforced Polymer, Sustainable Water Conservation, Lightweight Water Tanks, Eco-Friendly Rainwater Harvesting, Cost-Effective Water Solutions, Corrosion-Resistant Water Tanks, Low-Maintenance Rainwater Systems, Portable Water Harvesting Tanks, Modern Rainwater Harvesting Technology, Environmental Sustainability, Industrial Water Conservation";
+    'FRP Rainwater Harvesting System, Fiber Reinforced Polymer, Sustainable Water Conservation, Lightweight Water Tanks, Eco-Friendly Rainwater Harvesting, Cost-Effective Water Solutions, Corrosion-Resistant Water Tanks, Low-Maintenance Rainwater Systems, Portable Water Harvesting Tanks, Modern Rainwater Harvesting Technology, Environmental Sustainability, Industrial Water Conservation'
   const canonical =
-    "https://www.inrainconstruction.com/frp-based-rainwater-harvesting-system";
+    'https://www.inrainconstruction.com/frp-based-rainwater-harvesting-system'
   const ogUrl =
-    "https://www.inrainconstruction.com/frp-based-rainwater-harvesting-system";
+    'https://www.inrainconstruction.com/frp-based-rainwater-harvesting-system'
   const ogTitle =
-    "FRP Based Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'FRP Based Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const ogDescription =
-    "FRP Based Rainwater Harvesting System: InRain® Construction Pvt. Ltd. solutions are in form of Pre Cast modular systems that can adapt itself to various site conditions and are highly reliable & efficient.";
+    'FRP Based Rainwater Harvesting System: InRain® Construction Pvt. Ltd. solutions are in form of Pre Cast modular systems that can adapt itself to various site conditions and are highly reliable & efficient.'
   const twittertitle =
-    "FRP Based Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'FRP Based Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const twitterdescription =
-    "FRP Based Rainwater Harvesting System: InRain® Construction Pvt. Ltd. solutions are in form of Pre Cast modular systems that can adapt itself to various site conditions and are highly reliable & efficient..";
+    'FRP Based Rainwater Harvesting System: InRain® Construction Pvt. Ltd. solutions are in form of Pre Cast modular systems that can adapt itself to various site conditions and are highly reliable & efficient..'
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charSet="UTF-8" />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charSet='UTF-8' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
-      <div className="mt-5 md:m-10">
-        <div data-aos="fade-up">
+      <div className='mt-5 md:m-10'>
+        <div>
           <Image
-            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service4}
-            alt="FRP Based Rainwater Harvesting System"
-            loading="eager"
+            alt='FRP Based Rainwater Harvesting System'
+            loading='eager'
             priority={true}
             unoptimized={true}
           />
-          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
-            <p className="text-xs md:text-lg text-black">
-              <Link href={"/"}>Home</Link> / FRP Based Rainwater Harvesting
+          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
+            <p className='text-xs md:text-lg text-black'>
+              <Link href={'/'}>Home</Link> / FRP Based Rainwater Harvesting
               System
             </p>
           </div>
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="fade-up" className="text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold">
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+          <div className='text-left'>
+            <h1 className='text-3xl md:text-4xl font-semibold'>
               FRP Based Rainwater Harvesting System
             </h1>
 
-            <p className="text-[17px] text-justify md:text-lg mt-3">
-              <bold className="text-green-700 font-semibold">
+            <p className='text-[17px] text-justify md:text-lg mt-3'>
+              <bold className='text-green-700 font-semibold'>
                 InRain<sup>®</sup>
-              </bold>{" "}
+              </bold>{' '}
               Construction Pvt. Ltd. is helping communities and industries by
               providing sustainable and cost-effective water conservation
               methods. Rainwater harvesting is no longer looked at as a
@@ -103,12 +103,12 @@ const Service4 = () => {
               for rainwater harvesting systems.
               <br></br>
               <br></br>
-              In the traditional methods of{" "}
+              In the traditional methods of{' '}
               <Link
                 href={
-                  "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                  'https://www.inrainconstruction.com/rainwater-harvesting-system'
                 }
-                className="text-green-600 hover:text-sky-500 font-semibold"
+                className='text-green-600 hover:text-sky-500 font-semibold'
               >
                 Rainwater Harvesting Systems
               </Link>
@@ -138,48 +138,48 @@ const Service4 = () => {
               offers the complete solution.
             </p>
           </div>
-          <div data-aos="fade-up" className="mt-5">
-            <Link href={"https://www.inrainconstruction.com/"}>
+          <div className='mt-5'>
+            <Link href={'https://www.inrainconstruction.com/'}>
               <Image
-                className="w-full"
+                className='w-full'
                 src={harvesting4}
-                alt="Rainwater Harvesting Filtration System"
-                loading="eager"
+                alt='Rainwater Harvesting Filtration System'
+                loading='eager'
                 priority={true}
                 unoptimized={true}
               />
             </Link>
-            <div className="m-2 mt-5 text-justify">
-              <h2 className="text-xl font-semibold">
+            <div className='m-2 mt-5 text-justify'>
+              <h2 className='text-xl font-semibold'>
                 Key Benefits of FRP-Based Rainwater Harvesting Systems:
               </h2>
-              <ul className="list-disc m-5 text-[18px] md:text-lg">
+              <ul className='list-disc m-5 text-[18px] md:text-lg'>
                 <li>
-                  <bold className="font-semibold">Durable & Long-Lasting</bold>{" "}
+                  <bold className='font-semibold'>Durable & Long-Lasting</bold>{' '}
                   — Built to withstand corrosion, weather, and time.
                 </li>
                 <li>
-                  <bold className="font-semibold">Lightweight & Portable</bold>{" "}
+                  <bold className='font-semibold'>Lightweight & Portable</bold>{' '}
                   — Easy to transport, install, and reposition.
                 </li>
                 <li>
-                  <bold className="font-semibold">Low Maintenance</bold> — No
+                  <bold className='font-semibold'>Low Maintenance</bold> — No
                   rusting, no cracking, no constant repairs.
                 </li>
                 <li>
-                  <bold className="font-semibold">
+                  <bold className='font-semibold'>
                     Recyclable & Eco-Friendly
-                  </bold>{" "}
+                  </bold>{' '}
                   — Promotes sustainability with minimal waste.
                 </li>
                 <li>
-                  <bold className="font-semibold">Cost-Effective</bold> — Saves
+                  <bold className='font-semibold'>Cost-Effective</bold> — Saves
                   on both installation and long-term maintenance costs.
                 </li>
                 <li>
-                  <bold className="font-semibold">
+                  <bold className='font-semibold'>
                     Ideal for Residential & Commercial Use
-                  </bold>{" "}
+                  </bold>{' '}
                   — Perfect for homes, housing societies, schools, offices, and
                   industries.
                 </li>
@@ -190,7 +190,7 @@ const Service4 = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Service4;
+export default Service4

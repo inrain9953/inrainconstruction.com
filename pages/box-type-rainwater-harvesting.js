@@ -1,88 +1,88 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Navbar } from "@/components/Navbar/Navbar";
-import React from "react";
-import service8 from "./../public/service8.jpg";
-import harvesting8 from "./../public/blog4.jpg";
-import Image from "next/image";
-import Head from "next/head";
-import PopUp from "@/components/popup";
-import Link from "next/link";
+import { Footer } from '@/components/Footer/Footer'
+import { Navbar } from '@/components/Navbar/Navbar'
+import React from 'react'
+import service8 from './../public/service8.jpg'
+import harvesting8 from './../public/blog4.jpg'
+import Image from 'next/image'
+import Head from 'next/head'
+import PopUp from '@/components/popup'
+import Link from 'next/link'
 
 const Service8 = () => {
   const title =
-    "Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const desc =
-    "Rain Box Harvesting Systems are ideal for supplying water for toilet flushing, washing machines, and outdoor uses such as garden irrigation, car washing ";
+    'Rain Box Harvesting Systems are ideal for supplying water for toilet flushing, washing machines, and outdoor uses such as garden irrigation, car washing '
   const keyword =
-    "box type rainwater harvesting system, storm water management, Cost-Effective Water Solutions, Economical Rainwater Systems, Sustainable Water Management, Water Supply Mechanism, Filtration System, rainwater harvesting solution, Water Conservation Solutions, Rainwater Filtration Systems";
+    'box type rainwater harvesting system, storm water management, Cost-Effective Water Solutions, Economical Rainwater Systems, Sustainable Water Management, Water Supply Mechanism, Filtration System, rainwater harvesting solution, Water Conservation Solutions, Rainwater Filtration Systems'
   const canonical =
-    "https://www.inrainconstruction.com/box-type-rainwater-harvesting";
+    'https://www.inrainconstruction.com/box-type-rainwater-harvesting'
   const ogUrl =
-    "https://www.inrainconstruction.com/box-type-rainwater-harvesting";
+    'https://www.inrainconstruction.com/box-type-rainwater-harvesting'
   const ogTitle =
-    "Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const ogDescription =
-    "Rain Box Harvesting Systems are ideal for supplying water for toilet flushing, washing machines, and outdoor uses such as garden irrigation, car washing ";
+    'Rain Box Harvesting Systems are ideal for supplying water for toilet flushing, washing machines, and outdoor uses such as garden irrigation, car washing '
   const twittertitle =
-    "Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.";
+    'Box Type Rainwater Harvesting System | InRain® Construction Pvt. Ltd.'
   const twitterdescription =
-    "Rain Box Harvesting Systems are ideal for supplying water for toilet flushing, washing machines, and outdoor uses such as garden irrigation, car washing ";
+    'Rain Box Harvesting Systems are ideal for supplying water for toilet flushing, washing machines, and outdoor uses such as garden irrigation, car washing '
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charSet="UTF-8" />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charSet='UTF-8' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
-      <div className="mt-5 md:m-10">
-        <div data-aos="fade-up">
+      <div className='mt-5 md:m-10'>
+        <div>
           <Image
-            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service8}
-            alt="Box Type Rainwater Harvestnig"
-            loading="eager"
+            alt='Box Type Rainwater Harvestnig'
+            loading='eager'
             priority={true}
             unoptimized={true}
           />
-          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
-            <p className="text-xs md:text-lg text-black">
-              <Link href={"/"}>Home</Link> / Box Type Rainwater Harvesting
+          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
+            <p className='text-xs md:text-lg text-black'>
+              <Link href={'/'}>Home</Link> / Box Type Rainwater Harvesting
               System
             </p>
           </div>
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="fade-up" className="text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold">
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+          <div className='text-left'>
+            <h1 className='text-3xl md:text-4xl font-semibold'>
               Box Type Rainwater Harvesting System
             </h1>
 
-            <p className="text-[17px] text-justify md:text-lg mt-3">
+            <p className='text-[17px] text-justify md:text-lg mt-3'>
               Rainwater harvesting is a need of the modern world. By practicing
               rainwater harvesting, we can help in improving global water
               reserves. Inrain Construction Pvt. Ltd. is a leading company in
@@ -90,15 +90,15 @@ const Service8 = () => {
               various varieties of rainwater harvesting solutions. We use
               modern-day technology and excel in providing economical water
               conservation methods to our clients as per their needs. Among the
-              various methods of{" "}
+              various methods of{' '}
               <Link
                 href={
-                  "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                  'https://www.inrainconstruction.com/rainwater-harvesting-system'
                 }
-                className="text-green-600 hover:text-sky-500 font-semibold"
+                className='text-green-600 hover:text-sky-500 font-semibold'
               >
                 Rainwater Harvesting Systems,
-              </Link>{" "}
+              </Link>{' '}
               box-Type Rainwater Harvesting is one that helps you in saving the
               rainwater. Since in this methodology, rainwater collected from the
               roof doesn’t go through rigorous filtration and purification, it
@@ -139,31 +139,31 @@ const Service8 = () => {
               harvesting systems as per their requirements and budget.
             </p>
           </div>
-          <div data-aos="fade-up" className="mt-5">
-            <Link href={"https://www.inrainconstruction.com/"}>
+          <div className='mt-5'>
+            <Link href={'https://www.inrainconstruction.com/'}>
               <Image
-                className="w-full"
+                className='w-full'
                 src={harvesting8}
-                alt="Box Type Rainwater"
-                loading="eager"
+                alt='Box Type Rainwater'
+                loading='eager'
                 priority={true}
                 unoptimized={true}
               />
             </Link>
-            <div className="m-2 mt-5 text-justify">
-              <h2 className="text-xl font-semibold">How Does It Work?</h2>
-              <p className="text-[17px] md:text-lg mt-1">
+            <div className='m-2 mt-5 text-justify'>
+              <h2 className='text-xl font-semibold'>How Does It Work?</h2>
+              <p className='text-[17px] md:text-lg mt-1'>
                 The box is intelligently connected to your water supply system.
                 It’s designed to use the stored rainwater first and only switch
                 to the main water line when the box is empty. This smart
                 mechanism ensures a continuous, autonomous water supply—with
                 zero disruption.
               </p>
-              <p className="text-[18px] md:text-lg mt-4 font-semibold">
+              <p className='text-[18px] md:text-lg mt-4 font-semibold'>
                 Since this system doesn’t involve complex purification, the
                 stored water is ideal for:
               </p>
-              <ul className="list-disc list-inside font-semibold text-[18px] md:text-lg">
+              <ul className='list-disc list-inside font-semibold text-[18px] md:text-lg'>
                 <li>Garden irrigation</li>
                 <li>Car washing</li>
                 <li>Toilet flushing</li>
@@ -175,7 +175,7 @@ const Service8 = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Service8;
+export default Service8

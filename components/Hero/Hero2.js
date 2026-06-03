@@ -1,48 +1,51 @@
-import React from "react";
-import hero2Img from "../../public/Technology/main2.jpeg";
-import Image from "next/image";
-import CountUp from "react-countup";
-import Link from "next/link";
+import React from 'react'
+import Image from 'next/image'
+import CountUp from 'react-countup'
+import Link from 'next/link'
 
 export const Hero2 = () => {
   return (
-    <>
-      <div className="mt-10">
-        <div
-          data-aos="fade-up"
-          className="text-center m-3 md:ml-52 md:mr-52"
-        >
-          <h1 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
-            Rainwater Harvesting System in India
-          </h1>
-          <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700 md:pl-28 md:pr-28">
-            At{" "}
-            <bold className="text-green-600 font-semibold">
+    <section className='py-10 bg-gradient-to-b from-slate-50 to-white'>
+      <div className='max-w-7xl mx-auto px-4 md:px-8'>
+        {/* Main Content */}
+        <div className='max-w-5xl mx-auto text-center'>
+          <div className='inline-flex items-center px-6 py-3 rounded-full bg-sky-100 border border-sky-200 mb-6'>
+            <h1 className='text-lg md:text-2xl font-bold text-sky-700'>
+              Rainwater Harvesting System in India
+            </h1>
+          </div>
+
+          <p className='text-gray-700 text-base leading-7 text-justify md:text-center'>
+            At{' '}
+            <span className='text-green-600 font-bold'>
               InRain<sup>®</sup>,
-            </bold>{" "}
+            </span>{' '}
             we are experts in sustainable, eco-friendly rainwater harvesting
             solutions for homes & businesses, designed to preserve water. We are
             engaged in making Rainwater Harvesting (RWH) systems based on modern
             technology. It is indeed entirely different from conventional
-            rainwater harvesting systems.{" "}
-            <bold className="text-green-600 font-semibold">
+            rainwater harvesting systems.{' '}
+            <span className='text-green-600 font-bold'>
               InRain<sup>®</sup>
-            </bold>{" "}
+            </span>{' '}
             is fully equipped with an in-house making and manufacturing process,
             ensuring its best-in-class quality. We share our contribution to the
-            nation by being proud partners of{" "}
-            <bold className="font-semibold text-black">
+            nation by being proud partners of{' '}
+            <span className='font-bold text-black'>
               “The Make in India Movement.”
-            </bold>
+            </span>
           </p>
         </div>
 
-        <div data-aos="fade-up" className="md:grid md:grid-cols-3 md:m-12">
-          <div className="text-center m-3 mt-7">
-            <p className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+        {/* Vision + Image + Modular */}
+        <div className='grid lg:grid-cols-3 gap-7 mt-10 items-center'>
+          {/* Vision */}
+          <div className='bg-white rounded-3xl p-8 shadow-xl border border-slate-100 h-full'>
+            <div className='inline-flex px-4 py-2 rounded-full bg-sky-100 text-sky-700 font-semibold mb-5'>
               Vision
-            </p>
-            <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
+            </div>
+
+            <p className='text-gray-700 leading-7 text-justify'>
               The solution is aimed at solving the problem of the water crisis
               in cities where there is a lack of space for storage of water and
               huge populations, leading to a shortage of water supply and
@@ -50,28 +53,30 @@ export const Hero2 = () => {
             </p>
           </div>
 
-          <div data-aos="fade-up" className="text-center m-3 mt-7">
+          {/* Image */}
+          <div className='group overflow-hidden rounded-xl shadow-2xl'>
             <Image
-              className="w-full shadow-2xl"
-              src={hero2Img}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
+              src='/Technology/main2.jpeg'
+              alt='img'
+              width={500}
+              height={500}
+              className='w-full h-full object-cover transition duration-700 group-hover:scale-105'
             />
           </div>
 
-          <div data-aos="fade-up" className="text-center m-3 mt-7">
-            <h2 className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+          {/* Modular */}
+          <div className='bg-white rounded-3xl p-8 shadow-xl border border-slate-100 h-full'>
+            <div className='inline-flex px-4 py-2 rounded-full bg-green-100 text-green-700 font-semibold mb-5'>
               Modular Rainwater Harvesting
-            </h2>
-            <p className="text-[16px] md:text-[18px] text-justify p-5 text-gray-700">
+            </div>
+
+            <p className='text-gray-700 leading-7 text-justify'>
               <Link
-                className="text-green-500 hover:text-sky-500"
-                href="https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                href='https://www.inrainconstruction.com/modular-rainwater-harvesting'
+                className='text-green-600 font-semibold hover:text-sky-600'
               >
                 Modular Rainwater Harvesting
-              </Link>{" "}
+              </Link>{' '}
               is a new technique for Rainwater Harvesting. It is both convenient
               and easy to maintain in comparison to traditional RWH. This New
               Age RWH system is designed with a maintenance-free structure,
@@ -80,82 +85,6 @@ export const Hero2 = () => {
           </div>
         </div>
       </div>
-
-      <div className="text-center mt-5 hero2-background flex flex-col gap-5 justify-center items-center">
-        <div data-aos="fade-up" className="m-5">
-          <p className="text-xl md:text-white md:text-4xl font-semibold">
-            <bold className="text-green-600">
-              InRain<sup>®</sup>
-            </bold>{" "}
-            Rainwater Harvesting System
-          </p>
-        </div>
-
-        <div
-          data-aos="fade-up"
-          className="md:flex justify-center items-center gap-24"
-        >
-          <div className="flex flex-col justify-center items-center mt-7">
-            <p className="text-lg font-semibold bg-green-300 rounded-lg flex justify-center items-center p-3">
-              Making The Planet Green
-            </p>
-            <div className="text-3xl mt-5 font-bold">
-              <CountUp
-                duration={2}
-                end={90}
-                enableScrollSpy={true}
-                scrollSpyDelay={50}
-              />
-              <span>%</span>
-            </div>
-          </div>
-
-          <div className="flex flex-col justify-center items-center mt-7">
-            <p className="text-lg font-semibold bg-green-300 rounded-lg flex justify-center items-center p-3">
-              Recycling Rainwater
-            </p>
-            <div className="text-3xl mt-5 font-bold">
-              <CountUp
-                duration={2}
-                end={100}
-                enableScrollSpy={true}
-                scrollSpyDelay={50}
-              />
-              <span>%</span>
-            </div>
-          </div>
-
-          <div className="flex flex-col justify-center items-center mt-7">
-            <p className="text-lg font-semibold bg-green-300 rounded-lg flex justify-center items-center p-3">
-              Decreases The Demand For Water
-            </p>
-            <div className="text-3xl mt-5 font-bold">
-              <CountUp
-                duration={2}
-                end={41}
-                enableScrollSpy={true}
-                scrollSpyDelay={50}
-              />
-              <span>%</span>
-            </div>
-          </div>
-
-          <div className="flex flex-col justify-center items-center mt-7">
-            <p className="text-lg font-semibold bg-green-300 rounded-lg flex justify-center items-center p-3">
-              Reduces Stormwater Flow
-            </p>
-            <div className="text-3xl mt-5 font-bold">
-              <CountUp
-                duration={2}
-                end={70}
-                enableScrollSpy={true}
-                scrollSpyDelay={50}
-              />
-              <span>%</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+    </section>
+  )
+}

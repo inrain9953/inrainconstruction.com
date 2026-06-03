@@ -1,164 +1,164 @@
-import React from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
-import { Button } from "@mui/material";
-import axios from "axios";
-import { useRouter } from "next/router";
+import React from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect, useState } from 'react'
+import { Button } from '@mui/material'
+import axios from 'axios'
+import { useRouter } from 'next/router'
 
 const ICPLMain = () => {
   useEffect(() => {
     AOS.init({
-      offset: 200,
-    });
-  }, []);
+      offset: 200
+    })
+  }, [])
 
-  const [myname, setMyname] = useState("");
-  const [myemail, setMyemail] = useState("");
-  const [mymobile, setMymobile] = useState("");
-  const [mymessage, setMymessage] = useState("");
-  const GoogleAds = "This is from Google Ads";
+  const [myname, setMyname] = useState('')
+  const [myemail, setMyemail] = useState('')
+  const [mymobile, setMymobile] = useState('')
+  const [mymessage, setMymessage] = useState('')
+  const GoogleAds = 'This is from Google Ads'
 
-  const router = useRouter();
+  const router = useRouter()
 
-  const handleICPLMynameChange = (e) => {
-    setMyname(e.target.value);
-  };
-
-  function onICPLFormSubmissionAnimation() {
-    document.querySelector(".loader").classList.add("onICPLContactAnimation");
-    setTimeout(() => {
-      document
-        .querySelector(".loader")
-        .classList.remove("onICPLContactAnimation");
-      router.push("/thank-you");
-    }, 2500);
+  const handleICPLMynameChange = e => {
+    setMyname(e.target.value)
   }
 
-  const api = "ab6ca769-e97e-4a70-89fd-4ea195148385";
-  const contactapikey = api;
+  function onICPLFormSubmissionAnimation () {
+    document.querySelector('.loader').classList.add('onICPLContactAnimation')
+    setTimeout(() => {
+      document
+        .querySelector('.loader')
+        .classList.remove('onICPLContactAnimation')
+      router.push('/thank-you')
+    }, 2500)
+  }
 
-  const onICPLFormSubmit = async (event) => {
-    event.preventDefault();
+  const api = 'ab6ca769-e97e-4a70-89fd-4ea195148385'
+  const contactapikey = api
 
-    const formData = new FormData(event.target);
-    formData.append("access_key", contactapikey);
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+  const onICPLFormSubmit = async event => {
+    event.preventDefault()
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
+    const formData = new FormData(event.target)
+    formData.append('access_key', contactapikey)
+    const object = Object.fromEntries(formData)
+    const json = JSON.stringify(object)
+
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
       headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
+        'Content-Type': 'application/json',
+        Accept: 'application/json'
       },
-      body: json,
-    }).then((res) => res.json());
+      body: json
+    }).then(res => res.json())
 
     try {
-      const response = await axios.post("/api/signup", {
+      const response = await axios.post('/api/signup', {
         myname,
         myemail,
         mymobile,
         mymessage,
-        GoogleAds,
-      });
+        GoogleAds
+      })
       if (response.data.success) {
-        console.log("Data Submitted Successfully");
+        console.log('Data Submitted Successfully')
       }
     } catch (error) {
-      console.log("Something went wrong");
+      console.log('Something went wrong')
     }
-  };
+  }
 
   return (
     <>
-      <div id="icplMain" className="ICPLpage-background">
-        <div className="pt-2 md:flex md:justify-center md:items-center md:gap-10">
-          <div data-aos="fade-up" className="text-center">
-            <h1 className="text-base m-3 text-green-800 font-semibold align-middle md:text-2xl">
+      <div id='icplMain' className='ICPLpage-background'>
+        <div className='pt-2 md:flex md:justify-center md:items-center md:gap-10'>
+          <div className='text-center'>
+            <h1 className='text-base m-3 text-green-800 font-semibold align-middle md:text-2xl'>
               "A Water Conservation and Management Company"
             </h1>
-            <h2 className="text-black text-2xl font-semibold drop-shadow-md md:text-5xl md:m-5 mb-3">
+            <h2 className='text-black text-2xl font-semibold drop-shadow-md md:text-5xl md:m-5 mb-3'>
               InRain® Construction Pvt. Ltd.(ICPL)
             </h2>
-            <a href="tel:+919910220794">
-              <Button variant="contained" color="secondary">
+            <a href='tel:+919910220794'>
+              <Button variant='contained' color='secondary'>
                 Call Now : +91-9910220794
               </Button>
             </a>
           </div>
 
-          <div data-aos="fade-up" className="m-5 md:w-96">
-            <div data-aos="fade-up" className="contact-form">
-              <div className="flex justify-center">
-                <div className="form-card1">
-                  <div className="form-card2 relative">
+          <div className='m-5 md:w-96'>
+            <div className='contact-form'>
+              <div className='flex justify-center'>
+                <div className='form-card1'>
+                  <div className='form-card2 relative'>
                     <form
-                      className="form bg-gray-300"
+                      className='form bg-gray-300'
                       onSubmit={onICPLFormSubmit}
                     >
-                      <p className="form-heading mt-3 mb-3 text-black text-2xl">
+                      <p className='form-heading mt-3 mb-3 text-black text-2xl'>
                         Get A Free Quote
                       </p>
 
-                      <div className="form-field">
+                      <div className='form-field'>
                         <input
-                          placeholder="Name"
-                          className="input-field"
-                          type="text"
-                          name="Name"
+                          placeholder='Name'
+                          className='input-field'
+                          type='text'
+                          name='Name'
                           value={myname}
                           onChange={handleICPLMynameChange}
                         />
                       </div>
 
-                      <div className="form-field">
+                      <div className='form-field'>
                         <input
-                          placeholder="Email"
-                          className="input-field"
-                          type="email"
-                          name="Email"
+                          placeholder='Email'
+                          className='input-field'
+                          type='email'
+                          name='Email'
                           value={myemail}
-                          onChange={(e) => setMyemail(e.target.value)}
+                          onChange={e => setMyemail(e.target.value)}
                         />
                       </div>
 
-                      <div className="form-field">
+                      <div className='form-field'>
                         <input
-                          placeholder="Mobile Number"
-                          className="input-field"
-                          type="tel"
-                          name="Mobile_No"
+                          placeholder='Mobile Number'
+                          className='input-field'
+                          type='tel'
+                          name='Mobile_No'
                           value={mymobile}
-                          onChange={(e) => setMymobile(e.target.value)}
+                          onChange={e => setMymobile(e.target.value)}
                         />
                       </div>
 
-                      <div className="form-field">
+                      <div className='form-field'>
                         <textarea
-                          placeholder="Message"
-                          cols="30"
-                          rows="3"
-                          className="input-field"
-                          name="message"
+                          placeholder='Message'
+                          cols='30'
+                          rows='3'
+                          className='input-field'
+                          name='message'
                           value={mymessage}
-                          onChange={(e) => setMymessage(e.target.value)}
+                          onChange={e => setMymessage(e.target.value)}
                         ></textarea>
                       </div>
 
-                      <div className="md:mt-2 md:mb-2">
-                        <input className="w-4 h-4 mr-2" type="checkbox" />
-                        <label className="text-black text-base">
+                      <div className='md:mt-2 md:mb-2'>
+                        <input className='w-4 h-4 mr-2' type='checkbox' />
+                        <label className='text-black text-base'>
                           Yes, I would like to receive communications by call /
-                          email about Company's services.{" "}
+                          email about Company's services.{' '}
                         </label>
                       </div>
 
                       <button
                         onClick={onICPLFormSubmissionAnimation}
-                        className="sendMessage-btn"
-                        type="submit"
+                        className='sendMessage-btn'
+                        type='submit'
                       >
                         Send Message
                       </button>
@@ -171,7 +171,7 @@ const ICPLMain = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default ICPLMain;
+export default ICPLMain

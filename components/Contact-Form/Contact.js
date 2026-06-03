@@ -3,7 +3,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 export const Contact = () => {
   return (
-    <div data-aos="fade-up" className="hidden contact-form z-10 top-0">
+    <div className="hidden contact-form z-10 top-0">
       <div className="flex justify-center">
         <div className="form-card1">
           <div className="form-card2 relative">

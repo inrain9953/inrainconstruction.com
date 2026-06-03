@@ -1,74 +1,71 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Hero1 } from "@/components/Hero/Hero1";
-import { Navbar } from "@/components/Navbar/Navbar";
-import PopUp from "@/components/popup";
-import React from "react";
-import hero2Img from "./../public/Technology/main2.jpeg";
-import Image from "next/image";
-import Link from "next/link";
-import { LocationWise } from "@/components/constant";
-import Head from "next/head";
-import ICPLCertification from "@/components/ICPL/ICPLCertification";
-import ICPLSolutions from "@/components/ICPL/ICPLSolutions";
+import { Footer } from '@/components/Footer/Footer'
+import { Hero1 } from '@/components/Hero/Hero1'
+import { Navbar } from '@/components/Navbar/Navbar'
+import PopUp from '@/components/popup'
+import React from 'react'
+import hero2Img from './../public/Technology/main2.jpeg'
+import Image from 'next/image'
+import Link from 'next/link'
+import { LocationWise } from '@/components/constant'
+import Head from 'next/head'
+import ICPLCertification from '@/components/ICPL/ICPLCertification'
+import ICPLSolutions from '@/components/ICPL/ICPLSolutions'
 
 const RWHSinIndia = () => {
   const title =
-    "Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.'
   const desc =
-    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
+    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?"
   const keyword =
-    "Rainwater Harvesting System in India, Modular Rainwater Harvesting in India, Modular Rainwater Harvesting Service Provider, Modular Rainwater Harvesting Service Provider in Delhi, Modular Rainwater Harvesting System";
+    'Rainwater Harvesting System in India, Modular Rainwater Harvesting in India, Modular Rainwater Harvesting Service Provider, Modular Rainwater Harvesting Service Provider in Delhi, Modular Rainwater Harvesting System'
   const canonical =
-    "https://www.inrainconstruction.com/rainwater-harvesting-system-in-india";
+    'https://www.inrainconstruction.com/rainwater-harvesting-system-in-india'
   const ogUrl =
-    "https://www.inrainconstruction.com/rainwater-harvesting-system-in-india";
+    'https://www.inrainconstruction.com/rainwater-harvesting-system-in-india'
   const ogTitle =
-    "Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.'
   const ogDescription =
-    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
+    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?"
   const twittertitle =
-    "Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting System in India | Modular Rainwater Harvesting in India | InRain® Construction Pvt. Ltd.'
   const twitterdescription =
-    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?";
+    "Are you finding Rainwater Harvesting System in India. We have the best quality Rainwater Harvesting System that helps you with harvesting rainwater. Don't we late to Rainwater Harvesting System Service Provider in India at the best price?"
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charset='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
       <Hero1 />
-      <div className="mt-10">
-        <div
-          data-aos="fade-up"
-          className="text-center m-5 md:ml-52 md:mr-52"
-        >
-          <h1 className="text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+      <div className='mt-10'>
+        <div className='text-center m-5 md:ml-52 md:mr-52'>
+          <h1 className='text-lg md:text-xl font-semibold shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center'>
             Rainwater Harvesting System in India
           </h1>
-          <p className="text-[16px] md:text-[18px] mt-5 text-justify text-gray-700 md:pl-28 md:pr-28">
+          <p className='text-[16px] md:text-[18px] mt-5 text-justify text-gray-700 md:pl-28 md:pr-28'>
             India is facing rising of water scarcity, mostly the urban areas
             facing scarcity of water. Speedy development because of the fast
             development of cities. This led to a decline in the availability of
@@ -78,15 +75,15 @@ const RWHSinIndia = () => {
             for water and the supply of water. The rainwater harvesting system
             is becoming a bridge for filling the gap by tapping into the natural
             rainfall and providing another source of water for uses.
-            <br /> The{" "}
+            <br /> The{' '}
             <Link
               href={
-                "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                'https://www.inrainconstruction.com/rainwater-harvesting-system'
               }
-              className="text-green-600 hover:text-sky-500 font-semibold"
+              className='text-green-600 hover:text-sky-500 font-semibold'
             >
               Rainwater Harvesting System
-            </Link>{" "}
+            </Link>{' '}
             works by collecting water from rooftops and hard surface areas;
             after that, it will be stored in storage tanks under the ground or
             recharge the groundwater level. That is the best for increasing the
@@ -99,12 +96,12 @@ const RWHSinIndia = () => {
           </p>
         </div>
 
-        <div data-aos="fade-up" className="md:grid md:grid-cols-3 md:m-12">
-          <div className="text-center m-5 mt-7">
-            <p className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+        <div className='md:grid md:grid-cols-3 md:m-12'>
+          <div className='text-center m-5 mt-7'>
+            <p className='text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center'>
               Vision
             </p>
-            <p className="text-[16px] md:text-[18px] mt-5 text-justify text-gray-700">
+            <p className='text-[16px] md:text-[18px] mt-5 text-justify text-gray-700'>
               The solution is aimed at solving the problem of the water crisis
               in cities where there is a lack of space for storage of water and
               immense populations, leading to a shortage of water supply and
@@ -112,28 +109,28 @@ const RWHSinIndia = () => {
             </p>
           </div>
 
-          <div data-aos="fade-up" className="text-center m-3 mt-7">
+          <div className='text-center m-3 mt-7'>
             <Image
-              className="w-full shadow-2xl"
+              className='w-full shadow-2xl'
               src={hero2Img}
-              alt="img"
-              loading="eager"
+              alt='img'
+              loading='eager'
               priority={true}
               unoptimized={true}
             />
           </div>
 
-          <div data-aos="fade-up" className="text-center m-5 mt-7">
-            <h2 className="text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center">
+          <div className='text-center m-5 mt-7'>
+            <h2 className='text-lg md:text-xl font-semibold text-black shadow-xl rounded-lg bg-sky-500 h-14 align-middle flex justify-center items-center'>
               Modular Rainwater Harvesting
             </h2>
-            <p className="text-[16px] md:text-[18px] text-justify mt-5 text-gray-700">
+            <p className='text-[16px] md:text-[18px] text-justify mt-5 text-gray-700'>
               <Link
-                className="text-green-500 hover:text-sky-500"
-                href="https://www.inrainconstruction.com/modular-rainwater-harvesting"
+                className='text-green-500 hover:text-sky-500'
+                href='https://www.inrainconstruction.com/modular-rainwater-harvesting'
               >
                 Modular Rainwater Harvesting
-              </Link>{" "}
+              </Link>{' '}
               is a new technique for rainwater harvesting. It is both convenient
               and easy to maintain in comparison to traditional RWH. This New
               Age RWH system is designed with a maintenance-free structure,
@@ -144,12 +141,11 @@ const RWHSinIndia = () => {
       </div>
 
       <div>
-        <p className="text-center text-3xl font-bold">Business Network</p>
-        <div className="md:grid md:grid-cols-6 grid grid-cols-3 p-3 md:p-5 border-2 bg-sky-200 border-black m-5">
-          {LocationWise.map((items) => (
+        <p className='text-center text-3xl font-bold'>Business Network</p>
+        <div className='md:grid md:grid-cols-6 grid grid-cols-3 p-3 md:p-5 border-2 bg-sky-200 border-black m-5'>
+          {LocationWise.map(items => (
             <a
-              data-aos="fade-up"
-              className="text-center m-1 text-[14px] md:text-[17px] font-semibold hover:text-green-500"
+              className='text-center m-1 text-[14px] md:text-[17px] font-semibold hover:text-green-500'
               href={items.url}
             >
               {items.location}
@@ -161,7 +157,7 @@ const RWHSinIndia = () => {
       <ICPLCertification />
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default RWHSinIndia;
+export default RWHSinIndia

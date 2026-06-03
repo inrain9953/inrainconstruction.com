@@ -1,87 +1,87 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Hero1 } from "@/components/Hero/Hero1";
-import { Hero2 } from "@/components/Hero/Hero2";
-import { Navbar } from "@/components/Navbar/Navbar";
-import harvesting2 from "./../public/services/harvesting2.jpg";
-import service2 from "./../public/service2.jpg";
-import Image from "next/image";
-import PopUp from "@/components/popup";
-import React from "react";
-import Head from "next/head";
+import { Footer } from '@/components/Footer/Footer'
+import { Hero1 } from '@/components/Hero/Hero1'
+import { Hero2 } from '@/components/Hero/Hero2'
+import { Navbar } from '@/components/Navbar/Navbar'
+import harvesting2 from './../public/services/harvesting2.jpg'
+import service2 from './../public/service2.jpg'
+import Image from 'next/image'
+import PopUp from '@/components/popup'
+import React from 'react'
+import Head from 'next/head'
 
 const PolyRain = () => {
   const title =
-    "Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+    'Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.'
   const desc =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
   const keyword =
-    "rainwater harvesting system in Delhi, polyrain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company, Polymer Type Rainwater Harvesting";
+    'rainwater harvesting system in Delhi, polyrain rainwater harvesting system, Urban Water Sustainability, rainwater harvesting company, Polymer Type Rainwater Harvesting'
   const canonical =
-    "https://www.inrainconstruction.com/polymer-type-rainwater-harvesting";
+    'https://www.inrainconstruction.com/polymer-type-rainwater-harvesting'
   const ogUrl =
-    "https://www.inrainconstruction.com/polymer-type-rainwater-harvesting";
+    'https://www.inrainconstruction.com/polymer-type-rainwater-harvesting'
   const ogTitle =
-    "Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+    'Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.'
   const ogDescription =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
   const twittertitle =
-    "Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.";
+    'Polymer Type Rainwater Harvesting | InRain® Construction Pvt. Ltd.'
   const twitterdescription =
-    "Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.";
+    'Are you searching for a rainwater harvesting system in Delhi? We are a Rainwater Harvesting Company with a strong presence all Over India that provides rainwater harvesting system services and consultants.'
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charSet="UTF-8" />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charSet='UTF-8' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
       <Hero1 />
       <Hero2 />
-      <div className="mt-5 md:m-10">
-        <div data-aos="fade-up">
+      <div className='mt-5 md:m-10'>
+        <div>
           <Image
-            className="w-full md:rounded-xl md:shadow-2xl"
+            className='w-full md:rounded-xl md:shadow-2xl'
             src={service2}
-            alt="img"
-            loading="eager"
+            alt='img'
+            loading='eager'
             priority={true}
             unoptimized={true}
           />
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="fade-up" className="text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold">
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+          <div className='text-left'>
+            <h1 className='text-3xl md:text-4xl font-semibold'>
               Polymer Type Rainwater Harvesting System
             </h1>
-            <p className="text-[17px] md:text-lg mt-3">
-              <bold className="text-green-700 font-semibold">
+            <p className='text-[17px] md:text-lg mt-3'>
+              <bold className='text-green-700 font-semibold'>
                 InRain<sup>®</sup>
-              </bold>{" "}
+              </bold>{' '}
               Construction Private Limited offers co-polymer based rainwater
               harvesting system services for water conservation and management.
               This is a modern-day technique of harvesting natural rainwater.
@@ -110,7 +110,7 @@ const PolyRain = () => {
               Some of the major advantages of this system are
             </p>
 
-            <ol className="list-decimal m-5 font-semibold text-[17px] md:text-lg">
+            <ol className='list-decimal m-5 font-semibold text-[17px] md:text-lg'>
               <li>Eco-friendly and economical solution.</li>
               <li>
                 Geo sheet-covered percolation storage tank to ensure excellent
@@ -133,30 +133,27 @@ const PolyRain = () => {
               </li>
             </ol>
 
-            <p className="text-[17px] md:text-lg mt-3">
+            <p className='text-[17px] md:text-lg mt-3'>
               A Modular rainwater harvesting system meets the modern-day
               requirements and comes with safety assurance with an option of
               portability which makes it one of the most sought-after water
               conservation and management systems.
             </p>
           </div>
-          <div data-aos="fade-up" className="mt-5">
+          <div className='mt-5'>
             <Image
-              className="w-full"
+              className='w-full'
               src={harvesting2}
-              alt="img"
-              loading="eager"
+              alt='img'
+              loading='eager'
               priority={true}
               unoptimized={true}
             />
           </div>
         </div>
 
-        <div
-          data-aos="fade-up"
-          className="m-5 md:m-10 bg-sky-300 rounded-lg"
-        >
-          <p className="text-[17px] md:text-lg mt-3 p-5">
+        <div className='m-5 md:m-10 bg-sky-300 rounded-lg'>
+          <p className='text-[17px] md:text-lg mt-3 p-5'>
             Unlike conventional RWH systems, the recharge chamber in modular RWH
             need not be PCC/ RCC, thereby saving cost. Further, the PCC/ RCC
             Storage-cum-Recharge Tank, after a few years, gets infested with
@@ -174,7 +171,7 @@ const PolyRain = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default PolyRain;
+export default PolyRain

@@ -1,84 +1,84 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Navbar } from "@/components/Navbar/Navbar";
-import React from "react";
-import service10 from "./../public/service10.jpg";
-import harvesting10 from "./../public/harvesting11.jpg";
-import Image from "next/image";
-import Head from "next/head";
-import PopUp from "@/components/popup";
-import Link from "next/link";
+import { Footer } from '@/components/Footer/Footer'
+import { Navbar } from '@/components/Navbar/Navbar'
+import React from 'react'
+import service10 from './../public/service10.jpg'
+import harvesting10 from './../public/harvesting11.jpg'
+import Image from 'next/image'
+import Head from 'next/head'
+import PopUp from '@/components/popup'
+import Link from 'next/link'
 
 const Service10 = () => {
-  const title = "Bioswale for Rainwater Drain | Why Choose Bioswales?";
+  const title = 'Bioswale for Rainwater Drain | Why Choose Bioswales?'
   const desc =
-    "Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens. ";
+    'Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens. '
   const canonical =
-    "https://www.inrainconstruction.com/bioswale-for-rainwater-drain";
+    'https://www.inrainconstruction.com/bioswale-for-rainwater-drain'
   const ogUrl =
-    "https://www.inrainconstruction.com/bioswale-for-rainwater-drain";
+    'https://www.inrainconstruction.com/bioswale-for-rainwater-drain'
   const keyword =
-    "Bioswale Rainwater Drain, Why Choose Bioswales, Stormwater Management, Rainwater Harvesting Solutions, Water Conservation Techniques, Groundwater Recharge, Erosion Control Methods, Sustainable Water Management, Urban Green Infrastructure, Bioswale Installation Services, Inrain Construction Pvt. Ltd";
-  const ogTitle = "Bioswale for Rainwater Drain | Why Choose Bioswales?";
+    'Bioswale Rainwater Drain, Why Choose Bioswales, Stormwater Management, Rainwater Harvesting Solutions, Water Conservation Techniques, Groundwater Recharge, Erosion Control Methods, Sustainable Water Management, Urban Green Infrastructure, Bioswale Installation Services, Inrain Construction Pvt. Ltd'
+  const ogTitle = 'Bioswale for Rainwater Drain | Why Choose Bioswales?'
   const ogDescription =
-    "Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens.";
-  const twittertitle = "Bioswale for Rainwater Drain | Why Choose Bioswales?";
+    'Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens.'
+  const twittertitle = 'Bioswale for Rainwater Drain | Why Choose Bioswales?'
   const twitterdescription =
-    "Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens.";
+    'Bioswales work on the same principle as rain gardens. Unlike rain gardens, which are depressions, bioswales are channels, planted with the same hardy, water-tolerant species as that for rain gardens.'
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charSet="UTF-8" />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charSet='UTF-8' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
-      <div className="mt-5 md:m-10">
-        <div data-aos="fade-up">
+      <div className='mt-5 md:m-10'>
+        <div>
           <Image
-            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service10}
-            alt="Bioswale for Rainwater Drain"
-            loading="eager"
+            alt='Bioswale for Rainwater Drain'
+            loading='eager'
             priority={true}
             unoptimized={true}
           />
-          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
-            <p className="text-xs md:text-lg text-black">
-              <Link href={"/"}>Home</Link> / Bioswale for Rainwater Drain
+          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
+            <p className='text-xs md:text-lg text-black'>
+              <Link href={'/'}>Home</Link> / Bioswale for Rainwater Drain
             </p>
           </div>
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="fade-up" className="text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold">
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+          <div className='text-left'>
+            <h1 className='text-3xl md:text-4xl font-semibold'>
               Bioswale for Rainwater Drain
             </h1>
 
-            <p className="text-[17px] text-justify md:text-lg mt-3">
+            <p className='text-[17px] text-justify md:text-lg mt-3'>
               InRain Construction Pvt. Ltd. is leading a socio-economic cause by
               helping people effectively utilize rainwater. We offer various
               solutions for rainwater conservation and management. Rainwater
@@ -92,15 +92,15 @@ const Service10 = () => {
               spread diseases. <br></br>
               <br></br>
               At InRain Construction Pvt. Ltd., we help in creating bioswales
-              for rainwater drainage. Bioswale is an excellent solution for{" "}
+              for rainwater drainage. Bioswale is an excellent solution for{' '}
               <Link
                 href={
-                  "https://www.inrainconstruction.com/storm-water-recharge-and-management"
+                  'https://www.inrainconstruction.com/storm-water-recharge-and-management'
                 }
-                className="text-green-600 hover:text-sky-500 font-semibold"
+                className='text-green-600 hover:text-sky-500 font-semibold'
               >
                 managing stormwater runoff.
-              </Link>{" "}
+              </Link>{' '}
               Since it uses green plants for filtration and management of water
               conservation through a channel, a bioswale looks very pleasing to
               the eyes. The stormwater runoff gets conveyed through a sloped
@@ -124,41 +124,41 @@ const Service10 = () => {
               it has to meet the required infiltration rate before it can be
               installed. InRain Construction Pvt. Ltd., with its advanced
               technology and professional team, helps in providing an end-to-end
-              solution from consultation and{" "}
+              solution from consultation and{' '}
               <Link
                 href={
-                  "https://www.inrainconstruction.com/rainwater-harvesting-installation-company"
+                  'https://www.inrainconstruction.com/rainwater-harvesting-installation-company'
                 }
-                className="text-green-600 hover:text-sky-500 font-semibold"
+                className='text-green-600 hover:text-sky-500 font-semibold'
               >
                 installation to maintenance.
               </Link>
             </p>
           </div>
-          <div data-aos="fade-up" className="mt-5">
-            <Link href={"https://www.inrainconstruction.com/"}>
+          <div className='mt-5'>
+            <Link href={'https://www.inrainconstruction.com/'}>
               <Image
-                className="w-full"
+                className='w-full'
                 src={harvesting10}
-                alt="Bioswale"
-                loading="eager"
+                alt='Bioswale'
+                loading='eager'
                 priority={true}
                 unoptimized={true}
               />
             </Link>
-            <div className="m-2 mt-5 text-justify">
-              <h2 className="text-xl font-semibold">Why Choose Bioswales?</h2>
-              <p className="text-[17px] md:text-lg mt-1">
+            <div className='m-2 mt-5 text-justify'>
+              <h2 className='text-xl font-semibold'>Why Choose Bioswales?</h2>
+              <p className='text-[17px] md:text-lg mt-1'>
                 Apart from being highly functional, bioswales are visually
                 appealing and can easily blend into the modern landscape of
                 residential societies, industries, and commercial spaces. They
                 not only manage excess rainwater but also support groundwater
                 recharge and enhance the green cover of the space.
               </p>
-              <p className="text-[18px] md:text-lg mt-4 font-semibold">
+              <p className='text-[18px] md:text-lg mt-4 font-semibold'>
                 These systems are especially useful in areas like
               </p>
-              <ul className="list-disc list-inside font-semibold text-[18px] md:text-lg">
+              <ul className='list-disc list-inside font-semibold text-[18px] md:text-lg'>
                 <li>Parking lots</li>
                 <li>Roadside edges and sidewalks</li>
                 <li>Parks and play areas</li>
@@ -170,7 +170,7 @@ const Service10 = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Service10;
+export default Service10

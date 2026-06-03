@@ -1,88 +1,88 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Navbar } from "@/components/Navbar/Navbar";
-import React from "react";
-import service12 from "./../public/service12.jpg";
-import harvesting12 from "./../public/services/harvesting1.jpg";
-import Image from "next/image";
-import Head from "next/head";
-import PopUp from "@/components/popup";
-import Link from "next/link";
+import { Footer } from '@/components/Footer/Footer'
+import { Navbar } from '@/components/Navbar/Navbar'
+import React from 'react'
+import service12 from './../public/service12.jpg'
+import harvesting12 from './../public/services/harvesting1.jpg'
+import Image from 'next/image'
+import Head from 'next/head'
+import PopUp from '@/components/popup'
+import Link from 'next/link'
 
 const Service12 = () => {
   const title =
-    "Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.'
   const desc =
-    "Inrain Construction Pvt Ltd is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.";
+    'Inrain Construction Pvt Ltd is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.'
   const keyword =
-    "rainwater harvesting Installation Company, Rainwater Harvesting Company, Residential and Commercial Rainwater Harvesting, rainwater harvesting Installation Company in delhi, Cost-effective Water Management, Customized Water Solutions, Environmental Stewardship Water Conservation, Inrain Construction Pvt Ltd";
+    'rainwater harvesting Installation Company, Rainwater Harvesting Company, Residential and Commercial Rainwater Harvesting, rainwater harvesting Installation Company in delhi, Cost-effective Water Management, Customized Water Solutions, Environmental Stewardship Water Conservation, Inrain Construction Pvt Ltd'
   const canonical =
-    "https://www.inrainconstruction.com/rainwater-harvesting-installation-company";
+    'https://www.inrainconstruction.com/rainwater-harvesting-installation-company'
   const ogUrl =
-    "https://www.inrainconstruction.com/rainwater-harvesting-installation-company";
+    'https://www.inrainconstruction.com/rainwater-harvesting-installation-company'
   const ogTitle =
-    "Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.'
   const ogDescription =
-    "Inrain Construction Pvt Ltd is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.";
+    'Inrain Construction Pvt Ltd is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.'
   const twittertitle =
-    "Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.";
+    'Rainwater Harvesting Installation Company  | InRain® Construction Pvt. Ltd.'
   const twitterdescription =
-    "Inrain® Construction Pvt. Ltd. is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.";
+    'Inrain® Construction Pvt. Ltd. is the leading rainwater harvesting Installation Company in India and possesses a deep understanding of rainwater harvesting system.'
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charSet="UTF-8" />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charSet='UTF-8' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
-      <div className="mt-5 md:m-10">
-        <div data-aos="fade-up">
+      <div className='mt-5 md:m-10'>
+        <div>
           <Image
-            className="w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative"
+            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service12}
-            alt="Rainwater Harvesting Installation Company"
-            loading="eager"
+            alt='Rainwater Harvesting Installation Company'
+            loading='eager'
             priority={true}
             unoptimized={true}
           />
-          <div className="absolute md:bottom-2 bottom-0 md:left-5 left-2">
-            <p className="text-xs md:text-lg text-black">
-              <Link href={"/"}>Home</Link> / Rainwater Harvesting Installation
+          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
+            <p className='text-xs md:text-lg text-black'>
+              <Link href={'/'}>Home</Link> / Rainwater Harvesting Installation
               Company
             </p>
           </div>
         </div>
 
-        <div className="m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center">
-          <div data-aos="fade-up" className="text-left">
-            <h1 className="text-3xl md:text-4xl font-semibold">
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+          <div className='text-left'>
+            <h1 className='text-3xl md:text-4xl font-semibold'>
               Rainwater Harvesting Installation Company
             </h1>
 
-            <p className="text-[17px] text-justify md:text-lg mt-3">
+            <p className='text-[17px] text-justify md:text-lg mt-3'>
               The premier rainwater harvesting installation company dedicated to
               sustainable water solutions. We specialize in designing,
               installing, and maintaining state-of-the-art rainwater harvesting
@@ -98,12 +98,12 @@ const Service12 = () => {
               ecological footprint.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-semibold mt-5">
+            <h2 className='text-2xl md:text-3xl font-semibold mt-5'>
               Why Choose Us?
             </h2>
-            <ol className="list-decimal m-5 text-[17px] text-justify md:text-lg">
+            <ol className='list-decimal m-5 text-[17px] text-justify md:text-lg'>
               <li>
-                <bold className="font-semibold">Expertise and Experience:</bold>{" "}
+                <bold className='font-semibold'>Expertise and Experience:</bold>{' '}
                 With years of experience in rainwater harvesting, our team of
                 experts possess unparalleled knowledge and expertise in
                 designing and implementing efficient systems. We stay up to date
@@ -111,7 +111,7 @@ const Service12 = () => {
                 our clients receive the most innovative and effective solutions.
               </li>
               <li>
-                <bold className="font-semibold">Customized Solutions:</bold> We
+                <bold className='font-semibold'>Customized Solutions:</bold> We
                 understand that every property has unique requirements and
                 constraints. That's why we offer personalized rainwater
                 harvesting solutions tailored to your specific needs. Our team
@@ -121,7 +121,7 @@ const Service12 = () => {
                 meets your goals.
               </li>
               <li>
-                <bold className="font-semibold">Comprehensive Services:</bold>{" "}
+                <bold className='font-semibold'>Comprehensive Services:</bold>{' '}
                 From initial consultation to system installation and ongoing
                 maintenance, we provide end-to-end services to make your
                 rainwater harvesting journey seamless and hassle-free. Our
@@ -131,16 +131,16 @@ const Service12 = () => {
                 with precision and professionalism.
               </li>
               <li>
-                <bold className="font-semibold">High-Quality Products:</bold> We
+                <bold className='font-semibold'>High-Quality Products:</bold> We
                 pride ourselves on using top-of-the-line components and
                 materials in our rainwater harvesting systems. By partnering
                 with trusted suppliers, we guarantee that your system is built
                 to last, delivering optimal performance and longevity.
               </li>
               <li>
-                <bold className="font-semibold">
+                <bold className='font-semibold'>
                   Environmental Stewardship:
-                </bold>{" "}
+                </bold>{' '}
                 At InRain Construction Pvt. Ltd., we are committed to
                 environmental stewardship and sustainability. Rainwater
                 harvesting is an eco-conscious choice that allows you to reduce
@@ -151,16 +151,16 @@ const Service12 = () => {
                 help preserve this valuable resource for future generations.
               </li>
               <li>
-                <bold className="font-semibold">Cost Savings:</bold>{" "}
-                Implementing a{" "}
+                <bold className='font-semibold'>Cost Savings:</bold>{' '}
+                Implementing a{' '}
                 <Link
                   href={
-                    "https://www.inrainconstruction.com/rainwater-harvesting-system"
+                    'https://www.inrainconstruction.com/rainwater-harvesting-system'
                   }
-                  className="text-green-600 hover:text-sky-500 font-semibold"
+                  className='text-green-600 hover:text-sky-500 font-semibold'
                 >
                   Rainwater Harvesting System
-                </Link>{" "}
+                </Link>{' '}
                 offers both environmental and financial benefits. By utilizing
                 rainwater for various applications, you can lower your water
                 bills and decrease demand on municipal water supplies. Our team
@@ -169,15 +169,16 @@ const Service12 = () => {
                 of the economic advantages associated with rainwater harvesting.
               </li>
               <li>
-                <bold className="font-semibold">Local Expertise:</bold> As a local
-                rainwater harvesting installation company, we possess a deep
-                understanding of the unique challenges and opportunities present
-                in Delhi. We are well-versed in local regulations, building
-                codes, and weather patterns, allowing us to design and install
-                systems that are tailored to your specific geographical area.
+                <bold className='font-semibold'>Local Expertise:</bold> As a
+                local rainwater harvesting installation company, we possess a
+                deep understanding of the unique challenges and opportunities
+                present in Delhi. We are well-versed in local regulations,
+                building codes, and weather patterns, allowing us to design and
+                install systems that are tailored to your specific geographical
+                area.
               </li>
               <li>
-                <bold className="font-semibold">Customer Satisfaction:</bold> We
+                <bold className='font-semibold'>Customer Satisfaction:</bold> We
                 prioritize customer satisfaction and strive to exceed your
                 expectations in every aspect of our service. From prompt
                 communication and transparent pricing to meticulous expertise
@@ -188,13 +189,13 @@ const Service12 = () => {
               </li>
             </ol>
           </div>
-          <div data-aos="fade-up" className="mt-5">
-            <Link href={"https://www.inrainconstruction.com/"}>
+          <div className='mt-5'>
+            <Link href={'https://www.inrainconstruction.com/'}>
               <Image
-                className="w-full"
+                className='w-full'
                 src={harvesting12}
-                alt="Rainwater Harvesting Installation"
-                loading="eager"
+                alt='Rainwater Harvesting Installation'
+                loading='eager'
                 priority={true}
                 unoptimized={true}
               />
@@ -204,7 +205,7 @@ const Service12 = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Service12;
+export default Service12

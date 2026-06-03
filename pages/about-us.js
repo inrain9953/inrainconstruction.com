@@ -1,490 +1,364 @@
-import { Footer } from "@/components/Footer/Footer";
-import { Navbar } from "@/components/Navbar/Navbar";
-import React from "react";
-import banner from "./../public/banner4.jpg";
-import abt from "./../public/abt.jpg";
-import renewable from "./../public/renewable-energy.png";
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import BottomImg from "./../public/bottom_about.jpg";
-import CountUp from "react-countup";
-import Image from "next/image";
-import Head from "next/head";
-import PopUp from "@/components/popup";
-import griha from "./../public/griha.jpg";
-import iso1 from "./../public/iso1.jpg";
-import iso2 from "./../public/iso2.jpg";
-import Link from "next/link";
+import { Footer } from '@/components/Footer/Footer'
+import { Navbar } from '@/components/Navbar/Navbar'
+import React from 'react'
+import CountUp from 'react-countup'
+import Image from 'next/image'
+import Head from 'next/head'
+import PopUp from '@/components/popup'
+import Link from 'next/link'
+import ICPLCertification from '@/components/ICPL/ICPLCertification'
 
 const About = () => {
   const title =
-    "About ICPL | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
+    'About ICPL | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.'
   const desc =
-    "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+    'InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.'
   const keyword =
-    "About ICPL, About Our Rainwater Harvesting(RWH) Technology, Water Conservation in Delhi, Modular Tank Systems in Delhi, Rainwater Harvesting in Delhi, Sustainable Water Management, Monolithic Structures, RWH Technology, Clean Energy Solutions, Modular Technology RWH, Water Table Recharge";
-  const canonical = "https://www.inrainconstruction.com/about-us";
-  const ogUrl = "https://www.inrainconstruction.com/about-us";
+    'About ICPL, About Our Rainwater Harvesting(RWH) Technology, Water Conservation in Delhi, Modular Tank Systems in Delhi, Rainwater Harvesting in Delhi, Sustainable Water Management, Monolithic Structures, RWH Technology, Clean Energy Solutions, Modular Technology RWH, Water Table Recharge'
+  const canonical = 'https://www.inrainconstruction.com/about-us'
+  const ogUrl = 'https://www.inrainconstruction.com/about-us'
   const ogTitle =
-    "About Us | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
+    'About Us | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.'
   const ogDescription =
-    "InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+    'InRain® Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.'
   const twittertitle =
-    "About US | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.";
+    'About US | About Our Rainwater Harvesting(RWH) Technology | InRain® Construction Pvt. Ltd.'
   const twitterdescription =
-    "InRain Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.";
+    'InRain Water Harvesting company has successfully Installed morethan 400 Rain Water Harvesting Projects enabling in conserving billion of gallons of water from of getting it waste.'
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta charSet="UTF-8" />
-        <meta name="language" content="en" />
-        <meta name="author" content="InRain® Construction Pvt. Ltd." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="description" content={desc} />
-        <meta name="keywords" content={keyword} />
-        <meta name="canonical" content={canonical} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={ogUrl} />
-        <meta name="twitter:title" content={twittertitle} />
-        <meta name="twitter:description" content={twitterdescription} />
+        <meta charSet='UTF-8' />
+        <meta name='language' content='en' />
+        <meta name='author' content='InRain® Construction Pvt. Ltd.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
         <meta
-          property="og:site_name"
-          content="InRain® Construction Pvt. Ltd."
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
         />
         <meta
-          name="google-site-verification"
-          content="Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA"
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
         />
       </Head>
       <Navbar />
       <PopUp />
-      <div>
-        <div data-aos="fade-up" className="md:m-5 m-2 md:pt-0">
+      <div className='bg-white'>
+        {/* ================= HERO SECTION ================= */}
+        <section className='relative'>
           <Image
-            className="w-full h-28 md:h-72 rounded-xl md:shadow-2xl relative"
-            src={banner}
-            alt="img"
-            loading="eager"
-            priority={true}
-            unoptimized={true}
+            src={'/banner4.jpg'}
+            alt='About InRain'
+            className='w-full h-[250px] md:h-[300px] object-cover'
+            width={1920}
+            height={600}
           />
-          <div className="absolute md:bottom-7 bottom-6 md:left-10 left-2">
-            <p className="text-xs md:text-lg text-black">
-              <Link href={"/"}>Home</Link> / About Us
-            </p>
-          </div>
-        </div>
 
-        <div
-          data-aos="fade-up"
-          className="m-5 md:m-10 md:grid md:grid-cols-2 md:gap-14 md:items-center "
-        >
-          <div className="">
-            <Image
-              className="w-full rounded-xl"
-              src={abt}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
-          </div>
-          <div className="mt-5 text-left">
-            <p className="text-2xl md:text-4xl font-semibold md:mb-5">
-              Who We Are ?
-            </p>
-            <a
-              target="_blank"
-              href="https://www.inrainconstruction.com/about_icpl"
-              className="text-2xl text-sky-500 hover:text-green-500 font-bold md:text-3xl"
-            >
-              ICPL
-            </a>
-            <p className="text-[17px] text-justify md:text-lg md:mt-2">
-              We are a subsidiary company of “Singh & Singh Construction,” a
-              firm with a strong presence in India with more than 30 years of
-              experience in the civil construction industry. We have completed
-              numerous projects for Bridges Construction under PWD/RWD, the
-              Irrigation & Flood Control Department, Bihar Rajya Pool Nirman
-              Nigam etc., and constructed roads under Pradhan Mantri Gramin
-              Sadark Yojana, and continued to undertake construction projects
-              for more than 30 years.
-            </p>
-          </div>
-        </div>
+          <div className='absolute inset-0 bg-black/50' />
 
-        <div data-aos="fade-up" className="mt-10 md:mt-16 ">
-          <div className="text-center mb-5">
-            <h1 className="text-2xl font-semibold md:text-3xl md:font-bold">
-              About ICPL
+          <div className='absolute inset-0 flex flex-col justify-center items-center text-center px-5'>
+            <p className='text-white text-sm md:text-base mb-3'>
+              <Link href='/'>Home</Link> / About Us
+            </p>
+
+            <h1 className='text-white text-3xl md:text-6xl font-bold'>
+              About InRain® Construction
             </h1>
-          </div>
-          <div className="text-center m-5 shadow-2xl p-5 rounded-lg md:mt-7 md:w-[75%] md:m-auto">
-            <h2 className="text-2xl font-semibold m-3 md:text-3xl md:font-bold md:mt-5 md:mb-3">
-              InRain® Construction Pvt. Ltd.(ICPL)
-            </h2>
-            <p className="text-[17px] text-justify md:text-lg">
-              <Link
-                className="text-green-500 hover:text-sky-500"
-                href={
-                  "https://www.inrainconstruction.com/modular-rainwater-harvesting"
-                }
-              >
-                Modular Rainwater Harvesting
-              </Link>{" "}
-              Company with a strong presence all over India. The company has
-              successfully installed more than 4000+ rainwater harvesting
-              projects to enable it to conserve billions of gallons of water
-              from being wasted. We are privileged to introduce the next level
-              of scientific rainwater harvesting technology with more than a
-              50-ton/sq. m load-bearing structure for the first time in the
-              world. We are proud partners of the "Make in India" movement,
-              having our own products and manufacturing.
+
+            <p className='text-white/90 max-w-3xl mt-4 text-sm md:text-lg'>
+              Building Sustainable Water Conservation Solutions Across India
             </p>
           </div>
-        </div>
+        </section>
 
-        <div className="m-5 md:flex md:justify-center md:items-center md:gap-10 md:m-10">
-          <div
-            data-aos="fade-up"
-            className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
-          >
-            <Image
-              className="h-8"
-              src={renewable}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
-            <p className="text-lg font-semibold text-white">Clean Energy</p>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
-          >
-            <Image
-              className="h-8"
-              src={renewable}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
-            <p className="text-lg font-semibold text-white">
-              Project Assistance
-            </p>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
-          >
-            <Image
-              className="h-8"
-              src={renewable}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
-            <p className="text-lg font-semibold text-white">Action Research</p>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            className="text-center bg-green-700 p-5 rounded-lg mt-10 md:w-[25%] flex flex-col items-center justify-center gap-2"
-          >
-            <Image
-              className="h-8"
-              src={renewable}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
-            <p className="text-lg font-semibold text-white">
-              Long-term Planning
-            </p>
-          </div>
-        </div>
-
-        <div className="pt-5">
-          <div
-            data-aos="fade-up"
-            className="m-5 pb-5 md:flex md:justify-center md:items-center"
-          >
-            <div className="border-l-2 border-black md:mr-5 md:border-l-0 md:w-[30%]">
-              <div className="text-left mt-5 mb-5 md:text-right">
-                <p className="font-semibold md:font-bold text-base ml-5 text-blue-500">
-                  VISION FOR THE FUTURE
-                </p>
-              </div>
-
-              <div>
-                <div className="text-left md:text-right">
-                  <h2 className="text-3xl font-bold ml-5">
-                    About Our Rainwater Harvesting(RWH) Technology
-                  </h2>
-                  <p className="text-[17px] mt-2 ml-5">
-                    At{" "}
-                    <bold className="text-green-700 font-semibold">
-                      InRain®
-                    </bold>{" "}
-                    , we are engaged in making RWH System based on the modular
-                    technology.
-                  </p>
-                </div>
-              </div>
+        {/* ================= WHO WE ARE ================= */}
+        <section className='max-w-7xl mx-auto px-6 py-12'>
+          <div className='grid lg:grid-cols-2 gap-14 items-center'>
+            <div className='overflow-hidden rounded-3xl shadow-2xl'>
+              <Image
+                src={'/abt.jpg'}
+                alt='About InRain'
+                className='w-full object-cover hover:scale-105 transition duration-700'
+                width={800}
+                height={600}
+              />
             </div>
-            <div className="mt-5 md:w-[30%] md:border-l-2 md:border-black">
-              <p className="text-[17px] text-justify mt-2 md:ml-5">
+
+            <div>
+              <span className='text-sky-600 font-semibold uppercase tracking-wider'>
+                Who We Are
+              </span>
+
+              <h2 className='text-4xl md:text-5xl font-bold mt-3 mb-6'>
+                About ICPL
+              </h2>
+
+              <a
+                href='https://www.inrainconstruction.com/about_icpl'
+                target='_blank'
+                className='text-2xl font-bold text-green-600 hover:text-sky-600'
+              >
+                ICPL
+              </a>
+
+              <p className='text-gray-600 leading-7 text-base text-justify mt-4'>
+                We are a subsidiary company of “Singh & Singh Construction,” a
+                firm with a strong presence in India with more than 30 years of
+                experience in the civil construction industry. We have completed
+                numerous projects for Bridges Construction under PWD/RWD, the
+                Irrigation & Flood Control Department, Bihar Rajya Pool Nirman
+                Nigam etc., and constructed roads under Pradhan Mantri Gramin
+                Sadark Yojana, and continued to undertake construction projects
+                for more than 30 years.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= ABOUT ICPL ================= */}
+        <section className='py-8'>
+          <div className='max-w-5xl mx-auto px-6'>
+            <div className='text-center'>
+              <span className='text-sky-600 font-semibold uppercase'>
+                About ICPL
+              </span>
+
+              <h2 className='md:text-4xl text-2xl font-bold mt-3'>
+                InRain® Construction Pvt. Ltd.
+              </h2>
+            </div>
+
+            <div className='bg-white rounded-3xl shadow-xl p-5 md:p-10'>
+              <p className='text-gray-600 leading-8 text-justify'>
+                <Link
+                  href='https://www.inrainconstruction.com/modular-rainwater-harvesting'
+                  className='text-green-600 font-semibold hover:text-sky-600'
+                >
+                  Modular Rainwater Harvesting
+                </Link>{' '}
+                Company with a strong presence all over India. The company has
+                successfully installed more than 4000+ rainwater harvesting
+                projects to enable it to conserve billions of gallons of water
+                from being wasted. We are privileged to introduce the next level
+                of scientific rainwater harvesting technology with more than a
+                50-ton/sq. m load-bearing structure for the first time in the
+                world. We are proud partners of the "Make in India" movement,
+                having our own products and manufacturing.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= FEATURES ================= */}
+        <section className='max-w-7xl mx-auto px-6 py-10'>
+          <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+            {[
+              'Clean Energy',
+              'Project Assistance',
+              'Action Research',
+              'Long-term Planning'
+            ].map((item, index) => (
+              <div
+                key={index}
+                className='bg-gradient-to-br from-green-600 to-green-800 text-white rounded-3xl p-8 text-center shadow-xl hover:-translate-y-2 transition'
+              >
+                <Image
+                  src={'/renewable-energy.png'}
+                  alt={item}
+                  width={100}
+                  height={100}
+                  className='h-10 w-auto mx-auto mb-4'
+                />
+
+                <h3 className='font-semibold text-lg'>{item}</h3>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ================= TECHNOLOGY ================= */}
+        <section className='py-10'>
+          <div className='max-w-7xl mx-auto px-6'>
+            <div className='text-center mb-5'>
+              <span className='text-sky-600 font-semibold uppercase'>
+                Vision For The Future
+              </span>
+
+              <h2 className='text-2xl md:text-4xl font-bold mt-3'>
+                About Our Rainwater Harvesting Technology
+              </h2>
+              <p className='max-w-3xl m-auto text-gray-600 leading-7 mt-2'>
+                At InRain® , we are engaged in making RWH System based on the
+                modular technology.
+                <br />
                 It is indeed entirely different from conventional rainwater
                 harvesting systems that were made using cement and brick walls.
                 A few benefits of our scientific RWH system are highlighted as
                 follows.
               </p>
             </div>
-          </div>
 
-          <div
-            data-aos="fade-up"
-            className="m-5 md:flex md:justify-center md:gap-10"
-          >
-            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
-              Monolithic structures are quick to install, and the same turns
-              into a rainwater holding tank below the ground in no time as
-              compared to making a civil pit. Modular tanks can be used for
-              holding/reusing the rainwater, recharging the water table, and
-              percolating.
-            </p>
-            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
-              Using the{" "}
-              <bold className="text-green-700 font-semibold">
-                InRain<sup>®</sup>
-              </bold>{" "}
-              filtration system, developed in-house by the{" "}
-              <a
-                href="https://www.inrainconstruction.com/about_icpl"
-                target="_blank"
-                className="text-green-500 hover:text-sky-500 font-semibold"
-              >
-                ICPL R&D team
-              </a>
-              , clean rainwater is trapped in the tank, thereby saving on
-              maintenance parts tremendously, as it is very easy & handy with
-              negligible maintenance costs as compared to conventional systems.
-              Precious land over the modular tank is not wasted, since it is a
-              load-bearing structure and can bear tons of loads, thereby making
-              the whole system truly economical as compared with the case of
-              having a civil pit.
-            </p>
-            <p className="text-[17px] text-justify mt-3 md:w-[25%] md:shadow-lg md:p-5 rounded-lg">
-              95% of the capacity of the tank is usable, as compared to only
-              50-55% usability in the case of a civil pit. There is no risk of
-              accidents, as no one can fall into this kind of tank, whereas
-              having an RCC civil tank is highly accident-prone. Removable and
-              transportable to any other location, which is not possible in the
-              case of a civil pit. Holding/recharge capacity begins from 1 cubic
-              meter to any imaginable size within significantly less time.
-            </p>
-          </div>
-        </div>
+            <div className='grid md:grid-cols-3 gap-8'>
+              <div className='bg-white rounded-3xl p-8 shadow-lg'>
+                <p className='text-gray-600 leading-8'>
+                  Monolithic structures are quick to install, and the same turns
+                  into a rainwater holding tank below the ground in no time as
+                  compared to making a civil pit. Modular tanks can be used for
+                  holding/reusing the rainwater, recharging the water table, and
+                  percolating.
+                </p>
+              </div>
 
-        <div>
-          <div data-aos="fade-up" className="text-center m-10">
-            <h4 className="text-lg font-bold text-blue-700">OUR RESEARCH</h4>
-            <h4 className="text-3xl font-bold mt-3 mb-5">How We Work</h4>
-          </div>
+              <div className='bg-white rounded-3xl p-8 shadow-lg'>
+                <p className='text-gray-600 leading-8'>
+                  Using the InRain® filtration system, developed in-house by the{' '}
+                  <Link
+                    className='text-green-600 hover:text-sky-600 font-semibold'
+                    href='/about-nishant-gaurav-singh'
+                  >
+                    ICPL R&D team
+                  </Link>
+                  , clean rainwater is trapped in the tank, thereby saving on
+                  maintenance parts tremendously, as it is very easy & handy
+                  with negligible maintenance costs as compared to conventional
+                  systems. Precious land over the modular tank is not wasted,
+                  since it is a load-bearing structure and can bear tons of
+                  loads, thereby making the whole system truly economical as
+                  compared with the case of having a civil pit.
+                </p>
+              </div>
 
-          <div className="md:grid md:grid-cols-3">
-            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
-              <div className="bg-sky-600 text-white rounded-md p-3 text-center">
-                <p className="text-base font-bold">STRATEGY</p>
-              </div>
-              <div className="text-left p-5 flex flex-col gap-4">
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Concur on the project value and plan the project controls to
-                    be connected.
-                  </p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">Recognize important partners.</p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Survey venture hazard and vulnerability.
-                  </p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Set up a venture control execution plan.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
-              <div className="bg-sky-600 text-white rounded-md p-3 text-center">
-                <p className="text-base font-bold">TARGET & ASSURANCE</p>
-              </div>
-              <div className="text-left p-5 flex flex-col gap-4">
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Complete expense and calendar gauge surveys.
-                  </p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Review of undertaking control abilities versus control
-                    execution plan.
-                  </p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Issue a whole examination dependent on the review.
-                  </p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Refresh the undertaking control execution plan.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div data-aos="fade-up" className="m-5 shadow-2xl rounded-md">
-              <div className="bg-sky-600 text-white rounded-md p-3 text-center">
-                <p className="text-base font-bold">CONTROL</p>
-              </div>
-              <div className="text-left p-5 flex flex-col gap-4">
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Roll out the project execution plan.
-                  </p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">
-                    Prepare an integrated baseline schedule and budget.
-                  </p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">Mobilize site-based resources.</p>
-                </div>
-                <div className="flex gap-2">
-                  <ArrowRightAltIcon />
-                  <p className="text-[16px]">Monitor, control, and report.</p>
-                </div>
+              <div className='bg-white rounded-3xl p-8 shadow-lg'>
+                <p className='text-gray-600 leading-8'>
+                  95% of the capacity of the tank is usable, as compared to only
+                  50-55% usability in the case of a civil pit. There is no risk
+                  of accidents, as no one can fall into this kind of tank,
+                  whereas having an RCC civil tank is highly accident-prone.
+                  Removable and transportable to any other location, which is
+                  not possible in the case of a civil pit. Holding/recharge
+                  capacity begins from 1 cubic meter to any imaginable size
+                  within significantly less time.
+                </p>
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div>
-          <div
-            data-aos="fade-up"
-            className="m-5 md:flex md:justify-center md:items-center md:gap-10"
-          >
-            <div className="pt-10 md:w-[30%]">
-              <Image
-                className="w-full rounded-lg"
-                src={BottomImg}
-                alt="img"
-                loading="eager"
-                priority={true}
-                unoptimized={true}
-              />
-            </div>
-            <div className="text-left mt-5 md:w-[30%]">
-              <h4 className="text-3xl font-bold">
-                Installation & Project Development
-              </h4>
-              <p className="text-[17px] text-justify mt-3">
-                Our team has done more than 4000+ rainwater harvesting projects
-                across India. The technology we are using has been globally
-                adopted in advanced countries like Germany, Japan, Singapore,
-                the USA, and Australia.
-              </p>
-            </div>
-          </div>
-
-          <div data-aos="fade-up" className="text-center m-10">
-            <div className="text-6xl font-semibold">
-              <CountUp
-                duration={5}
-                className=""
-                end={4000}
-                enableScrollSpy={true}
-                scrollSpyDelay={50}
-              />
-              <span>+</span>
-              <br></br>
-            </div>
-            <span className="text-2xl font-semibold m-3">
-              Projects Completed
+        {/* ================= HOW WE WORK ================= */}
+        <section className='max-w-7xl mx-auto px-6 py-10'>
+          <div className='text-center mb-10'>
+            <span className='text-sky-600 font-semibold uppercase'>
+              Our Research
             </span>
-          </div>
-        </div>
 
-        <div className="text-center">
-          <p data-aos="fade-up" className="text-3xl font-bold">
-            Our Certification
-          </p>
-          <div className="m-5 md:grid md:grid-cols-3 md:items-center md:align-middle md:gap-10">
-            <Image
-              data-aos="fade-up"
-              className="rounded-lg m-auto pb-2"
-              width={400}
-              src={iso1}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
-            <Image
-              data-aos="fade-up"
-              className="rounded-lg m-auto pb-2"
-              width={400}
-              src={iso2}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
-            <Image
-              data-aos="fade-up"
-              className="rounded-lg m-auto pb-2"
-              width={400}
-              src={griha}
-              alt="img"
-              loading="eager"
-              priority={true}
-              unoptimized={true}
-            />
+            <h2 className='text-4xl font-bold mt-3'>How We Work</h2>
           </div>
-        </div>
+
+          <div className='grid md:grid-cols-3 gap-8'>
+            {/* STRATEGY */}
+            <div className='bg-white rounded-3xl shadow-xl overflow-hidden border'>
+              <div className='bg-sky-600 text-white text-center py-4 font-bold'>
+                STRATEGY
+              </div>
+
+              <ul className='p-6 space-y-4 list-disc'>
+                <li>
+                  Concur on the project value and plan the project controls to
+                  be connected.
+                </li>
+                <li>Recognize important partners.</li>
+                <li>Survey venture hazard and vulnerability.</li>
+                <li>Set up a venture control execution plan.</li>
+              </ul>
+            </div>
+
+            {/* TARGET */}
+            <div className='bg-white rounded-3xl shadow-xl overflow-hidden border'>
+              <div className='bg-green-600 text-white text-center py-4 font-bold'>
+                TARGET & ASSURANCE
+              </div>
+
+              <ul className='p-6 space-y-4 list-disc'>
+                <li>Complete expense and calendar gauge surveys.</li>
+                <li>
+                  Review of undertaking control abilities versus control
+                  execution plan.
+                </li>
+                <li>Issue a whole examination dependent on the review.</li>
+                <li>Refresh the undertaking control execution plan.</li>
+              </ul>
+            </div>
+
+            {/* CONTROL */}
+            <div className='bg-white rounded-3xl shadow-xl overflow-hidden border'>
+              <div className='bg-indigo-600 text-white text-center py-4 font-bold'>
+                CONTROL
+              </div>
+
+              <ul className='p-6 space-y-4 list-disc'>
+                <li>Roll out the project execution plan.</li>
+                <li>Prepare an integrated baseline schedule and budget.</li>
+                <li>Mobilize site-based resources.</li>
+                <li>Monitor, control, and report.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* ================= INSTALLATION ================= */}
+        <section className='py-10'>
+          <div className='max-w-7xl mx-auto px-6'>
+            <div className='grid lg:grid-cols-2 gap-12 items-center'>
+              <Image
+                src={'/bottom_about.jpg'}
+                alt='Installation'
+                className='rounded-3xl shadow-2xl'
+                width={800}
+                height={800}
+              />
+
+              <div>
+                <h2 className='text-4xl font-bold mb-6'>
+                  Installation & Project Development
+                </h2>
+
+                <p className='text-gray-600 leading-8'>
+                  Our team has done more than 4000+ rainwater harvesting
+                  projects across India. The technology we are using has been
+                  globally adopted in advanced countries like Germany, Japan,
+                  Singapore, the USA, and Australia.
+                </p>
+              </div>
+            </div>
+
+            <div className='text-center mt-12'>
+              <div className='text-7xl font-bold text-green-700'>
+                <CountUp duration={5} end={4000} enableScrollSpy />+
+              </div>
+
+              <p className='text-2xl font-semibold mt-4'>Projects Completed</p>
+            </div>
+          </div>
+        </section>
+
+        <ICPLCertification />
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About
