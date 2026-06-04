@@ -1,14 +1,5 @@
 import React from 'react'
-import trophy from '../../public/trophyImg.png'
-import approved from '../../public/approved.png'
-import cerg from '../../public/cer-g.jpg'
 import Image from 'next/image'
-import tech1 from '../../public/Technology/main1.jpg'
-import tech2 from '../../public/Technology/main2.jpeg'
-import tech3 from '../../public/Technology/main3.jpg'
-import tech4 from '../../public/Technology/main4.jpg'
-import tech5 from '../../public/Technology/main5.jpg'
-import newTech from '../../public/new-technology-based-rainwater.jpg'
 import Link from 'next/link'
 import ICPLProducts from '../ICPL/ICPLProducts'
 import ICPLCertification from '../ICPL/ICPLCertification'
@@ -16,234 +7,253 @@ import ICPLCertification from '../ICPL/ICPLCertification'
 const LocationTarget = ({ location }) => {
   return (
     <>
-      <div className='m-5 md:flex md:justify-center md:gap-2 md:items-center md:m-10 mt-20'>
-        <div className='md:content-center'>
-          <p className='text-center font-semibold text-xs text-green-500'>
-            InRain<sup>®</sup> Construction Pvt Ltd.
-          </p>
-          <h1 className='text-center text-2xl font-semibold md:text-4xl'>
-            Rainwater Harvesting System in {location}
-          </h1>
-          <hr className='m-2 md:m-5'></hr>
-          <p className='text-md text-justify text-gray-500 drop-shadow-md md:text-xl'>
-            <bold className='text-green-500 font-semibold'>InRain®</bold>{' '}
-            Construction Private Limited is a top provider of{' '}
-            <bold className='text-black font-semibold'>
-              Rainwater Harvesting Systems in {location}
-            </bold>
-            , offering advanced solutions for water management, with a proven
-            track record. We have successfully installed over{' '}
-            <bold className='text-black font-semibold'>
-              4000+ Rainwater Harvesting (RWH)
-            </bold>{' '}
-            systems for prestigious clients, including{' '}
-            <bold className='text-black font-semibold'>
-              TATA | Hindustan Unilever | PepsiCo | Larsen & Toubro | CPWD |
-              NHAI | Smart Cities | Fujita | Denso | Supreme Court Judges
-              Bungalows, and many more.
-            </bold>{' '}
-            Our focus on innovation, quality, and sustainability has established
-            us as a trusted industry leader. <br></br>
-            <br></br>
-            <bold className='text-green-500 font-semibold'>InRain®</bold>{' '}
-            Construction also provides{' '}
-            <bold className='text-black font-semibold'>
-              <Link
-                className='text-green-500 hover:text-sky-500'
-                target='_blank'
-                href='https://www.inrainconstruction.com/modular-rainwater-harvesting'
-              >
-                Modular Rainwater Harvesting System
-              </Link>{' '}
-              services
-            </bold>
-            , helping clients efficiently manage water resources while
-            supporting environmental conservation.
-          </p>
-        </div>
+      {/* =========================
+    COMPANY OVERVIEW
+========================= */}
+      <section className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
+        <div className='grid lg:grid-cols-[1.8fr_1fr] gap-10 items-start'>
+          {/* Content */}
+          <div>
+            <span className='inline-block text-green-600 font-semibold tracking-wide uppercase text-sm'>
+              InRain® Construction Pvt Ltd.
+            </span>
 
-        <div className='m-2 flex justify-center md:inline'>
-          <div className='flex items-center justify-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center'>
-            <div>
-              <Image
-                alt='img'
-                className='w-16 m-auto'
-                src={approved}
-                loading='eager'
-                priority={true}
-                unoptimized={true}
-              />
-              <p className='text-xs m-1'>ISO 9001 : 2015</p>
-              <p className='text-sm font-semibold md:text-lg'>
-                CERTIFIED COMPANY
-              </p>
-            </div>
+            <h1 className='text-xl md:text-4xl font-bold text-slate-900 mt-3 mb-4'>
+              Rainwater Harvesting System in {location}
+            </h1>
+
+            <div className='w-24 h-1 bg-green-600 rounded-full mb-5'></div>
+
+            <p className='text-slate-600 leading-8 text-base text-justify'>
+              <span className='text-green-600 font-semibold'>InRain®</span>{' '}
+              Construction Private Limited is a top provider of{' '}
+              <span className='font-semibold text-slate-900'>
+                Rainwater Harvesting Systems in {location}
+              </span>
+              , offering advanced solutions for water management, with a proven
+              track record. We have successfully installed over{' '}
+              <span className='font-semibold text-slate-900'>
+                4000+ Rainwater Harvesting (RWH)
+              </span>{' '}
+              systems for prestigious clients, including{' '}
+              <span className='font-semibold text-slate-900'>
+                TATA | Hindustan Unilever | PepsiCo | Larsen & Toubro | CPWD |
+                NHAI | Smart Cities | Fujita | Denso | Supreme Court Judges
+                Bungalows, and many more.
+              </span>{' '}
+              Our focus on innovation, quality, and sustainability has
+              established us as a trusted industry leader.
+              <br />
+              <br />
+              <span className='text-green-600 font-semibold'>InRain®</span>{' '}
+              Construction also provides{' '}
+              <span className='font-semibold text-slate-900'>
+                <Link
+                  target='_blank'
+                  href='https://www.inrainconstruction.com/modular-rainwater-harvesting'
+                  className='text-green-600 hover:text-sky-600 transition'
+                >
+                  Modular Rainwater Harvesting System
+                </Link>{' '}
+                services
+              </span>
+              , helping clients efficiently manage water resources while
+              supporting environmental conservation.
+            </p>
           </div>
-          <div className='flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center'>
-            <div>
+
+          {/* Certifications */}
+          <div className='grid grid-cols-2 gap-5'>
+            <div className='bg-white rounded-2xl border border-slate-200 shadow-lg p-5 text-center hover:-translate-y-1 transition-all'>
               <Image
-                alt='img'
-                className='w-16 m-auto'
-                src={trophy}
-                loading='eager'
-                priority={true}
-                unoptimized={true}
+                src='/approved.png'
+                alt='ISO 9001'
+                width={70}
+                height={70}
+                className='mx-auto mb-3'
               />
-              <p className='text-xs m-1'>Solution Provider</p>
-              <p className='text-sm font-semibold md:text-lg'>
+              <p className='text-sm text-slate-500'>ISO 9001 : 2015</p>
+              <p className='font-bold text-slate-900 mt-1'>CERTIFIED COMPANY</p>
+            </div>
+
+            <div className='bg-white rounded-2xl border border-slate-200 shadow-lg p-5 text-center hover:-translate-y-1 transition-all'>
+              <Image
+                src='/trophyImg.png'
+                alt='Solution Provider'
+                width={70}
+                height={70}
+                className='mx-auto mb-3'
+              />
+              <p className='text-sm text-slate-500'>Solution Provider</p>
+              <p className='font-bold text-slate-900 mt-1'>
                 THE BEST INDUSTRIAL
               </p>
             </div>
-          </div>
-        </div>
 
-        <div className='m-2 flex justify-center md:inline'>
-          <div className='flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center'>
-            <div>
+            <div className='bg-white rounded-2xl border border-slate-200 shadow-lg p-5 text-center hover:-translate-y-1 transition-all'>
               <Image
-                alt='img'
-                className='w-16 m-auto'
-                src={cerg}
-                loading='eager'
-                priority={true}
-                unoptimized={true}
+                src='/cer-g.jpg'
+                alt='GRIHA'
+                width={70}
+                height={70}
+                className='mx-auto mb-3'
               />
-              <p className='text-sm m-1 font-semibold md:text-lg'>
-                INRAIN<sup>®</sup> CONSTRUCTION PVT. LTD.
+              <p className='font-bold text-slate-900 text-sm'>
+                INRAIN® CONSTRUCTION PVT. LTD.
               </p>
             </div>
-          </div>
-          <div className='flex justify-center items-center m-2 h-44 w-44 shadow-2xl rounded-lg border-2 border-green-500 text-center'>
-            <div>
+
+            <div className='bg-white rounded-2xl border border-slate-200 shadow-lg p-5 text-center hover:-translate-y-1 transition-all'>
               <Image
-                alt='img'
-                className='w-16 m-auto'
-                src={trophy}
-                loading='eager'
-                priority={true}
-                unoptimized={true}
+                src='/trophyImg.png'
+                alt='ISO 14001'
+                width={70}
+                height={70}
+                className='mx-auto mb-3'
               />
-              <p className='text-xs m-1'>ISO 14001 : 2015</p>
-              <p className='text-sm font-semibold md:text-lg'>
-                CERTIFIED COMPANY
-              </p>
+              <p className='text-sm text-slate-500'>ISO 14001 : 2015</p>
+              <p className='font-bold text-slate-900 mt-1'>CERTIFIED COMPANY</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className='text-center pt-10 m-5 md:m-10'>
-        <h3 className='md:text-4xl font-semibold text-2xl'>
-          About Our Technology
-        </h3>
-        <p className='text-md mt-7 text-justify text-gray-500 md:pl-36 md:pr-36 drop-shadow-md md:text-xl'>
-          At <bold className='text-green-500 font-semibold'>InRain®</bold>, we
-          specialize in creating{' '}
-          <bold className='text-black font-semibold'>
-            Rainwater Harvesting (RWH) pits in {location}
-          </bold>
-          , utilizing advanced technology inspired by German engineering. Unlike
-          traditional rainwater harvesting systems, our approach stands out for
-          its innovation. With our in-house manufacturing capabilities, we
-          ensure top-tier quality in every aspect of our work. We are proud to
-          contribute to the nation by being an active partner in the{' '}
-          <bold className='text-black font-semibold'>"Make in India"</bold>{' '}
-          initiative.
-        </p>
-        <div className='grid grid-cols-1 md:grid-cols-2 m-2'>
-          <Image
-            className=''
-            alt='img'
-            src={tech1}
-            loading='eager'
-            priority={true}
-            unoptimized={true}
-          />
-          <Image
-            className=''
-            alt='img'
-            src={tech2}
-            loading='eager'
-            priority={true}
-            unoptimized={true}
-          />
-        </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 m-2'>
-          <Image
-            className=''
-            alt='img'
-            src={tech3}
-            loading='eager'
-            priority={true}
-            unoptimized={true}
-          />
-          <Image
-            className=''
-            alt='img'
-            src={tech4}
-            loading='eager'
-            priority={true}
-            unoptimized={true}
-          />
-          <Image
-            className=''
-            alt='img'
-            src={tech5}
-            loading='eager'
-            priority={true}
-            unoptimized={true}
-          />
-        </div>
-      </div>
+      {/* =========================
+    ABOUT TECHNOLOGY
+========================= */}
+      <section className='py-10'>
+        <div className='max-w-7xl mx-auto px-4 md:px-8'>
+          <div className='text-center max-w-5xl mx-auto'>
+            <h3 className='text-xl md:text-4xl font-bold text-slate-900'>
+              About Our Technology
+            </h3>
 
-      <div className='m-5 md:flex md:justify-center md:items-center md:m-10 mt-20'>
-        <div className='md:content-center'>
-          <p className='text-center font-semibold text-md text-green-500 md:text-lg'>
-            InRain<sup>®</sup> Construction Pvt Ltd.
-          </p>
-          <h2 className='text-center text-2xl font-semibold md:text-4xl'>
-            Rooftop Rainwater Harvesting System in {location}
-          </h2>
-          <hr className='m-2 md:m-5'></hr>
-          <p className='text-md text-justify text-gray-500 drop-shadow-md md:text-xl'>
-            A{' '}
-            <bold className='text-black font-semibold'>
-              Rooftop{' '}
-              <Link
-                className='text-green-500 hover:text-sky-500 font-semibold'
-                href={`https://www.inrainconstruction.com/modular-rainwater-harvesting-system-in-${location.toLowerCase()}`}
-                target='_blank'
-              >
-                Rainwater Harvesting System in {location}
-              </Link>
-            </bold>{' '}
-            intended for filtration, transitory maintenance, and ensuing
-            release. It is utilized in waste channel applications. It is
-            developed utilizing our restrictive plastic infusion-shaped boards.
-            We provide a full range of modules as per the requirements.
-            <br />
-            The utilization of the Rainwater Harvesting System in {location} is
-            a sustainable and renewable energy source which is also known as
-            green energy. It is a natural source of water which is clean and
-            pure. We need to save water for future use. We provide the best
-            quality products at a reasonable price for{' '}
-            <bold className='text-black font-semibold'>
-              Rooftop Rainwater Harvesting System in {location}.
-            </bold>
-          </p>
-        </div>
+            <div className='w-24 h-1 bg-green-600 rounded-full mx-auto my-4'></div>
 
-        <div className='m-5 md:w-full flex justify-center items-center md:inline'>
-          <Image
-            className='w-full rounded-xl shadow-xl'
-            alt='img'
-            src={newTech}
-            loading='eager'
-            priority={true}
-            unoptimized={true}
-          />
+            <p className='text-slate-600 leading-8 text-base text-justify'>
+              At <span className='text-green-600 font-semibold'>InRain®</span>,
+              we specialize in creating{' '}
+              <span className='font-semibold text-slate-900'>
+                Rainwater Harvesting (RWH) pits in {location}
+              </span>
+              , utilizing advanced technology inspired by German engineering.
+              Unlike traditional rainwater harvesting systems, our approach
+              stands out for its innovation. With our in-house manufacturing
+              capabilities, we ensure top-tier quality in every aspect of our
+              work. We are proud to contribute to the nation by being an active
+              partner in the{' '}
+              <span className='font-semibold text-slate-900'>
+                "Make in India"
+              </span>{' '}
+              initiative.
+            </p>
+          </div>
+
+          {/* Image Gallery */}
+          <div className='mt-12 grid md:grid-cols-2 gap-6'>
+            <Image
+              src='/Technology/main1.jpg'
+              alt='Technology'
+              width={700}
+              height={500}
+              className='w-full rounded-2xl shadow-xl hover:scale-105 transition duration-300'
+            />
+
+            <Image
+              src='/Technology/main2.jpeg'
+              alt='Technology'
+              width={700}
+              height={500}
+              className='w-full rounded-2xl shadow-xl hover:scale-105 transition duration-300'
+            />
+          </div>
+
+          <div className='mt-6 grid md:grid-cols-3 gap-6'>
+            <Image
+              src='/Technology/main3.jpg'
+              alt='Technology'
+              width={500}
+              height={500}
+              className='w-full rounded-2xl shadow-xl hover:scale-105 transition duration-300'
+            />
+
+            <Image
+              src='/Technology/main4.jpg'
+              alt='Technology'
+              width={500}
+              height={500}
+              className='w-full rounded-2xl shadow-xl hover:scale-105 transition duration-300'
+            />
+
+            <Image
+              src='/Technology/main5.jpg'
+              alt='Technology'
+              width={500}
+              height={500}
+              className='w-full rounded-2xl shadow-xl hover:scale-105 transition duration-300'
+            />
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* =========================
+    ROOFTOP RWH
+========================= */}
+      <section className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
+        <div className='grid lg:grid-cols-2 gap-12 items-center'>
+          <div>
+            <span className='inline-block text-green-600 font-semibold uppercase tracking-wide'>
+              InRain® Construction Pvt Ltd.
+            </span>
+
+            <h2 className='text-xl md:text-4xl font-bold text-slate-900 mt-3 mb-4'>
+              Rooftop Rainwater Harvesting System in {location}
+            </h2>
+
+            <div className='w-24 h-1 bg-green-600 rounded-full mb-5'></div>
+
+            <p className='text-slate-600 leading-8 text-base text-justify'>
+              A{' '}
+              <bold className='text-black font-semibold'>
+                Rooftop{' '}
+                <Link
+                  className='text-green-500 hover:text-sky-500 font-semibold'
+                  href={`https://www.inrainconstruction.com/modular-rainwater-harvesting-system-in-${location.toLowerCase()}`}
+                  target='_blank'
+                >
+                  Rainwater Harvesting System in {location}
+                </Link>
+              </bold>{' '}
+              intended for filtration, transitory maintenance, and ensuing
+              release. It is utilized in waste channel applications. It is
+              developed utilizing our restrictive plastic infusion-shaped
+              boards. We provide a full range of modules as per the
+              requirements.
+              <br />
+              The utilization of the Rainwater Harvesting System in {
+                location
+              }{' '}
+              is a sustainable and renewable energy source which is also known
+              as green energy. It is a natural source of water which is clean
+              and pure. We need to save water for future use. We provide the
+              best quality products at a reasonable price for{' '}
+              <bold className='text-black font-semibold'>
+                Rooftop Rainwater Harvesting System in {location}.
+              </bold>
+            </p>
+          </div>
+
+          <div>
+            <Image
+              src='/new-technology-based-rainwater.jpg'
+              alt='Rainwater Harvesting System'
+              width={1200}
+              height={700}
+              className='w-full rounded-3xl shadow-2xl hover:scale-[1.02] transition duration-300'
+            />
+          </div>
+        </div>
+      </section>
 
       <ICPLProducts />
       <ICPLCertification />
