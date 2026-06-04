@@ -56,12 +56,6 @@ jobs:
             -u ${{ github.actor }} --password-stdin
 
             docker compose pull
-            docker compose up -d
+            docker compose up -d --force-recreate
 
             docker image prune -af
-        continue-on-error: true
-      
-      - name: Deployment Status
-        if: always()
-        run: |
-          echo "Deployment step completed with status: ${{ job.status }}"
