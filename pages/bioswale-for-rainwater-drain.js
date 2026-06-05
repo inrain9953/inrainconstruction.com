@@ -55,119 +55,171 @@ const Service10 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
+      <section className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
+        {/* Hero Banner */}
+        <div className='relative overflow-hidden rounded-3xl shadow-2xl'>
           <Image
-            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service10}
             alt='Bioswale for Rainwater Drain'
+            className='w-full h-[220px] md:h-[320px] object-cover'
             loading='eager'
-            priority={true}
-            unoptimized={true}
+            priority
+            unoptimized
           />
-          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-black'>
-              <Link href={'/'}>Home</Link> / Bioswale for Rainwater Drain
+
+          <div className='absolute inset-0 bg-black/40'></div>
+
+          <div className='absolute inset-0 flex flex-col justify-center px-6 md:px-12'>
+            <h1 className='text-3xl md:text-5xl font-bold text-white mb-3'>
+              Bioswale for Rainwater Drain
+            </h1>
+
+            <p className='text-sm md:text-lg text-white/90'>
+              <Link href='/' className='hover:text-green-400 transition'>
+                Home
+              </Link>{' '}
+              / Bioswale for Rainwater Drain
             </p>
           </div>
         </div>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
-          <div className='text-left'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>
+        {/* Main Content */}
+        <div className='grid lg:grid-cols-[1.6fr_1fr] gap-12 mt-16'>
+          {/* Left Content */}
+          <div>
+            <h2 className='text-3xl md:text-4xl font-bold text-slate-900 mb-6'>
               Bioswale for Rainwater Drain
-            </h1>
+            </h2>
 
-            <p className='text-[17px] text-justify md:text-lg mt-3'>
-              InRain Construction Pvt. Ltd. is leading a socio-economic cause by
-              helping people effectively utilize rainwater. We offer various
-              solutions for rainwater conservation and management. Rainwater
-              harvesting is a need of the modern-day world, and it needs to be
-              practiced to save our fast-declining natural ground resources.
-              Bioswale is one of the popular methods in water conservation and
-              management. After rain, stormwater runoff, if not managed
-              carefully, can do some serious damage, can damage public property
-              & private property, can cause erosion, pollute lake water, and
-              creates water logging that can lead to an infestation that can
-              spread diseases. <br></br>
-              <br></br>
-              At InRain Construction Pvt. Ltd., we help in creating bioswales
-              for rainwater drainage. Bioswale is an excellent solution for{' '}
-              <Link
-                href={
-                  'https://www.inrainconstruction.com/storm-water-recharge-and-management'
-                }
-                className='text-green-600 hover:text-sky-500 font-semibold'
-              >
-                managing stormwater runoff.
-              </Link>{' '}
-              Since it uses green plants for filtration and management of water
-              conservation through a channel, a bioswale looks very pleasing to
-              the eyes. The stormwater runoff gets conveyed through a sloped
-              channel, helping to remove pollutants from the water. Plants and
-              species used in bioswales depend on the climate and the size of
-              the place.
-              <br></br>
-              <br></br>
-              Bioswale is an excellent solution for new-age residential
-              societies and industries. Not only does it help in managing the
-              excess water flow after the rain but it also helps in recharging
-              groundwater and with improved greenery at the location. These are
-              designed in such a way that they help in reducing the stormwater
-              runoff velocity which not only helps in cleaning the water before
-              infiltration but also helps in avoiding soil erosion.
-              <br></br>
-              <br></br>Bioswales can easily be installed in modern
-              infrastructure. Some of the popular areas where bioswales are used
-              are parking lots, near the sidewalks, kids' parks, streets, and
-              green open areas. Bioswale installation requires soil testing, as
-              it has to meet the required infiltration rate before it can be
-              installed. InRain Construction Pvt. Ltd., with its advanced
-              technology and professional team, helps in providing an end-to-end
-              solution from consultation and{' '}
-              <Link
-                href={
-                  'https://www.inrainconstruction.com/rainwater-harvesting-installation-company'
-                }
-                className='text-green-600 hover:text-sky-500 font-semibold'
-              >
-                installation to maintenance.
-              </Link>
-            </p>
+            <div className='w-24 h-1 bg-green-600 rounded-full mb-8'></div>
+
+            <div className='space-y-6 text-slate-600 leading-8 text-base md:text-lg text-justify'>
+              <p>
+                InRain Construction Pvt. Ltd. is leading a socio-economic cause
+                by helping people effectively utilize rainwater. We offer
+                various solutions for rainwater conservation and management.
+                Rainwater harvesting is a need of the modern-day world, and it
+                needs to be practiced to save our fast-declining natural ground
+                resources. Bioswale is one of the popular methods in water
+                conservation and management. After rain, stormwater runoff, if
+                not managed carefully, can do some serious damage, can damage
+                public property & private property, can cause erosion, pollute
+                lake water, and creates water logging that can lead to an
+                infestation that can spread diseases.
+              </p>
+
+              <p>
+                At InRain Construction Pvt. Ltd., we help in creating bioswales
+                for rainwater drainage. Bioswale is an excellent solution for{' '}
+                <Link
+                  href='https://www.inrainconstruction.com/storm-water-recharge-and-management'
+                  className='font-semibold text-green-600 hover:text-sky-600 transition'
+                >
+                  managing stormwater runoff.
+                </Link>{' '}
+                Since it uses green plants for filtration and management of
+                water conservation through a channel, a bioswale looks very
+                pleasing to the eyes. The stormwater runoff gets conveyed
+                through a sloped channel, helping to remove pollutants from the
+                water. Plants and species used in bioswales depend on the
+                climate and the size of the place.
+              </p>
+
+              <p>
+                Bioswale is an excellent solution for new-age residential
+                societies and industries. Not only does it help in managing the
+                excess water flow after the rain but it also helps in recharging
+                groundwater and with improved greenery at the location. These
+                are designed in such a way that they help in reducing the
+                stormwater runoff velocity which not only helps in cleaning the
+                water before infiltration but also helps in avoiding soil
+                erosion.
+              </p>
+
+              <p>
+                Bioswales can easily be installed in modern infrastructure. Some
+                of the popular areas where bioswales are used are parking lots,
+                near the sidewalks, kids' parks, streets, and green open areas.
+                Bioswale installation requires soil testing, as it has to meet
+                the required infiltration rate before it can be installed.
+                InRain Construction Pvt. Ltd., with its advanced technology and
+                professional team, helps in providing an end-to-end solution
+                from consultation and{' '}
+                <Link
+                  href='https://www.inrainconstruction.com/rainwater-harvesting-installation-company'
+                  className='font-semibold text-green-600 hover:text-sky-600 transition'
+                >
+                  installation to maintenance.
+                </Link>
+              </p>
+            </div>
           </div>
-          <div className='mt-5'>
-            <Link href={'https://www.inrainconstruction.com/'}>
-              <Image
-                className='w-full'
-                src={harvesting10}
-                alt='Bioswale'
-                loading='eager'
-                priority={true}
-                unoptimized={true}
-              />
-            </Link>
-            <div className='m-2 mt-5 text-justify'>
-              <h2 className='text-xl font-semibold'>Why Choose Bioswales?</h2>
-              <p className='text-[17px] md:text-lg mt-1'>
+
+          {/* Right Sidebar */}
+          <div className='space-y-8'>
+            {/* Image Card */}
+            <div className='bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100'>
+              <Link href='https://www.inrainconstruction.com/'>
+                <Image
+                  src={harvesting10}
+                  alt='Bioswale'
+                  className='w-full hover:scale-105 transition duration-500'
+                  loading='eager'
+                  priority
+                  unoptimized
+                />
+              </Link>
+            </div>
+
+            {/* Benefits Card */}
+            <div className='bg-gradient-to-br from-green-50 to-white border border-green-100 rounded-3xl shadow-xl p-8'>
+              <div className='flex items-center gap-3 mb-5'>
+                <div className='w-12 h-12 rounded-xl bg-green-600 flex items-center justify-center text-white font-bold'>
+                  ✓
+                </div>
+
+                <h3 className='text-2xl font-bold text-slate-900'>
+                  Why Choose Bioswales?
+                </h3>
+              </div>
+
+              <p className='text-slate-600 leading-7 mb-6'>
                 Apart from being highly functional, bioswales are visually
                 appealing and can easily blend into the modern landscape of
                 residential societies, industries, and commercial spaces. They
                 not only manage excess rainwater but also support groundwater
                 recharge and enhance the green cover of the space.
               </p>
-              <p className='text-[18px] md:text-lg mt-4 font-semibold'>
+
+              <h4 className='font-semibold text-lg text-slate-900 mb-4'>
                 These systems are especially useful in areas like
-              </p>
-              <ul className='list-disc list-inside font-semibold text-[18px] md:text-lg'>
-                <li>Parking lots</li>
-                <li>Roadside edges and sidewalks</li>
-                <li>Parks and play areas</li>
-                <li>Open green community spaces</li>
+              </h4>
+
+              <ul className='space-y-3'>
+                <li className='flex items-center gap-3'>
+                  <span className='w-2 h-2 bg-green-600 rounded-full'></span>
+                  Parking lots
+                </li>
+
+                <li className='flex items-center gap-3'>
+                  <span className='w-2 h-2 bg-green-600 rounded-full'></span>
+                  Roadside edges and sidewalks
+                </li>
+
+                <li className='flex items-center gap-3'>
+                  <span className='w-2 h-2 bg-green-600 rounded-full'></span>
+                  Parks and play areas
+                </li>
+
+                <li className='flex items-center gap-3'>
+                  <span className='w-2 h-2 bg-green-600 rounded-full'></span>
+                  Open green community spaces
+                </li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <Footer />
     </>
   )

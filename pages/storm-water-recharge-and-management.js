@@ -57,28 +57,33 @@ const Service9 = () => {
       <Navbar />
       <PopUp />
       <div className='mt-5 md:m-10'>
-        <div>
+        <section className='relative overflow-hidden'>
           <Image
-            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service9}
-            alt='Storm Water Recharge and Management'
-            loading='eager'
-            priority={true}
-            unoptimized={true}
+            alt='Rainwater Harvesting Banner'
+            className='w-full h-[220px] md:h-[320px] object-cover rounded-2xl'
+            priority
+            unoptimized
           />
-          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-black'>
-              <Link href={'/'}>Home</Link> / Storm Water Recharge and Management
+
+          <div className='absolute inset-0 bg-black/45 rounded-2xl' />
+
+          <div className='absolute inset-0 flex flex-col justify-center px-6 md:px-16'>
+            <p className='text-white/90 text-sm md:text-base mb-3'>
+              <Link href='/' className='hover:text-green-300'>
+                Home
+              </Link>{' '}
+              / Storm Water Recharge and Management
             </p>
+
+            <h1 className='text-white text-3xl md:text-5xl font-bold max-w-4xl leading-tight'>
+              Storm Water Recharge and Management
+            </h1>
           </div>
-        </div>
+        </section>
 
         <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
           <div className='text-left'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>
-              Storm Water Recharge and Management
-            </h1>
-
             <p className='text-[17px] text-justify md:text-lg mt-3'>
               Stormwater recharge & management is very crucial in the modern-day
               world. Climatic change and depreciating resources require

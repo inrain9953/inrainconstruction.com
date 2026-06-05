@@ -60,238 +60,211 @@ const EcorainRainwater = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
+      <div className='max-w-7xl mx-auto px-4 md:px-8 py-8'>
+        {/* Hero Section */}
+        <section className='relative overflow-hidden rounded-3xl shadow-2xl'>
           <Image
-            className='w-full md:rounded-xl md:shadow-2xl'
             src={service11}
-            alt='img'
+            alt='Eco Rainwater Harvesting System'
+            className='w-full h-[220px] md:h-[320px] object-cover'
             loading='eager'
-            priority={true}
-            unoptimized={true}
+            priority
+            unoptimized
           />
-        </div>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
-          <div className='text-left'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>
+          <div className='absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-transparent' />
+
+          <div className='absolute bottom-8 left-6 md:left-12 text-white'>
+            <div className='inline-block px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20'>
+              <p className='text-sm md:text-base'>
+                Home / Eco Rainwater Harvesting System
+              </p>
+            </div>
+
+            <h1 className='mt-4 text-3xl md:text-5xl font-bold'>
               Eco Rainwater Harvesting System
             </h1>
+          </div>
+        </section>
 
-            <p className='text-[17px] md:text-lg mt-3'>
+        {/* Main Content */}
+        <section className='grid lg:grid-cols-2 gap-12 mt-10'>
+          {/* Left Content */}
+          <div className='bg-white rounded-3xl shadow-xl p-6 md:p-10'>
+            <div className='w-24 h-1 bg-green-600 rounded-full mb-6'></div>
+
+            <p className='text-gray-700 text-[17px] md:text-lg leading-relaxed'>
               Water scarcity is a pressing global issue, and as populations
               continue to grow, it becomes imperative to explore alternative
               methods for water conservation. One such method gaining popularity
               is rainwater harvesting. This ancient practice has gained renewed
               attention in recent years due to its potential to mitigate water
               shortages, reduce strain on existing water sources, and promote
-              sustainable water management. In this article, we will delve into
-              the various aspects of rainwater harvesting systems, their
-              benefits, and how they contribute to a more sustainable future.{' '}
+              sustainable water management.
             </p>
 
-            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
-              The Importance of Rainwater Harvesting
-            </h3>
-            <p className='text-[17px] md:text-lg mt-3'>
-              Rainwater is a precious resource that, if properly harnessed, can
-              address water scarcity challenges faced by communities around the
-              world. Rainwater harvesting offers several advantages over
-              conventional water sources, including reduced reliance on
-              municipal water supplies, lowered strain on groundwater reserves,
-              and decreased storm water runoff that can lead to flooding and
-              erosion. Additionally, rainwater is naturally soft and free from
-              many contaminants found in other water sources, making it suitable
-              for various non-potable uses such as irrigation, toilet flushing,
-              and industrial processes.
-            </p>
-
-            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
-              Components of a Rainwater Harvesting System
-            </h3>
-            <p className='text-[17px] md:text-lg mt-3'>
-              A{' '}
-              <Link
-                href={'/rainwater-harvesting-system'}
-                className='text-green-500 hover:text-sky-500 font-semibold'
-              >
-                Rainwater Harvesting System
-              </Link>{' '}
-              consists of several key components that work together to capture,
-              store, and distribute rainwater. The primary components include:
-              Catchment Surface: This can be the rooftop of a building, which
-              acts as a surface to collect rainwater. The catchment surface
-              should be made of materials that are safe and non-toxic for water
-              storage. Polymer as strong as metal.
-            </p>
-            <ul className='list-disc m-5 text-[17px] md:text-lg'>
-              <li>
-                <bold className='font-semibold'>Gutters and Downspouts:</bold>{' '}
-                These channels collect rainwater from the catchment surface and
-                direct it into the storage system.
-              </li>
-              <li>
-                <bold className='font-semibold'>Leaf Screens and Filters:</bold>{' '}
-                These prevent debris, leaves, and other contaminants from
-                entering the storage system and clogging the pipes or tanks.
-              </li>
-              <li>
-                <bold className='font-semibold'>Storage Tanks:</bold> These are
-                containers designed to hold and store the collected rainwater.
-                Tanks can be above ground or underground, depending on space
-                availability and local regulations.
-              </li>
-              <li>
-                <bold className='font-semibold'>First Flush Diverters:</bold>{' '}
-                These devices ensure that the initial runoff, which may contain
-                pollutants and debris, is diverted away from the storage system.
-              </li>
-              <li>
-                <bold className='font-semibold'>
-                  Pumps and Distribution Systems:
-                </bold>{' '}
-                These components are used to extract and distribute the
-                harvested rainwater for various uses, such as irrigation or
-                indoor non-potable water needs.
-              </li>
-            </ul>
-
-            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
-              Benefits of Rainwater Harvesting
-            </h3>
-            <p className='text-[17px] md:text-lg mt-3'>
-              Implementing a rainwater harvesting system brings numerous
-              benefits. Firstly, it reduces the strain on traditional water
-              sources, such as rivers and groundwater, thereby ensuring their
-              long-term sustainability. Secondly, rainwater harvesting helps
-              mitigate the impact of urbanization by reducing storm water runoff
-              and the risk of localized flooding. Additionally, utilizing
-              rainwater for non-potable uses like irrigation can result in
-              significant cost savings for homeowners and businesses by
-              offsetting the need for treated municipal water.
-              <br></br>
-              <br></br>
-              Moreover, rainwater harvesting promotes self-sufficiency and
-              resilience, particularly in regions prone to droughts or water
-              restrictions. It empowers individuals and communities to take
-              charge of their water supply and become less reliant on
-              centralized infrastructure. Lastly, by reducing the demand for
-              water from centralized sources, rainwater harvesting contributes
-              to energy savings associated with water treatment and
-              distribution.
-            </p>
-
-            <h3 className='text-2xl mt-5 md:text-3xl font-semibold'>
-              Considerations and Maintenance
-            </h3>
-            <p className='text-[17px] md:text-lg mt-3'>
-              When installing a rainwater harvesting system, it is essential to
-              consider factors such as local regulations, the size of the
-              catchment area, and the intended uses of the harvested water.
-              Regular maintenance, including cleaning gutters, screens, and
-              filters, is crucial to ensure the system operates efficiently and
-              the stored water remains clean and safe for its intended purposes.
-            </p>
-          </div>
-          <div className='mt-5'>
-            <Link href={'/'}>
-              <Image
-                className='w-full'
-                src={harvesting11}
-                alt='img'
-                loading='eager'
-                priority={true}
-                unoptimized={true}
-              />
-            </Link>
-            <div className='m-1 mt-5 text-justify'>
-              <h2 className='text-xl font-semibold'>
-                How the Ecorain System Works?
+            {/* Section */}
+            <div className='mt-10'>
+              <h2 className='text-2xl md:text-3xl font-bold text-gray-900'>
+                The Importance of Rainwater Harvesting
               </h2>
-              <p className='text-[17px] md:text-lg mt-1'>
-                Our Ecorain Rainwater Harvesting System is designed with modern
-                efficiency and simplicity in mind. It includes all the essential
-                components needed for smooth operation and minimal maintenance:
+
+              <div className='mt-4 h-1 w-16 bg-green-500 rounded-full'></div>
+
+              <p className='mt-5 text-gray-700 text-[17px] md:text-lg leading-relaxed'>
+                Rainwater is a precious resource that, if properly harnessed,
+                can address water scarcity challenges faced by communities
+                around the world. Rainwater harvesting offers several advantages
+                over conventional water sources...
               </p>
-              <ul className='list-disc m-3 text-[18px] md:text-lg'>
-                <li>
-                  <bold className='font-semibold'>Catchment Surface</bold> –
-                  Usually the rooftop of a building, made of durable, non-toxic
-                  materials. Our systems use polymer surfaces as strong as metal
-                  for better performance and longevity.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Gutters & Downspouts</bold> –
-                  Direct the rainwater from the roof to the storage system.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Leaf Screens & Filters</bold>{' '}
-                  – Block leaves, dirt, and other debris from entering the tank.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Storage Tanks</bold> – Can be
-                  installed above or below ground, depending on your space.
-                  Built for strength and designed for long-term use.
-                </li>
-                <li>
-                  <bold className='font-semibold'>First Flush Diverters</bold> –
-                  Ensure that the first dirty runoff (which may contain
-                  pollutants) is diverted away from your clean water supply.
-                </li>
-                <li>
-                  <bold className='font-semibold'>
-                    Pumps & Distribution Units
-                  </bold>{' '}
-                  – Help move water to where it’s needed, whether it’s the
-                  garden, your washroom, or a factory floor.
-                </li>
-              </ul>
+            </div>
 
-              <div className='mt-5 text-justify'>
-                <h3 className='text-xl font-semibold'>
-                  The Ecorain Advantage :
-                </h3>
+            {/* Components */}
+            <div className='mt-12'>
+              <h2 className='text-2xl md:text-3xl font-bold text-gray-900'>
+                Components of a Rainwater Harvesting System
+              </h2>
 
-                <ul className=' mt-2 text-[18px] md:text-lg'>
+              <div className='mt-4 h-1 w-16 bg-green-500 rounded-full'></div>
+
+              <p className='mt-5 text-gray-700 text-[17px] md:text-lg leading-relaxed'>
+                A Rainwater Harvesting System consists of several key components
+                that work together to capture, store, and distribute rainwater.
+              </p>
+
+              <div className='mt-6 bg-green-50 border border-green-100 rounded-2xl p-6'>
+                <ul className='space-y-4 text-gray-800'>
                   <li>
-                    <bold className='font-semibold'>
-                      ✅ Saves Water & Money
-                    </bold>{' '}
-                    – Reduces your reliance on treated municipal water and
-                    slashes water bills.
+                    <strong>Gutters and Downspouts:</strong> These channels
+                    collect rainwater from the catchment surface and direct it
+                    into the storage system.
                   </li>
+
                   <li>
-                    <bold className='font-semibold'>✅ Eco-Friendly</bold> –
-                    Helps recharge groundwater and manage rain runoff
-                    responsibly.
+                    <strong>Leaf Screens and Filters:</strong> These prevent
+                    debris, leaves, and contaminants from entering the storage
+                    system.
                   </li>
+
                   <li>
-                    <bold className='font-semibold'>
-                      ✅ Ideal for Urban & Rural Spaces
-                    </bold>{' '}
-                    – Works great in homes, commercial complexes, schools, and
-                    industries.
+                    <strong>Storage Tanks:</strong> Containers designed to hold
+                    and store collected rainwater.
                   </li>
+
                   <li>
-                    <bold className='font-semibold'>✅ Low Maintenance</bold> –
-                    Designed for easy upkeep with minimal effort.
+                    <strong>First Flush Diverters:</strong> Divert polluted
+                    initial runoff away from the storage system.
                   </li>
+
                   <li>
-                    <bold className='font-semibold'>
-                      ✅ Empowers Self-Reliance
-                    </bold>{' '}
-                    – Puts control of water resources back into your hands.
-                  </li>
-                  <li>
-                    <bold className='font-semibold'>✅ Energy Efficient</bold> –
-                    Reduces the energy needed to treat and transport water
-                    through centralized systems.
+                    <strong>Pumps and Distribution Systems:</strong> Used to
+                    extract and distribute harvested water.
                   </li>
                 </ul>
               </div>
             </div>
+
+            {/* Benefits */}
+            <div className='mt-12'>
+              <h2 className='text-2xl md:text-3xl font-bold text-gray-900'>
+                Benefits of Rainwater Harvesting
+              </h2>
+
+              <div className='mt-4 h-1 w-16 bg-green-500 rounded-full'></div>
+
+              <p className='mt-5 text-gray-700 text-[17px] md:text-lg leading-relaxed'>
+                Implementing a rainwater harvesting system brings numerous
+                benefits. Firstly, it reduces the strain on traditional water
+                sources...
+              </p>
+            </div>
+
+            {/* Maintenance */}
+            <div className='mt-12'>
+              <h2 className='text-2xl md:text-3xl font-bold text-gray-900'>
+                Considerations and Maintenance
+              </h2>
+
+              <div className='mt-4 h-1 w-16 bg-green-500 rounded-full'></div>
+
+              <p className='mt-5 text-gray-700 text-[17px] md:text-lg leading-relaxed'>
+                When installing a rainwater harvesting system, it is essential
+                to consider factors such as local regulations, the size of the
+                catchment area, and the intended uses of the harvested water.
+              </p>
+            </div>
           </div>
-        </div>
+
+          {/* Right Sidebar */}
+          <div className='space-y-8 lg:sticky lg:top-24 h-fit'>
+            {/* Image */}
+            <div className='overflow-hidden rounded-3xl shadow-2xl'>
+              <Link href='/'>
+                <Image
+                  src={harvesting11}
+                  alt='Eco Rainwater Harvesting'
+                  className='w-full object-cover hover:scale-105 transition duration-500'
+                  loading='eager'
+                  priority
+                  unoptimized
+                />
+              </Link>
+            </div>
+
+            {/* Working Card */}
+            <div className='bg-gradient-to-br from-sky-50 to-green-50 border border-green-100 rounded-3xl p-8 shadow-lg'>
+              <h2 className='text-2xl font-bold mb-5'>
+                How the Ecorain System Works?
+              </h2>
+
+              <ul className='space-y-4 text-gray-800'>
+                <li>
+                  <strong>Catchment Surface</strong> – Usually the rooftop of a
+                  building.
+                </li>
+
+                <li>
+                  <strong>Gutters & Downspouts</strong> – Direct water into
+                  storage.
+                </li>
+
+                <li>
+                  <strong>Leaf Screens & Filters</strong> – Block debris and
+                  dirt.
+                </li>
+
+                <li>
+                  <strong>Storage Tanks</strong> – Above or below ground
+                  storage.
+                </li>
+
+                <li>
+                  <strong>First Flush Diverters</strong> – Remove polluted
+                  runoff.
+                </li>
+
+                <li>
+                  <strong>Pumps & Distribution Units</strong> – Deliver water
+                  where needed.
+                </li>
+              </ul>
+            </div>
+
+            {/* Benefits Card */}
+            <div className='bg-gradient-to-r from-green-600 to-sky-600 rounded-3xl p-8 text-white shadow-xl'>
+              <h3 className='text-2xl font-bold mb-6'>The Ecorain Advantage</h3>
+
+              <div className='space-y-3'>
+                <p>✅ Saves Water & Money</p>
+                <p>✅ Eco-Friendly</p>
+                <p>✅ Ideal for Urban & Rural Spaces</p>
+                <p>✅ Low Maintenance</p>
+                <p>✅ Empowers Self-Reliance</p>
+                <p>✅ Energy Efficient</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <Footer />
     </>

@@ -57,29 +57,34 @@ const RainwaterHarvestingRechargePit = () => {
       </Head>
       <Navbar />
       <div className='mt-5 md:m-10'>
-        <div>
+        <section className='relative overflow-hidden'>
           <Image
-            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative object-cover'
             src={service3}
             alt='Rainwater Harvesting Banner'
-            loading='eager'
-            priority={true}
-            unoptimized={true}
+            className='w-full h-[220px] md:h-[320px] object-cover rounded-2xl'
+            priority
+            unoptimized
           />
-          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-green-600'>
-              <Link href={'/'}>Home</Link> / Rainwater Harvesting Recharge Pit
-            </p>
-          </div>
-        </div>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-start'>
-          <div className='text-left'>
-            <h1 className='text-2xl md:text-2xl font-semibold'>
+          <div className='absolute inset-0 bg-black/45 rounded-2xl' />
+
+          <div className='absolute inset-0 flex flex-col justify-center px-6 md:px-16'>
+            <p className='text-white/90 text-sm md:text-base mb-3'>
+              <Link href='/' className='hover:text-green-300'>
+                Home
+              </Link>{' '}
+              / Rainwater Harvesting Recharge Pit
+            </p>
+
+            <h1 className='text-white text-3xl md:text-5xl font-bold max-w-4xl leading-tight'>
               Rainwater Harvesting Recharge Pit – A Sustainable Way to Replenish
               Groundwater
             </h1>
+          </div>
+        </section>
 
+        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-start'>
+          <div className='text-left'>
             <p className='text-[17px] text-justify mt-2'>
               India faces a severe challenge of depleting groundwater levels due
               to urbanization, over-extraction, and climate change. One of the

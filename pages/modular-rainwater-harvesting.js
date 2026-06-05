@@ -58,198 +58,275 @@ const Service3 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
+      <section className='bg-gradient-to-b from-slate-50 via-white to-slate-50'>
+        {/* Hero Banner */}
+        <div className='relative mx-4 md:mx-10 mt-6 overflow-hidden rounded-2xl shadow-2xl'>
           <Image
-            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service3}
             alt='Rainwater Harvesting Banner'
+            className='w-full h-[180px] md:h-[350px] object-cover'
             loading='eager'
-            priority={true}
-            unoptimized={true}
+            priority
+            unoptimized
           />
-          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-green-600'>
-              <Link href={'/'}>Home</Link> / Modular Rainwater Harvesting
-            </p>
-          </div>
-        </div>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
-          <div className='text-left'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>
+          <div className='absolute inset-0 bg-black/50' />
+
+          <div className='absolute inset-0 flex flex-col justify-center px-6 md:px-12'>
+            <div className='inline-flex w-fit items-center rounded-full bg-white/20 backdrop-blur-md px-4 py-2 text-sm text-white'>
+              <Link href='/' className='hover:text-green-300'>
+                Home
+              </Link>
+              <span className='mx-2'>/</span>
+              Modular Rainwater Harvesting
+            </div>
+
+            <h1 className='mt-4 text-3xl md:text-5xl font-bold text-white'>
               Modular Rainwater Harvesting
             </h1>
-
-            <p className='text-[17px] text-justify md:text-lg mt-3'>
-              Infusing{' '}
-              <Link
-                href={'https://www.inrainconstruction.com/'}
-                className='text-green-600 hover:text-sky-500 font-semibold'
-              >
-                Modular Rainwater Harvesting
-              </Link>{' '}
-              technologies to store or recharge the groundwater in order to
-              realize the needs of an enriched tomorrow with abundant water
-              resources in place.
-            </p>
-
-            <ul className='list-disc m-5 font-semibold text-[17px] text-justify md:text-lg'>
-              <li>Polymer as strong as metal.</li>
-              <li>Load bearing and top surface utilization.</li>
-              <li>Time-saving during installation.</li>
-              <li>Accident-free.</li>
-              <li>Less maintenance cost than a civil pit.</li>
-              <li>Maintenance time and resource utilization.</li>
-              <li>Alteration and reuse advantage.</li>
-              <li>Cost advantage.</li>
-            </ul>
-            <p className='text-[17px] text-justify md:text-lg mt-3'>
-              Urbanization has led to an increase in water consumption in
-              various activities. The demand for water supply is quite high.
-              However, our natural resources are very limited. There have been
-              many reports of declining water levels around the world. Rainwater
-              harvesting is one of the best solutions to keep sustainable
-              development going. InRain® Construction Pvt. Ltd., a water
-              conservation and management organization, offers various rainwater
-              harvesting methods using the latest technology. <br></br>
-              <br></br>
-              In recent years, modular rainwater harvesting has become
-              increasingly popular due to its various advantages over
-              traditional rainwater harvesting methods. Modular rainwater
-              harvesting effectively addresses two major concerns: budget and
-              space. Not only it is easy on the pocket, but it also allows the
-              use of space for various purposes.
-              <br></br>
-              <br></br>
-              Polymer-based modular structures are used in this technique.
-              Strength and load-bearing capacity are both excellent
-              characteristics of these structures. Water harvesting areas
-              prepared with modular structures can even be used for parking
-              vehicles. The installation takes less time compared to a
-              traditional rainwater harvesting system. Here are some advantages
-              it offers:
-            </p>
-
-            <ol className='list-decimal m-5 font-semibold text-[17px] text-justify md:text-lg'>
-              <li>
-                The eco-friendly and economical solution is that a polymer can
-                be recycled or reused.
-              </li>
-              <li>
-                It ensures excellent filtration as the percolation tank remains
-                covered with the geotextile sheet.
-              </li>
-              <li>
-                Safety: In this technique, we place the percolation tank
-                underground to ensure no easy access to the water tank.
-              </li>
-              <li>
-                Cost Savings on Maintenance: Low or almost no maintenance
-                compared to traditional rainwater harvesting systems.
-              </li>
-              <li>Higher recharge capacity as water comes from five sides.</li>
-              <li>Co-polymer-based modules have a high lifespan.</li>
-              <li>
-                Portability is one of the main properties of these
-                copolymer-based stackable modules, as these modules can be
-                easily shifted and installed at different locations.
-              </li>
-            </ol>
-
-            <p className='text-[17px] text-justify md:text-lg mt-3'>
-              The modular rainwater harvesting method helps in restoring and
-              reusing the rainwater within your budget. It allows you to
-              contribute to your social and environmental causes without
-              compromising on your budget and space.
-            </p>
           </div>
-          <div className='mt-5'>
-            <Link href={'https://www.inrainconstruction.com/'}>
-              <Image
-                className='w-full'
-                src={harvesting3}
-                alt='Modular Rainwater Harvesting'
-                loading='eager'
-                priority={true}
-                unoptimized={true}
-              />
-            </Link>
-            <div className='m-2 mt-5 text-justify'>
-              <h2 className='text-xl font-semibold'>
-                Smart Use of Limited Resources
-              </h2>
-              <p className='text-[17px] md:text-lg mt-1'>
-                With rapid urban development, our natural water resources are
-                under immense pressure, and water tables are depleting at an
-                alarming rate. Modular rainwater harvesting systems are an
-                intelligent, space-saving solution that helps meet rising water
-                demands without putting a strain on the environment—or your
-                wallet.
-                <br></br>
-                <br></br>
-                Whether you’re planning a new project or looking to retrofit an
-                existing space, our team at InRain® provides end-to-end modular
-                rainwater harvesting solutions that are scalable, customizable,
-                and built to last.
+        </div>
+
+        {/* Main Content */}
+        <div className='max-w-7xl mx-auto px-4 md:px-8 py-12'>
+          <div className='grid lg:grid-cols-2 gap-10 items-start'>
+            {/* Left Content */}
+            <div className='bg-white rounded-2xl shadow-lg border border-slate-100 p-6 md:p-10'>
+              <div className='h-1 w-24 rounded-full bg-gradient-to-r from-green-500 to-sky-500 mb-6' />
+
+              <p className='text-[17px] text-gray-700 leading-8 text-justify'>
+                Infusing{' '}
+                <Link
+                  href='https://www.inrainconstruction.com/'
+                  className='text-green-600 hover:text-sky-500 font-semibold'
+                >
+                  Modular Rainwater Harvesting
+                </Link>{' '}
+                technologies to store or recharge the groundwater in order to
+                realize the needs of an enriched tomorrow with abundant water
+                resources in place.
               </p>
-              <p className='text-[18px] md:text-2xl mt-4 font-semibold'>
-                Why Choose Modular Rainwater Harvesting?
+
+              {/* Feature Highlights */}
+              <div className='grid md:grid-cols-2 gap-4 my-8'>
+                {[
+                  'Polymer as strong as metal.',
+                  'Load bearing and top surface utilization.',
+                  'Time-saving during installation.',
+                  'Accident-free.',
+                  'Less maintenance cost than a civil pit.',
+                  'Maintenance time and resource utilization.',
+                  'Alteration and reuse advantage.',
+                  'Cost advantage.'
+                ].map((item, index) => (
+                  <div
+                    key={index}
+                    className='flex items-center gap-3 p-4 rounded-xl border border-green-100 bg-green-50'
+                  >
+                    <span className='text-green-600 font-bold'>✓</span>
+                    <span className='font-medium'>{item}</span>
+                  </div>
+                ))}
+              </div>
+
+              <p className='text-[17px] text-gray-700 leading-8 text-justify'>
+                Urbanization has led to an increase in water consumption in
+                various activities. The demand for water supply is quite high.
+                However, our natural resources are very limited. There have been
+                many reports of declining water levels around the world.
+                Rainwater harvesting is one of the best solutions to keep
+                sustainable development going. InRain® Construction Pvt. Ltd., a
+                water conservation and management organization, offers various
+                rainwater harvesting methods using the latest technology.
+                <br />
+                <br />
+                In recent years, modular rainwater harvesting has become
+                increasingly popular due to its various advantages over
+                traditional rainwater harvesting methods. Modular rainwater
+                harvesting effectively addresses two major concerns: budget and
+                space. Not only it is easy on the pocket, but it also allows the
+                use of space for various purposes.
+                <br />
+                <br />
+                Polymer-based modular structures are used in this technique.
+                Strength and load-bearing capacity are both excellent
+                characteristics of these structures. Water harvesting areas
+                prepared with modular structures can even be used for parking
+                vehicles. The installation takes less time compared to a
+                traditional rainwater harvesting system. Here are some
+                advantages it offers:
               </p>
-              <ul className='list-disc text-[18px] mt-2 md:text-lg'>
-                <li>
-                  <bold className='font-semibold'>Strong & Durable</bold> —
-                  High-quality co-polymer that offers the strength of metal.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Quick Installation</bold> —
-                  Saves time and workforce with simple modular setup.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Safe & Accident-Free</bold> —
-                  Underground systems reduce hazards and keep water secure.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Low Maintenance</bold> — No
-                  algae, no rust, and barely any upkeep needed.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Cost-Efficient</bold> — Lower
-                  cost than conventional concrete systems.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Reusable & Relocatable</bold>{' '}
-                  — Can be easily moved and reused as per future requirements.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Efficient Filtration</bold> —
-                  Geo-textile covered percolation tanks ensure clean recharge.
-                </li>
-                <li>
-                  <bold className='font-semibold'>Maximized Recharge</bold> —
-                  Water enters from five sides for higher infiltration.
-                </li>
-              </ul>
+
+              <div className='mt-8'>
+                <h2 className='text-2xl font-bold text-slate-800 mb-5'>
+                  Key Advantages
+                </h2>
+
+                <ol className='space-y-4 text-[17px]'>
+                  <li className='flex gap-3'>
+                    <span className='font-bold text-green-600'>1.</span>
+                    <span>
+                      The eco-friendly and economical solution is that a polymer
+                      can be recycled or reused.
+                    </span>
+                  </li>
+
+                  <li className='flex gap-3'>
+                    <span className='font-bold text-green-600'>2.</span>
+                    <span>
+                      It ensures excellent filtration as the percolation tank
+                      remains covered with the geotextile sheet.
+                    </span>
+                  </li>
+
+                  <li className='flex gap-3'>
+                    <span className='font-bold text-green-600'>3.</span>
+                    <span>
+                      Safety: In this technique, we place the percolation tank
+                      underground to ensure no easy access to the water tank.
+                    </span>
+                  </li>
+
+                  <li className='flex gap-3'>
+                    <span className='font-bold text-green-600'>4.</span>
+                    <span>
+                      Cost Savings on Maintenance: Low or almost no maintenance
+                      compared to traditional rainwater harvesting systems.
+                    </span>
+                  </li>
+
+                  <li className='flex gap-3'>
+                    <span className='font-bold text-green-600'>5.</span>
+                    <span>
+                      Higher recharge capacity as water comes from five sides.
+                    </span>
+                  </li>
+
+                  <li className='flex gap-3'>
+                    <span className='font-bold text-green-600'>6.</span>
+                    <span>Co-polymer-based modules have a high lifespan.</span>
+                  </li>
+
+                  <li className='flex gap-3'>
+                    <span className='font-bold text-green-600'>7.</span>
+                    <span>
+                      Portability is one of the main properties of these
+                      copolymer-based stackable modules, as these modules can be
+                      easily shifted and installed at different locations.
+                    </span>
+                  </li>
+                </ol>
+              </div>
+
+              <p className='mt-8 text-[17px] text-gray-700 leading-8 text-justify'>
+                The modular rainwater harvesting method helps in restoring and
+                reusing the rainwater within your budget. It allows you to
+                contribute to your social and environmental causes without
+                compromising on your budget and space.
+              </p>
+            </div>
+
+            {/* Right Sidebar */}
+            <div className='space-y-6 lg:sticky lg:top-36'>
+              <div className='overflow-hidden rounded-2xl shadow-xl bg-white'>
+                <Link href='https://www.inrainconstruction.com/'>
+                  <Image
+                    src={'/services/harvesting3.jpg'}
+                    alt='Modular Rainwater Harvesting'
+                    className='w-full object-cover hover:scale-105 transition duration-500'
+                    width={600}
+                    height={400}
+                  />
+                </Link>
+              </div>
+
+              <div className='bg-white rounded-2xl shadow-xl border border-slate-100 p-6 md:p-8'>
+                <div className='flex items-center gap-3 mb-5'>
+                  <div className='h-10 w-2 rounded-full bg-green-500' />
+                  <h2 className='text-2xl font-bold text-slate-800'>
+                    Smart Use of Limited Resources
+                  </h2>
+                </div>
+
+                <p className='text-gray-700 leading-8 text-justify'>
+                  With rapid urban development, our natural water resources are
+                  under immense pressure, and water tables are depleting at an
+                  alarming rate. Modular rainwater harvesting systems are an
+                  intelligent, space-saving solution that helps meet rising
+                  water demands without putting a strain on the environment—or
+                  your wallet.
+                  <br />
+                  <br />
+                  Whether you’re planning a new project or looking to retrofit
+                  an existing space, our team at InRain® provides end-to-end
+                  modular rainwater harvesting solutions that are scalable,
+                  customizable, and built to last.
+                </p>
+
+                <h3 className='text-xl font-bold mt-8 mb-4'>
+                  Why Choose Modular Rainwater Harvesting?
+                </h3>
+
+                <ul className='space-y-3'>
+                  <li>
+                    <strong>Strong & Durable</strong> — High-quality co-polymer
+                    that offers the strength of metal.
+                  </li>
+                  <li>
+                    <strong>Quick Installation</strong> — Saves time and
+                    workforce with simple modular setup.
+                  </li>
+                  <li>
+                    <strong>Safe & Accident-Free</strong> — Underground systems
+                    reduce hazards and keep water secure.
+                  </li>
+                  <li>
+                    <strong>Low Maintenance</strong> — No algae, no rust, and
+                    barely any upkeep needed.
+                  </li>
+                  <li>
+                    <strong>Cost-Efficient</strong> — Lower cost than
+                    conventional concrete systems.
+                  </li>
+                  <li>
+                    <strong>Reusable & Relocatable</strong> — Can be easily
+                    moved and reused as per future requirements.
+                  </li>
+                  <li>
+                    <strong>Efficient Filtration</strong> — Geo-textile covered
+                    percolation tanks ensure clean recharge.
+                  </li>
+                  <li>
+                    <strong>Maximized Recharge</strong> — Water enters from five
+                    sides for higher infiltration.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className='m-5 md:m-10 bg-sky-300 rounded-lg'>
-          <p className='text-[17px] text-justify md:text-lg mt-3 p-5'>
-            Precious land over the modular tank is not wasted, since it is a
-            load-bearing structure and can bear tons of loads, thereby making
-            the whole system truly economical as compared with the case of
-            having a civil pit. 95% of the capacity of the tank is usable as
-            compared to only 50-55% usability in the case of a civil pit. There
-            is no risk of accidents, as no one can fall into this kind of tank,
-            whereas having an RCC civil tank is highly accident-prone. Easily
-            removable and transportable to any other location, which is not
-            possible in the case of a civil pit. Holding/Recharge Capacity
-            begins from 1 cubic meter to any imaginable size within
-            significantly less time.
-          </p>
+          {/* Highlight Section */}
+          <div className='mt-12 bg-gradient-to-r from-sky-50 to-green-50 border border-sky-200 rounded-2xl shadow-lg p-8 md:p-10'>
+            <h2 className='text-2xl md:text-3xl font-bold text-slate-800 mb-5'>
+              Additional Benefits
+            </h2>
+
+            <p className='text-[17px] leading-8 text-gray-700 text-justify'>
+              Precious land over the modular tank is not wasted, since it is a
+              load-bearing structure and can bear tons of loads, thereby making
+              the whole system truly economical as compared with the case of
+              having a civil pit. 95% of the capacity of the tank is usable as
+              compared to only 50-55% usability in the case of a civil pit.
+              There is no risk of accidents, as no one can fall into this kind
+              of tank, whereas having an RCC civil tank is highly
+              accident-prone. Easily removable and transportable to any other
+              location, which is not possible in the case of a civil pit.
+              Holding/Recharge Capacity begins from 1 cubic meter to any
+              imaginable size within significantly less time.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
       <Footer />
     </>
   )

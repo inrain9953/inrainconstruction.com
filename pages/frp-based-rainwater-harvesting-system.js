@@ -58,34 +58,42 @@ const Service4 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
+      <div className='max-w-7xl mx-auto px-4 md:px-8 py-8'>
+        {/* Hero Section */}
+        <div className='relative overflow-hidden rounded-3xl shadow-2xl'>
           <Image
-            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service4}
             alt='FRP Based Rainwater Harvesting System'
+            className='w-full h-[180px] md:h-[280px] object-cover'
             loading='eager'
-            priority={true}
-            unoptimized={true}
+            priority
+            unoptimized
           />
-          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-black'>
-              <Link href={'/'}>Home</Link> / FRP Based Rainwater Harvesting
-              System
-            </p>
+
+          <div className='absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent' />
+
+          <div className='absolute bottom-6 left-6 md:left-10 text-white'>
+            <div className='backdrop-blur-md bg-white/10 px-4 py-2 rounded-full inline-block mb-3'>
+              <p className='text-xs md:text-sm font-medium'>
+                <Link href='/' className='hover:text-green-400'>
+                  Home
+                </Link>{' '}
+                / FRP Based Rainwater Harvesting System
+              </p>
+            </div>
+
+            <h1 className='text-2xl md:text-5xl font-bold leading-tight'>
+              FRP Based Rainwater Harvesting System
+            </h1>
           </div>
         </div>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
-          <div className='text-left'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>
-              FRP Based Rainwater Harvesting System
-            </h1>
-
-            <p className='text-[17px] text-justify md:text-lg mt-3'>
-              <bold className='text-green-700 font-semibold'>
-                InRain<sup>®</sup>
-              </bold>{' '}
+        {/* Content Section */}
+        <div className='grid lg:grid-cols-2 gap-12 mt-10'>
+          {/* Left Content */}
+          <div className='bg-white rounded-3xl shadow-lg p-6 md:p-10 border border-slate-100'>
+            <p className='text-[17px] md:text-lg leading-8 text-gray-700 text-justify'>
+              <span className='text-green-700 font-bold'>InRain®</span>{' '}
               Construction Pvt. Ltd. is helping communities and industries by
               providing sustainable and cost-effective water conservation
               methods. Rainwater harvesting is no longer looked at as a
@@ -93,22 +101,23 @@ const Service4 = () => {
               technology has quickly started to revolutionize the industry with
               its cost-effective solutions. We at Inrain Construction Pvt. Ltd.
               offer a wide range of solutions that are not only cost-effective
-              but also environmentally friendly. <br></br>
-              <br></br>
+              but also environmentally friendly.
+            </p>
+
+            <p className='mt-6 text-[17px] md:text-lg leading-8 text-gray-700 text-justify'>
               The FRP-based rainwater harvesting system offers an economic
               solution to modern-day economic requirements. Fiber-reinforced
               polymer-based systems are becoming popular very fast as they are
               not only lightweight but also very sturdy. Its ability to resist
               corrosion and ultraviolet light makes it the material of choice
               for rainwater harvesting systems.
-              <br></br>
-              <br></br>
+            </p>
+
+            <p className='mt-6 text-[17px] md:text-lg leading-8 text-gray-700 text-justify'>
               In the traditional methods of{' '}
               <Link
-                href={
-                  'https://www.inrainconstruction.com/rainwater-harvesting-system'
-                }
-                className='text-green-600 hover:text-sky-500 font-semibold'
+                href='https://www.inrainconstruction.com/rainwater-harvesting-system'
+                className='font-semibold text-green-600 hover:text-sky-500'
               >
                 Rainwater Harvesting Systems
               </Link>
@@ -116,19 +125,25 @@ const Service4 = () => {
               it was using concrete or metal to construct the water collection
               tank or pit. These pits are not only expensive but also have high
               maintenance, as they are prone to corrosion and developing
-              infestations. However, fiber-reinforced polymers, on the other
-              hand, are very durable and low on maintenance. This has increased
-              the interest of people in FRP-based rainwater harvesting systems.
-              <br></br>
-              <br></br>
+              infestations.
+            </p>
+
+            <p className='mt-6 text-[17px] md:text-lg leading-8 text-gray-700 text-justify'>
+              However, fiber-reinforced polymers, on the other hand, are very
+              durable and low on maintenance. This has increased the interest of
+              people in FRP-based rainwater harvesting systems.
+            </p>
+
+            <p className='mt-6 text-[17px] md:text-lg leading-8 text-gray-700 text-justify'>
               These FRP-based rainwater harvesting systems are portable and
               recyclable, which helps in reducing waste and cost. Thereby
               encouraging more and more people to adopt sustainable water
               conservation methods and reduce their dependency on mains water
               supply, as a result, helping the environment in an eco-friendly
               way.
-              <br></br>
-              <br></br>
+            </p>
+
+            <p className='mt-6 text-[17px] md:text-lg leading-8 text-gray-700 text-justify'>
               For all those housing societies and businesses that are looking to
               contribute to the environment positively, the FRP-based rainwater
               harvesting system is a perfect choice. So, whether you are
@@ -138,50 +153,80 @@ const Service4 = () => {
               offers the complete solution.
             </p>
           </div>
-          <div className='mt-5'>
-            <Link href={'https://www.inrainconstruction.com/'}>
-              <Image
-                className='w-full'
-                src={harvesting4}
-                alt='Rainwater Harvesting Filtration System'
-                loading='eager'
-                priority={true}
-                unoptimized={true}
-              />
-            </Link>
-            <div className='m-2 mt-5 text-justify'>
-              <h2 className='text-xl font-semibold'>
-                Key Benefits of FRP-Based Rainwater Harvesting Systems:
-              </h2>
-              <ul className='list-disc m-5 text-[18px] md:text-lg'>
-                <li>
-                  <bold className='font-semibold'>Durable & Long-Lasting</bold>{' '}
-                  — Built to withstand corrosion, weather, and time.
+
+          {/* Right Side */}
+          <div className='space-y-8'>
+            {/* Image Card */}
+            <div className='overflow-hidden rounded-3xl shadow-2xl group'>
+              <Link href='https://www.inrainconstruction.com/'>
+                <Image
+                  src={harvesting4}
+                  alt='Rainwater Harvesting Filtration System'
+                  className='w-full object-cover transition duration-700 group-hover:scale-105'
+                  loading='eager'
+                  priority
+                  unoptimized
+                />
+              </Link>
+            </div>
+
+            {/* Benefits Card */}
+            <div className='bg-gradient-to-br from-green-50 to-sky-50 rounded-3xl shadow-xl border border-green-100 p-8'>
+              <div className='flex items-center gap-3 mb-6'>
+                <div className='w-1 h-8 bg-green-600 rounded-full' />
+                <h2 className='text-2xl font-bold text-gray-900'>
+                  Key Benefits of FRP-Based Rainwater Harvesting Systems
+                </h2>
+              </div>
+
+              <ul className='space-y-4 text-gray-700'>
+                <li className='flex gap-3'>
+                  <span>✓</span>
+                  <span>
+                    <strong>Durable & Long-Lasting</strong> — Built to withstand
+                    corrosion, weather, and time.
+                  </span>
                 </li>
-                <li>
-                  <bold className='font-semibold'>Lightweight & Portable</bold>{' '}
-                  — Easy to transport, install, and reposition.
+
+                <li className='flex gap-3'>
+                  <span>✓</span>
+                  <span>
+                    <strong>Lightweight & Portable</strong> — Easy to transport,
+                    install, and reposition.
+                  </span>
                 </li>
-                <li>
-                  <bold className='font-semibold'>Low Maintenance</bold> — No
-                  rusting, no cracking, no constant repairs.
+
+                <li className='flex gap-3'>
+                  <span>✓</span>
+                  <span>
+                    <strong>Low Maintenance</strong> — No rusting, no cracking,
+                    no constant repairs.
+                  </span>
                 </li>
-                <li>
-                  <bold className='font-semibold'>
-                    Recyclable & Eco-Friendly
-                  </bold>{' '}
-                  — Promotes sustainability with minimal waste.
+
+                <li className='flex gap-3'>
+                  <span>✓</span>
+                  <span>
+                    <strong>Recyclable & Eco-Friendly</strong> — Promotes
+                    sustainability with minimal waste.
+                  </span>
                 </li>
-                <li>
-                  <bold className='font-semibold'>Cost-Effective</bold> — Saves
-                  on both installation and long-term maintenance costs.
+
+                <li className='flex gap-3'>
+                  <span>✓</span>
+                  <span>
+                    <strong>Cost-Effective</strong> — Saves on both installation
+                    and long-term maintenance costs.
+                  </span>
                 </li>
-                <li>
-                  <bold className='font-semibold'>
-                    Ideal for Residential & Commercial Use
-                  </bold>{' '}
-                  — Perfect for homes, housing societies, schools, offices, and
-                  industries.
+
+                <li className='flex gap-3'>
+                  <span>✓</span>
+                  <span>
+                    <strong>Ideal for Residential & Commercial Use</strong> —
+                    Perfect for homes, housing societies, schools, offices, and
+                    industries.
+                  </span>
                 </li>
               </ul>
             </div>

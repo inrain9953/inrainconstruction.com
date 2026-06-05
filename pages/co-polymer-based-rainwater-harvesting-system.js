@@ -58,31 +58,44 @@ const Service2 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
+      <div className='max-w-7xl mx-auto px-4 md:px-8 py-8'>
+        {/* Hero Banner */}
+        <section className='relative overflow-hidden rounded-3xl shadow-2xl'>
           <Image
-            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service2}
             alt='Water is source of life'
+            className='w-full h-[220px] md:h-[320px] object-cover'
             loading='eager'
-            priority={true}
-            unoptimized={true}
+            priority
+            unoptimized
           />
-          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-black'>
-              <Link href={'/'}>Home</Link> / Co-Polymer Based Rainwater
-              Harvesting System
-            </p>
-          </div>
-        </div>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
-          <div className='text-left'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>
+          <div className='absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent' />
+
+          <div className='absolute bottom-8 left-6 md:left-12 text-white'>
+            <div className='backdrop-blur-md bg-white/10 border border-white/20 rounded-full px-4 py-2 inline-block'>
+              <p className='text-sm md:text-base'>
+                <Link href='/' className='hover:text-green-400'>
+                  Home
+                </Link>{' '}
+                / Co-Polymer Based Rainwater Harvesting System
+              </p>
+            </div>
+
+            <h1 className='mt-4 text-3xl md:text-5xl font-bold leading-tight'>
               Co-Polymer Based Rainwater Harvesting System
             </h1>
-            <p className='text-[17px] text-justify md:text-lg mt-3'>
-              <bold className='text-green-700 font-semibold'>InRain®</bold>{' '}
+          </div>
+        </section>
+
+        {/* Main Section */}
+        <section className='grid lg:grid-cols-2 gap-12 mt-10'>
+          {/* Content */}
+          <div className='bg-white rounded-3xl shadow-xl p-6 md:p-10'>
+            <div className='w-20 h-1 bg-green-600 rounded-full mb-6' />
+
+            <p className='text-[17px] md:text-lg leading-relaxed text-gray-700 text-justify'>
+              <span className='text-green-700 font-semibold'>InRain®</span>{' '}
               Construction Private Limited offers co-polymer-based rainwater
               harvesting system services for water conservation and management.
               This is a modern-day technique of harvesting natural rainwater.
@@ -91,8 +104,10 @@ const Service2 = () => {
               the modular rainwater harvesting technique, as it uses multiple
               stackable modules for building the structure of the rainwater
               harvesting system; this makes construction and installation faster
-              and easier. <br></br>
-              <br></br>
+              and easier.
+            </p>
+
+            <p className='text-[17px] md:text-lg leading-relaxed text-gray-700 text-justify mt-6'>
               The co-polymer-based rainwater harvesting system uses a structure
               that offers an economical and eco-friendly solution compared to
               traditional rainwater harvesting systems. Co-polymer products are
@@ -100,18 +115,14 @@ const Service2 = () => {
               reinforced cement concrete or plain cement concrete storage.
               Moreover, cement concrete storage that is used in traditional
               systems will require maintenance, as it has the chance of
-              developing infestations of algae and fungi. Co-polymer modules are
-              not only economical but also come with the option of portability,
-              which allows the top surface to be used for a variety of purposes,
-              like parking vehicles, floriculture, children's playgrounds etc.
-              <br></br>
-              <br></br>
+              developing infestations of algae and fungi.
+            </p>
+
+            <p className='text-[17px] md:text-lg leading-relaxed text-gray-700 text-justify mt-6'>
               The co-polymer-based{' '}
               <Link
-                className='hover:text-green-500 text-sky-500'
-                href={
-                  'https://www.inrainconstruction.com/rainwater-harvesting-system'
-                }
+                className='text-sky-600 hover:text-green-600 font-semibold'
+                href='https://www.inrainconstruction.com/rainwater-harvesting-system'
               >
                 Rainwater Harvesting System
               </Link>{' '}
@@ -120,36 +131,38 @@ const Service2 = () => {
               are
             </p>
 
-            <ol className='list-decimal m-5 font-semibold text-[17px] text-justify md:text-lg'>
-              <li>Eco-friendly and economical solutions.</li>
-              <li>
-                Geo sheet-covered percolation storage tank to ensure excellent
-                filtration.
-              </li>
-              <li>
-                Underground placement of the percolation tank ensures no easy
-                access to the water tank, making it absolutely safe.
-              </li>
-              <li>
-                Low or almost no maintenance in comparison to traditional
-                rainwater harvesting systems.
-              </li>
-              <li>Higher recharge capacity as water comes from five sides.</li>
-              <li>Co-polymer-based modules have a high lifespan.</li>
-              <li>
-                Portability is one of the main properties of these
-                co-polymer-based stackable modules, as these modules can be
-                easily shifted and installed at different locations.
-              </li>
-            </ol>
+            <div className='bg-green-50 border border-green-200 rounded-2xl p-6 mt-6'>
+              <ol className='list-decimal pl-5 space-y-3 font-medium text-gray-800'>
+                <li>Eco-friendly and economical solutions.</li>
+                <li>
+                  Geo sheet-covered percolation storage tank to ensure excellent
+                  filtration.
+                </li>
+                <li>
+                  Underground placement of the percolation tank ensures no easy
+                  access to the water tank, making it absolutely safe.
+                </li>
+                <li>
+                  Low or almost no maintenance in comparison to traditional
+                  rainwater harvesting systems.
+                </li>
+                <li>
+                  Higher recharge capacity as water comes from five sides.
+                </li>
+                <li>Co-polymer-based modules have a high lifespan.</li>
+                <li>
+                  Portability is one of the main properties of these
+                  co-polymer-based stackable modules, as these modules can be
+                  easily shifted and installed at different locations.
+                </li>
+              </ol>
+            </div>
 
-            <p className='text-[17px] text-justify md:text-lg mt-3'>
+            <p className='text-[17px] md:text-lg leading-relaxed text-gray-700 text-justify mt-8'>
               A{' '}
               <Link
-                className='hover:text-green-500 text-sky-500'
-                href={
-                  'https://www.inrainconstruction.com/modular-rainwater-harvesting'
-                }
+                className='text-sky-600 hover:text-green-600 font-semibold'
+                href='https://www.inrainconstruction.com/modular-rainwater-harvesting'
               >
                 Modular Rainwater Harvesting System
               </Link>{' '}
@@ -158,61 +171,60 @@ const Service2 = () => {
               sought-after water conservation and management systems.
             </p>
           </div>
-          <div className='mt-5'>
-            <Link href={'https://www.inrainconstruction.com/'}>
-              <Image
-                className='w-full'
-                src={harvesting2}
-                alt='Co-polymer based rainwater harvesting system'
-                loading='eager'
-                priority={true}
-                unoptimized={true}
-              />
-            </Link>
-            <div className='m-2 mt-5 text-justify'>
-              <h2 className='text-xl font-semibold'>
+
+          {/* Right Side */}
+          <div className='space-y-6 lg:sticky lg:top-36 h-fit'>
+            <div className='overflow-hidden rounded-3xl shadow-2xl'>
+              <Link href='https://www.inrainconstruction.com/'>
+                <Image
+                  src={harvesting2}
+                  alt='Co-polymer based rainwater harvesting system'
+                  className='w-full object-cover hover:scale-105 transition duration-500'
+                  loading='eager'
+                  priority
+                  unoptimized
+                />
+              </Link>
+            </div>
+
+            <div className='bg-gradient-to-br from-green-50 to-sky-50 border border-green-100 rounded-3xl p-8 shadow-lg'>
+              <h2 className='text-2xl font-bold text-gray-900 mb-4'>
                 Why Co-Polymer Over Traditional Methods?
               </h2>
-              <p className='text-[17px] md:text-lg mt-1'>
+
+              <p className='text-gray-700 leading-relaxed'>
                 Traditional concrete tanks can be bulky, expensive, and
                 high-maintenance. Over time, they may develop cracks, algae, or
                 fungal growth. Our co-polymer modules, on the other hand, offer
                 a smarter alternative:
               </p>
-              <ul className='list-disc m-3 font-semibold text-[18px] md:text-lg'>
-                <li>More affordable than RCC or PCC constructions.</li>
-                <li>
-                  Algae and fungus-resistant, minimizing maintenance needs.
-                </li>
-                <li>
-                  Portable and modular, making it easy to relocate or
-                  reconfigure when needed.
-                </li>
-                <li>
-                  Multifunctional top surface—the area above the tank can be
-                  used for parking, gardening, or even a kid's play zone.
-                </li>
+
+              <ul className='mt-5 space-y-3 text-gray-800'>
+                <li>✓ More affordable than RCC or PCC constructions.</li>
+                <li>✓ Algae and fungus-resistant.</li>
+                <li>✓ Portable and modular.</li>
+                <li>✓ Easy relocation and reconfiguration.</li>
+                <li>✓ Suitable for parking, gardening, and play zones.</li>
               </ul>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className='m-5 md:m-10 bg-sky-300 rounded-lg'>
-          <p className='text-[17px] text-justify md:text-lg mt-3 p-5'>
-            Unlike conventional RWH systems, the recharge chamber in modular RWH
-            need not be PCC/RCC, thereby saving cost. Further, the PCC/RCC
-            storage-cum-recharge tank, after a few years, gets infested with
-            algae/cobwebs and is very difficult to clean, whereas modular RWH
-            with polypropylene blocks wrapped on all sides with geo-textile is
-            almost maintenance-free, and its useful life is longer with an
-            option of portability if there is a need to use the occupied land
-            for some construction purposes. Also, it has been the experience
-            that the conventional RWH system always goes dysfunctional after 2–3
-            seasons, whereas a modular RWH system in its concept and design has
-            addressed several factors that help it have many relative advantages
-            over the conventional RWH system.
-          </p>
-        </div>
+        {/* Bottom Highlight Section */}
+        <section className='mt-16'>
+          <div className='bg-gradient-to-r from-sky-600 to-green-600 rounded-3xl p-8 md:p-12 shadow-2xl'>
+            <p className='text-white text-[17px] md:text-lg leading-relaxed text-justify'>
+              Unlike conventional RWH systems, the recharge chamber in modular
+              RWH need not be PCC/RCC, thereby saving cost. Further, the PCC/RCC
+              storage-cum-recharge tank, after a few years, gets infested with
+              algae/cobwebs and is very difficult to clean, whereas modular RWH
+              with polypropylene blocks wrapped on all sides with geo-textile is
+              almost maintenance-free, and its useful life is longer with an
+              option of portability if there is a need to use the occupied land
+              for some construction purposes.
+            </p>
+          </div>
+        </section>
       </div>
       <Footer />
     </>

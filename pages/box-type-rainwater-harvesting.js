@@ -58,121 +58,184 @@ const Service8 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
+      <section className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
+        {/* Hero Section */}
+        <div className='relative overflow-hidden rounded-3xl shadow-2xl'>
           <Image
-            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service8}
-            alt='Box Type Rainwater Harvestnig'
+            alt='Box Type Rainwater Harvesting System'
+            className='w-full h-[220px] md:h-[320px] object-cover'
             loading='eager'
-            priority={true}
-            unoptimized={true}
+            priority
+            unoptimized
           />
-          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-black'>
-              <Link href={'/'}>Home</Link> / Box Type Rainwater Harvesting
-              System
+
+          <div className='absolute inset-0 bg-black/40'></div>
+
+          <div className='absolute inset-0 flex flex-col justify-center px-6 md:px-12'>
+            <h1 className='text-3xl md:text-5xl font-bold text-white mb-3'>
+              Box Type Rainwater Harvesting System
+            </h1>
+
+            <p className='text-sm md:text-lg text-white/90'>
+              <Link href='/' className='hover:text-green-400 transition'>
+                Home
+              </Link>{' '}
+              / Box Type Rainwater Harvesting System
             </p>
           </div>
         </div>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
-          <div className='text-left'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>
+        {/* Main Section */}
+        <div className='grid lg:grid-cols-[1.65fr_1fr] gap-12 mt-10'>
+          {/* Left Content */}
+          <div>
+            <h2 className='text-3xl md:text-4xl font-bold text-slate-900 mb-6'>
               Box Type Rainwater Harvesting System
-            </h1>
+            </h2>
 
-            <p className='text-[17px] text-justify md:text-lg mt-3'>
-              Rainwater harvesting is a need of the modern world. By practicing
-              rainwater harvesting, we can help in improving global water
-              reserves. Inrain Construction Pvt. Ltd. is a leading company in
-              providing water conservation and management solutions, offering
-              various varieties of rainwater harvesting solutions. We use
-              modern-day technology and excel in providing economical water
-              conservation methods to our clients as per their needs. Among the
-              various methods of{' '}
-              <Link
-                href={
-                  'https://www.inrainconstruction.com/rainwater-harvesting-system'
-                }
-                className='text-green-600 hover:text-sky-500 font-semibold'
-              >
-                Rainwater Harvesting Systems,
-              </Link>{' '}
-              box-Type Rainwater Harvesting is one that helps you in saving the
-              rainwater. Since in this methodology, rainwater collected from the
-              roof doesn’t go through rigorous filtration and purification, it
-              is majorly suited for outdoor activities like car washing and
-              watering your garden area. The rainwater stored through this
-              method can also be utilized for laundry and flushing the toilet.
-              InRain Construction Pvt. Ltd., a water conservation and management
-              company, is one of the leading water conservation and management
-              service providers. We are well known for providing
-              technology-based modern solutions that fit today’s requirements.
-              We are the topmost rainwater harvesting vendors in Delhi-Gurgaon.
-              We completely understand the challenges of modern-day industries
-              and housing societies. Therefore, we offer technologically
-              advanced but cost-effective solutions for water conservation
-              needs. <br></br>
-              <br></br>
-              As the name suggests, a box-type rainwater harvesting system uses
-              a box to store water. A water collector is attached to the rooftop
-              for collecting water; the collected water then goes through a
-              filter system that removes impurities collected from the rooftop.
-              The filtered water then goes to the box for storage.
-              <br></br>
-              <br></br>
-              The installation and the water supply mechanism are the main
-              features of box type rainwater harvesting system. The water supply
-              mechanism of this system is maintained in such a way that it
-              always ensures water supply from the rain box before your main
-              supply. It has been designed in a way that in case your rain box
-              runs out of water, your supply will be maintained through mains,
-              ensuring a continuous water supply for autonomous systems. This
-              helps in reducing your water bills significantly by effectively
-              utilizing the stored rainwater.
-              <br></br>
-              <br></br>Box-type rainwater harvesting systems use a very
-              compact-sized box; they are easily installable and cost-effective
-              and address the specific needs of our customers. Our skilled team
-              provides help to our customers in choosing the correct rainwater
-              harvesting systems as per their requirements and budget.
-            </p>
+            <div className='w-24 h-1 bg-green-600 rounded-full mb-8'></div>
+
+            <div className='space-y-6 text-slate-600 leading-8 text-base md:text-lg text-justify'>
+              <p>
+                Rainwater harvesting is a need of the modern world. By
+                practicing rainwater harvesting, we can help in improving global
+                water reserves. Inrain Construction Pvt. Ltd. is a leading
+                company in providing water conservation and management
+                solutions, offering various varieties of rainwater harvesting
+                solutions. We use modern-day technology and excel in providing
+                economical water conservation methods to our clients as per
+                their needs.
+              </p>
+
+              <p>
+                Among the various methods of{' '}
+                <Link
+                  href='https://www.inrainconstruction.com/rainwater-harvesting-system'
+                  className='text-green-600 hover:text-sky-600 font-semibold transition'
+                >
+                  Rainwater Harvesting Systems,
+                </Link>{' '}
+                box-Type Rainwater Harvesting is one that helps you in saving
+                the rainwater. Since in this methodology, rainwater collected
+                from the roof doesn’t go through rigorous filtration and
+                purification, it is majorly suited for outdoor activities like
+                car washing and watering your garden area. The rainwater stored
+                through this method can also be utilized for laundry and
+                flushing the toilet.
+              </p>
+
+              <p>
+                InRain Construction Pvt. Ltd., a water conservation and
+                management company, is one of the leading water conservation and
+                management service providers. We are well known for providing
+                technology-based modern solutions that fit today’s requirements.
+                We are the topmost rainwater harvesting vendors in
+                Delhi-Gurgaon. We completely understand the challenges of
+                modern-day industries and housing societies. Therefore, we offer
+                technologically advanced but cost-effective solutions for water
+                conservation needs.
+              </p>
+
+              <p>
+                As the name suggests, a box-type rainwater harvesting system
+                uses a box to store water. A water collector is attached to the
+                rooftop for collecting water; the collected water then goes
+                through a filter system that removes impurities collected from
+                the rooftop. The filtered water then goes to the box for
+                storage.
+              </p>
+
+              <p>
+                The installation and the water supply mechanism are the main
+                features of box type rainwater harvesting system. The water
+                supply mechanism of this system is maintained in such a way that
+                it always ensures water supply from the rain box before your
+                main supply. It has been designed in a way that in case your
+                rain box runs out of water, your supply will be maintained
+                through mains, ensuring a continuous water supply for autonomous
+                systems. This helps in reducing your water bills significantly
+                by effectively utilizing the stored rainwater.
+              </p>
+
+              <p>
+                Box-type rainwater harvesting systems use a very compact-sized
+                box; they are easily installable and cost-effective and address
+                the specific needs of our customers. Our skilled team provides
+                help to our customers in choosing the correct rainwater
+                harvesting systems as per their requirements and budget.
+              </p>
+            </div>
           </div>
-          <div className='mt-5'>
-            <Link href={'https://www.inrainconstruction.com/'}>
-              <Image
-                className='w-full'
-                src={harvesting8}
-                alt='Box Type Rainwater'
-                loading='eager'
-                priority={true}
-                unoptimized={true}
-              />
-            </Link>
-            <div className='m-2 mt-5 text-justify'>
-              <h2 className='text-xl font-semibold'>How Does It Work?</h2>
-              <p className='text-[17px] md:text-lg mt-1'>
+
+          {/* Sidebar */}
+          <div className='space-y-8'>
+            {/* Product Image */}
+            <div className='bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100'>
+              <Link href='https://www.inrainconstruction.com/'>
+                <Image
+                  src={harvesting8}
+                  alt='Box Type Rainwater Harvesting'
+                  className='w-full hover:scale-105 transition duration-500'
+                  loading='eager'
+                  priority
+                  unoptimized
+                />
+              </Link>
+            </div>
+
+            {/* Info Card */}
+            <div className='bg-gradient-to-br from-green-50 via-white to-green-50 border border-green-100 rounded-3xl shadow-xl p-8'>
+              <div className='flex items-center gap-3 mb-5'>
+                <div className='w-12 h-12 rounded-xl bg-green-600 flex items-center justify-center text-white font-bold'>
+                  ✓
+                </div>
+
+                <h3 className='text-2xl font-bold text-slate-900'>
+                  How Does It Work?
+                </h3>
+              </div>
+
+              <p className='text-slate-600 leading-7 mb-6'>
                 The box is intelligently connected to your water supply system.
                 It’s designed to use the stored rainwater first and only switch
                 to the main water line when the box is empty. This smart
                 mechanism ensures a continuous, autonomous water supply—with
                 zero disruption.
               </p>
-              <p className='text-[18px] md:text-lg mt-4 font-semibold'>
-                Since this system doesn’t involve complex purification, the
-                stored water is ideal for:
-              </p>
-              <ul className='list-disc list-inside font-semibold text-[18px] md:text-lg'>
-                <li>Garden irrigation</li>
-                <li>Car washing</li>
-                <li>Toilet flushing</li>
-                <li>Laundry</li>
-              </ul>
+
+              <div className='border-t border-slate-200 pt-6'>
+                <h4 className='text-lg font-semibold text-slate-900 mb-4'>
+                  Since this system doesn’t involve complex purification, the
+                  stored water is ideal for:
+                </h4>
+
+                <ul className='space-y-3'>
+                  <li className='flex items-center gap-3'>
+                    <span className='w-2.5 h-2.5 bg-green-600 rounded-full'></span>
+                    Garden irrigation
+                  </li>
+
+                  <li className='flex items-center gap-3'>
+                    <span className='w-2.5 h-2.5 bg-green-600 rounded-full'></span>
+                    Car washing
+                  </li>
+
+                  <li className='flex items-center gap-3'>
+                    <span className='w-2.5 h-2.5 bg-green-600 rounded-full'></span>
+                    Toilet flushing
+                  </li>
+
+                  <li className='flex items-center gap-3'>
+                    <span className='w-2.5 h-2.5 bg-green-600 rounded-full'></span>
+                    Laundry
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <Footer />
     </>
   )

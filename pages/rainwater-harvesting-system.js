@@ -90,21 +90,30 @@ const Service11 = () => {
       <Navbar />
       <PopUp />
       <div className='mt-5 md:m-10'>
-        <div>
+        <section className='relative overflow-hidden'>
           <Image
-            className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service11}
-            alt='Rainwater harvesting System'
-            loading='eager'
-            priority={true}
-            unoptimized={true}
+            alt='Rainwater Harvesting Banner'
+            className='w-full h-[220px] md:h-[320px] object-cover rounded-2xl'
+            priority
+            unoptimized
           />
-          <div className='absolute md:bottom-2 bottom-0 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-black'>
-              <Link href={'/'}>Home</Link> / Rainwater Harvesting System
+
+          <div className='absolute inset-0 bg-black/45 rounded-2xl' />
+
+          <div className='absolute inset-0 flex flex-col justify-center px-6 md:px-16'>
+            <p className='text-white/90 text-sm md:text-base mb-3'>
+              <Link href='/' className='hover:text-green-300'>
+                Home
+              </Link>{' '}
+              / Rainwater Harvesting System
             </p>
+
+            <h1 className='text-white text-3xl md:text-5xl font-bold max-w-4xl leading-tight'>
+              Rainwater Harvesting System
+            </h1>
           </div>
-        </div>
+        </section>
 
         {loading && (
           <div className='loader absolute md:top-[70%] top-[3200px] right-0 left-0 md:left-[45%] bottom-0'></div>
@@ -131,10 +140,6 @@ const Service11 = () => {
 
         <div className='m-5 md:grid md:grid-cols-2 md:justify-center md:gap-10 md:items-start'>
           <div className='text-left'>
-            <h1 className='text-3xl md:text-4xl font-semibold'>
-              Rainwater Harvesting System
-            </h1>
-
             <p className='text-[17px] text-justify md:text-lg mt-3'>
               Water scarcity is a pressing global issue, and as populations
               continue to grow, it becomes imperative to explore alternative
