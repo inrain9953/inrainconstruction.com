@@ -471,7 +471,7 @@ export const Navbar = () => {
         </ul>
       </div>
 
-      <div className='loader top-0 right-0 left-0 bottom-0 fixed hidden'></div>
+      <div className='loader top-0 z-52 right-0 left-0 bottom-0 fixed hidden'></div>
       <div className='hidden onFormSubmission justify-center items-center z-20 fixed left-0 right-0 top-0 bottom-0'>
         <div className='notification'>
           <div className='notiglow'></div>
@@ -488,7 +488,7 @@ export const Navbar = () => {
         </div>
       </div>
 
-      <div className='hidden contact-form z-10 fixed left-0 right-0 bottom-10'>
+      <div className='hidden contact-form z-50 fixed left-0 right-0 bottom-10'>
         <div className='flex justify-center'>
           <div className='form-card1 relative m-7 md:w-[280px]'>
             <div className='form-card2'>
