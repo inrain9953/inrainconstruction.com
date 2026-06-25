@@ -2,9 +2,6 @@ import { Footer } from '@/components/Footer/Footer'
 import { Navbar } from '@/components/Navbar/Navbar'
 import React from 'react'
 import { useState } from 'react'
-import contactbg from './../public/contact_bg.jpg'
-import logo from './../public/logo.png'
-import tree from './../public/tree.png'
 import { Button } from '@mui/material'
 import Link from 'next/link'
 import Head from 'next/head'
@@ -35,32 +32,24 @@ const Contact = () => {
   const [mymobile, setMymobile] = useState('')
   const [mymessage, setMymessage] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [showSuccessPopup, setShowSuccessPopup] = useState(false)
   const GoogleAds = 'This is not from Google Ads'
 
   const handleMynameChange = e => {
     setMyname(e.target.value)
   }
 
-  function onFormSubmissionAnimation () {
-    document.querySelector('.loader').classList.add('onContactAnimation')
-    setTimeout(() => {
-      document
-        .querySelector('.onContactFormSubmission')
-        .classList.add('onContactSubmitAnimation')
-    }, 2100)
-  }
-
   const api = 'ab6ca769-e97e-4a70-89fd-4ea195148385'
   const contactapikey = api
 
   const onFormSubmit = async event => {
+    event.preventDefault()
     if (!myname || !myemail || !mymobile || !mymessage) {
       alert('Please fill all the fields')
       return
     }
 
     setIsSubmitting(true)
-    event.preventDefault()
 
     const formData = new FormData(event.target)
     formData.append('access_key', contactapikey)
@@ -85,19 +74,14 @@ const Contact = () => {
         GoogleAds
       })
       if (response.data.success) {
-        setTimeout(() => {
-          document
-            .querySelector('.loader')
-            .classList.remove('onContactAnimation')
-          setIsSubmitting(false)
-        }, 2000)
+        setShowSuccessPopup(true)
       }
     } catch (error) {
       alert(
         'An error occurred while submitting the form. Please try again later.'
       )
-      setIsSubmitting(false)
     }
+    setIsSubmitting(false)
   }
 
   return (
@@ -213,25 +197,27 @@ const Contact = () => {
         </section>
 
         {/* Success Popup */}
-        <div className='hidden onContactFormSubmission fixed inset-0 bg-black/50 backdrop-blur-sm z-50 justify-center items-center'>
-          <div className='bg-white rounded-3xl p-8 shadow-2xl text-center max-w-md w-[90%]'>
-            <div className='text-4xl mb-4'>✅</div>
+        {showSuccessPopup && (
+          <div className='fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex justify-center items-center'>
+            <div className='bg-white rounded-3xl p-8 shadow-2xl text-center max-w-md w-[90%]'>
+              <div className='text-4xl mb-4'>✅</div>
 
-            <h3 className='text-2xl font-bold text-green-600'>
-              Thank You {myname}
-            </h3>
+              <h3 className='text-2xl font-bold text-green-600'>
+                Thank You {myname}
+              </h3>
 
-            <p className='text-gray-600 mt-3 mb-6'>
-              Our team will reach out to you shortly.
-            </p>
+              <p className='text-gray-600 mt-3 mb-6'>
+                Our team will reach out to you shortly.
+              </p>
 
-            <Link href='/'>
-              <Button variant='contained' color='success'>
-                Continue
-              </Button>
-            </Link>
+              <Link href='/'>
+                <Button variant='contained' color='success'>
+                  Continue
+                </Button>
+              </Link>
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Contact Section */}
         <section className='max-w-7xl mx-auto px-5 py-20'>
@@ -308,12 +294,15 @@ const Contact = () => {
                 </div>
 
                 <button
-                  onClick={onFormSubmissionAnimation}
                   type='submit'
                   disabled={isSubmitting}
-                  className='w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-xl font-semibold transition duration-300 shadow-lg'
+                  className={`w-full py-4 rounded-xl cursor-pointer font-semibold transition duration-300 shadow-lg ${
+                    isSubmitting
+                      ? 'bg-green-400 cursor-not-allowed'
+                      : 'bg-green-600 hover:bg-green-700 text-white'
+                  }`}
                 >
-                  {isSubmitting ? 'Sending...' : 'Send Message'}
+                  {isSubmitting ? 'Submitting...' : 'Submit Query'}
                 </button>
               </form>
             </div>

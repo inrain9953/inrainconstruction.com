@@ -26,6 +26,8 @@ export const Navbar = () => {
   const [email, setEmail] = useState('')
   const [mobile, setMobile] = useState('')
   const [message, setMessage] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [showSuccessPopup, setShowSuccessPopup] = useState(false)
   const GoogleAds = 'This is not from Google Ads'
 
   const myname = name
@@ -37,55 +39,46 @@ export const Navbar = () => {
     setName(e.target.value)
   }
 
-  function SubmissionAnimation () {
-    document.querySelector('.loader').classList.add('onAnimation')
-    setTimeout(() => {
-      document
-        .querySelector('.onFormSubmission')
-        .classList.add('onSubmitAnimation')
-    }, 2100)
-  }
-
   const onSubmit = async event => {
+    event.preventDefault()
     if (!myname || !myemail || !mymobile || !mymessage) {
       alert('Please fill all the fields')
       return
-    } else {
-      event.preventDefault()
-
-      const formData = new FormData(event.target)
-      formData.append('access_key', contactapikey)
-      const object = Object.fromEntries(formData)
-      const json = JSON.stringify(object)
-
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json'
-        },
-        body: json
-      }).then(res => res.json())
-
-      try {
-        const response = await axios.post('/api/signup', {
-          myname,
-          myemail,
-          mymobile,
-          mymessage,
-          GoogleAds
-        })
-        if (response.success) {
-          setTimeout(() => {
-            document.querySelector('.loader').classList.remove('onAnimation')
-          }, 2000)
-        }
-      } catch (error) {
-        alert(
-          'An error occurred while submitting the form. Please try again later.'
-        )
-      }
     }
+
+    setIsSubmitting(true)
+    const formData = new FormData(event.target)
+    formData.append('access_key', contactapikey)
+    const object = Object.fromEntries(formData)
+    const json = JSON.stringify(object)
+
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json'
+      },
+      body: json
+    }).then(res => res.json())
+
+    try {
+      const response = await axios.post('/api/signup', {
+        myname,
+        myemail,
+        mymobile,
+        mymessage,
+        GoogleAds
+      })
+      if (response.data.success) {
+        setShowSuccessPopup(true)
+        OpenContactForm()
+      }
+    } catch (error) {
+      alert(
+        'An error occurred while submitting the form. Please try again later.'
+      )
+    }
+    setIsSubmitting(false)
   }
 
   return (
@@ -471,24 +464,37 @@ export const Navbar = () => {
         </ul>
       </div>
 
-      <div className='loader top-0 z-52 right-0 left-0 bottom-0 fixed hidden'></div>
-      <div className='hidden onFormSubmission justify-center items-center z-20 fixed left-0 right-0 top-0 bottom-0'>
-        <div className='notification'>
-          <div className='notiglow'></div>
-          <div className='notiborderglow'></div>
-          <div className='notititle'>Thank you {name}</div>
-          <div className='notibody'>Our team will reach out to you shortly</div>
-          <div className='notibody flex justify-center items-center'>
-            <a href='/'>
-              <Button variant='contained' size='small' color='success'>
-                OK
+      <div className='loader top-0 right-0 left-0 bottom-0 fixed hidden'></div>
+      {/* Success Popup */}
+      {showSuccessPopup && (
+        <div className='fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex justify-center items-center'>
+          <div className='bg-white rounded-3xl p-8 shadow-2xl text-center max-w-md w-[90%]'>
+            <div className='text-4xl mb-4'>✅</div>
+
+            <h3 className='text-2xl font-bold text-green-600'>
+              Thank You {myname}
+            </h3>
+
+            <p className='text-gray-600 mt-3 mb-6'>
+              Our team will reach out to you shortly.
+            </p>
+
+            <Link
+              onClick={() => {
+                setShowSuccessPopup(false)
+              }}
+              href='/'
+            >
+              <Button variant='contained' color='success'>
+                Continue
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
-      </div>
+      )}
 
-      <div className='hidden contact-form z-50 fixed left-0 right-0 bottom-10'>
+      {/* Contact Form */}
+      <div className='hidden contact-form z-40 fixed left-0 right-0 bottom-10'>
         <div className='flex justify-center'>
           <div className='form-card1 relative m-7 md:w-[280px]'>
             <div className='form-card2'>
@@ -550,11 +556,15 @@ export const Navbar = () => {
                 </div>
 
                 <button
-                  onClick={SubmissionAnimation}
                   type='submit'
-                  className='sendMessage-btn'
+                  disabled={isSubmitting}
+                  className={`w-full py-2 rounded-xl font-semibold transition duration-300 shadow-lg ${
+                    isSubmitting
+                      ? 'bg-green-400 cursor-not-allowed'
+                      : 'bg-green-600 hover:bg-green-700 text-white'
+                  }`}
                 >
-                  Send Message
+                  {isSubmitting ? 'Submitting...' : 'Submit Query'}
                 </button>
               </form>
               <CloseIcon
