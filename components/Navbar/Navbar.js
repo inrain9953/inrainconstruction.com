@@ -9,6 +9,7 @@ import Link from 'next/link'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt'
 import Image from 'next/image'
 import axios from 'axios'
+import { Call } from '../Tracking/Call'
 
 export const Navbar = () => {
   function OpenContactForm () {
@@ -100,6 +101,7 @@ export const Navbar = () => {
               &nbsp; &nbsp; &nbsp;
               <PhoneIcon className='mr-1' fontSize='small' />
               <a
+                onClick={Call}
                 className='hover:text-green-700 text-sm font-semibold'
                 href='tel:+919910220794'
               >
@@ -107,10 +109,11 @@ export const Navbar = () => {
               </a>
               <p className='mr-2 ml-2 text-sm'>|</p>
               <a
+                onClick={Call}
                 className='hover:text-green-700 text-sm font-semibold'
-                href='tel:+911135823511'
+                href='tel:+919953070003'
               >
-                011-35823511
+                +91-9953070003
               </a>
             </div>
           </div>
@@ -120,6 +123,7 @@ export const Navbar = () => {
             <div className='ml-2 flex items-center'>
               <PhoneIcon className='mr-1' fontSize='small' />
               <a
+                onClick={Call}
                 className='hover:text-green-700 text-xs font-semibold'
                 href='tel:+919910220794'
               >
@@ -127,10 +131,11 @@ export const Navbar = () => {
               </a>{' '}
               &nbsp;<p className='mr-1 ml-1 text-xs'>|</p>
               <a
+                onClick={Call}
                 className='hover:text-green-700 text-xs font-semibold'
-                href='tel:+911135823511'
+                href='tel:+919953070003'
               >
-                011-35823511
+                +91-9953070003
               </a>
             </div>
           </div>

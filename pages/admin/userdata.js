@@ -6,6 +6,7 @@ import CircularProgress from '@mui/material/CircularProgress'
 import PopUp from '@/components/popup'
 import { Button } from '@mui/material'
 import axios from 'axios'
+import TrackingAnalytics from '@/components/TrackingAnalytics'
 
 function UserData () {
   const [products, setProducts] = useState([])
@@ -16,6 +17,9 @@ function UserData () {
   const [showApplicantsData, setShowApplicantsData] = useState(false)
   const [jobs, setJobs] = useState([])
   const [applicants, setApplicants] = useState([])
+  const [view, setView] = useState('leads')
+  const [callClicks, setCallClicks] = useState([])
+  const [whatsappClicks, setWhatsappClicks] = useState([])
   const [refresh, setRefresh] = useState(false)
   const [jobData, setJobData] = useState({
     title: '',
@@ -91,7 +95,17 @@ function UserData () {
     }
 
     fetchData()
+    Tracing()
   }, [currentPage, refresh])
+
+  async function Tracing () {
+    const data = await fetch('/api/tracking', { method: 'GET' })
+    if (data.ok) {
+      const result = await data.json()
+      setCallClicks(result.Call)
+      setWhatsappClicks(result.Whatsapp)
+    }
+  }
 
   async function toggleJobForm () {
     setShowJobForm(true)
@@ -351,184 +365,203 @@ function UserData () {
       {showClientForm && (
         <div className='px-6 py-4'>
           {/* Header */}
-          <div className='flex items-center justify-between mb-6'>
+          <div className='flex items-center justify-between mb-6 flex-wrap gap-3'>
             <div>
-              <h2 className='text-2xl font-bold text-gray-900'>Client Leads</h2>
+              <h2 className='text-2xl font-bold text-gray-900'>
+                {view === 'leads' ? 'Client Leads' : 'Click Analytics'}
+              </h2>
               <p className='text-sm text-gray-500 mt-0.5'>
-                {products?.length > 0
-                  ? `${products.length} leads on this page`
-                  : 'No leads found'}
+                {view === 'leads'
+                  ? products?.length > 0
+                    ? `${products.length} leads on this page`
+                    : 'No leads found'
+                  : 'Call and WhatsApp click activity'}
               </p>
             </div>
-            <span className='text-xs font-medium bg-green-100 text-green-700 px-3 py-1 rounded-full'>
-              Live Data
-            </span>
+
+            <div className='flex items-center gap-3'>
+              <span className='text-xs font-medium bg-green-100 text-green-700 px-3 py-1 rounded-full'>
+                Live Data
+              </span>
+              <button
+                onClick={() =>
+                  setView(view === 'leads' ? 'analytics' : 'leads')
+                }
+                className='text-sm font-medium bg-gray-900 text-white hover:bg-gray-800 transition rounded-lg px-4 py-2'
+              >
+                {view === 'leads' ? 'View Click Analytics' : 'View Leads'}
+              </button>
+            </div>
           </div>
 
-          {loading ? (
-            <div className='flex flex-col items-center justify-center py-20 gap-3'>
-              <CircularProgress color='success' />
-              <p className='text-sm text-gray-400'>Fetching latest leads...</p>
-            </div>
-          ) : products && products.length > 0 ? (
-            <>
-              <div className='rounded-xl border border-gray-200 overflow-hidden shadow-sm'>
-                <table className='w-full text-sm'>
-                  <thead>
-                    <tr className='bg-gray-50 border-b border-gray-200'>
-                      {[
-                        'Date & Time',
-                        'Name',
-                        'Email',
-                        'Mobile',
-                        'Message',
-                        'Action'
-                      ].map(col => (
-                        <th
-                          key={col}
-                          className='text-left text-xs font-semibold text-gray-500 uppercase tracking-wider px-4 py-3'
+          {view === 'leads' ? (
+            loading ? (
+              <div className='flex flex-col items-center justify-center py-20 gap-3'>
+                <CircularProgress color='success' />
+                <p className='text-sm text-gray-400'>
+                  Fetching latest leads...
+                </p>
+              </div>
+            ) : products && products.length > 0 ? (
+              <>
+                <div className='rounded-xl border border-gray-200 overflow-hidden shadow-sm'>
+                  <table className='w-full text-sm'>
+                    <thead>
+                      <tr className='bg-gray-50 border-b border-gray-200'>
+                        {[
+                          'Date & Time',
+                          'Name',
+                          'Email',
+                          'Mobile',
+                          'Message',
+                          'Action'
+                        ].map(col => (
+                          <th
+                            key={col}
+                            className='text-left text-xs font-semibold text-gray-500 uppercase tracking-wider px-4 py-3'
+                          >
+                            {col}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className='divide-y divide-gray-100'>
+                      {products.map((product, index) => (
+                        <tr
+                          key={product._id || product.email}
+                          className={`hover:bg-blue-50 transition-colors duration-150 ${
+                            index % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'
+                          }`}
                         >
-                          {col}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody className='divide-y divide-gray-100'>
-                    {products.map((product, index) => (
-                      <tr
-                        key={product._id || product.email}
-                        className={`hover:bg-blue-50 transition-colors duration-150 ${
-                          index % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'
-                        }`}
-                      >
-                        <td className='px-4 py-3 text-gray-500 whitespace-nowrap'>
-                          <div className='flex flex-col'>
-                            <span className='font-medium text-gray-700 text-xs'>
-                              {new Date(product.createdAt).toLocaleDateString(
-                                'en-IN',
-                                {
-                                  timeZone: 'Asia/Kolkata',
-                                  day: '2-digit',
-                                  month: 'short',
-                                  year: 'numeric'
-                                }
-                              )}
-                            </span>
-                            <span className='text-xs text-gray-400'>
-                              {new Date(product.createdAt).toLocaleTimeString(
-                                'en-IN',
-                                {
-                                  timeZone: 'Asia/Kolkata',
-                                  hour: '2-digit',
-                                  minute: '2-digit'
-                                }
-                              )}
-                            </span>
-                          </div>
-                        </td>
-                        <td className='px-2 py-3'>
-                          <div className=''>
+                          <td className='px-4 py-3 text-gray-500 whitespace-nowrap'>
+                            <div className='flex flex-col'>
+                              <span className='font-medium text-gray-700 text-xs'>
+                                {new Date(product.createdAt).toLocaleDateString(
+                                  'en-IN',
+                                  {
+                                    timeZone: 'Asia/Kolkata',
+                                    day: '2-digit',
+                                    month: 'short',
+                                    year: 'numeric'
+                                  }
+                                )}
+                              </span>
+                              <span className='text-xs text-gray-400'>
+                                {new Date(product.createdAt).toLocaleTimeString(
+                                  'en-IN',
+                                  {
+                                    timeZone: 'Asia/Kolkata',
+                                    hour: '2-digit',
+                                    minute: '2-digit'
+                                  }
+                                )}
+                              </span>
+                            </div>
+                          </td>
+                          <td className='px-2 py-3'>
                             <span className='font-medium text-gray-800'>
                               {product.name}
                             </span>
-                          </div>
-                        </td>
-                        <td className='px-2 py-3 text-gray-600'>
-                          {product.email}
-                        </td>
-                        <td className='px-2 py-3 text-gray-600'>
-                          {product.mobile}
-                        </td>
-                        <td className='px-3 py-3 text-gray-500 max-w-xs text-xs'>
-                          <p title={product.message}>
-                            {product.message}
-                          </p>
-                        </td>
-                        <td className='px-4 py-3'>
-                          <button
-                            onClick={() => handleDelete(product._id)}
-                            className='flex items-center gap-1.5 text-xs font-medium text-red-500 hover:text-white hover:bg-red-500 border border-red-200 hover:border-red-500 px-3 py-1.5 rounded-lg transition-all duration-150'
-                          >
-                            {/* Trash icon (inline SVG, no import needed) */}
-                            <svg
-                              xmlns='http://www.w3.org/2000/svg'
-                              className='w-3.5 h-3.5'
-                              viewBox='0 0 24 24'
-                              fill='none'
-                              stroke='currentColor'
-                              strokeWidth='2'
-                              strokeLinecap='round'
-                              strokeLinejoin='round'
+                          </td>
+                          <td className='px-2 py-3 text-gray-600'>
+                            {product.email}
+                          </td>
+                          <td className='px-2 py-3 text-gray-600'>
+                            {product.mobile}
+                          </td>
+                          <td className='px-3 py-3 text-gray-500 max-w-xs text-xs'>
+                            <p title={product.message}>{product.message}</p>
+                          </td>
+                          <td className='px-4 py-3'>
+                            <button
+                              onClick={() => handleDelete(product._id)}
+                              className='flex items-center gap-1.5 text-xs font-medium text-red-500 hover:text-white hover:bg-red-500 border border-red-200 hover:border-red-500 px-3 py-1.5 rounded-lg transition-all duration-150'
                             >
-                              <polyline points='3 6 5 6 21 6' />
-                              <path d='M19 6l-1 14H6L5 6' />
-                              <path d='M10 11v6M14 11v6' />
-                              <path d='M9 6V4h6v2' />
-                            </svg>
-                            Delete
-                          </button>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-
-              {/* Pagination */}
-              <div className='flex items-center justify-between mt-5 px-1'>
-                <p className='text-sm text-gray-500'>
-                  Page{' '}
-                  <span className='font-semibold text-gray-700'>
-                    {currentPage}
-                  </span>{' '}
-                  of{' '}
-                  <span className='font-semibold text-gray-700'>
-                    {totalPages}
-                  </span>
-                </p>
-                <div className='flex items-center gap-2'>
-                  <button
-                    disabled={currentPage === 1}
-                    onClick={() => setCurrentPage(prev => prev - 1)}
-                    className='flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition'
-                  >
-                    ← Previous
-                  </button>
-                  <button
-                    disabled={currentPage === totalPages}
-                    onClick={() => setCurrentPage(prev => prev + 1)}
-                    className='flex items-center gap-1 px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 disabled:opacity-40 disabled:cursor-not-allowed transition'
-                  >
-                    Next →
-                  </button>
+                              <svg
+                                xmlns='http://www.w3.org/2000/svg'
+                                className='w-3.5 h-3.5'
+                                viewBox='0 0 24 24'
+                                fill='none'
+                                stroke='currentColor'
+                                strokeWidth='2'
+                                strokeLinecap='round'
+                                strokeLinejoin='round'
+                              >
+                                <polyline points='3 6 5 6 21 6' />
+                                <path d='M19 6l-1 14H6L5 6' />
+                                <path d='M10 11v6M14 11v6' />
+                                <path d='M9 6V4h6v2' />
+                              </svg>
+                              Delete
+                            </button>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
+
+                {/* Pagination */}
+                <div className='flex items-center justify-between mt-5 px-1'>
+                  <p className='text-sm text-gray-500'>
+                    Page{' '}
+                    <span className='font-semibold text-gray-700'>
+                      {currentPage}
+                    </span>{' '}
+                    of{' '}
+                    <span className='font-semibold text-gray-700'>
+                      {totalPages}
+                    </span>
+                  </p>
+                  <div className='flex items-center gap-2'>
+                    <button
+                      disabled={currentPage === 1}
+                      onClick={() => setCurrentPage(prev => prev - 1)}
+                      className='flex items-center gap-1 px-4 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition'
+                    >
+                      ← Previous
+                    </button>
+                    <button
+                      disabled={currentPage === totalPages}
+                      onClick={() => setCurrentPage(prev => prev + 1)}
+                      className='flex items-center gap-1 px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 disabled:opacity-40 disabled:cursor-not-allowed transition'
+                    >
+                      Next →
+                    </button>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div className='flex flex-col items-center justify-center py-20 text-center'>
+                <div className='w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mb-4'>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='w-6 h-6 text-gray-400'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={1.5}
+                      d='M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4'
+                    />
+                  </svg>
+                </div>
+                <p className='text-gray-700 font-semibold text-base'>
+                  No leads yet
+                </p>
+                <p className='text-gray-400 text-sm mt-1'>
+                  Client submissions will appear here.
+                </p>
               </div>
-            </>
+            )
           ) : (
-            <div className='flex flex-col items-center justify-center py-20 text-center'>
-              <div className='w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center mb-4'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  className='w-6 h-6 text-gray-400'
-                  fill='none'
-                  viewBox='0 0 24 24'
-                  stroke='currentColor'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={1.5}
-                    d='M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4'
-                  />
-                </svg>
-              </div>
-              <p className='text-gray-700 font-semibold text-base'>
-                No leads yet
-              </p>
-              <p className='text-gray-400 text-sm mt-1'>
-                Client submissions will appear here.
-              </p>
-            </div>
+            <TrackingAnalytics
+              callClicks={callClicks}
+              whatsappClicks={whatsappClicks}
+            />
           )}
         </div>
       )}

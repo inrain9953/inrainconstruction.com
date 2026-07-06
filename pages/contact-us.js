@@ -11,6 +11,7 @@ import PopUp from '@/components/popup'
 import { MailOutline } from '@mui/icons-material'
 import CallIcon from '@mui/icons-material/Call'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
+import { Call } from '@/components/Tracking/Call'
 
 const Contact = () => {
   const title = 'Contact US | InRain® Construction Pvt. Ltd.'
@@ -169,6 +170,7 @@ const Contact = () => {
               <h3 className='font-bold text-lg mb-2'>Phone Number</h3>
 
               <a
+                onClick={Call}
                 href='tel:+919910220794'
                 className='text-gray-600 hover:text-green-600'
               >

@@ -13,6 +13,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { clientSlider1, clientSlider2 } from '../constant'
 import Marquee from 'react-fast-marquee'
+import { Call } from '../Tracking/Call'
 
 export const Footer = () => {
   return (
@@ -298,6 +299,7 @@ export const Footer = () => {
 
                 <div className='space-y-2'>
                   <a
+                    onClick={Call}
                     href='tel:+919910220794'
                     className='flex items-center gap-3 text-gray-300 hover:text-sky-400 transition'
                   >
@@ -306,14 +308,7 @@ export const Footer = () => {
                   </a>
 
                   <a
-                    href='tel:01135823511'
-                    className='flex items-center gap-3 text-gray-300 hover:text-sky-400 transition'
-                  >
-                    <CallIcon fontSize='small' />
-                    011-35823511
-                  </a>
-
-                  <a
+                    onClick={Call}
                     href='tel:+919953070003'
                     className='flex items-center gap-3 text-gray-300 hover:text-sky-400 transition'
                   >

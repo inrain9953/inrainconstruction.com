@@ -6,6 +6,8 @@ import { useState, useRef } from 'react'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward'
 import ChatMessage from '../components/ChatMessage'
 import { TypeAnimation } from 'react-type-animation'
+import { Call } from './Tracking/Call'
+import { Whatsapp } from './Tracking/Whatsapp'
 
 const PopUp = () => {
   const [openChatMenu, setOpenChatMenu] = useState(false)
@@ -77,13 +79,19 @@ const PopUp = () => {
           />
         </div>
         <div className='fixed bottom-16 md:bottom-20 right-7 md:right-10 text-xl z-30'>
-          <a href='tel:+919910220794' className='bg-sky-500 p-5 rounded-full'>
+          <a
+            onClick={Call}
+            href='tel:+919910220794'
+            className='bg-sky-500 p-5 rounded-full'
+          >
             <CallIcon className='cursor-pointer' fontSize='medium' />
           </a>
         </div>
         <div className='fixed bottom-16 md:bottom-20 left-7 md:left-10 text-xl z-30'>
           <a
+            onClick={Whatsapp}
             href='https://wa.me/919910220794'
+            target='_blank'
             className='bg-green-500 p-5 rounded-full'
           >
             <WhatsAppIcon className='cursor-pointer' fontSize='medium' />
