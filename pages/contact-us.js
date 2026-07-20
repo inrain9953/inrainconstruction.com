@@ -287,8 +287,8 @@ const Contact = () => {
                   className='w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500'
                 />
 
-                <div className='md:max-w-9/12 mx-auto shadow-xl text-center text-sm mb-5 text-red-500 bg-sky-100 p-3 rounded-2xl'>
-                  <div className='flex items-center justify-center gap-2'>
+                <div className='md:max-w-9/12 mx-auto animate-pulse text-red-600 text-center text-sm'>
+                  <div className='flex items-center justify-center gap-1'>
                     <WarningIcon fontSize='small' />
                     <p>We do not Undertake Domestic Projects.</p>
                   </div>
