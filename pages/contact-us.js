@@ -12,6 +12,7 @@ import { MailOutline } from '@mui/icons-material'
 import CallIcon from '@mui/icons-material/Call'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import { Call } from '@/components/Tracking/Call'
+import WarningIcon from '@mui/icons-material/Warning'
 
 const Contact = () => {
   const title = 'Contact US | InRain® Construction Pvt. Ltd.'
@@ -286,13 +287,11 @@ const Contact = () => {
                   className='w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-green-500'
                 />
 
-                <div className='flex items-start gap-3'>
-                  <input type='checkbox' className='mt-1' />
-
-                  <label className='text-sm text-gray-600'>
-                    Yes, I would like to receive communications by call / email
-                    about Company's services.
-                  </label>
+                <div className='md:max-w-9/12 mx-auto shadow-xl text-center text-sm mb-5 text-red-500 bg-sky-100 p-3 rounded-2xl'>
+                  <div className='flex items-center justify-center gap-2'>
+                    <WarningIcon fontSize='small' />
+                    <p>We do not Undertake Domestic Projects.</p>
+                  </div>
                 </div>
 
                 <button
