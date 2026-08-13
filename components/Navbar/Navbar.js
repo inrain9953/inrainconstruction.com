@@ -466,6 +466,17 @@ export const Navbar = () => {
               Rainwater Harvesting Recharge Pit
             </li>
           </Link>
+          <Link
+            onClick={() => {
+              document.querySelector('.onHover').classList.toggle('showService')
+            }}
+            href='/water-harvesting-system'
+          >
+            <li className='hover:text-green-500'>
+              <ArrowRightAltIcon size='small' />
+              Water Harvesting System
+            </li>
+          </Link>
         </ul>
       </div>
 
@@ -715,6 +726,12 @@ export const Navbar = () => {
                   <Link href='/rainwater-harvesting-recharge-pit'>
                     <ArrowRightAltIcon size='small' />
                     Rainwater Harvesting Recharge Pit
+                  </Link>
+                </li>
+                <li className='hover:text-green-500'>
+                  <Link href='/water-harvesting-system'>
+                    <ArrowRightAltIcon size='small' />
+                    Water Harvesting System
                   </Link>
                 </li>
               </ul>
