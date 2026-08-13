@@ -1,14 +1,56 @@
 import { Footer } from '@/components/Footer/Footer'
 import { Navbar } from '@/components/Navbar/Navbar'
 import PopUp from '@/components/popup'
-import { ArrowBack, ArrowForward } from '@mui/icons-material'
+import { ArrowForward } from '@mui/icons-material'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import Head from 'next/head'
 
 const WaterHarvestingSystem = () => {
+  const title =
+    'Water Harvesting System | Rainwater Collection & Groundwater Recharge'
+  const desc =
+    'Explore reliable water harvesting systems for rainwater collection, groundwater recharge, stormwater management, and sustainable water conservation.'
+  const canonical = 'https://www.inrainconstruction.com/water-harvesting-system'
+  const ogUrl = 'https://www.inrainconstruction.com/water-harvesting-system'
+  const keyword =
+    'Water Harvesting System, Rainwater Collection, Rainwater Storage, Sustainable Water Management, Green Infrastructure, InRain Construction Pvt. Ltd.'
+  const ogTitle =
+    'Water Harvesting System | Rainwater Collection & Groundwater Recharge'
+  const ogDescription =
+    'Explore reliable water harvesting systems for rainwater collection, groundwater recharge, stormwater management, and sustainable water conservation.'
+  const twittertitle =
+    'Water Harvesting System | Rainwater Collection & Groundwater Recharge'
+  const twitterdescription =
+    'Explore reliable water harvesting systems for rainwater collection, groundwater recharge, stormwater management, and sustainable water conservation.'
+
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta charset='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='robots' content='index, follow' />
+        <meta property='og:type' content='website' />
+        <meta property='og:locale' content='en_US' />
+        <meta name='description' content={desc} />
+        <meta name='keywords' content={keyword} />
+        <meta name='canonical' content={canonical} />
+        <meta property='og:title' content={ogTitle} />
+        <meta property='og:description' content={ogDescription} />
+        <meta property='og:url' content={ogUrl} />
+        <meta name='twitter:title' content={twittertitle} />
+        <meta name='twitter:description' content={twitterdescription} />
+        <meta
+          property='og:site_name'
+          content='InRain® Construction Pvt. Ltd.'
+        />
+        <meta
+          name='google-site-verification'
+          content='Vger2ATzpz22dMQGSECVrk-fiHzoT9KVObqb1m9k3HA'
+        />
+      </Head>
       <Navbar />
       <PopUp />
       <div className='bg-white text-slate-800 font-sans leading-relaxed'>
