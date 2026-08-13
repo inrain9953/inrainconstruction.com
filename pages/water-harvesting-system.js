@@ -72,20 +72,22 @@ const WaterHarvestingSystem = () => {
 
         {/* What is it */}
         <section className='max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10'>
-          <h2 className='text-2xl font-bold'>
-            What is a Water Harvesting System?
-          </h2>
           <div>
+            <h2 className='text-2xl font-bold mb-4'>
+              What is a Water Harvesting System?
+            </h2>
             <p className='text-slate-600 mb-4'>
               A Water Harvesting System is a planned method of collecting and
               managing water, particularly rainwater, instead of allowing it to
               flow away as surface runoff.
             </p>
-            <p className='text-slate-600 mb-4'>
+            <p className='text-slate-600'>
               Rainwater falling on rooftops, paved areas, roads, and open
               surfaces can be collected through a properly designed drainage and
               filtration network. The collected water can then be:
             </p>
+          </div>
+          <div>
             <ul className='list-disc list-inside text-slate-600 space-y-1 mb-4'>
               <li>Stored for suitable applications</li>
               <li>Directed toward groundwater recharge</li>
