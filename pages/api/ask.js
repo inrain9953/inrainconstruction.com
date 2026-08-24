@@ -98,9 +98,9 @@ export default async function handler(req, res) {
         `;
 
     const llm = new ChatGroq({
-      model: "llama-3.3-70b-versatile",
-      temperature: 0.5,
-      maxTokens: 500,
+      model: "openai/gpt-oss-120b",
+      temperature: 0.4,
+      maxTokens: 700,
     });
 
     const messages = [
