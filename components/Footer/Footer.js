@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../../public/without-bg-logo.png'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
 import { MailOutline } from '@mui/icons-material'
 import CallIcon from '@mui/icons-material/Call'
@@ -144,7 +143,7 @@ export const Footer = () => {
 
                 <a
                   target='_blank'
-                  href='https://www.linkedin.com/company/35590476/admin/dashboard/'
+                  href='https://www.linkedin.com/company/inrainconstruction/'
                   className='w-11 h-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-sky-700 transition-all duration-300'
                 >
                   <LinkedInIcon />
