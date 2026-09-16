@@ -2,7 +2,7 @@ import { connectToDatabase } from './lib/db'
 import whatsappSchema from './lib/whatsappSchema'
 
 export default async function handler (req, res) {
-  try {
+  try {  
     await connectToDatabase()
 
     const ip =
