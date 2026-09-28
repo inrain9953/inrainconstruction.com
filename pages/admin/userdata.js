@@ -20,6 +20,11 @@ function UserData () {
   const [view, setView] = useState('leads')
   const [callClicks, setCallClicks] = useState([])
   const [whatsappClicks, setWhatsappClicks] = useState([])
+  const [trackingPagination, setTrackingPagination] = useState({
+    Call: { page: 1, limit: 100, total: 0, totalPages: 0 },
+    Whatsapp: { page: 1, limit: 100, total: 0, totalPages: 0 }
+  })
+  const [trackingPages, setTrackingPages] = useState({ Call: 1, Whatsapp: 1 })
   const [refresh, setRefresh] = useState(false)
   const [jobData, setJobData] = useState({
     title: '',
@@ -95,16 +100,29 @@ function UserData () {
     }
 
     fetchData()
-    Tracing()
   }, [currentPage, refresh])
 
-  async function Tracing () {
-    const data = await fetch('/api/tracking', { method: 'GET' })
-    if (data.ok) {
-      const result = await data.json()
-      setCallClicks(result.Call)
-      setWhatsappClicks(result.Whatsapp)
+  useEffect(() => {
+    async function Tracing () {
+      const params = new URLSearchParams({
+        callPage: trackingPages.Call,
+        whatsappPage: trackingPages.Whatsapp,
+        limit: 100
+      })
+      const response = await fetch(`/api/tracking?${params}`, { method: 'GET' })
+      if (response.ok) {
+        const result = await response.json()
+        setCallClicks(result.Call)
+        setWhatsappClicks(result.Whatsapp)
+        setTrackingPagination(result.pagination)
+      }
     }
+
+    Tracing()
+  }, [trackingPages])
+
+  function changeTrackingPage (type, page) {
+    setTrackingPages(current => ({ ...current, [type]: page }))
   }
 
   async function toggleJobForm () {
@@ -561,6 +579,8 @@ function UserData () {
             <TrackingAnalytics
               callClicks={callClicks}
               whatsappClicks={whatsappClicks}
+              pagination={trackingPagination}
+              onPageChange={changeTrackingPage}
             />
           )}
         </div>

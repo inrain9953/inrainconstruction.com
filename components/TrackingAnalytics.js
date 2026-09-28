@@ -80,7 +80,9 @@ function ClickTable ({ data }) {
 
 export default function ClickAnalytics ({
   callClicks = [],
-  whatsappClicks = []
+  whatsappClicks = [],
+  pagination = {},
+  onPageChange = () => {}
 }) {
   const [activeTab, setActiveTab] = useState('call')
 
@@ -88,18 +90,25 @@ export default function ClickAnalytics ({
     {
       id: 'call',
       label: 'Call Clicks',
-      count: callClicks.length,
+      type: 'Call',
+      count: pagination.Call?.total ?? callClicks.length,
       data: callClicks
     },
     {
       id: 'whatsapp',
       label: 'WhatsApp Clicks',
-      count: whatsappClicks.length,
+      type: 'Whatsapp',
+      count: pagination.Whatsapp?.total ?? whatsappClicks.length,
       data: whatsappClicks
     }
   ]
 
-  const activeData = tabs.find(t => t.id === activeTab)?.data || []
+  const activeTabData = tabs.find(tab => tab.id === activeTab)
+  const activeData = activeTabData?.data || []
+  const activePagination = pagination[activeTabData?.type] || {
+    page: 1,
+    totalPages: 1
+  }
 
   return (
     <div>
@@ -129,6 +138,35 @@ export default function ClickAnalytics ({
       </div>
 
       <ClickTable data={activeData} />
+
+      <div className='flex items-center justify-between mt-5'>
+        <p className='text-sm text-gray-500'>
+          Page <span className='font-semibold text-gray-700'>{activePagination.page}</span> of{' '}
+          <span className='font-semibold text-gray-700'>
+            {Math.max(activePagination.totalPages, 1)}
+          </span>
+        </p>
+        <div className='flex items-center gap-2'>
+          <button
+            disabled={activePagination.page <= 1}
+            onClick={() =>
+              onPageChange(activeTabData.type, activePagination.page - 1)
+            }
+            className='px-4 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition'
+          >
+            Previous
+          </button>
+          <button
+            disabled={activePagination.page >= activePagination.totalPages}
+            onClick={() =>
+              onPageChange(activeTabData.type, activePagination.page + 1)
+            }
+            className='px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 disabled:opacity-40 disabled:cursor-not-allowed transition'
+          >
+            Next
+          </button>
+        </div>
+      </div>
     </div>
   )
 }
