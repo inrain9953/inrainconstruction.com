@@ -9,8 +9,7 @@ import PopUp from '@/components/popup'
 import Link from 'next/link'
 
 const Service6 = () => {
-  const title =
-    'Ground Water Recharge System For Industries | InRain®'
+  const title = 'Ground Water Recharge System For Industries | InRain®'
   const desc =
     'Ground Water recharge system or deep drainage is a hydrologic process where infiltrated water passes through the unsaturated region of ground water and joins the water table. '
   const keyword =
@@ -19,12 +18,10 @@ const Service6 = () => {
     'https://www.inrainconstruction.com/ground-water-recharge-system-for-industries'
   const ogUrl =
     'https://www.inrainconstruction.com/ground-water-recharge-system-for-industries'
-  const ogTitle =
-    'Ground Water Recharge System For Industries | InRain®'
+  const ogTitle = 'Ground Water Recharge System For Industries | InRain®'
   const ogDescription =
     'Ground Water recharge system or deep drainage is a hydrologic process where infiltrated water passes through the unsaturated region of ground water and joins the water table.'
-  const twittertitle =
-    'Ground Water Recharge System For Industries | InRain®'
+  const twittertitle = 'Ground Water Recharge System For Industries | InRain®'
   const twitterdescription =
     'Ground Water recharge system or deep drainage is a hydrologic process where infiltrated water passes through the unsaturated region of ground water and joins the water table.'
 
@@ -58,9 +55,9 @@ const Service6 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <section className='bg-gradient-to-b from-slate-50 to-white'>
+      <main className='bg-gradient-to-b from-slate-50 to-white'>
         {/* Hero Banner */}
-        <div className='relative overflow-hidden rounded-2xl mx-4 md:mx-10 mt-6 shadow-2xl'>
+        <section className='relative overflow-hidden rounded-2xl mx-4 md:mx-10 mt-6 shadow-2xl'>
           <Image
             src={service6}
             alt='Ground Water Recharge System For Industries'
@@ -85,10 +82,10 @@ const Service6 = () => {
               Ground Water Recharge System For Industries
             </h1>
           </div>
-        </div>
+        </section>
 
         {/* Content Section */}
-        <div className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
+        <section className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
           <div className='grid lg:grid-cols-2 gap-10 items-start'>
             {/* Left Content */}
             <div className='bg-white rounded-2xl shadow-lg border border-slate-100 p-6 md:p-10'>
@@ -105,17 +102,17 @@ const Service6 = () => {
                   Ground water Recharge Systems
                 </Link>{' '}
                 as there is a huge demand for water supply for industrial use
-                and the resources of water are very limited. Having a
-                ground water recharge system in place helps industries to reduce
-                their dependency on surface water sources and secure their water
+                and the resources of water are very limited. Having a ground
+                water recharge system in place helps industries to reduce their
+                dependency on surface water sources and secure their water
                 supplies during periods of drought or water scarcity.
                 <br />
                 <br />
                 InRain Construction Pvt. Ltd. a water conservation and water
                 management company, offers ground water recharge systems for
-                industries. Naturally, the ground water gets recharged when water
-                infiltrates through the top surface and reaches the water table.
-                An optimized infiltration level is required for natural
+                industries. Naturally, the ground water gets recharged when
+                water infiltrates through the top surface and reaches the water
+                table. An optimized infiltration level is required for natural
                 ground water recharge. The other way to preserve wetlands,
                 streams, and lakes is to ensure that they continue to recharge
                 ground water as it can seep through the surface to reach down to
@@ -231,8 +228,8 @@ const Service6 = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
       <Footer />
     </>
   )

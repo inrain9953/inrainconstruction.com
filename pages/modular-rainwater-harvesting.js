@@ -58,9 +58,9 @@ const Service3 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <section className='bg-gradient-to-b from-slate-50 via-white to-slate-50'>
+      <main className='bg-gradient-to-b from-slate-50 via-white to-slate-50'>
         {/* Hero Banner */}
-        <div className='relative mx-4 md:mx-10 mt-6 overflow-hidden rounded-2xl shadow-2xl'>
+        <section className='relative mx-4 md:mx-10 mt-6 overflow-hidden rounded-2xl shadow-2xl'>
           <Image
             src={service3}
             alt='Rainwater Harvesting Banner'
@@ -85,10 +85,10 @@ const Service3 = () => {
               Modular Rainwater Harvesting
             </h1>
           </div>
-        </div>
+        </section>
 
         {/* Main Content */}
-        <div className='max-w-7xl mx-auto px-4 md:px-8 py-12'>
+        <section className='max-w-7xl mx-auto px-4 md:px-8 py-12'>
           <div className='grid lg:grid-cols-2 gap-10 items-start'>
             {/* Left Content */}
             <div className='bg-white rounded-2xl shadow-lg border border-slate-100 p-6 md:p-10'>
@@ -325,8 +325,8 @@ const Service3 = () => {
               imaginable size within significantly less time.
             </p>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
       <Footer />
     </>
   )

@@ -53,9 +53,9 @@ const WaterHarvestingSystem = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='bg-white text-slate-800 font-sans leading-relaxed'>
+      <main className='bg-white text-slate-800 font-sans leading-relaxed'>
         {/* Hero */}
-        <header className='bg-slate-900 text-white'>
+        <section className='bg-slate-900 text-white'>
           <div className='max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center'>
             <div>
               <p className='text-teal-400 text-xs font-semibold uppercase tracking-wide mb-3'>
@@ -110,7 +110,7 @@ const WaterHarvestingSystem = () => {
               className='w-full rounded-lg'
             />
           </div>
-        </header>
+        </section>
 
         {/* What is it */}
         <section className='max-w-5xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10'>
@@ -607,7 +607,7 @@ const WaterHarvestingSystem = () => {
             </div>
           </div>
         </section>
-      </div>
+      </main>
       <Footer />
     </>
   )

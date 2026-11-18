@@ -56,7 +56,7 @@ const RainwaterHarvestingPit = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className=''>
+      <main className=''>
         {/* Hero Section */}
         <section className='max-w-7xl mx-auto px-4 md:px-8 pt-6'>
           <div className='relative overflow-hidden rounded-3xl shadow-2xl'>
@@ -309,7 +309,7 @@ const RainwaterHarvestingPit = () => {
             </div>
           </div>
         </section>
-      </div>
+      </main>
       <Footer />
     </>
   )

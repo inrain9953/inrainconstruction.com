@@ -58,9 +58,9 @@ const Service8 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <section className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
+      <main className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
         {/* Hero Section */}
-        <div className='relative overflow-hidden rounded-3xl shadow-2xl'>
+        <section className='relative overflow-hidden rounded-3xl shadow-2xl'>
           <Image
             src={service8}
             alt='Box Type Rainwater Harvesting System'
@@ -84,10 +84,10 @@ const Service8 = () => {
               / Box Type Rainwater Harvesting System
             </p>
           </div>
-        </div>
+        </section>
 
         {/* Main Section */}
-        <div className='grid lg:grid-cols-[1.65fr_1fr] gap-12 mt-10'>
+        <section className='grid lg:grid-cols-[1.65fr_1fr] gap-12 mt-10'>
           {/* Left Content */}
           <div>
             <h2 className='text-3xl md:text-4xl font-bold text-slate-900 mb-6'>
@@ -234,8 +234,8 @@ const Service8 = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
       <Footer />
     </>
   )

@@ -63,7 +63,7 @@ const PopUp = () => {
     setIsLoading(false)
   }
   return (
-    <>
+    <section>
       <div>
         <div className='fixed floating bottom-32 md:bottom-36 right-7 md:right-10 text-xl z-50 cursor-pointer'>
           <p className='relative md:right-10 top-1 right-14 p-1 bg-sky-500 rounded-xl text-xs'>
@@ -225,7 +225,7 @@ const PopUp = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 

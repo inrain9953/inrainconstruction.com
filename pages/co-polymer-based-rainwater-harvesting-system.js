@@ -58,7 +58,7 @@ const Service2 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='max-w-7xl mx-auto px-4 md:px-8 py-8'>
+      <main className='max-w-7xl mx-auto px-4 md:px-8 py-8'>
         {/* Hero Banner */}
         <section className='relative overflow-hidden rounded-3xl shadow-2xl'>
           <Image
@@ -225,7 +225,7 @@ const Service2 = () => {
             </p>
           </div>
         </section>
-      </div>
+      </main>
       <Footer />
     </>
   )

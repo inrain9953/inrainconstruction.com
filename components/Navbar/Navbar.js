@@ -83,8 +83,8 @@ export const Navbar = () => {
   }
 
   return (
-    <>
-      <div className=' sticky z-50 top-0'>
+    <nav className='sticky top-0 z-50'>
+      <div className=''>
         <div className='bg-sky-400 flex justify-between items-center p-1'>
           {/* For Desktop View */}
           <div className='hidden md:block'>
@@ -773,6 +773,6 @@ export const Navbar = () => {
         </ul>
       </div>
       {/* For Mobile View (SideNav) */}
-    </>
+    </nav>
   )
 }

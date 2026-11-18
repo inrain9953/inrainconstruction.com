@@ -56,8 +56,8 @@ const Service7 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
+      <main className='mt-5 md:m-10'>
+        <section className='relative overflow-hidden rounded-xl shadow-lg'>
           <Image
             className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service7}
@@ -72,9 +72,9 @@ const Service7 = () => {
               Delhi-Gurgaon
             </p>
           </div>
-        </div>
+        </section>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+        <section className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
           <div className='text-left'>
             <h1 className='text-3xl md:text-4xl font-semibold'>
               Rainwater Harvesting Vendors in Delhi-Gurgaon
@@ -142,8 +142,8 @@ const Service7 = () => {
               />
             </Link>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
       <Footer />
     </>
   )

@@ -105,7 +105,7 @@ export const Hero1 = () => {
   }, [])
 
   return (
-    <div>
+    <section>
       <div
         ref={containerRef}
         className='relative w-full h-screen overflow-hidden'
@@ -149,6 +149,6 @@ export const Hero1 = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

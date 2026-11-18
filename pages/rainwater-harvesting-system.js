@@ -89,7 +89,7 @@ const Service11 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
+      <main className='mt-5 md:m-10'>
         <section className='relative overflow-hidden'>
           <Image
             src={service11}
@@ -138,7 +138,7 @@ const Service11 = () => {
           </div>
         )}
 
-        <div className='m-5 md:grid md:grid-cols-2 md:justify-center md:gap-10 md:items-start'>
+        <section className='m-5 md:grid md:grid-cols-2 md:justify-center md:gap-10 md:items-start'>
           <div className='text-left'>
             <p className='text-[17px] text-justify md:text-lg mt-3'>
               Water scarcity is a pressing global issue, and as populations
@@ -367,8 +367,8 @@ const Service11 = () => {
               />
             </Link>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
       <Footer />
     </>
   )

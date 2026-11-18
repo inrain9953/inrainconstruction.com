@@ -53,7 +53,7 @@ const Solutions = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className=''>
+      <main className=''>
         {/* Hero Section */}
         <section className='relative overflow-hidden'>
           <Image
@@ -235,7 +235,7 @@ const Solutions = () => {
         </section>
 
         <ICPLCertification />
-      </div>
+      </main>
       <Footer />
     </>
   )

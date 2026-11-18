@@ -58,8 +58,8 @@ const Service13 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
+      <main className='mt-5 md:m-10'>
+        <section className='relative overflow-hidden rounded-xl shadow-lg'>
           <Image
             className='w-full h-28 md:h-72 md:rounded-xl md:shadow-2xl relative'
             src={service13}
@@ -73,9 +73,9 @@ const Service13 = () => {
               <Link href={'/'}>Home</Link> / Rainwater Harvesting Manufacturers
             </p>
           </div>
-        </div>
+        </section>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+        <section className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
           <div className='text-left'>
             <h1 className='text-3xl md:text-4xl font-semibold'>
               Rainwater Harvesting Manufacturers
@@ -192,8 +192,8 @@ const Service13 = () => {
               />
             </Link>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
       <Footer />
     </>
   )

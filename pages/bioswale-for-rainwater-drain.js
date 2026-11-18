@@ -55,9 +55,9 @@ const Service10 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <section className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
+      <main className='max-w-7xl mx-auto px-4 md:px-8 py-10'>
         {/* Hero Banner */}
-        <div className='relative overflow-hidden rounded-3xl shadow-2xl'>
+        <section className='relative overflow-hidden rounded-3xl shadow-2xl'>
           <Image
             src={service10}
             alt='Bioswale for Rainwater Drain'
@@ -81,10 +81,10 @@ const Service10 = () => {
               / Bioswale for Rainwater Drain
             </p>
           </div>
-        </div>
+        </section>
 
         {/* Main Content */}
-        <div className='grid lg:grid-cols-[1.6fr_1fr] gap-12 mt-16'>
+        <section className='grid lg:grid-cols-[1.6fr_1fr] gap-12 mt-16'>
           {/* Left Content */}
           <div>
             <h2 className='text-3xl md:text-4xl font-bold text-slate-900 mb-6'>
@@ -218,8 +218,8 @@ const Service10 = () => {
               </ul>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
       <Footer />
     </>
   )

@@ -54,7 +54,7 @@ const Products = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className=''>
+      <main>
         {/* Hero Section */}
         <section className='relative overflow-hidden'>
           <Image
@@ -240,8 +240,8 @@ const Products = () => {
             </div>
           </div>
         </section>
-      </div>
-      <ICPLCertification />
+        <ICPLCertification />
+      </main>
       <Footer />
     </>
   )

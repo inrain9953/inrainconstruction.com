@@ -56,7 +56,7 @@ const RainwaterHarvestingRechargePit = () => {
         />
       </Head>
       <Navbar />
-      <div className='mt-5 md:m-10'>
+      <main className='mt-5 md:m-10'>
         <section className='relative overflow-hidden'>
           <Image
             src={service3}
@@ -77,13 +77,15 @@ const RainwaterHarvestingRechargePit = () => {
             </p>
 
             <h1 className='text-white text-3xl md:text-5xl font-bold max-w-4xl leading-tight'>
-              Rainwater Harvesting Recharge Pit – A Sustainable Way to Replenish
-              Groundwater
+              Rainwater Harvesting Recharge Pit
             </h1>
+            <span className='text-white/90 mt-3 text-lg'>
+              A Sustainable Way to Replenish Groundwater
+            </span>
           </div>
         </section>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-start'>
+        <section className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-start'>
           <div className='text-left'>
             <p className='text-[17px] text-justify mt-2'>
               India faces a severe challenge of depleting groundwater levels due
@@ -262,9 +264,9 @@ const RainwaterHarvestingRechargePit = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className='m-5 bg-sky-300 rounded-lg md:w-[550px] md:m-auto'>
+        <section className='m-5 bg-sky-300 rounded-lg md:w-[550px] md:m-auto'>
           <p className='text-[17px] text-justify mt-3 p-5'>
             A Rainwater Harvesting Recharge Pit is not just a rainwater
             collection method — it is a long-term solution to groundwater
@@ -277,8 +279,8 @@ const RainwaterHarvestingRechargePit = () => {
             water future, an InRain Construction recharge pit is the smartest
             investment you can make.
           </p>
-        </div>
-      </div>
+        </section>
+      </main>
       <PopUp />
       <Footer />
     </>

@@ -56,25 +56,44 @@ const Service1 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
-        <div>
-          <Image
-            className='w-full h-28 md:h-64 md:rounded-xl md:shadow-2xl relative'
-            src={warehouse}
-            alt='Water Conservation: Rainwater Harvesting'
-            loading='eager'
-            priority={true}
-            unoptimized={true}
-          />
-          <div className='absolute bottom-2 md:left-5 left-2'>
-            <p className='text-xs md:text-lg text-black'>
-              <Link href={'/'}>Home</Link> / Rainwater Harvesting System for
-              Warehouses
-            </p>
-          </div>
-        </div>
+      <main className='mt-5 md:m-10'>
+        <section className='relative overflow-hidden rounded-xl'>
+          <div className='relative h-36 sm:h-48 md:h-64 lg:h-72'>
+            <Image
+              className='h-full w-full object-cover'
+              src={warehouse}
+              alt='Water Conservation: Rainwater Harvesting'
+              loading='eager'
+              priority
+              unoptimized
+            />
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+            {/* Image overlay */}
+            <div className='absolute inset-0 bg-gradient-to-r from-black/55 via-black/20 to-black/10' />
+
+            {/* Breadcrumb */}
+            <div className='absolute inset-x-0 bottom-0'>
+              <div className='mx-auto max-w-7xl px-4 pb-4 sm:px-6 md:px-10 md:pb-6 lg:px-12'>
+                <div
+                  aria-label='Breadcrumb'
+                  className='flex flex-wrap items-center gap-2 text-xs font-medium text-white/90 sm:text-sm'
+                >
+                  <Link href='/' className='transition-colors hover:text-white'>
+                    Home
+                  </Link>
+
+                  <span className='text-white/50'>/</span>
+
+                  <span className='text-white'>
+                    Rainwater Harvesting System for Warehouses
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
           <div className='text-left'>
             <h1 className='text-3xl md:text-4xl font-semibold'>
               Rainwater Harvesting System for Warehouses
@@ -143,8 +162,8 @@ const Service1 = () => {
               />
             </Link>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
       <Footer />
     </>
   )

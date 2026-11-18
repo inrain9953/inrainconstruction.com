@@ -56,7 +56,7 @@ const Service9 = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='mt-5 md:m-10'>
+      <main className='mt-5 md:m-10'>
         <section className='relative overflow-hidden'>
           <Image
             src={service9}
@@ -82,7 +82,7 @@ const Service9 = () => {
           </div>
         </section>
 
-        <div className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
+        <section className='m-5 md:grid md:grid-cols-2 md:gap-10 md:items-center'>
           <div className='text-left'>
             <p className='text-[17px] text-justify md:text-lg mt-3'>
               Stormwater recharge & management is very crucial in the modern-day
@@ -153,8 +153,8 @@ const Service9 = () => {
               />
             </Link>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
       <Footer />
     </>
   )

@@ -56,7 +56,7 @@ const About = () => {
       </Head>
       <Navbar />
       <PopUp />
-      <div className='bg-white'>
+      <main className='bg-white'>
         {/* ================= HERO SECTION ================= */}
         <section className='relative'>
           <Image
@@ -355,7 +355,7 @@ const About = () => {
         </section>
 
         <ICPLCertification />
-      </div>
+      </main>
       <Footer />
     </>
   )
