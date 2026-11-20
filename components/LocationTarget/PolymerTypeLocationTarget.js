@@ -59,19 +59,19 @@ const PolymerTypeLocationTarget = ({ location }) => {
               height={110}
               className='mx-auto mb-4'
             />
+            <div className='flex flex-col gap-3 items-center justify-center'>
+              <span className='text-2xl md:text-4xl font-bold text-white leading-tight'>
+                Polymer based Rainwater Harvesting System in {location}
+              </span>
 
-            <h1 className='text-2xl md:text-4xl font-bold text-white leading-tight'>
-              Polymer based Rainwater Harvesting System Service Provider in{' '}
-              {location}
-            </h1>
+              <span className='text-green-400 font-semibold text-lg md:text-xl'>
+                InRain® Construction Pvt. Ltd. (ICPL)
+              </span>
 
-            <p className='mt-4 text-green-400 font-semibold text-lg md:text-2xl'>
-              InRain® Construction Pvt. Ltd. (ICPL)
-            </p>
-
-            <p className='mt-3 text-white/90 text-base md:text-xl'>
-              "A Water Conservation & Management Company"
-            </p>
+              <span className='text-white/90 text-base md:text-lg'>
+                "A Water Conservation & Management Company"
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -79,13 +79,13 @@ const PolymerTypeLocationTarget = ({ location }) => {
       <section className='max-w-7xl mx-auto px-5 py-10'>
         <div className='grid lg:grid-cols-[1.5fr,1fr] gap-12 items-start'>
           <div>
-            <p className='uppercase tracking-widest text-green-600 font-semibold'>
+            <span className='uppercase tracking-widest text-green-600 font-semibold'>
               InRain® Construction Pvt Ltd.
-            </p>
+            </span>
 
-            <h2 className='text-2xl md:text-3xl font-bold mt-3'>
+            <h1 className='text-2xl md:text-3xl font-bold mt-3'>
               Polymer based Rainwater Harvesting System in {location}
-            </h2>
+            </h1>
 
             <div className='w-24 h-1 bg-green-600 rounded-full mt-3 mb-5' />
 
@@ -190,9 +190,9 @@ const PolymerTypeLocationTarget = ({ location }) => {
       <section className='py-10'>
         <div className='max-w-7xl mx-auto px-5'>
           <div className='text-center max-w-4xl mx-auto'>
-            <p className='uppercase tracking-widest text-green-600 font-semibold'>
+            <span className='uppercase tracking-widest text-green-600 font-semibold'>
               Innovation
-            </p>
+            </span>
 
             <h2 className='text-xl md:text-4xl font-bold mt-2'>
               About Our Technology
@@ -264,9 +264,9 @@ const PolymerTypeLocationTarget = ({ location }) => {
       <section className='max-w-7xl mx-auto px-5 py-10'>
         <div className='grid lg:grid-cols-2 gap-16 items-center'>
           <div>
-            <p className='uppercase tracking-widest text-green-600 font-semibold'>
+            <span className='uppercase tracking-widest text-green-600 font-semibold'>
               InRain® Construction Pvt Ltd.
-            </p>
+            </span>
 
             <h2 className='text-xl md:text-3xl font-bold mt-2'>
               Rooftop Rainwater Harvesting System in {location}
