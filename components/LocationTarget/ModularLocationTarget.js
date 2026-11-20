@@ -32,7 +32,7 @@ const ModularLocationTarget = ({ location }) => {
   }, [mounted])
   
   return (
-    <>
+    <main>
       <section className='relative min-h-[80vh] hero1-background overflow-hidden'>
         {/* Overlay */}
         <div className='absolute inset-0 bg-black/50'></div>
@@ -63,17 +63,17 @@ const ModularLocationTarget = ({ location }) => {
             className='mb-6 drop-shadow-2xl'
           />
 
-          <h1 className='text-2xl md:text-4xl font-bold text-white max-w-5xl leading-tight'>
-            Modular Rainwater Harvesting System Service Provider in {location}
-          </h1>
+          <span className='text-2xl md:text-4xl font-bold text-white max-w-5xl leading-tight'>
+            Modular Rainwater Harvesting System in {location}
+          </span>
 
-          <p className='mt-2 text-green-400 text-lg md:text-2xl font-semibold'>
+          <span className='mt-2 text-green-400 text-lg md:text-2xl font-semibold'>
             InRain® Construction Pvt. Ltd. (ICPL)
-          </p>
+          </span>
 
-          <p className='text-white/90 mt-1 text-lg md:text-2xl font-medium'>
+          <span className='text-white/90 mt-1 text-lg md:text-2xl font-medium'>
             "A Water Conservation & Management Company"
-          </p>
+          </span>
         </div>
       </section>
 
@@ -85,9 +85,9 @@ const ModularLocationTarget = ({ location }) => {
               InRain® Construction Pvt Ltd.
             </span>
 
-            <h2 className='text-2xl md:text-4xl font-bold mt-6 mb-3'>
+            <h1 className='text-2xl md:text-4xl font-bold mt-6 mb-3'>
               Modular Rainwater Harvesting System in {location}
-            </h2>
+            </h1>
 
             <div className='w-24 h-1 bg-green-500 rounded-full mb-8'></div>
 
@@ -324,7 +324,7 @@ const ModularLocationTarget = ({ location }) => {
 
       <ICPLProducts />
       <ICPLCertification />
-    </>
+    </main>
   )
 }
 

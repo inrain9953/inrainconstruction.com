@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 const ICPLProducts = () => {
   return (
-    <>
+    <section>
       <div id='icplProducts' className='text-center mt-20'>
         <h2 className='md:text-4xl text-2xl font-bold'>Our Products</h2>
       </div>
@@ -150,7 +150,7 @@ const ICPLProducts = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 

@@ -30,7 +30,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
   }, [mounted])
 
   return (
-    <>
+    <main>
       <section className='relative min-h-[80vh] hero1-background overflow-hidden'>
         <div className='absolute inset-0'>
           <div className='hero1-background h-full w-full' />
@@ -323,7 +323,7 @@ const PolymerTypeLocationTarget = ({ location }) => {
           </div>
         </div>
       </section>
-    </>
+    </main>
   )
 }
 
